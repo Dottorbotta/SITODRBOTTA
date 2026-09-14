@@ -1,0 +1,63 @@
+name: Website links
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: website-links-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.16.0
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.19.0
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run build
+      - name: Start build and collect rendered links from every sitemap page
+        run: |
+          mkdir -p link-check
+          pnpm exec vinext start --port 4173 > link-check/server.log 2>&1 &
+          echo $! > link-check/server.pid
+          python3 scripts/collect-links.py
+      - name: Internal links and anchors (required)
+        id: internal
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
+        with:
+          lycheeVersion: v0.24.2
+          args: --config lychee.toml --include-fragments full link-check/internal.txt
+          output: link-check/internal-report.md
+          fail: true
+      - name: External links and scientific sources (report)
+        if: success() || failure() && steps.internal.outcome == 'failure'
+        id: external
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
+        with:
+          lycheeVersion: v0.24.2
+          args: --config lychee.toml link-check/external.txt
+          output: link-check/external-report.md
+          fail: false
+      - name: Flag external links requiring review
+        if: steps.external.outputs.exit_code != '' && steps.external.outputs.exit_code != '0'
+        run: echo '::warning::External URLs require review. See external-report.md; 403, 429 and timeouts are not proof of a broken link.'
+      - name: Save link reports and page-to-URL inventory
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-reports-${{ github.sha }}
+          path: link-check/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Stop local server
+        if: always()
+        run: |
+          if [ -f link-check/server.pid ]; then kill "$(cat link-check/server.pid)" 2>/dev/null || true; fi

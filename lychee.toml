@@ -1,0 +1,9 @@
+# Do not accept 403/429 as working links or bypass TLS verification.
+max_concurrency = 4
+host_concurrency = 2
+host_request_interval = "500ms"
+timeout = 20
+max_retries = 2
+retry_wait_time = 3
+scheme = ["http", "https"]
+no_progress = true

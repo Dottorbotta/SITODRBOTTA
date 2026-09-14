@@ -1,4 +1,6 @@
 "use client";
+import { ResponsiveImage } from "../components/ResponsiveImage";
+
 
 import { useMemo, useState } from "react";
 import type { ArticleSummary } from "../data/articles";
@@ -38,7 +40,7 @@ export function BlogExplorer({ articles }: { articles: ArticleSummary[] }) {
         <div className="blog-card-grid">
           {filtered.map((article, index) => (
             <a className={`blog-cover blog-cover--${article.accent}${article.slug === "perche-camminare-benefici-tutto-il-corpo" ? " blog-cover--long-title" : ""}`} href={`/blog/${article.slug}`} key={article.slug}>
-              <img src={article.image} alt="" loading="lazy" width="640" height="420" />
+              <ResponsiveImage sizes="(max-width: 600px) calc(100vw - 28px), (max-width: 900px) 92vw, calc(46vw - 8px)" src={article.image} alt="" loading="lazy" width="640" height="420" />
               <div className="blog-cover-filter" />
               <span className="blog-cover-number">{String(index + 1).padStart(2, "0")}</span>
               <div className="blog-cover-copy">

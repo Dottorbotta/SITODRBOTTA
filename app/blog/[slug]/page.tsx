@@ -1,3 +1,4 @@
+import { ResponsiveImage } from "../../components/ResponsiveImage";
 import { notFound } from "next/navigation";
 import { topicFor } from "../../data/topics";
 import { ArticleSchema, ArticleFaqSchema, Breadcrumbs, pageMetadata } from "../../lib/seo";
@@ -44,7 +45,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         </header>
 
         <figure className={`article-cover article-cover--${article.accent}`}>
-          <img src={article.image} alt={article.imageAlt ?? ""} width="1200" height="750" fetchPriority="high" />
+          <ResponsiveImage sizes="(max-width: 1217px) 92vw, 1120px" loading="eager" src={article.image} alt={article.imageAlt ?? ""} width="1200" height="750" fetchPriority="high" />
           <div /><figcaption>{article.imageCaption ?? "Metodo Corpo Capace · Dr. Botta"}</figcaption>
         </figure>
 
@@ -61,7 +62,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 <span>{String(index + 1).padStart(2, "0")}</span>
                 <h2>{section.heading}</h2>
                 {section.paragraphs.map((paragraph) => <ArticleBlock key={paragraph} text={paragraph} />)}
-                {section.image && <figure className="article-inline-image"><img src={section.image.src} alt={section.image.alt} loading="lazy" width="1200" height="900" /><figcaption>{section.image.caption}</figcaption></figure>}
+                {section.image && <figure className="article-inline-image"><ResponsiveImage sizes="(max-width: 800px) 90vw, (max-width: 1220px) 65vw, 820px" src={section.image.src} alt={section.image.alt} loading="lazy" width="1200" height="900" /><figcaption>{section.image.caption}</figcaption></figure>}
                 {section.matrix && <CapacityMatrix />}
                 {section.gap && <CapacityGap />}
               </section>

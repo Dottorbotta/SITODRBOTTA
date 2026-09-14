@@ -1,3 +1,4 @@
+import { ResponsiveImage } from "../components/ResponsiveImage";
 import { pageMetadata } from "../lib/seo";
 import { editorialPages } from "../lib/site";
 import { CONSULTATION_URL } from "../lib/site";
@@ -66,7 +67,7 @@ export default function PathPage() {
           <div className="journey-proofline"><span>VALUTAZIONE</span><i>→</i><span>ALLENAMENTO</span><i>→</i><span>ADATTAMENTO</span></div>
         </div>
         <figure className="journey-hero-media">
-          <img width="1000" height="750" src="/images/brand-023f3900e8f5.webp" alt="Persona seguita durante un esercizio del percorso Corpo Capace" />
+          <ResponsiveImage sizes="(max-width: 900px) 90vw, 43vw" loading="eager" fetchPriority="high" width="1000" height="750" src="/images/brand-023f3900e8f5.webp" alt="Persona seguita durante un esercizio del percorso Corpo Capace" />
           <figcaption><strong>Non una scheda da eseguire.</strong><span>Un processo che evolve con te.</span></figcaption>
         </figure>
       </section>
@@ -135,7 +136,7 @@ export default function PathPage() {
 
       <section className="journey-included">
         <div className="journey-included-photo">
-          <img loading="lazy" width="1000" height="750" src="/images/brand-6da500b82980.webp" alt="Esercizio personalizzato seguito dal team Dr. Botta" />
+          <ResponsiveImage sizes="(max-width: 900px) 90vw, 43vw" loading="lazy" width="1000" height="750" src="/images/brand-6da500b82980.webp" alt="Esercizio personalizzato seguito dal team Dr. Botta" />
         </div>
         <div className="journey-included-copy">
           <p className="section-label">In pratica</p>

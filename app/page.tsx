@@ -1,3 +1,4 @@
+import { ResponsiveImage } from "./components/ResponsiveImage";
 import { TopicLinks } from "./components/TopicLinks";
 import { pageMetadata } from "./lib/seo";
 import { editorialPages } from "./lib/site";
@@ -51,7 +52,7 @@ export default function Home() {
         </div>
 
         <div className="hero-media" aria-label="Allenamento e valutazione secondo il Metodo Corpo Capace">
-          <img width="1000" height="750" src="/images/brand-db261c509ec7.webp" alt="Persona atletica durante un allenamento funzionale" />
+          <ResponsiveImage sizes="(max-width: 800px) 88vw, 43vw" loading="eager" fetchPriority="high" width="1000" height="750" src="/images/brand-db261c509ec7.webp" alt="Persona atletica durante un allenamento funzionale" />
           <div className="hero-media-wash" />
           <div className="capacity-gauge">
             <span>CAPACITÀ ATTUALE</span>
@@ -122,17 +123,17 @@ export default function Home() {
         </div>
         <div className="routes-grid">
           <Link className="route-card route-card--daily" href="/percorsi">
-            <img loading="lazy" width="1000" height="750" src="/images/brand-6da500b82980.webp" alt="Valutazione personalizzata con il team Dr. Botta" />
+            <ResponsiveImage sizes="(max-width: 900px) 92vw, 30vw" loading="lazy" width="1000" height="750" src="/images/brand-6da500b82980.webp" alt="Valutazione personalizzata con il team Dr. Botta" />
             <span className="route-card-number">01</span>
             <div><span>Vita quotidiana</span><h3>Riprendi le tue attività.</h3><p>Camminare, lavorare, viaggiare, salire le scale e vivere le tue giornate con più affidabilità.</p><strong>Scopri il percorso →</strong></div>
           </Link>
           <Link className="route-card route-card--fitness" href="/percorsi">
-            <img loading="lazy" width="1000" height="750" src="/images/brand-023f3900e8f5.webp" alt="Allenamento progressivo del Metodo Corpo Capace" />
+            <ResponsiveImage sizes="(max-width: 900px) 92vw, 30vw" loading="lazy" width="1000" height="750" src="/images/brand-023f3900e8f5.webp" alt="Allenamento progressivo del Metodo Corpo Capace" />
             <span className="route-card-number">02</span>
             <div><span>Allenamento</span><h3>Torna ad allenarti con continuità.</h3><p>Ricostruisci forza, controllo e tolleranza per non dover ripartire ogni volta da zero.</p><strong>Scopri il percorso →</strong></div>
           </Link>
           <Link className="route-card route-card--sport" href="/percorsi">
-            <img loading="lazy" width="1000" height="750" src="/images/brand-db261c509ec7.webp" alt="Ritorno allo sport con il Metodo Corpo Capace" />
+            <ResponsiveImage sizes="(max-width: 900px) 92vw, 30vw" loading="lazy" width="1000" height="750" src="/images/brand-db261c509ec7.webp" alt="Ritorno allo sport con il Metodo Corpo Capace" />
             <span className="route-card-number">03</span>
             <div><span>Sport</span><h3>Torna al tuo sport.</h3><p>Corsa, palestra, padel o sport di campo: dal gesto controllato alla richiesta reale.</p><strong>Scopri il percorso →</strong></div>
           </Link>
@@ -192,7 +193,7 @@ export default function Home() {
 
       <section className="founder-section">
         <div className="founder-photo">
-          <img loading="lazy" width="1000" height="750" src="/images/brand-6da500b82980.webp" alt="Dr. Simone Botta Lamanna durante una valutazione" />
+          <ResponsiveImage sizes="(max-width: 900px) 92vw, 43vw" loading="lazy" width="1000" height="750" src="/images/brand-6da500b82980.webp" alt="Dr. Simone Botta Lamanna durante una valutazione" />
         </div>
         <div className="founder-copy">
           <p className="section-label">Fondatore e garante del metodo</p>
@@ -211,7 +212,7 @@ export default function Home() {
         <div className="latest-blog-grid">
           {latestArticles.map((article, index) => (
             <Link className={`editorial-card editorial-card--${article.accent}`} href={`/blog/${article.slug}`} key={article.slug}>
-              <img loading="lazy" width="1000" height="750" src={article.image} alt="" />
+              <ResponsiveImage sizes="(max-width: 900px) 92vw, 30vw" loading="lazy" width="1000" height="750" src={article.image} alt="" />
               <span className="editorial-card-number">0{index + 1}</span>
               <div className="editorial-card-content"><span>{article.category}</span><h3>{article.title}</h3><p>{article.excerpt}</p><strong>Leggi l’articolo →</strong></div>
             </Link>

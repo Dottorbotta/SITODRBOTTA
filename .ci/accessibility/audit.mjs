@@ -10,6 +10,7 @@ const browser = await chromium.launch();
 const scans = [];
 const keyboard = [];
 const failures = [];
+const images = [];
 const tags = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa', 'best-practice'];
 
 async function scan(page, url, viewport, state) {
@@ -65,6 +66,19 @@ try {
         if (response.status() !== 200) throw new Error(`HTTP ${response.status()}`);
         await page.evaluate(() => document.fonts.ready);
         await scan(page, url, viewport, 'page');
+        const route = new URL(url).pathname;
+        if (['/', '/blog', '/blog/dolore-al-piede', '/percorsi', '/chi-sono', '/blog/argomenti/piede'].includes(route)) {
+          for (const img of await page.locator('main img').all()) {
+            await img.scrollIntoViewIfNeeded();
+            await img.evaluate(el => el.decode());
+            const info = await img.evaluate(el => ({ src: el.getAttribute('src'), currentSrc: el.currentSrc, alt: el.alt, width: el.width, height: el.height, sizes: el.sizes, loading: el.loading, priority: el.fetchPriority, objectFit: getComputedStyle(el).objectFit, objectPosition: getComputedStyle(el).objectPosition }));
+            if (info.src.endsWith('.webp') && !info.currentSrc.includes('/images/responsive/')) throw new Error(`Responsive variant not selected: ${info.src}`);
+            images.push({ route, viewport, ...info });
+          }
+          if (await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 1)) throw new Error('Horizontal overflow');
+          await page.evaluate(() => window.scrollTo(0, 0));
+          await page.screenshot({ path: `${output}/${viewport}-${route.replaceAll('/', '-') || 'home'}-images.png`, fullPage: true });
+        }
         const visualSections = { '/': '.routes-section', '/metodo': '.not-method-section', '/per-chi': '.pain-spectrum', '/percorsi': '.journey-gap-copy', '/testimonianze': '.stories-hero' };
         const section = visualSections[new URL(url).pathname];
         if (section) await page.locator(section).screenshot({ path: `${output}/${viewport}-${new URL(url).pathname.replaceAll('/', '') || 'home'}.png` });
@@ -96,6 +110,7 @@ lines.push('', '## Keyboard checks', ...keyboard.map(k => `- ${k.viewport} ${k.c
 const summary = lines.join('\n') + '\n';
 await writeFile(`${output}/summary.md`, summary);
 await writeFile(`${output}/results.json`, JSON.stringify({ tags, pages, scans, keyboard, failures }, null, 2));
+await writeFile(`${output}/images.json`, JSON.stringify(images, null, 2));
 console.log(summary);
 if (process.env.GITHUB_STEP_SUMMARY) await appendFile(process.env.GITHUB_STEP_SUMMARY, summary);
 // No silent exclusions or baseline acceptance: violations remain visible as a failed check.

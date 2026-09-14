@@ -30,6 +30,7 @@ main .recognition { border-bottom:1px solid var(--line); }
 main .recognition h2,main .method-heading h2,main .routes-heading h2,main .process-intro h2,main .founder-copy h2 { font-size:clamp(2.35rem,4vw,4.2rem); line-height:1.08; }
 main .route-card { border:1px solid var(--line); background:var(--paper); color:var(--espresso); }
 main .route-card::after { display:none; }
+main .route-card > :where(picture) > img,
 main .route-card > img { position:relative; inset:auto; height:230px; object-fit:cover; filter:none; }
 main .route-card > div { padding:28px; }
 main .route-card p { color:var(--muted); }
@@ -49,6 +50,7 @@ main .blog-hero-side { display:block; font-size:1rem; }
 .blog-hero-side .text-link { margin-top:1.5rem; }
 main .blog-explorer { padding-top:60px; }
 main .blog-cover { border-radius:0; box-shadow:none; border:0; border-bottom:1px solid var(--line); background:transparent; }
+main .blog-cover > :where(picture) > img,
 main .blog-cover > img { height:230px; aspect-ratio:1.6; object-fit:cover; }
 main .blog-cover-number { display:none; }
 main .blog-cover-copy { padding:25px 0 35px; }

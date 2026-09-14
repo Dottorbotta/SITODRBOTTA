@@ -34,7 +34,7 @@ jobs:
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
         with:
           lycheeVersion: v0.24.2
-          args: --config lychee.toml --include-fragments full link-check/internal.txt
+          args: --config lychee.toml --include-fragments link-check/internal.txt
           output: link-check/internal-report.md
           fail: true
       - name: External links and scientific sources (report)
@@ -47,7 +47,7 @@ jobs:
           output: link-check/external-report.md
           fail: false
       - name: Flag external links requiring review
-        if: steps.external.outputs.exit_code != '' && steps.external.outputs.exit_code != '0'
+        if: always() && steps.external.outputs.exit_code != '' && steps.external.outputs.exit_code != '0'
         run: echo '::warning::External URLs require review. See external-report.md; 403, 429 and timeouts are not proof of a broken link.'
       - name: Save link reports and page-to-URL inventory
         if: always()

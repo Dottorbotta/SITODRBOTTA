@@ -13,8 +13,7 @@ export const metadata: Metadata = pageMetadata(seoPage.path,seoPage.title,seoPag
 
 export default function BlogPage() {
   return (
-    <main id="contenuto">
-      <Header tone="dark" />
+    <><Header tone="dark" /><main id="contenuto" tabIndex={-1}>
       <section className="blog-hero">
         <div>
           <p className="section-label">Il blog di Corpo Capace</p>
@@ -31,6 +30,6 @@ export default function BlogPage() {
         <Link className="button button--light" href="/metodo">Scopri il Metodo <span>→</span></Link>
       </section>
       <Footer />
-    </main>
+    </main></>
   );
 }

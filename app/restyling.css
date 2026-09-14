@@ -102,3 +102,16 @@ main .footer-bottom { font-size:.875rem; }
 
 main .hero-trust strong { color:var(--espresso); }
 main .hero-trust-stars { color:var(--paper); background:#00684a; }
+
+/* Accessible brand contrasts, verified on paper, cream, espresso and clay. */
+main .route-card > div > span,
+main .profile-grid article > span { color:var(--bronze); }
+main .audience-hero-copy > .section-label,
+main .stories-hero > div > .section-label { color:var(--sand); }
+main .not-method-section .section-label--light,
+main .pain-spectrum .section-label--light,
+main .journey-gap-copy .section-label--light,
+main .pain-spectrum-scale span,
+main .pain-spectrum-scale p,
+main .journey-gap-copy p:not(.section-label) { color:var(--paper); }
+#contenuto:focus-visible { outline:3px solid var(--bronze); outline-offset:-3px; }

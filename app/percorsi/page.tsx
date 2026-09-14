@@ -52,8 +52,7 @@ const included = [
 
 export default function PathPage() {
   return (
-    <main id="contenuto">
-      <Header />
+    <><Header /><main id="contenuto" tabIndex={-1}>
 
       <section className="journey-hero">
         <div className="journey-hero-copy">
@@ -192,6 +191,6 @@ export default function PathPage() {
         <a className="button button--light" href={contactHref} target="_blank" rel="noreferrer">Richiedi una consulenza <span>↗</span></a>
       </section>
       <Footer />
-    </main>
+    </main></>
   );
 }

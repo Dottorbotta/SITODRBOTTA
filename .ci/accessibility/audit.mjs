@@ -31,6 +31,8 @@ async function checkKeyboard(page, url, viewport) {
     return target && (document.activeElement === target || target.contains(document.activeElement));
   });
   if (!reachedContent) throw new Error('Skip link does not move keyboard focus to main content');
+  await page.keyboard.press('Tab');
+  if (await page.evaluate(() => !document.querySelector('#contenuto').contains(document.activeElement) || Boolean(document.activeElement.closest('.site-header')))) throw new Error('Tab after skip returns to navigation instead of content');
   keyboard.push({ url, viewport, check: 'skip-link', status: 'passed' });
   } catch (error) { keyboard.push({ url, viewport, check: 'skip-link', status: 'failed', error: error.message }); }
   if (viewport === 'mobile') {
@@ -63,6 +65,9 @@ try {
         if (response.status() !== 200) throw new Error(`HTTP ${response.status()}`);
         await page.evaluate(() => document.fonts.ready);
         await scan(page, url, viewport, 'page');
+        const visualSections = { '/': '.routes-section', '/metodo': '.not-method-section', '/per-chi': '.pain-spectrum', '/percorsi': '.journey-gap-copy', '/testimonianze': '.stories-hero' };
+        const section = visualSections[new URL(url).pathname];
+        if (section) await page.locator(section).screenshot({ path: `${output}/${viewport}-${new URL(url).pathname.replaceAll('/', '') || 'home'}.png` });
         if (viewport === 'mobile') {
           const toggle = page.locator('.mobile-menu > summary');
           if (await toggle.isVisible()) {

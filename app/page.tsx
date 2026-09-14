@@ -32,8 +32,7 @@ export default function Home() {
   const latestArticles = articles.slice(0, 3);
 
   return (
-    <main id="contenuto">
-      <Header />
+    <><Header /><main id="contenuto" tabIndex={-1}>
 
       <section className="home-hero" aria-labelledby="home-hero-title">
         <div className="hero-copy-block">
@@ -227,6 +226,6 @@ export default function Home() {
       </section>
 
       <Footer />
-    </main>
+    </main></>
   );
 }

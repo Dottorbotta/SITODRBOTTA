@@ -17,8 +17,7 @@ const profiles = [
 
 export default function MethodPage() {
   return (
-    <main id="contenuto">
-      <Header tone="dark" />
+    <><Header tone="dark" /><main id="contenuto" tabIndex={-1}>
 
       <section className="inner-hero inner-hero--method">
         <div>
@@ -144,6 +143,6 @@ export default function MethodPage() {
       </section>
 
       <Footer />
-    </main>
+    </main></>
   );
 }

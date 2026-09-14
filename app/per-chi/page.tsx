@@ -27,8 +27,7 @@ const destinations = [
 
 export default function ForWhoPage() {
   return (
-    <main id="contenuto">
-      <Header tone="dark" />
+    <><Header tone="dark" /><main id="contenuto" tabIndex={-1}>
 
       <section className="audience-hero">
         <div className="audience-hero-copy">
@@ -112,6 +111,6 @@ export default function ForWhoPage() {
       </section>
 
       <Footer />
-    </main>
+    </main></>
   );
 }

@@ -29,8 +29,7 @@ const reviews = [
 
 export default function TestimonialsPage() {
   return (
-    <main id="contenuto">
-      <Header tone="dark" />
+    <><Header tone="dark" /><main id="contenuto" tabIndex={-1}>
       <section className="stories-hero">
         <div><p className="section-label">Testimonianze</p><h1>Le storie di chi è tornato a fare.</h1><p>Camminare. Correre. Allenarsi. Vivere le proprie giornate senza chiedersi continuamente se il corpo reggerà.</p></div>
         <a className="stories-score" href={profileUrl} target="_blank" rel="noreferrer"><span><i>★</i> Trustpilot</span><strong>Le vostre storie</strong><small>Recensioni e valutazioni aggiornate</small><b>Leggile tutte ↗</b></a>
@@ -57,6 +56,6 @@ export default function TestimonialsPage() {
       </section>
       <section className="final-cta"><p>La prossima attività da recuperare è la tua.</p><h2>Partiamo da ciò che vuoi<br />tornare a fare.</h2><a className="button button--light" href={CONSULTATION_URL} target="_blank" rel="noreferrer">Parla con il team <span>↗</span></a></section>
       <Footer />
-    </main>
+    </main></>
   );
 }

@@ -33,8 +33,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const related = (article.relatedPosts ?? []).map(slug=>getArticle(slug)).filter((item): item is NonNullable<typeof item> => Boolean(item)).slice(0,3);
 
   return (
-    <main id="contenuto">
-      <Header tone="dark" />
+    <><Header tone="dark" /><main id="contenuto" tabIndex={-1}>
       <ArticleSchema article={article} /><ArticleFaqSchema article={article} />
       <article className="article-page">
         <header className={`article-header${article.slug === "perche-camminare-benefici-tutto-il-corpo" ? " article-header--long" : ""}`}>
@@ -90,6 +89,6 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         <a className="button button--light" href={CONSULTATION_URL} target="_blank" rel="noreferrer">Parla con il team <span>↗</span></a>
       </section>
       <Footer />
-    </main>
+    </main></>
   );
 }

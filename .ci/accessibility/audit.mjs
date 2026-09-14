@@ -19,6 +19,7 @@ async function scan(page, url, viewport, state) {
 }
 
 async function checkKeyboard(page, url, viewport) {
+  try {
   // Start a fresh navigation so Tab begins at the document start.
   await page.goto(url, { waitUntil: 'load' });
   await page.keyboard.press('Tab');
@@ -30,6 +31,8 @@ async function checkKeyboard(page, url, viewport) {
     return target && (document.activeElement === target || target.contains(document.activeElement));
   });
   if (!reachedContent) throw new Error('Skip link does not move keyboard focus to main content');
+  keyboard.push({ url, viewport, check: 'skip-link', status: 'passed' });
+  } catch (error) { keyboard.push({ url, viewport, check: 'skip-link', status: 'failed', error: error.message }); }
   if (viewport === 'mobile') {
     await page.goto(url, { waitUntil: 'load' });
     let reachedMenu = false;
@@ -46,7 +49,7 @@ async function checkKeyboard(page, url, viewport) {
     await page.keyboard.press('Enter');
     if (await page.locator('.mobile-menu').evaluate(el => el.open)) throw new Error('Keyboard cannot close mobile menu');
   }
-  keyboard.push({ url, viewport, status: 'passed' });
+  if (viewport === 'mobile') keyboard.push({ url, viewport, check: 'menu', status: 'passed' });
 }
 
 try {
@@ -70,7 +73,7 @@ try {
       } catch (error) { failures.push({ url, viewport, error: error.message }); }
     }
     try { await checkKeyboard(page, 'http://127.0.0.1:4173/', viewport); }
-    catch (error) { keyboard.push({ viewport, status: 'failed', error: error.message }); }
+    catch (error) { keyboard.push({ viewport, check: 'menu', status: 'failed', error: error.message }); }
     await context.close();
   }
 } finally { await browser.close(); }
@@ -84,7 +87,7 @@ for (const scan of scans) for (const v of scan.violations) {
 }
 const lines = ['# Accessibility audit — axe-core', '', `${pages.length} sitemap pages; ${scans.length} scans on desktop/mobile, including open mobile menus.`, '', 'WCAG A/AA (2.0, 2.1, 2.2) and axe best practices. Automated checks are not a certification; incomplete results require human review.', '', '| Rule | Impact | Pages | Node occurrences across scans |', '|---|---|---:|---:|'];
 for (const [id, r] of rules) lines.push(`| ${id} | ${r.impact} | ${r.pages.size} | ${r.nodes} |`);
-lines.push('', '## Keyboard checks', ...keyboard.map(k => `- ${k.viewport}: ${k.status}${k.error ? ' — ' + k.error : ''}`), '', `Scan errors: ${failures.length}. Incomplete rule results: ${scans.reduce((n,s) => n+s.incomplete.length,0)}.`);
+lines.push('', '## Keyboard checks', ...keyboard.map(k => `- ${k.viewport} ${k.check}: ${k.status}${k.error ? ' — ' + k.error : ''}`), '', `Scan errors: ${failures.length}. Incomplete rule results: ${scans.reduce((n,s) => n+s.incomplete.length,0)}.`);
 const summary = lines.join('\n') + '\n';
 await writeFile(`${output}/summary.md`, summary);
 await writeFile(`${output}/results.json`, JSON.stringify({ tags, pages, scans, keyboard, failures }, null, 2));

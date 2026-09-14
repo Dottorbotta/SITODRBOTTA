@@ -7,3 +7,23 @@ max_retries = 2
 retry_wait_time = 3
 scheme = ["http", "https"]
 no_progress = true
+
+# Exact URL exceptions confirmed correct by the site owner on 2026-09-14.
+# GitHub runner received 403 (publishers/Trustpilot/Mayo), 429 (Instagram),
+# or 999 (LinkedIn). Excluded means owner-verified, not HTTP-tested by CI.
+# Do not broaden these patterns to whole domains or accept error status codes.
+exclude = [
+    '^https://doi\.org/10\.1136/bjsports\-2016\-096384$',
+    '^https://doi\.org/10\.1136/bjsports\-2018\-099257$',
+    '^https://doi\.org/10\.1136/bjsports\-2018\-099397$',
+    '^https://doi\.org/10\.1136/bjsports\-2021\-104686$',
+    '^https://doi\.org/10\.1136/bjsports\-2024\-108110$',
+    '^https://doi\.org/10\.1177/03635465231175160$',
+    '^https://doi\.org/10\.1590/1677\-5449\.200125$',
+    '^https://doi\.org/10\.2519/jospt\.2019\.0302$',
+    '^https://doi\.org/10\.2519/jospt\.2023\.0303$',
+    '^https://it\.trustpilot\.com/review/drbotta\.com$',
+    '^https://www\.instagram\.com/dr_botta/$',
+    '^https://www\.linkedin\.com/in/bottalamanna/$',
+    '^https://www\.mayoclinic\.org/diseases\-conditions/plantar\-fasciitis/diagnosis\-treatment/drc\-20354851$',
+]

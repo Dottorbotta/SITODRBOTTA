@@ -1,0 +1,26 @@
+URL attuale,Tipo,Argomento,Azione,URL finale,Redirect
+/,Pagina,/,Migliorare,/,Nessuno
+/metodo,Pagina,/metodo,Migliorare,/metodo,Nessuno
+/per-chi,Pagina,/per-chi,Migliorare,/per-chi,Nessuno
+/percorsi,Pagina,/percorsi,Migliorare,/percorsi,Nessuno
+/testimonianze,Pagina,/testimonianze,Migliorare,/testimonianze,Nessuno
+/blog,Pagina,/blog,Migliorare,/blog,Nessuno
+/blog/dolore-al-piede,Articolo,Piede,Mantenere copy e migliorare struttura,/blog/dolore-al-piede,Nessuno
+/blog/piedi-caviglie-gonfie,Articolo,Piede,Mantenere copy e migliorare struttura,/blog/piedi-caviglie-gonfie,Nessuno
+/blog/condromalacia-rotulea,Articolo,Ginocchio,Mantenere copy e migliorare struttura,/blog/condromalacia-rotulea,Nessuno
+/blog/dolore-davanti-ginocchio-scale,Articolo,Ginocchio,Mantenere copy e migliorare struttura,/blog/dolore-davanti-ginocchio-scale,Nessuno
+/blog/dolore-laterale-anca-notte-carico-esercizio,Articolo,Anca,Mantenere copy e migliorare struttura,/blog/dolore-laterale-anca-notte-carico-esercizio,Nessuno
+/blog/quando-non-e-da-operare-alluce-valgo,Articolo,Piede,Mantenere copy e migliorare struttura,/blog/quando-non-e-da-operare-alluce-valgo,Nessuno
+/blog/fascite-plantare-sintomi-cure-ritorno-movimento,Articolo,Piede,Mantenere copy e migliorare struttura,/blog/fascite-plantare-sintomi-cure-ritorno-movimento,Nessuno
+/blog/perche-camminare-benefici-tutto-il-corpo,Articolo,Metodo,Mantenere copy e migliorare struttura,/blog/perche-camminare-benefici-tutto-il-corpo,Nessuno
+/blog/stare-meglio-non-basta-tornare-a-correre,Articolo,Ritorno allo sport,Mantenere copy e migliorare struttura,/blog/stare-meglio-non-basta-tornare-a-correre,Nessuno
+/blog/la-paghi-il-giorno-dopo,Articolo,Carico,Mantenere copy e migliorare struttura,/blog/la-paghi-il-giorno-dopo,Nessuno
+/blog/dolore-piede-sintomo-funzione,Articolo,Piede,Mantenere copy e migliorare struttura,/blog/dolore-piede-sintomo-funzione,Nessuno
+/blog/asimmetria-non-e-disfunzione,Articolo,Metodo,Mantenere copy e migliorare struttura,/blog/asimmetria-non-e-disfunzione,Nessuno
+/blog/quando-aumentare-il-carico,Articolo,Carico,Mantenere copy e migliorare struttura,/blog/quando-aumentare-il-carico,Nessuno
+/blog/gap-di-capacita,Articolo,Metodo,Mantenere copy e migliorare struttura,/blog/gap-di-capacita,Nessuno
+/blog/il-test-vero-e-la-vita,Articolo,Ritorno allo sport,Mantenere copy e migliorare struttura,/blog/il-test-vero-e-la-vita,Nessuno
+/blog/programma-cambia-con-i-dati,Articolo,Metodo,Mantenere copy e migliorare struttura,/blog/programma-cambia-con-i-dati,Nessuno
+/blog/dolore-anca-ritorno-corsa,Articolo,Anca,Mantenere copy e migliorare struttura,/blog/dolore-anca-ritorno-corsa,Nessuno
+/dolore-al-piede,Duplicato,dolore-al-piede,Unire,/blog/dolore-al-piede,301
+/piedi-caviglie-gonfie,Duplicato,piedi-caviglie-gonfie,Unire,/blog/piedi-caviglie-gonfie,301

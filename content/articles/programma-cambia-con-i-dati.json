@@ -1,0 +1,66 @@
+{
+  "slug": "programma-cambia-con-i-dati",
+  "title": "Il programma deve cambiare quando cambiano i dati",
+  "kicker": "Perché una scheda personalizzata può smettere di esserlo",
+  "category": "Metodo",
+  "excerpt": "La vera personalizzazione non è scegliere esercizi strani. È adattare dose, priorità e progressione alla risposta reale.",
+  "date": "1 agosto 2026",
+  "readingTime": "6 min",
+  "image": "/images/brand-6da500b82980.webp",
+  "accent": "sand",
+  "intro": "Una scheda può essere costruita su misura il primo giorno e diventare rapidamente generica se resta identica mentre cambiano sintomi, tolleranza, disponibilità e attività. La personalizzazione è un processo, non una consegna.",
+  "sections": [
+    {
+      "heading": "Il ciclo di feedback",
+      "paragraphs": [
+        "Nel Metodo Corpo Capace la persona esegue, mostra il gesto, riferisce la risposta e permette al coach di analizzare ciò che è successo. Da lì il programma viene adattato, riprovato e rivalutato.",
+        "Video, feedback tecnico, percezione dello sforzo, sintomi, recupero, check e retest servono a collegare un'esposizione alla decisione successiva. Non sono accessori di assistenza: sono il sistema informativo della progressione."
+      ]
+    },
+    {
+      "heading": "Personalizzare non significa inventare esercizi segreti",
+      "paragraphs": [
+        "Due persone possono usare lo stesso esercizio e avere programmi profondamente diversi. Cambiano priorità, dose, frequenza, range, recupero, ritmo di progressione e relazione con l'attività-obiettivo.",
+        "Il programma migliore non è il più complesso. È quello che può essere eseguito con continuità, espone alla dose adeguata e produce dati leggibili per il passo successivo."
+      ]
+    },
+    {
+      "heading": "Il check deve produrre una decisione",
+      "paragraphs": [
+        "Chiedere genericamente «come va?» non basta. Un check utile confronta la dose prevista con quella realmente eseguita, la risposta, il recupero, l'aderenza, le capacità recuperate e le attività tornate disponibili.",
+        "La decisione può essere progredire, mantenere, modificare, regredire temporaneamente o rivalutare. Stallo, ricaduta e peggioramento non sono sinonimi e non dovrebbero ricevere automaticamente la stessa risposta."
+      ]
+    }
+  ],
+  "takeaways": [
+    "Una scheda inizialmente su misura può diventare generica.",
+    "La risposta reale deve modificare il passo successivo.",
+    "Personalizzazione significa soprattutto dose, priorità e progressione.",
+    "Ogni check deve chiudersi con una decisione comprensibile."
+  ],
+  "description": "La vera personalizzazione non è scegliere esercizi strani. È adattare dose, priorità e progressione alla risposta reale.",
+  "seoDescription": "La vera personalizzazione non è scegliere esercizi strani. È adattare dose, priorità e progressione alla risposta reale.",
+  "tags": [
+    "Metodo",
+    "Corpo Capace"
+  ],
+  "publishedAt": "2026-08-01",
+  "updatedAt": null,
+  "author": "team-corpo-capace",
+  "featuredImage": "/images/brand-6da500b82980.webp",
+  "canonical": "/blog/programma-cambia-con-i-dati",
+  "primaryKeyword": "Il programma deve cambiare quando cambiano i dati",
+  "secondaryKeywords": [],
+  "problemArea": "metodo",
+  "clinicalReview": {
+    "status": "not-recorded",
+    "reviewer": null,
+    "date": null
+  },
+  "relatedPosts": [
+    "perche-camminare-benefici-tutto-il-corpo",
+    "la-paghi-il-giorno-dopo",
+    "asimmetria-non-e-disfunzione"
+  ],
+  "cta": "/percorsi"
+}

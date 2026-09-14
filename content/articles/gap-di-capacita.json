@@ -1,0 +1,66 @@
+{
+  "slug": "gap-di-capacita",
+  "title": "Il Gap di Capacità: cosa separa il tuo oggi dal tuo obiettivo",
+  "kicker": "Una mappa concreta per smettere di allenarsi alla cieca",
+  "category": "Metodo",
+  "excerpt": "Tra ciò che riesci a sostenere oggi e ciò che vuoi tornare a fare esiste una distanza. Misurarla cambia il modo di costruire il percorso.",
+  "date": "10 agosto 2026",
+  "readingTime": "7 min",
+  "image": "/images/brand-023f3900e8f5.webp",
+  "accent": "sage",
+  "intro": "«Voglio stare meglio» è comprensibile, ma non basta per programmare. Camminare un'ora, allenarsi tre volte a settimana, correre dieci chilometri o giocare una partita descrivono richieste molto diverse. Il Gap di Capacità rende quella distanza visibile.",
+  "sections": [
+    {
+      "heading": "Partire da un'attività concreta",
+      "paragraphs": [
+        "Ogni percorso dovrebbe iniziare da ciò che la persona vuole recuperare e dalla dose necessaria. L'obiettivo non è soltanto il gesto: comprende durata, frequenza, intensità, complessità e contesto.",
+        "Una stessa persona può essere pienamente capace nelle attività quotidiane e ancora fragile rispetto alla corsa o incapace rispetto a una prestazione agonistica. Il profilo ha senso solo in relazione a una richiesta precisa."
+      ]
+    },
+    {
+      "heading": "Movimento utile e tolleranza al carico",
+      "paragraphs": [
+        "La Matrice Corpo Capace osserva due dimensioni. La prima è la capacità di movimento: mobilità, controllo, coordinazione, forza e gesto specifico. La seconda è la tolleranza: quanta richiesta puoi sostenere, ripetere e recuperare.",
+        "Da questa combinazione emergono quattro profili operativi: Capace, Limitato, Fragile e Incapace. Non sono diagnosi e non definiscono la persona; descrivono il tipo di distanza presente rispetto a quel compito."
+      ]
+    },
+    {
+      "heading": "Dal profilo alla priorità",
+      "paragraphs": [
+        "Un profilo Limitato richiede soprattutto di ampliare capacità di movimento rilevanti. Un profilo Fragile richiede di aumentare la finestra di carico e il recupero. Un profilo Incapace necessita di ricostruire entrambe le dimensioni.",
+        "La matrice non prescrive esercizi automatici. Serve a trasformare la valutazione in priorità, dose iniziale, criterio di progressione e retest, evitando di intervenire su ogni imperfezione osservata."
+      ]
+    }
+  ],
+  "takeaways": [
+    "Trasforma “stare meglio” in un'attività misurabile.",
+    "Il profilo è sempre relativo alla richiesta, mai assoluto.",
+    "Capacità di movimento e tolleranza richiedono strategie diverse.",
+    "La Matrice Corpo Capace è una tassonomia operativa, non una diagnosi clinica validata."
+  ],
+  "description": "Tra ciò che riesci a sostenere oggi e ciò che vuoi tornare a fare esiste una distanza. Misurarla cambia il modo di costruire il percorso.",
+  "seoDescription": "Tra ciò che riesci a sostenere oggi e ciò che vuoi tornare a fare esiste una distanza. Misurarla cambia il modo di costruire il percorso.",
+  "tags": [
+    "Metodo",
+    "Corpo Capace"
+  ],
+  "publishedAt": "2026-08-10",
+  "updatedAt": null,
+  "author": "team-corpo-capace",
+  "featuredImage": "/images/brand-023f3900e8f5.webp",
+  "canonical": "/blog/gap-di-capacita",
+  "primaryKeyword": "Il Gap di Capacità: cosa separa il tuo oggi dal tuo obiettivo",
+  "secondaryKeywords": [],
+  "problemArea": "metodo",
+  "clinicalReview": {
+    "status": "not-recorded",
+    "reviewer": null,
+    "date": null
+  },
+  "relatedPosts": [
+    "perche-camminare-benefici-tutto-il-corpo",
+    "la-paghi-il-giorno-dopo",
+    "asimmetria-non-e-disfunzione"
+  ],
+  "cta": "/percorsi"
+}

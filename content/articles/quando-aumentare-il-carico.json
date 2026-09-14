@@ -1,0 +1,66 @@
+{
+  "slug": "quando-aumentare-il-carico",
+  "title": "Come capire se puoi aumentare il carico",
+  "kicker": "Progredire, mantenere o modificare: una decisione, non un automatismo",
+  "category": "Carico",
+  "excerpt": "Non aumentare perché il programma dice “settimana 2”. Aumenta quando funzione, recupero e risposta indicano che la dose è stata assimilata.",
+  "date": "14 agosto 2026",
+  "readingTime": "5 min",
+  "image": "/images/brand-db261c509ec7.webp",
+  "accent": "bronze",
+  "intro": "Le progressioni standard hanno un limite: il calendario è uguale per tutti, la risposta al carico no. Due persone che eseguono lo stesso esercizio con lo stesso peso possono recuperare in modo completamente diverso.",
+  "sections": [
+    {
+      "heading": "I dati minimi da guardare",
+      "paragraphs": [
+        "Prima di aumentare osserva la dose realmente eseguita, la percezione dello sforzo, il comportamento dei sintomi, la funzione durante l'attività e il recupero nelle ore successive. Anche l'aderenza conta: non si può progredire sulla base di una dose che esiste solo sulla scheda.",
+        "Il singolo dato non decide da solo. Serve una lettura congiunta e coerente con l'obiettivo: un lieve sintomo stabile può essere compatibile con la progressione, mentre un recupero sempre più lungo può suggerire di consolidare o modificare."
+      ]
+    },
+    {
+      "heading": "Tre possibili decisioni",
+      "paragraphs": [
+        "Si progredisce quando la dose è tollerata, il recupero è adeguato e la funzione resta stabile o migliora. Si mantiene quando la risposta è gestibile ma serve ancora esposizione allo stesso livello per consolidare l'adattamento.",
+        "Si modifica o regredisce temporaneamente quando la risposta supera la tolleranza prevista, la funzione peggiora, il recupero si prolunga o compare un segnale nuovo che richiede rivalutazione."
+      ]
+    },
+    {
+      "heading": "Quale variabile aumentare per prima",
+      "paragraphs": [
+        "Non esiste una risposta universale. Per tornare a una lunga camminata può contare la durata; per la palestra il carico o il volume; per il padel la velocità e i cambi di direzione; per la corsa la combinazione di minuti, ritmo e frequenza.",
+        "Scegliere una variabile alla volta rende più leggibile la risposta. Se tutto cambia insieme, diventa difficile capire che cosa il corpo ha assimilato e che cosa ha superato la finestra attuale."
+      ]
+    }
+  ],
+  "takeaways": [
+    "La settimana del programma non è un criterio biologico.",
+    "Considera insieme dose, sforzo, sintomi, funzione e recupero.",
+    "Mantenere una dose può essere una scelta attiva, non uno stallo.",
+    "Aumenta la variabile più specifica per l'attività-obiettivo."
+  ],
+  "description": "Non aumentare perché il programma dice “settimana 2”. Aumenta quando funzione, recupero e risposta indicano che la dose è stata assimilata.",
+  "seoDescription": "Non aumentare perché il programma dice “settimana 2”. Aumenta quando funzione, recupero e risposta indicano che la dose è stata assimilata.",
+  "tags": [
+    "Carico",
+    "Corpo Capace"
+  ],
+  "publishedAt": "2026-08-14",
+  "updatedAt": null,
+  "author": "team-corpo-capace",
+  "featuredImage": "/images/brand-db261c509ec7.webp",
+  "canonical": "/blog/quando-aumentare-il-carico",
+  "primaryKeyword": "Come capire se puoi aumentare il carico",
+  "secondaryKeywords": [],
+  "problemArea": "metodo",
+  "clinicalReview": {
+    "status": "not-recorded",
+    "reviewer": null,
+    "date": null
+  },
+  "relatedPosts": [
+    "perche-camminare-benefici-tutto-il-corpo",
+    "la-paghi-il-giorno-dopo",
+    "asimmetria-non-e-disfunzione"
+  ],
+  "cta": "/percorsi"
+}

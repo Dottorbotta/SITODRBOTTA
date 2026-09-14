@@ -1,3 +1,4 @@
+import { seoResponse } from "../app/lib/feeds";
 /** Cloudflare Worker entry point for the vinext-starter template. */
 import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
@@ -28,6 +29,11 @@ interface ExecutionContext {
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
+    const aliases: Record<string,string> = {"/dolore-al-piede":"/blog/dolore-al-piede","/piedi-caviglie-gonfie":"/blog/piedi-caviglie-gonfie"};
+    const oldPath=url.pathname.replace(/\/$/, "");
+    if(aliases[oldPath]) return Response.redirect(new URL(aliases[oldPath],url).href,301);
+    const seo=seoResponse(url.pathname);
+    if(seo) return seo;
 
     if (url.pathname === "/_vinext/image") {
       const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];

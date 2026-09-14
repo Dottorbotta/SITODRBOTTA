@@ -1,0 +1,2 @@
+import { topics } from '../data/topics';
+export function TopicLinks(){return <section className="topic-navigation" aria-labelledby="topics-title"><div className="topic-heading"><p className="section-label">Approfondisci per argomento</p><h2 id="topics-title">Da dove vuoi partire?</h2></div><nav aria-label="Argomenti del blog">{topics.map((t,i)=><a key={t.slug} href={'/blog/argomenti/'+t.slug}><span>0{i+1}</span><strong>{t.name}</strong><span aria-hidden="true">↗</span></a>)}</nav></section>;}

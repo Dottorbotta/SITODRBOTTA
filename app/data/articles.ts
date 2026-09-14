@@ -1,0 +1,65 @@
+import article0 from "../../content/articles/dolore-al-piede.json";
+import article1 from "../../content/articles/piedi-caviglie-gonfie.json";
+import article2 from "../../content/articles/condromalacia-rotulea.json";
+import article3 from "../../content/articles/dolore-davanti-ginocchio-scale.json";
+import article4 from "../../content/articles/dolore-laterale-anca-notte-carico-esercizio.json";
+import article5 from "../../content/articles/quando-non-e-da-operare-alluce-valgo.json";
+import article6 from "../../content/articles/fascite-plantare-sintomi-cure-ritorno-movimento.json";
+import article7 from "../../content/articles/perche-camminare-benefici-tutto-il-corpo.json";
+import article8 from "../../content/articles/stare-meglio-non-basta-tornare-a-correre.json";
+import article9 from "../../content/articles/la-paghi-il-giorno-dopo.json";
+import article10 from "../../content/articles/dolore-piede-sintomo-funzione.json";
+import article11 from "../../content/articles/asimmetria-non-e-disfunzione.json";
+import article12 from "../../content/articles/quando-aumentare-il-carico.json";
+import article13 from "../../content/articles/gap-di-capacita.json";
+import article14 from "../../content/articles/il-test-vero-e-la-vita.json";
+import article15 from "../../content/articles/programma-cambia-con-i-dati.json";
+import article16 from "../../content/articles/dolore-anca-ritorno-corsa.json";
+export type ArticleSection = {
+  heading: string;
+  paragraphs: string[];
+  image?: { src: string; alt: string; caption: string };
+  matrix?: boolean;
+  gap?: boolean;
+};
+
+export type Article = {
+  description?: string;
+  seoDescription?: string;
+  tags?: string[];
+  publishedAt?: string;
+  updatedAt?: string | null;
+  author?: string;
+  featuredImage?: string;
+  canonical?: string;
+  primaryKeyword?: string;
+  secondaryKeywords?: string[];
+  problemArea?: string;
+  clinicalReview?: { status: string; reviewer: string | null; date: string | null };
+  relatedPosts?: string[];
+  cta?: string;
+  slug: string;
+  title: string;
+  kicker: string;
+  category: "Metodo" | "Piede" | "Ginocchio" | "Anca" | "Carico" | "Ritorno allo sport";
+  excerpt: string;
+  date: string;
+  readingTime: string;
+  image: string;
+  seoTitle?: string;
+  sourceDate?: string;
+  imageAlt?: string;
+  imageCaption?: string;
+  sources?: { label: string; url: string }[];
+  accent: "bronze" | "sage" | "clay" | "sand";
+  intro: string;
+  sections: ArticleSection[];
+  takeaways: string[];
+};
+
+
+export const articles: Article[] = [article0,article1,article2,article3,article4,article5,article6,article7,article8,article9,article10,article11,article12,article13,article14,article15,article16 ] as Article[];
+export const articleCategories = ['Tutti','Metodo','Piede','Ginocchio','Anca','Carico','Ritorno allo sport'] as const;
+export function getArticle(slug: string){return articles.find(a=>a.slug===slug);}
+export type ArticleSummary = Pick<Article,'slug'|'title'|'kicker'|'category'|'excerpt'|'image'|'accent'|'readingTime'|'publishedAt'|'tags'>;
+export const articleSummaries: ArticleSummary[] = articles.map(({slug,title,kicker,category,excerpt,image,accent,readingTime,publishedAt,tags})=>({slug,title,kicker,category,excerpt,image,accent,readingTime,publishedAt,tags}));

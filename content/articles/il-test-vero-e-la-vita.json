@@ -1,0 +1,64 @@
+{
+  "slug": "il-test-vero-e-la-vita",
+  "title": "Camminare, palestra, trekking: il test vero è la vita",
+  "kicker": "Il trasferimento è la parte che spesso manca",
+  "category": "Ritorno allo sport",
+  "excerpt": "Migliorare un esercizio non basta se quella capacità non torna disponibile nel compito che conta davvero.",
+  "date": "6 agosto 2026",
+  "readingTime": "6 min",
+  "image": "/images/brand-db261c509ec7.webp",
+  "accent": "clay",
+  "intro": "Puoi diventare più forte in un esercizio e restare insicuro sulle scale. Puoi migliorare un test di equilibrio e non riuscire ancora a fare trekking. Il problema non è che il lavoro sia inutile: spesso manca il trasferimento verso la richiesta reale.",
+  "sections": [
+    {
+      "heading": "Dalla capacità generale a quella specifica",
+      "paragraphs": [
+        "Mobilità, controllo e forza costruiscono una base. Ma ogni attività combina quelle qualità in modo diverso: camminare richiede ripetizione, il trekking aggiunge terreno e dislivello, la palestra richiede carichi e gesti specifici, il padel impone accelerazioni e cambi di direzione.",
+        "Per questo il programma deve diventare progressivamente più simile al compito, senza saltare dalla base alla richiesta completa in un solo passaggio."
+      ]
+    },
+    {
+      "heading": "La dose reale è più importante del nome dell'attività",
+      "paragraphs": [
+        "Dire «riesco a camminare» non specifica se parliamo di dieci minuti su terreno piano o di due ore con salite. Dire «sono tornato in palestra» non chiarisce frequenza, esercizi, volume o intensità.",
+        "L'affidabilità compare quando la capacità è disponibile alla dose necessaria, può essere ripetuta e produce un recupero compatibile con la vita della persona."
+      ]
+    },
+    {
+      "heading": "Autonomia, non dipendenza",
+      "paragraphs": [
+        "Il trasferimento include anche imparare a leggere la risposta del proprio corpo. La persona deve riconoscere una dose eccessiva, sapere quale variabile ridurre temporaneamente e interpretare una ricaduta senza pensare di essere tornata al punto di partenza.",
+        "La supervisione è utile finché serve. Il risultato di lungo periodo è un corpo più capace e una persona più autonoma nel gestirlo."
+      ]
+    }
+  ],
+  "takeaways": [
+    "Ogni capacità deve arrivare al compito che conta.",
+    "Descrivi sempre durata, frequenza, intensità e contesto.",
+    "La specificità aumenta gradualmente, non tutta insieme.",
+    "Il successo include autonomia nella gestione del carico."
+  ],
+  "description": "Migliorare un esercizio non basta se quella capacità non torna disponibile nel compito che conta davvero.",
+  "seoDescription": "Migliorare un esercizio non basta se quella capacità non torna disponibile nel compito che conta davvero.",
+  "tags": [
+    "Ritorno allo sport",
+    "Corpo Capace"
+  ],
+  "publishedAt": "2026-08-06",
+  "updatedAt": null,
+  "author": "team-corpo-capace",
+  "featuredImage": "/images/brand-db261c509ec7.webp",
+  "canonical": "/blog/il-test-vero-e-la-vita",
+  "primaryKeyword": "Camminare, palestra, trekking: il test vero è la vita",
+  "secondaryKeywords": [],
+  "problemArea": "ritorno-allo-sport",
+  "clinicalReview": {
+    "status": "not-recorded",
+    "reviewer": null,
+    "date": null
+  },
+  "relatedPosts": [
+    "stare-meglio-non-basta-tornare-a-correre"
+  ],
+  "cta": "/percorsi"
+}

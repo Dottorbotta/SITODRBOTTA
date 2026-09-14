@@ -1,0 +1,50 @@
+name: Website accessibility
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: website-accessibility-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  axe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.16.0
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.19.0
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run build
+      - name: Install isolated accessibility tooling
+        run: npm ci --prefix .ci/accessibility
+      - name: Install Chromium
+        working-directory: .ci/accessibility
+        run: npx --no-install playwright install --with-deps chromium
+      - name: Start build and discover sitemap pages
+        run: |
+          mkdir -p link-check accessibility-report
+          pnpm exec vinext start --port 4173 > accessibility-report/server.log 2>&1 &
+          echo $! > accessibility-report/server.pid
+          python3 scripts/collect-links.py
+      - name: Axe scans and keyboard navigation
+        run: node .ci/accessibility/audit.mjs
+      - name: Save accessibility findings
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: accessibility-reports-${{ github.sha }}
+          path: accessibility-report/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Stop local server
+        if: always()
+        run: |
+          if [ -f accessibility-report/server.pid ]; then kill "$(cat accessibility-report/server.pid)" 2>/dev/null || true; fi

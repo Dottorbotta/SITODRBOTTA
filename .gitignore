@@ -44,3 +44,6 @@ yarn-error.log*
 public/__qa*.html
 
 /link-check/
+
+/accessibility-report/
+/.ci/accessibility/node_modules/

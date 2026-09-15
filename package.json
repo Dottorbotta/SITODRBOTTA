@@ -14,7 +14,8 @@
     "db:generate": "drizzle-kit generate",
     "images:generate": "node scripts/generate-images.mjs",
     "prebuild": "node scripts/generate-images.mjs",
-    "predev": "node scripts/generate-images.mjs"
+    "predev": "node scripts/generate-images.mjs",
+    "editorial:audit": "node scripts/editorial-audit.mjs"
   },
   "dependencies": {
     "@fontsource/barlow-condensed": "^5.3.0",

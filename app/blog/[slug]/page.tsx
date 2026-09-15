@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
   const { slug } = await params;
   const article = getArticle(slug);
   if (!article) return { title: "Articolo non trovato | Corpo Capace" };
-  return pageMetadata(`/blog/${article.slug}`, article.seoTitle ?? `${article.title} | Corpo Capace`, article.excerpt, article.image);
+  return pageMetadata(`/blog/${article.slug}`, article.seoTitle ?? `${article.title} | Corpo Capace`, article.seoDescription ?? article.description ?? article.excerpt, article.image);
 }
 
 export default async function ArticlePage({ params }: ArticlePageProps) {
@@ -73,7 +73,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               <h2>Che cosa portarti via</h2>
               <ul>{article.takeaways.map((item) => <li key={item}>{item}</li>)}</ul>
             </div>
-            {article.sources && <section className="article-sources" aria-labelledby="fonti"><h2 id="fonti">Fonti e approfondimenti</h2><p>Fonti consultate il {article.sourceDate ?? "7 settembre 2026"}. Riferimenti per approfondire i contenuti dell’articolo.</p><ul>{article.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.label} ↗</a></li>)}</ul></section>}
+            {article.sources && <section className="article-sources" aria-labelledby="fonti"><h2 id="fonti">Fonti e approfondimenti</h2><p>{article.sourceDate && <>Fonti consultate il {article.sourceDate}. </>}Riferimenti per approfondire i contenuti dell’articolo.</p><ul>{article.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.label} ↗</a></li>)}</ul></section>}
             <p className="article-disclaimer">Questo articolo ha finalità informative e non sostituisce diagnosi, trattamento medico o valutazione sanitaria quando necessari.</p>
           </div>
         </div>

@@ -67,7 +67,7 @@ try {
         await page.evaluate(() => document.fonts.ready);
         await scan(page, url, viewport, 'page');
         const route = new URL(url).pathname;
-        if (['/', '/blog', '/blog/dolore-al-piede', '/percorsi', '/chi-sono', '/blog/argomenti/piede'].includes(route)) {
+        if (['/', '/blog', '/blog/dolore-al-piede', '/percorsi', '/chi-sono', '/blog/argomenti/piede', '/blog/fascite-plantare-sintomi-cure-ritorno-movimento', '/blog/quando-non-e-da-operare-alluce-valgo'].includes(route)) {
           for (const img of await page.locator('main img').all()) {
             await img.scrollIntoViewIfNeeded();
             await img.evaluate(el => el.decode());

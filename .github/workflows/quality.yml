@@ -24,6 +24,17 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Build and verify content, routes and metadata
         run: pnpm test
+      - name: Verify editorial checker
+        run: python3 tests/editorial-audit.test.py
+      - name: Audit editorial data and rendered pages
+        run: pnpm run editorial:audit
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: editorial-report-${{ github.sha }}
+          path: editorial-report
+          retention-days: 14
+          if-no-files-found: warn
       - name: Lighthouse mobile (three runs per URL)
         run: pnpm exec lhci autorun
       - name: Summarize Lighthouse results

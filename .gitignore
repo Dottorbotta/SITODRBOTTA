@@ -51,3 +51,6 @@ public/__qa*.html
 /public/images/responsive/
 /app/data/image-manifest.json
 /app/data/image-sources.json
+
+/editorial-report/
+__pycache__/

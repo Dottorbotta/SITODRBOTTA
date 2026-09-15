@@ -14,8 +14,9 @@ I dati mancanti che richiedono una decisione editoriale sono segnalazioni P2:
 imageAlt non presente nel record e data di consultazione fonti non documentata.
 Un alt esplicitamente vuoto è ammesso: non viene inventato un testo né cambiata
 la funzione dell'immagine. Confermare il ruolo decorativo prima di registrare
-imageAlt vuoto. Le 10 copertine da chiarire e le 2 date mancanti sono elencate in
-editorial-audit-baseline.md; il report di ogni esecuzione descrive lo stato corrente.
+imageAlt vuoto. Le 12 segnalazioni iniziali sono conservate in editorial-audit-baseline.md.
+Sono state risolte come documentato in editorial-resolution-2026-09-15.md;
+il report di ogni esecuzione descrive lo stato corrente.
 
 clinicalReview.status=not-recorded non dichiara una revisione avvenuta e non richiede
 l'invenzione di un autore/data. Il controllo strutturale non autentica documenti,

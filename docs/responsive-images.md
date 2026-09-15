@@ -15,6 +15,9 @@ codec versions. Repeated builds reuse dimension-checked outputs; clean checkouts
 regenerate everything from the lockfile. Only stale files inside the dedicated
 `public/images/responsive` output directory are removed.
 
+The browser imports only the compact generated `image-sources.json` index (one
+prefix and width list per original), not the detailed byte-count inventory.
+
 `ResponsiveImage` renders AVIF, WebP and original fallbacks in initial HTML. The
 transparent picture wrapper preserves the existing image box. Direct-child CSS
 rules also match `:where(picture)` without increasing specificity; existing crop,

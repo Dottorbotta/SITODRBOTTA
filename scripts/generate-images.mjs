@@ -13,6 +13,7 @@ const settings = { webp: { quality: 82, effort: 5 }, avif: { quality: 55, effort
 sharp.concurrency(1);
 await mkdir(output, { recursive: true });
 const manifest = {};
+const sources = {};
 const keep = new Set();
 for (const name of (await readdir(input)).sort()) {
   if (!/\.(webp|png|jpe?g)$/i.test(name)) continue;
@@ -40,8 +41,10 @@ for (const name of (await readdir(input)).sort()) {
     }
   }
   manifest[`/images/${name}`] = entry;
+  sources[`/images/${name}`] = { width, height, prefix: `/images/responsive/${path.parse(name).name}-${hash}`, widths: entry.webp.map(v => v.width) };
 }
 // Only remove stale generated variants; originals are never written or deleted.
 for (const name of await readdir(output)) if (!keep.has(name)) await rm(path.join(output, name));
 await writeFile(path.join(root, 'app/data/image-manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
+await writeFile(path.join(root, 'app/data/image-sources.json'), JSON.stringify(sources) + '\n');
 console.log(`Generated ${keep.size} responsive variants from ${Object.keys(manifest).length} originals (Sharp ${sharp.versions.sharp}).`);

@@ -22,8 +22,8 @@ export default function MethodPage() {
       <section className="inner-hero inner-hero--method">
         <div>
           <p className="section-label">Il Metodo Corpo Capace</p>
-          <h1>Un corpo capace<br />non è un corpo perfetto.</h1>
-          <p>È un corpo sufficientemente preparato a sostenere con continuità e affidabilità ciò che vuoi chiedergli.</p>
+          <h1>Come funziona<br />il Metodo Corpo Capace.</h1>
+          <p>Valutazione, allenamento progressivo e monitoraggio: tre passaggi per lavorare sulle capacità necessarie alle tue attività.</p>
         </div>
         <div className="inner-hero-mark" aria-hidden="true"><span>C</span><span>C</span></div>
       </section>
@@ -34,7 +34,7 @@ export default function MethodPage() {
           <h2>Allenati per tornare all’attività.</h2>
         </div>
         <div>
-          <p>Corpo Capace riporta la persona alle attività desiderate attraverso il recupero progressivo delle capacità fisiche, della tolleranza al carico e dell’affidabilità nell’uso del corpo.</p>
+          <p>Corpo Capace ha l’obiettivo di accompagnarti verso le attività che vuoi recuperare. Lavoriamo sulle capacità fisiche e sulla tolleranza al carico: quanto riesci a fare, ripetere e recuperare.</p>
           <p>Non nasce per correggere una postura, inseguire un singolo tessuto o promettere l’assenza di ogni sensazione dolorosa. Nasce per colmare il divario tra ciò che il corpo sostiene oggi e ciò che la persona vuole tornare a fare.</p>
         </div>
       </section>
@@ -52,19 +52,19 @@ export default function MethodPage() {
 
       <section className="progression-section">
         <div className="progression-heading">
-          <p className="section-label">Il meccanismo centrale</p>
-          <h2>Progressione<br />di Capacità</h2>
+          <p className="section-label">Come adattiamo l’allenamento</p>
+          <h2>Aumentare il lavoro.<br />Osservare la risposta.</h2>
           <p>Partiamo dal livello che il corpo riesce a sostenere oggi. Troviamo una dose adeguata e aumentiamo progressivamente la richiesta sulla base della risposta reale, fino all’attività desiderata.</p>
         </div>
         <div className="progression-track" aria-label="Ciclo adattivo Corpo Capace">
           {[
             ["Valutiamo", "obiettivo + capacità + dose iniziale"],
-            ["Esponiamo", "movimento e carico sostenibili"],
+            ["Alleniamo", "movimento e carico sostenibili"],
             ["Osserviamo", "sintomi + sforzo + recupero"],
             ["Adattiamo", "una variabile alla volta"],
             ["Progrediamo", "quando la risposta lo consente"],
             ["Trasferiamo", "verso il gesto reale"],
-            ["Rivalutiamo", "nuovo livello vs obiettivo"],
+            ["Rivalutiamo", "nuovo livello rispetto all’obiettivo"],
           ].map(([title, copy], index) => (
             <article key={title}><span>0{index + 1}</span><h3>{title}</h3><p>{copy}</p></article>
           ))}
@@ -129,15 +129,15 @@ export default function MethodPage() {
           <h2>Cosa facciamo, in pratica.</h2>
           <ul>
             <li>Valutazione funzionale centrata sull’attività.</li>
-            <li>Esposizione progressiva al movimento e al carico.</li>
+            <li>Movimento ed esercizi con carichi progressivi.</li>
             <li>Monitoraggio della risposta e adattamento continuo.</li>
-            <li>Trasferimento alla vita reale e costruzione di autonomia.</li>
+            <li>Preparazione alle attività quotidiane e gestione autonoma del carico.</li>
           </ul>
         </div>
       </section>
 
       <section className="final-cta final-cta--cream">
-        <p>Il metodo è chiaro. Il percorso deve essere tuo.</p>
+        <p>Da quale attività vuoi ripartire?</p>
         <h2>Definiamo il tuo obiettivo<br />e la prima dose sostenibile.</h2>
         <a className="button button--dark" href={CONSULTATION_URL} target="_blank" rel="noreferrer">Parla con il team <span>↗</span></a>
       </section>

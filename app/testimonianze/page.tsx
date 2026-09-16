@@ -31,7 +31,7 @@ export default function TestimonialsPage() {
   return (
     <><Header tone="dark" /><main id="contenuto" tabIndex={-1}>
       <section className="stories-hero">
-        <div><p className="section-label">Testimonianze</p><h1>Le storie di chi è tornato a fare.</h1><p>Camminare. Correre. Allenarsi. Vivere le proprie giornate senza chiedersi continuamente se il corpo reggerà.</p></div>
+        <div><p className="section-label">Testimonianze</p><h1>Recensioni ed esperienze<br />con Corpo Capace.</h1><p>Esperienze personali di cammino, corsa e allenamento. Le sintesi rimandano alle recensioni complete su Trustpilot; i risultati raccontati non sono una garanzia di risultati individuali.</p></div>
         <a className="stories-score" href={profileUrl} target="_blank" rel="noreferrer"><span><i>★</i> Trustpilot</span><strong>Le vostre storie</strong><small>Recensioni e valutazioni aggiornate</small><b>Leggile tutte ↗</b></a>
       </section>
       <section className="featured-stories">
@@ -43,7 +43,7 @@ export default function TestimonialsPage() {
         </div>
       </section>
       <section className="review-wall">
-        <div className="review-wall-head"><p className="section-label section-label--light">Le loro parole, in breve</p><h2>Presenza, metodo, ritorno all’attività.</h2><p>Sintesi fedeli delle recensioni pubblicate sul profilo Trustpilot di Dr. Botta.</p></div>
+        <div className="review-wall-head"><p className="section-label section-label--light">Le esperienze, in sintesi</p><h2>Presenza, metodo, ritorno all’attività.</h2><p>Sintesi fedeli delle recensioni pubblicate sul profilo Trustpilot di Dr. Botta.</p></div>
         <div className="review-wall-grid">
           {reviews.map((review) => (
             <article key={review.name}><span className="story-stars" aria-label="5 stelle su 5">★★★★★</span><h3>{review.title}</h3><p>{review.copy}</p><footer><strong>{review.name}</strong><span>{review.date}</span></footer></article>

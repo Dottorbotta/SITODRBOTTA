@@ -1,31 +1,31 @@
 {
   "slug": "asimmetria-non-e-disfunzione",
-  "title": "Un corpo simmetrico non è per forza un corpo più capace",
-  "kicker": "Quando una differenza conta e quando è solo una differenza",
+  "title": "Asimmetrie del corpo: quando contano nel movimento",
+  "kicker": "Differenze tra destra e sinistra: cosa osservare prima di correggerle.",
   "category": "Metodo",
-  "excerpt": "Un'asimmetria è un indizio, non una diagnosi. Diventa utile solo se si collega in modo plausibile alla limitazione reale.",
+  "excerpt": "Un’asimmetria non è una diagnosi. Scopri come leggere le differenze di movimento in relazione all’attività, ai sintomi e alle capacità da allenare.",
   "date": "18 agosto 2026",
-  "readingTime": "6 min",
+  "readingTime": "2 min",
   "image": "/images/brand-6da500b82980.webp",
   "accent": "sand",
-  "intro": "Foto, test e video mostrano quasi sempre differenze tra destra e sinistra. Il rischio è trasformare ogni differenza in una causa e ogni causa presunta in qualcosa da correggere. È un passaggio intuitivo, ma scientificamente fragile.",
+  "intro": "Una differenza tra destra e sinistra non indica automaticamente un problema da correggere. Per capire se conta, va messa in relazione con l’attività che risulta difficile, la risposta al carico e le capacità disponibili. Foto e test offrono indizi: da soli non spiegano la causa di una limitazione.",
   "sections": [
     {
-      "heading": "I test producono indizi",
+      "heading": "Cosa dicono i test sulle asimmetrie",
       "paragraphs": [
         "Una rotazione diversa, un appoggio non identico o una strategia di movimento particolare non rappresentano automaticamente una disfunzione. Il corpo umano è variabile e utilizza soluzioni differenti per raggiungere lo stesso risultato.",
         "L'osservazione deve essere messa in relazione con la storia, l'attività limitante, la fatica, il carico e le capacità misurabili. Senza questa relazione rischia di diventare soltanto un'etichetta."
       ]
     },
     {
-      "heading": "Quando un'osservazione acquista peso",
+      "heading": "Quando una differenza merita attenzione",
       "paragraphs": [
-        "Una differenza è più interessante se compare proprio nel compito problematico, si ripete in più situazioni, peggiora aumentando la richiesta o si associa a una capacità chiaramente ridotta.",
+        "Una differenza è più interessante se compare proprio nel [compito problematico](/blog/il-test-vero-e-la-vita), si ripete in più situazioni, peggiora aumentando la richiesta o si associa a una capacità chiaramente ridotta.",
         "Diventa ancora più utile quando cambia modificando una variabile precisa e quel cambiamento migliora il compito. Non dimostra da solo causalità, ma offre una direzione allenabile e verificabile."
       ]
     },
     {
-      "heading": "Non correggere ciò che è diverso. Allena ciò che limita",
+      "heading": "Scegliere le capacità utili per il tuo obiettivo",
       "paragraphs": [
         "Il principio di priorità protegge il percorso da una lista infinita di correzioni. Si interviene sulle variabili con il rapporto più utile con l'obiettivo, la limitazione reale e la possibilità di essere rivalutate.",
         "Il risultato non è assomigliare a un modello ideale. È disporre di abbastanza opzioni di movimento e tolleranza per sostenere ciò che vuoi fare con continuità e affidabilità."
@@ -38,8 +38,8 @@
     "Dai priorità a ciò che cambia la funzione e può essere rivalutato.",
     "Il bersaglio è la capacità, non la perfezione estetica del movimento."
   ],
-  "description": "Un'asimmetria è un indizio, non una diagnosi. Diventa utile solo se si collega in modo plausibile alla limitazione reale.",
-  "seoDescription": "Un'asimmetria è un indizio, non una diagnosi. Diventa utile solo se si collega in modo plausibile alla limitazione reale.",
+  "description": "Un’asimmetria non è una diagnosi. Scopri come leggere le differenze di movimento in relazione all’attività, ai sintomi e alle capacità da allenare.",
+  "seoDescription": "Un’asimmetria non è una diagnosi. Scopri come leggere le differenze di movimento in relazione all’attività, ai sintomi e alle capacità da allenare.",
   "tags": [
     "Metodo",
     "Corpo Capace"
@@ -63,5 +63,6 @@
     "quando-aumentare-il-carico"
   ],
   "cta": "/percorsi",
-  "imageAlt": "Uomo in mezzo inginocchio che esegue un esercizio con elastico davanti a uno smartphone su treppiede."
+  "imageAlt": "Uomo in mezzo inginocchio che esegue un esercizio con elastico davanti a uno smartphone su treppiede.",
+  "seoTitle": "Asimmetrie del corpo: quando contano | Dr. Botta"
 }

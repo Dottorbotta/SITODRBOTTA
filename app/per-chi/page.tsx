@@ -32,8 +32,8 @@ export default function ForWhoPage() {
       <section className="audience-hero">
         <div className="audience-hero-copy">
           <p className="section-label">Per chi è Corpo Capace</p>
-          <h1>Ti muovi.<br /><em>Ma vuoi sentirti più sicuro.</em></h1>
-          <p>Il punto non è avere una diagnosi specifica o dolore tutti i giorni. Il punto è non riuscire più a sostenere con affidabilità l’attività che conta per te.</p>
+          <h1>Vuoi riprendere<br /><em>cammino, palestra o sport?</em></h1>
+          <p>Corpo Capace si rivolge a chi vuole recuperare un’attività che oggi riesce a svolgere solo in parte o con poca continuità. Valutiamo insieme se un percorso di allenamento è adatto alla tua situazione.</p>
           <div className="audience-hero-actions">
             <a className="button button--primary" href={CONSULTATION_URL} target="_blank" rel="noreferrer">Parla con il team <span>↗</span></a>
             <a className="text-link text-link--light" href="#ti-riconosci">Ti riconosci? <span>↓</span></a>
@@ -48,9 +48,9 @@ export default function ForWhoPage() {
 
       <section className="recognition-deep" id="ti-riconosci">
         <div className="recognition-deep-heading">
-          <p className="section-label">Sei nel posto giusto se</p>
+          <p className="section-label">Situazioni da cui possiamo partire</p>
           <h2>Quando chiedi di più al corpo.</h2>
-          <p>Non devi riconoscerti in ogni situazione. Basta che esista una distanza concreta tra ciò che riesci a sostenere oggi e ciò che vuoi tornare a fare.</p>
+          <p>Questi esempi aiutano a descrivere il tuo punto di partenza. Riconoscerti in uno di essi non sostituisce la verifica iniziale di appropriatezza del percorso.</p>
         </div>
         <div className="signal-grid">
           {signals.map(([number, title, copy]) => (
@@ -68,7 +68,7 @@ export default function ForWhoPage() {
           {["Persistente", "Ricorrente", "Intermittente", "Lieve o assente tra gli episodi"].map((item, index) => (
             <div key={item}><span>0{index + 1}</span><strong>{item}</strong></div>
           ))}
-          <p>Il denominatore comune è la perdita di affidabilità rispetto a una richiesta significativa, non l’intensità del sintomo in un singolo momento.</p>
+          <p>Osserviamo quanto riesci a camminare, allenarti o praticare sport con continuità. L’intensità del dolore in un singolo momento è solo una parte del quadro.</p>
         </div>
       </section>
 
@@ -87,11 +87,11 @@ export default function ForWhoPage() {
 
       <section className="eligibility-section">
         <div className="eligibility-good">
-          <p className="section-label">Quando ha senso candidarsi</p>
+          <p className="section-label">Quando considerare il percorso</p>
           <h2>Quando serve ricostruire capacità.</h2>
           <ul>
             <li>Hai un’attività concreta alla quale vuoi tornare.</li>
-            <li>Sei disponibile ad allenarti con continuità e a condividere feedback.</li>
+            <li>Sei disponibile ad allenarti con continuità e a condividere come rispondi agli esercizi.</li>
             <li>Vuoi imparare a dosare il carico, non evitare per sempre ciò che temi.</li>
             <li>Cerchi un programma adattato a obiettivo, tempo, attrezzatura e risposta reale.</li>
           </ul>

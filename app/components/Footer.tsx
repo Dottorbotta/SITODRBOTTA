@@ -9,7 +9,7 @@ export function Footer() {
             <span className="wordmark-main">CORPO CAPACE</span>
             <span className="wordmark-sub">UN METODO DR. BOTTA</span>
           </Link>
-          <p>Allenamento personalizzato per tornare alle attività che contano, costruendo capacità, affidabilità e autonomia.</p>
+          <p>Allenamento personalizzato per riprendere le tue attività e imparare a gestire esercizi, carico e recupero.</p>
         </div>
         <div className="footer-column">
           <h2>Esplora</h2>

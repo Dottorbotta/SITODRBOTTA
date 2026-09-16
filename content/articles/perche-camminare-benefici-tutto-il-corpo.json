@@ -1,11 +1,11 @@
 {
   "slug": "perche-camminare-benefici-tutto-il-corpo",
-  "title": "Perché camminare ha benefici su tutto il corpo ed è il primo punto di partenza del movimento",
-  "kicker": "Il gesto più semplice può diventare una vera progressione di capacità",
+  "title": "Benefici del camminare: riprendere con gradualità",
+  "kicker": "Durata, ritmo e terreno rendono la camminata un’attività da dosare.",
   "category": "Metodo",
-  "excerpt": "Camminare coinvolge tutto il corpo, permette di regolare con precisione la dose e può diventare il primo ponte tra sedentarietà, recupero e attività più impegnative.",
+  "excerpt": "Camminare coinvolge tutto il corpo. Come adattare durata, velocità e terreno al tuo livello e costruire una progressione verso le attività desiderate.",
   "date": "6 settembre 2026",
-  "readingTime": "8 min",
+  "readingTime": "4 min",
   "image": "/images/brand-023f3900e8f5.webp",
   "accent": "sage",
   "intro": "Camminare viene spesso considerato troppo semplice per essere allenamento. In realtà è un compito complesso e ripetuto: richiede coordinazione, equilibrio, forza, mobilità utile, capacità cardiovascolare e tolleranza al carico. Proprio perché è accessibile e facilmente dosabile, può diventare il primo punto di partenza per ricostruire movimento e fiducia nel corpo.",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "heading": "Perché è un punto di partenza così utile",
+      "heading": "Durata, velocità e terreno: come dosare la camminata",
       "paragraphs": [
         "La camminata consente di modificare facilmente durata, velocità, frequenza, terreno, pendenza e pause. Possiamo quindi trovare una dose iniziale compatibile con la capacità attuale e produrre uno stimolo senza partire dalla richiesta massima.",
         "Per chi è stato fermo, ha perso continuità o non si sente ancora pronto per correre, questa possibilità è preziosa. Camminare rende il carico misurabile: non è soltanto «muoversi un po’», ma esporsi a una quantità precisa di lavoro e osservare come il corpo risponde."
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "heading": "Dal punto di partenza alla progressione",
+      "heading": "Come aumentare gradualmente il cammino",
       "paragraphs": [
         "Nel Metodo Corpo Capace partiamo dal tempo o dalla distanza che riesci a sostenere oggi con sufficiente affidabilità. Poi scegliamo una variabile alla volta: qualche minuto in più, un ritmo leggermente diverso, una seconda uscita, un terreno meno regolare o un piccolo dislivello.",
         "Dopo l’esposizione osserviamo sforzo percepito, andamento dei sintomi, qualità del movimento, recupero e disponibilità per il giorno seguente. Se la risposta è adeguata si progredisce; se serve consolidare si mantiene; se la richiesta era eccessiva si modifica la dose senza interpretare l’episodio come un ritorno al punto di partenza."
@@ -42,7 +42,7 @@
       "heading": "Quando camminare prepara alla corsa",
       "paragraphs": [
         "La corsa aumenta velocità, forze e ripetizione degli appoggi. Per questo riuscire a camminare con continuità può rappresentare una base utile, ma non è da solo la prova che il corpo sia pronto a correre. Il passaggio richiede esposizioni più specifiche.",
-        "Una strategia possibile è alternare tratti di cammino e corsa, regolando durata, ritmo e recupero. La progressione non dipende da una tabella universale: dipende dalla distanza tra la capacità attuale e la corsa che vuoi recuperare, che sia una breve uscita o dieci chilometri."
+        "Una strategia possibile è alternare tratti di cammino e corsa, regolando durata, ritmo e recupero. [La progressione](/blog/stare-meglio-non-basta-tornare-a-correre) non dipende da una tabella universale: dipende dalla distanza tra la capacità attuale e la corsa che vuoi recuperare, che sia una breve uscita o dieci chilometri."
       ]
     },
     {
@@ -60,8 +60,8 @@
     "La risposta nelle 24–48 ore aiuta a decidere se progredire, mantenere o adattare.",
     "Per alcuni la camminata prepara alla corsa; per altri è già il vero obiettivo."
   ],
-  "description": "Camminare coinvolge tutto il corpo, permette di regolare con precisione la dose e può diventare il primo ponte tra sedentarietà, recupero e attività più impegnative.",
-  "seoDescription": "Camminare coinvolge tutto il corpo, permette di regolare con precisione la dose e può diventare il primo ponte tra sedentarietà, recupero e attività più impegnative.",
+  "description": "Camminare coinvolge tutto il corpo. Come adattare durata, velocità e terreno al tuo livello e costruire una progressione verso le attività desiderate.",
+  "seoDescription": "Camminare coinvolge tutto il corpo. Come adattare durata, velocità e terreno al tuo livello e costruire una progressione verso le attività desiderate.",
   "tags": [
     "Metodo",
     "Corpo Capace"
@@ -85,5 +85,6 @@
     "quando-aumentare-il-carico"
   ],
   "cta": "/percorsi",
-  "imageAlt": "Uomo in mezzo inginocchio con un elastico intorno al ginocchio; scritta «Programmi riabilitativi RE-ACTIVE»."
+  "imageAlt": "Uomo in mezzo inginocchio con un elastico intorno al ginocchio; scritta «Programmi riabilitativi RE-ACTIVE».",
+  "seoTitle": "Benefici del camminare e ripresa graduale | Dr. Botta"
 }

@@ -53,7 +53,7 @@ export function BlogExplorer({ articles }: { articles: ArticleSummary[] }) {
           ))}
         </div>
       ) : (
-        <div className="blog-empty"><h2>Nessun articolo trovato.</h2><p>Prova un termine più ampio oppure seleziona “Tutti”.</p></div>
+        <div className="blog-empty"><h2>Nessun articolo trovato.</h2><p>Prova parole come “piede” o “corsa”. Se hai scelto un argomento, seleziona “Tutti” per ampliare la ricerca.</p></div>
       )}
     </section>
   );

@@ -1,33 +1,33 @@
 {
   "slug": "il-test-vero-e-la-vita",
-  "title": "Camminare, palestra, trekking: il test vero è la vita",
-  "kicker": "Il trasferimento è la parte che spesso manca",
+  "title": "Dagli esercizi alla vita quotidiana: verificare i progressi",
+  "kicker": "Cammino, palestra e trekking sono la verifica del lavoro svolto.",
   "category": "Ritorno allo sport",
-  "excerpt": "Migliorare un esercizio non basta se quella capacità non torna disponibile nel compito che conta davvero.",
+  "excerpt": "Come capire se i progressi negli esercizi si trasferiscono a cammino, palestra e trekking: osservare durata, frequenza, recupero e autonomia.",
   "date": "6 agosto 2026",
-  "readingTime": "6 min",
+  "readingTime": "2 min",
   "image": "/images/brand-db261c509ec7.webp",
   "accent": "clay",
-  "intro": "Puoi diventare più forte in un esercizio e restare insicuro sulle scale. Puoi migliorare un test di equilibrio e non riuscire ancora a fare trekking. Il problema non è che il lavoro sia inutile: spesso manca il trasferimento verso la richiesta reale.",
+  "intro": "Un progresso negli esercizi diventa utile quando ti aiuta nell’attività che vuoi recuperare. Forza ed equilibrio possono migliorare prima che scale, palestra o trekking tornino gestibili: per verificarlo, il programma deve avvicinarsi gradualmente alla durata, al terreno e ai carichi della vita reale.",
   "sections": [
     {
-      "heading": "Dalla capacità generale a quella specifica",
+      "heading": "Preparare il gesto che vuoi recuperare",
       "paragraphs": [
         "Mobilità, controllo e forza costruiscono una base. Ma ogni attività combina quelle qualità in modo diverso: camminare richiede ripetizione, il trekking aggiunge terreno e dislivello, la palestra richiede carichi e gesti specifici, il padel impone accelerazioni e cambi di direzione.",
         "Per questo il programma deve diventare progressivamente più simile al compito, senza saltare dalla base alla richiesta completa in un solo passaggio."
       ]
     },
     {
-      "heading": "La dose reale è più importante del nome dell'attività",
+      "heading": "Durata, frequenza e intensità: definire il risultato",
       "paragraphs": [
         "Dire «riesco a camminare» non specifica se parliamo di dieci minuti su terreno piano o di due ore con salite. Dire «sono tornato in palestra» non chiarisce frequenza, esercizi, volume o intensità.",
         "L'affidabilità compare quando la capacità è disponibile alla dose necessaria, può essere ripetuta e produce un recupero compatibile con la vita della persona."
       ]
     },
     {
-      "heading": "Autonomia, non dipendenza",
+      "heading": "Imparare a gestire il carico in autonomia",
       "paragraphs": [
-        "Il trasferimento include anche imparare a leggere la risposta del proprio corpo. La persona deve riconoscere una dose eccessiva, sapere quale variabile ridurre temporaneamente e interpretare una ricaduta senza pensare di essere tornata al punto di partenza.",
+        "Il trasferimento include anche imparare a [leggere la risposta del proprio corpo](/blog/la-paghi-il-giorno-dopo). La persona deve riconoscere una dose eccessiva, sapere quale variabile ridurre temporaneamente e interpretare una ricaduta senza pensare di essere tornata al punto di partenza.",
         "La supervisione è utile finché serve. Il risultato di lungo periodo è un corpo più capace e una persona più autonoma nel gestirlo."
       ]
     }
@@ -38,8 +38,8 @@
     "La specificità aumenta gradualmente, non tutta insieme.",
     "Il successo include autonomia nella gestione del carico."
   ],
-  "description": "Migliorare un esercizio non basta se quella capacità non torna disponibile nel compito che conta davvero.",
-  "seoDescription": "Migliorare un esercizio non basta se quella capacità non torna disponibile nel compito che conta davvero.",
+  "description": "Come capire se i progressi negli esercizi si trasferiscono a cammino, palestra e trekking: osservare durata, frequenza, recupero e autonomia.",
+  "seoDescription": "Come capire se i progressi negli esercizi si trasferiscono a cammino, palestra e trekking: osservare durata, frequenza, recupero e autonomia.",
   "tags": [
     "Ritorno allo sport",
     "Corpo Capace"
@@ -61,5 +61,6 @@
     "stare-meglio-non-basta-tornare-a-correre"
   ],
   "cta": "/percorsi",
-  "imageAlt": "Atleta in corsa su una pista; scritta «Programmi allenanti PERFORMANCE»."
+  "imageAlt": "Atleta in corsa su una pista; scritta «Programmi allenanti PERFORMANCE».",
+  "seoTitle": "Dagli esercizi alla vita: verificare i progressi | Dr. Botta"
 }

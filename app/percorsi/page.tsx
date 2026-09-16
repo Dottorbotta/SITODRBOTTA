@@ -31,13 +31,13 @@ const pillars = [
 ];
 
 const phases = [
-  { number: "01", title: "Verifica del perimetro", copy: "Prima di allenare, verifichiamo che il percorso attivo sia appropriato. Quando serve, la priorità resta l’inquadramento sanitario." },
+  { number: "01", title: "Verifica di appropriatezza", copy: "Prima di allenare, verifichiamo che il percorso attivo sia appropriato. Quando serve, la priorità resta l’inquadramento sanitario." },
   { number: "02", title: "Obiettivo concreto", copy: "Traduciamo «stare meglio» in qualcosa di osservabile: una distanza, un carico, una durata, una frequenza o un gesto." },
   { number: "03", title: "Valutazione funzionale", copy: "Integriamo colloquio, test, video e risposta al carico per capire il tuo punto di partenza affidabile." },
   { number: "04", title: "Gap di Capacità", copy: "Confrontiamo ciò che il corpo sostiene oggi con ciò che l’attività richiede, individuando poche priorità allenabili." },
-  { number: "05", title: "Programma personale", copy: "Ricevi esercizi, routine ed esposizioni progressive con indicazioni chiare su dose, frequenza e segnali da osservare." },
+  { number: "05", title: "Programma personale", copy: "Ricevi esercizi e attività graduali, con indicazioni su quantità di lavoro, frequenza e segnali da osservare." },
   { number: "06", title: "Feedback e adattamento", copy: "Osserviamo l’esecuzione e la risposta. Possiamo progredire, mantenere oppure modificare senza ripartire ogni volta da zero." },
-  { number: "07", title: "Retest e trasferimento", copy: "Rivalutiamo le capacità e rendiamo il lavoro sempre più vicino alla vita, all’allenamento o allo sport a cui vuoi tornare." },
+  { number: "07", title: "Rivalutazione e ritorno all’attività", copy: "Rivalutiamo le capacità e rendiamo il lavoro sempre più vicino alla vita, all’allenamento o allo sport a cui vuoi tornare." },
 ];
 
 const included = [
@@ -46,9 +46,9 @@ const included = [
   "Programma personalizzato fruibile anche da casa o in palestra",
   "Video dimostrativi e istruzioni sulla dose di lavoro",
   "Invio dei tuoi video per ricevere feedback tecnici",
-  "Check periodici su sintomi, sforzo, recupero e attività svolte",
-  "Aggiornamenti del programma e live mirate quando servono",
-  "Retest e progressione verso le richieste reali dell’attività",
+  "Controlli periodici su sintomi, sforzo, recupero e attività svolte",
+  "Aggiornamenti del programma e incontri in diretta quando servono",
+  "Ripetizione dei test e progressione verso l’attività da recuperare",
 ];
 
 export default function PathPage() {
@@ -58,8 +58,8 @@ export default function PathPage() {
       <section className="journey-hero">
         <div className="journey-hero-copy">
           <p className="section-label section-label--light">Il percorso Corpo Capace</p>
-          <h1>Tornare a fare.<br />Con un corpo più affidabile.</h1>
-          <p>Un percorso di allenamento personalizzato che collega il punto in cui sei alle attività che vuoi riprendere, attraverso valutazione, progressione e monitoraggio.</p>
+          <h1>Allenamento su misura.<br />Anche online.</h1>
+          <p>Un programma personalizzato, video e confronti con il team per riprendere le attività che contano per te. Si può svolgere a casa o in palestra, con esercizi e carichi adattati alla tua situazione.</p>
           <div className="journey-actions">
             <a className="button button--primary" href={contactHref} target="_blank" rel="noreferrer">Parla con il team <span>↗</span></a>
             <Link href="/per-chi" className="journey-text-link">Verifica se è per te →</Link>
@@ -68,7 +68,7 @@ export default function PathPage() {
         </div>
         <figure className="journey-hero-media">
           <ResponsiveImage sizes="(max-width: 900px) 90vw, 43vw" loading="eager" fetchPriority="high" width="1000" height="750" src="/images/brand-023f3900e8f5.webp" alt="Persona seguita durante un esercizio del percorso Corpo Capace" />
-          <figcaption><strong>Non una scheda da eseguire.</strong><span>Un processo che evolve con te.</span></figcaption>
+          <figcaption><strong>Un programma da adattare.</strong><span>In base a come rispondi agli esercizi.</span></figcaption>
         </figure>
       </section>
 
@@ -97,7 +97,7 @@ export default function PathPage() {
         <div className="journey-gap-copy">
           <p className="section-label section-label--light">La soluzione Corpo Capace</p>
           <h2>Dal sollievo<br />alla capacità.</h2>
-          <p>Chiamiamo questo divario <strong>Gap di Capacità</strong>. Il percorso lo riduce costruendo, nella combinazione utile per te, mobilità, controllo, forza, tolleranza e capacità specifica.</p>
+          <p>Chiamiamo questo divario <strong>Gap di Capacità</strong>. Lavoriamo per ridurlo allenando, nella combinazione utile per te, mobilità, controllo, forza, tolleranza e capacità specifica.</p>
           <p>Il sintomo resta un dato importante, ma viene letto insieme a funzione, dose, recupero e contesto.</p>
         </div>
       </section>
@@ -115,7 +115,7 @@ export default function PathPage() {
       <section className="journey-pillars">
         <div className="journey-pillars-intro">
           <p className="section-label section-label--light">I tre pilastri</p>
-          <h2>Tre pilastri.<br />Un percorso personale.</h2>
+          <h2>Valutazione, allenamento<br />e monitoraggio.</h2>
           <p>Ogni fase produce informazioni utili alla fase successiva. Così il programma non resta statico e la progressione non viene affidata al caso.</p>
         </div>
         <div className="journey-pillar-list">
@@ -127,7 +127,7 @@ export default function PathPage() {
         <div className="journey-cycle-heading">
           <p className="section-label">Come funziona</p>
           <h2>Sette passaggi.<br />Un ciclo che si adatta.</h2>
-          <p>Non sono caselle da spuntare una volta sola: valutazione, esposizione e risposta si alimentano a vicenda fino al trasferimento nell’attività.</p>
+          <p>Rivediamo questi passaggi durante il percorso: ciò che osserviamo negli esercizi e nel recupero guida gli adattamenti, fino alle attività che vuoi riprendere.</p>
         </div>
         <div className="journey-cycle-list">
           {phases.map((phase) => <article key={phase.number}><span>{phase.number}</span><div><h3>{phase.title}</h3><p>{phase.copy}</p></div></article>)}

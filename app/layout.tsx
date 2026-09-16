@@ -11,17 +11,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./restyling.css";
 import { SiteSchema } from "./lib/seo";
-import { SITE_ORIGIN } from "./lib/site";
+import { SITE_ORIGIN, editorialPages } from "./lib/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
   robots: { index: false, follow: true },
   manifest: "/manifest.webmanifest",
   title: {
-    default: "Metodo Corpo Capace | Dr. Botta",
+    default: editorialPages[0].title,
     template: "%s",
   },
-  description: "Allenamento personalizzato per tornare alle attività che contano, costruendo capacità, affidabilità e autonomia.",
+  description: editorialPages[0].description,
   icons: { icon: "/favicon.svg" },
 };
 

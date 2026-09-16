@@ -1,0 +1,2485 @@
+{
+  "scope": "Revisione di chiarezza e SEO richiesta dall’utente; non è una revisione clinica.",
+  "baseCommit": "78d38808db5295e680ce86761a7361f669217b86",
+  "readingTime": "Stima: parole del corpo e dei riepiloghi / 200, arrotondata per eccesso.",
+  "articles": [
+    {
+      "slug": "asimmetria-non-e-disfunzione",
+      "changes": {
+        "title": {
+          "before": "Un corpo simmetrico non è per forza un corpo più capace",
+          "after": "Asimmetrie del corpo: quando contano nel movimento"
+        },
+        "kicker": {
+          "before": "Quando una differenza conta e quando è solo una differenza",
+          "after": "Differenze tra destra e sinistra: cosa osservare prima di correggerle."
+        },
+        "excerpt": {
+          "before": "Un'asimmetria è un indizio, non una diagnosi. Diventa utile solo se si collega in modo plausibile alla limitazione reale.",
+          "after": "Un’asimmetria non è una diagnosi. Scopri come leggere le differenze di movimento in relazione all’attività, ai sintomi e alle capacità da allenare."
+        },
+        "readingTime": {
+          "before": "6 min",
+          "after": "2 min"
+        },
+        "intro": {
+          "before": "Foto, test e video mostrano quasi sempre differenze tra destra e sinistra. Il rischio è trasformare ogni differenza in una causa e ogni causa presunta in qualcosa da correggere. È un passaggio intuitivo, ma scientificamente fragile.",
+          "after": "Una differenza tra destra e sinistra non indica automaticamente un problema da correggere. Per capire se conta, va messa in relazione con l’attività che risulta difficile, la risposta al carico e le capacità disponibili. Foto e test offrono indizi: da soli non spiegano la causa di una limitazione."
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "I test producono indizi",
+              "paragraphs": [
+                "Una rotazione diversa, un appoggio non identico o una strategia di movimento particolare non rappresentano automaticamente una disfunzione. Il corpo umano è variabile e utilizza soluzioni differenti per raggiungere lo stesso risultato.",
+                "L'osservazione deve essere messa in relazione con la storia, l'attività limitante, la fatica, il carico e le capacità misurabili. Senza questa relazione rischia di diventare soltanto un'etichetta."
+              ]
+            },
+            {
+              "heading": "Quando un'osservazione acquista peso",
+              "paragraphs": [
+                "Una differenza è più interessante se compare proprio nel compito problematico, si ripete in più situazioni, peggiora aumentando la richiesta o si associa a una capacità chiaramente ridotta.",
+                "Diventa ancora più utile quando cambia modificando una variabile precisa e quel cambiamento migliora il compito. Non dimostra da solo causalità, ma offre una direzione allenabile e verificabile."
+              ]
+            },
+            {
+              "heading": "Non correggere ciò che è diverso. Allena ciò che limita",
+              "paragraphs": [
+                "Il principio di priorità protegge il percorso da una lista infinita di correzioni. Si interviene sulle variabili con il rapporto più utile con l'obiettivo, la limitazione reale e la possibilità di essere rivalutate.",
+                "Il risultato non è assomigliare a un modello ideale. È disporre di abbastanza opzioni di movimento e tolleranza per sostenere ciò che vuoi fare con continuità e affidabilità."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Cosa dicono i test sulle asimmetrie",
+              "paragraphs": [
+                "Una rotazione diversa, un appoggio non identico o una strategia di movimento particolare non rappresentano automaticamente una disfunzione. Il corpo umano è variabile e utilizza soluzioni differenti per raggiungere lo stesso risultato.",
+                "L'osservazione deve essere messa in relazione con la storia, l'attività limitante, la fatica, il carico e le capacità misurabili. Senza questa relazione rischia di diventare soltanto un'etichetta."
+              ]
+            },
+            {
+              "heading": "Quando una differenza merita attenzione",
+              "paragraphs": [
+                "Una differenza è più interessante se compare proprio nel [compito problematico](/blog/il-test-vero-e-la-vita), si ripete in più situazioni, peggiora aumentando la richiesta o si associa a una capacità chiaramente ridotta.",
+                "Diventa ancora più utile quando cambia modificando una variabile precisa e quel cambiamento migliora il compito. Non dimostra da solo causalità, ma offre una direzione allenabile e verificabile."
+              ]
+            },
+            {
+              "heading": "Scegliere le capacità utili per il tuo obiettivo",
+              "paragraphs": [
+                "Il principio di priorità protegge il percorso da una lista infinita di correzioni. Si interviene sulle variabili con il rapporto più utile con l'obiettivo, la limitazione reale e la possibilità di essere rivalutate.",
+                "Il risultato non è assomigliare a un modello ideale. È disporre di abbastanza opzioni di movimento e tolleranza per sostenere ciò che vuoi fare con continuità e affidabilità."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "Un'asimmetria è un indizio, non una diagnosi. Diventa utile solo se si collega in modo plausibile alla limitazione reale.",
+          "after": "Un’asimmetria non è una diagnosi. Scopri come leggere le differenze di movimento in relazione all’attività, ai sintomi e alle capacità da allenare."
+        },
+        "seoDescription": {
+          "before": "Un'asimmetria è un indizio, non una diagnosi. Diventa utile solo se si collega in modo plausibile alla limitazione reale.",
+          "after": "Un’asimmetria non è una diagnosi. Scopri come leggere le differenze di movimento in relazione all’attività, ai sintomi e alle capacità da allenare."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Asimmetrie del corpo: quando contano | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "asimmetria-non-e-disfunzione",
+        "category": "Metodo",
+        "date": "18 agosto 2026",
+        "publishedAt": "2026-08-18",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "image": "/images/brand-6da500b82980.webp",
+        "imageAlt": "Uomo in mezzo inginocchio che esegue un esercizio con elastico davanti a uno smartphone su treppiede.",
+        "featuredImage": "/images/brand-6da500b82980.webp",
+        "canonical": "/blog/asimmetria-non-e-disfunzione",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "perche-camminare-benefici-tutto-il-corpo",
+          "la-paghi-il-giorno-dopo",
+          "quando-aumentare-il-carico"
+        ],
+        "takeaways": [
+          "Asimmetria non significa automaticamente patologia.",
+          "Collega sempre il test al compito che limita la persona.",
+          "Dai priorità a ciò che cambia la funzione e può essere rivalutato.",
+          "Il bersaglio è la capacità, non la perfezione estetica del movimento."
+        ]
+      }
+    },
+    {
+      "slug": "condromalacia-rotulea",
+      "changes": {
+        "title": {
+          "before": "Condromalacia rotulea: cosa significa davvero per il tuo ginocchio?",
+          "after": "Condromalacia rotulea: referto, dolore e movimento"
+        },
+        "seoTitle": {
+          "before": "Condromalacia rotulea: dolore, esercizi e cosa significa",
+          "after": "Condromalacia rotulea: dolore ed esercizio | Dr. Botta"
+        },
+        "kicker": {
+          "before": "Il referto descrive una struttura. Il percorso parte anche da ciò che vuoi tornare a fare.",
+          "after": "Come leggere il referto insieme ai sintomi e alle attività che vuoi recuperare."
+        },
+        "excerpt": {
+          "before": "Condromalacia rotulea: cosa significa, perché il ginocchio può far male e come gestire carico, esercizio e progressione senza inutili allarmismi.",
+          "after": "Cosa significa condromalacia rotulea e come si distingue dal dolore femoro-rotuleo. Esercizio, gestione del carico e situazioni da valutare con un sanitario."
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "Il referto e la tua vita quotidiana",
+              "paragraphs": [
+                "Apri il referto della risonanza e trovi scritto:",
+                "**“condropatia femoro-rotulea”**,\n**“condromalacia rotulea”**,\nmagari accompagnata da un grado.",
+                "Fino al giorno prima avevi un problema concreto: il ginocchio faceva male sulle scale, durante gli squat oppure dopo essere rimasto seduto a lungo.",
+                "Da quel momento rischi di avere un problema in più: l'idea di possedere una cartilagine consumata che devi proteggere.",
+                "Cominci a evitare le scale.",
+                "Riduci gli squat.",
+                "Smetti di correre.",
+                "In palestra cerchi di non piegare troppo il ginocchio.",
+                "Il dolore magari diminuisce perché hai ridotto quasi tutte le attività che lo provocavano.",
+                "Ma c'è una domanda importante:",
+                "**il ginocchio è realmente diventato più capace oppure gli stai semplicemente chiedendo sempre meno?**",
+                "Sono due cose molto diverse.",
+                "La condromalacia può essere una parte del quadro. Non dovrebbe automaticamente diventare la spiegazione di tutto ciò che senti né una condanna sulla quantità di attività che potrai fare.",
+                "Per capire cosa fare serve mettere insieme almeno quattro elementi:",
+                "**struttura → sintomi → funzione → richieste della tua vita.**"
+              ]
+            },
+            {
+              "heading": "Che cos'è la condromalacia rotulea?",
+              "paragraphs": [
+                "**La condromalacia rotulea indica alterazioni della cartilagine articolare della rotula. Non è però corretto utilizzare automaticamente il grado di alterazione della cartilagine come misura diretta del dolore, della funzione o della futura capacità del ginocchio.**",
+                "Qui serve una distinzione importante.",
+                "### Che cosa mostra l'esame?",
+                "Una risonanza magnetica può identificare alterazioni della cartilagine femoro-rotulea e descriverne caratteristiche ed estensione.",
+                "### Che cosa sente la persona?",
+                "Dolore, rigidità, fastidio sulle scale, durante uno squat, correndo o dopo essere rimasta seduta.",
+                "### Che cosa riesce a fare?",
+                "Camminare 10 chilometri? Salire due piani? Fare uno squat? Correre? Allenarsi tre volte alla settimana?",
+                "Queste tre informazioni sono collegate, ma **non sono sinonimi**.",
+                "La letteratura sul ginocchio mostra inoltre che reperti strutturali alla risonanza possono essere presenti anche in persone senza dolore e diventano più frequenti con l'età. Questo non significa che gli esami siano inutili: significa che vanno interpretati all'interno del quadro clinico, anziché trasformati automaticamente in una prognosi funzionale.",
+                "Una risonanza descrive una struttura.",
+                "**Non misura direttamente quanto riesci a salire le scale, quanto puoi allenarti o quanto carico sarai capace di tollerare tra sei mesi.**"
+              ]
+            },
+            {
+              "heading": "Condromalacia e dolore femoro-rotuleo sono la stessa cosa?",
+              "paragraphs": [
+                "**Non esattamente. “Condromalacia” descrive tradizionalmente un'alterazione della cartilagine; “dolore femoro-rotuleo” identifica invece un quadro clinico caratterizzato soprattutto da dolore intorno o dietro la rotula durante attività che caricano il ginocchio in flessione. I due quadri possono sovrapporsi, ma non devono essere confusi automaticamente.**",
+                "Il consenso internazionale sul dolore femoro-rotuleo utilizza come elemento centrale un dolore intorno o dietro la rotula provocato da attività come squat, scale, corsa o salti. La diagnosi è principalmente clinica e non dipende obbligatoriamente dalla presenza di una specifica alterazione alla risonanza.",
+                "Questo spiega una situazione frequente:",
+                "due persone possono avere referti apparentemente simili ma capacità, sintomi e obiettivi completamente diversi.",
+                "Il referto va quindi letto.",
+                "Ma poi bisogna guardare la persona."
+              ]
+            },
+            {
+              "heading": "Perché il ginocchio fa male sulle scale?",
+              "paragraphs": [
+                "**Salire e scendere le scale richiede al ginocchio di gestire forze maggiori rispetto alla normale camminata. Se in quel momento la richiesta supera ciò che il sistema riesce a tollerare, le scale possono diventare sintomatiche senza significare automaticamente che ogni gradino stia danneggiando ulteriormente la cartilagine.**",
+                "Camminare e salire una scala possono sembrare attività simili.",
+                "Biomeccanicamente non lo sono.",
+                "Una revisione sistematica ha stimato, nei soggetti sani, una forza di reazione femoro-rotulea media di circa **0,9 volte il peso corporeo durante il cammino**, rispetto a circa **3,2 volte durante la salita delle scale** e **2,8 volte durante la discesa**. La corsa raggiunge valori medi ancora superiori. Sono stime biomeccaniche e non rappresentano un “misuratore di danno”, ma mostrano bene quanto possa cambiare la richiesta tra attività differenti.",
+                "Ed è qui che cambia la domanda.",
+                "Non soltanto:",
+                "**“Perché ho male?”**",
+                "ma anche:",
+                "**“Che cosa sto chiedendo oggi al mio ginocchio?”**",
+                "[Approfondisci il dolore al ginocchio sulle scale](/blog/dolore-davanti-ginocchio-scale)."
+              ]
+            },
+            {
+              "heading": "Condromalacia rotulea: dolore significa che la cartilagine si sta consumando?",
+              "paragraphs": [
+                "**No. La presenza di dolore durante un'attività non permette, da sola, di concludere che in quel momento la cartilagine si stia deteriorando. Sintomi e struttura devono essere interpretati insieme a carico, storia recente, funzione e risposta individuale.**",
+                "Questo non significa che la struttura non conti.",
+                "Significa evitare l'equazione:",
+                "**dolore = danno che aumenta ad ogni movimento.**",
+                "Anche le caratteristiche rilevate tramite imaging mostrano associazioni variabili con il dolore femoro-rotuleo. Alcuni reperti possono essere clinicamente rilevanti, ma l'immagine da sola non spiega in maniera completa l'esperienza della persona.",
+                "Per questo la soluzione non consiste necessariamente nel cercare di non caricare più la rotula.",
+                "Serve capire **quale carico è attualmente tollerabile e quale capacità deve essere sviluppata per affrontarne progressivamente di più.**"
+              ]
+            },
+            {
+              "heading": "Il punto centrale: richiesta e capacità",
+              "paragraphs": [
+                "Immagina di voler salire una rampa di scale: la richiesta del compito può superare la capacità che riesci a esprimere oggi. Nel diagramma usiamo valori inventati — richiesta 100, capacità 60, divario 40 — per rendere visibile questa idea.",
+                "Nella fase irritabile può essere ragionevole ridurre temporaneamente la richiesta: fare meno gradini, rallentare o usare il corrimano. Questo, da solo, non garantisce di recuperare la capacità necessaria.",
+                "Il percorso consiste nel trovare una dose tollerabile, costruire capacità e reintrodurre gradualmente il compito fino all'obiettivo reale.",
+                "Ridurre un carico può calmare una fase sintomatica.",
+                "**Aumentare la capacità è ciò che può permetterti di tornare ad affrontarlo.**",
+                "Questo rapporto è una cornice operativa di Corpo Capace, non una spiegazione universale del dolore né un modello clinico validato. Il dolore risente anche di fattori biologici, psicologici e sociali. [Come funziona il Metodo Corpo Capace](/metodo)."
+              ],
+              "gap": true
+            },
+            {
+              "heading": "Quali capacità servono davvero al ginocchio?",
+              "paragraphs": [
+                "Dipende dall'obiettivo.",
+                "Non esiste un unico livello di forza sufficiente per tutti.",
+                "### Vita quotidiana",
+                "Se vuoi:",
+                "- camminare;\n- salire le scale;\n- lavorare in piedi;\n- alzarti da una sedia;\n- giocare con i figli;",
+                "serve una certa quantità di forza, coordinazione e tolleranza al volume.",
+                "### Allenamento",
+                "Se vuoi:",
+                "- fare squat;\n- allenarti con sovraccarichi;\n- correre;\n- fare circuiti;\n- utilizzare leg press o affondi;",
+                "la richiesta aumenta.",
+                "### Sport",
+                "Padel, tennis, trail, calcio, sci e sport con salti, frenate e cambi di direzione richiedono livelli ancora diversi di:",
+                "- forza;\n- capacità di produrre forza rapidamente;\n- resistenza;\n- controllo;\n- tolleranza ai volumi;\n- recupero tra esposizioni.",
+                "La domanda quindi non dovrebbe essere:",
+                "**“Il mio ginocchio è abbastanza forte?”**",
+                "Ma:",
+                "**“È abbastanza capace per ciò che voglio chiedergli?”**"
+              ]
+            },
+            {
+              "heading": "Devo evitare squat e scale con la condromalacia rotulea?",
+              "paragraphs": [
+                "**Non necessariamente. Squat e scale aumentano la richiesta sul compartimento femoro-rotuleo, ma questo consente anche di modificarli e utilizzarli progressivamente quando appropriato. Eliminare definitivamente il compito non è l'unico modo per ridurre i sintomi.**",
+                "La flessione del ginocchio modifica la richiesta femoro-rotulea.",
+                "Questo può diventare uno strumento.",
+                "Uno squat profondo è troppo irritante?",
+                "Non esistono soltanto due alternative:",
+                "**squat completo**\noppure\n**nessuno squat.**",
+                "Possiamo modificare:",
+                "- profondità;\n- carico;\n- numero di ripetizioni;\n- velocità;\n- frequenza;\n- appoggi;\n- recupero.",
+                "La stessa logica vale per le scale.",
+                "Se un gradino alto è il problema, possiamo cominciare da un rialzo inferiore.",
+                "Se trenta gradini consecutivi provocano una risposta importante, possiamo iniziare da un volume inferiore.",
+                "La ricerca biomeccanica mostra infatti che gli esercizi per gli arti inferiori producono livelli molto differenti di carico femoro-rotuleo. Questo permette di costruire vere progressioni, anziché classificare gli esercizi in modo rigido come “sicuri” o “pericolosi”."
+              ]
+            },
+            {
+              "heading": "Quali esercizi funzionano per la condromalacia rotulea?",
+              "paragraphs": [
+                "**Nel dolore femoro-rotuleo, l'evidenza sostiene soprattutto programmi di esercizio mirati al ginocchio, spesso combinati con esercizi per l'anca e con educazione. Non esiste però un singolo esercizio universalmente migliore: selezione, dose e progressione devono essere adattate alla persona.**",
+                "Le indicazioni sul dolore femoro-rotuleo non si trasferiscono automaticamente a ogni lesione cartilaginea, soprattutto dopo un trauma o un intervento. La valutazione clinica definisce il perimetro del percorso attivo.",
+                "Questo punto è importante.",
+                "Non cerchiamo:",
+                "**“i cinque migliori esercizi per la condromalacia”.**",
+                "Cerchiamo esercizi capaci di sviluppare ciò che manca per raggiungere l'obiettivo.",
+                "Le linee guida cliniche sostengono esercizi rivolti al ginocchio e all'anca. Per il ginocchio possono essere utilizzati sia esercizi in carico, come varianti dello squat, sia esercizi senza carico corporeo come l'estensione di ginocchio contro resistenza, a seconda della fase e della risposta individuale.",
+                "Il Best Practice Guide pubblicato sul British Journal of Sports Medicine nel 2024 conferma **educazione ed esercizio terapeutico come interventi centrali**, con eventuali strategie aggiuntive personalizzate in base alla valutazione.",
+                "Il punto quindi non è trovare l'esercizio magico.",
+                "È trovare:",
+                "**l'esercizio appropriato + la dose appropriata + una progressione appropriata.**"
+              ]
+            },
+            {
+              "heading": "Un esempio concreto di progressione",
+              "paragraphs": [
+                "Immaginiamo una persona che sente dolore quando sale le scale e vuole tornare anche ad allenarsi.",
+                "Una progressione potrebbe ragionare così.",
+                "### Fase 1 — Abbassare temporaneamente la richiesta",
+                "Ridurre il volume delle attività più irritanti.",
+                "Non azzerare necessariamente il movimento.",
+                "Individuare varianti di esercizio ben tollerate.",
+                "### Fase 2 — Costruire una base",
+                "Allenare progressivamente:",
+                "- estensori del ginocchio;\n- muscolatura dell'anca;\n- capacità di caricare l'arto;\n- tolleranza alla flessione;\n- volume complessivo.",
+                "### Fase 3 — Avvicinarsi al compito",
+                "Inserire:",
+                "- squat progressivamente più impegnativi;\n- step-up;\n- step-down;\n- affondi o varianti equivalenti;\n- maggiore ROM quando tollerato.",
+                "### Fase 4 — Superare la richiesta quotidiana",
+                "Se l'obiettivo è sportivo, salire semplicemente le scale senza dolore non basta.",
+                "Potrebbero servire successivamente:",
+                "- più carico;\n- maggiore velocità;\n- lavoro monopodalico;\n- corsa;\n- salti;\n- frenate;\n- cambi di direzione;\n- maggiore volume settimanale.",
+                "Il criterio finale non è eseguire bene un esercizio.",
+                "**È recuperare la capacità necessaria per la propria vita.**"
+              ],
+              "image": {
+                "src": "/images/condromalacia-progressione.webp",
+                "alt": "Quattro scene illustrative: gradino assistito, step-up, squat con sovraccarico e trekking.",
+                "caption": "Possibili attività di una progressione personalizzata, non tappe obbligatorie o una prescrizione da copiare. Immagine generata con IA."
+              }
+            },
+            {
+              "heading": "Quanto dolore è accettabile durante gli esercizi?",
+              "paragraphs": [
+                "**L'obiettivo non è necessariamente pretendere zero sintomi durante ogni singola fase. È più utile valutare intensità, andamento e soprattutto risposta complessiva al carico.**",
+                "Un sintomo lieve e stabile durante un esercizio non significa automaticamente che quell'esercizio sia sbagliato.",
+                "Allo stesso modo, riuscire a completare una sessione non significa automaticamente che la dose fosse adeguata.",
+                "Bisogna osservare:",
+                "- cosa accade durante l'attività;\n- cosa accade nelle ore immediatamente successive;\n- come risponde il ginocchio il giorno dopo;\n- quanto rapidamente recupera;\n- se lo stesso carico può essere ripetuto;\n- se nel tempo la capacità aumenta.",
+                "Come riferimento pratico, la risposta nelle **24–48 ore successive** può aiutare a capire se la dose è stata compatibile con la capacità del momento.",
+                "Non è una formula matematica valida per tutti.",
+                "È un sistema di feedback.",
+                "Avere un sintomo e non tollerare un carico non sono necessariamente la stessa cosa."
+              ]
+            },
+            {
+              "heading": "E se l'esercizio aumenta il dolore?",
+              "paragraphs": [
+                "Prima di dichiarare che l'esercizio è sbagliato, possiamo modificare la dose.",
+                "Per esempio:",
+                "**Volume**\n10 ripetizioni invece di 20.",
+                "**ROM**\nmeno flessione del ginocchio.",
+                "**Carico**\nridurre temporaneamente il peso.",
+                "**Leva**\nutilizzare una variante meccanicamente meno impegnativa.",
+                "**Velocità**\nmodificare il tempo di esecuzione.",
+                "**Frequenza**\nlasciare più recupero tra le sessioni.",
+                "**Compito**\npassare da un gradino alto a uno più basso.",
+                "Poi osserviamo la risposta.",
+                "Questo è molto diverso dal dire:",
+                "> “Hai la condromalacia, quindi questo movimento non devi più farlo.”"
+              ]
+            },
+            {
+              "heading": "Plantari, taping e terapia manuale servono?",
+              "paragraphs": [
+                "**Possono avere un ruolo in alcune persone con dolore femoro-rotuleo, ma non dovrebbero essere automaticamente considerati la soluzione principale né essere prescritti a tutti nello stesso modo.**",
+                "Il Best Practice Guide del 2024 considera possibili interventi complementari:",
+                "- alcuni plantari prefabbricati;\n- taping;\n- terapia manuale;\n- modifiche del movimento;\n- retraining della corsa;",
+                "quando la valutazione individuale suggerisce che possano facilitare il percorso. Il nucleo dell'intervento rimane però costituito da **educazione ed esercizio**.",
+                "Anche il consensus internazionale sostiene l'esercizio, in particolare l'associazione di lavoro su anca e ginocchio, mentre sconsiglia di utilizzare alcune terapie passive come intervento isolato.",
+                "Questo non crea falsi nemici.",
+                "Un taping che permette temporaneamente di fare meglio un esercizio può essere utile.",
+                "Un trattamento manuale che riduce i sintomi può essere utile.",
+                "Un plantare può essere utile in un determinato profilo.",
+                "Ma la domanda rimane:",
+                "**che cosa stiamo facendo per aumentare la capacità della persona?**"
+              ]
+            },
+            {
+              "heading": "Serve una risonanza magnetica?",
+              "paragraphs": [
+                "**Non tutte le persone con dolore anteriore al ginocchio necessitano automaticamente di una risonanza. La necessità di imaging dipende dalla storia clinica, dall'esame, da eventuali traumi, dalla diagnosi differenziale e dall'evoluzione dei sintomi.**",
+                "Il dolore femoro-rotuleo è generalmente una diagnosi clinica basata su sintomi e provocazione del dolore durante attività che caricano il ginocchio in flessione, dopo aver escluso altre cause rilevanti.",
+                "L'imaging può invece diventare importante quando esistono dubbi diagnostici, traumi significativi, sospetto di altre patologie oppure quando l'andamento non è quello atteso.",
+                "Il punto non è essere “contro la risonanza”.",
+                "È farle rispondere a una domanda clinicamente utile."
+              ]
+            },
+            {
+              "heading": "Condromalacia grave significa necessariamente intervento chirurgico?",
+              "paragraphs": [
+                "**No. La sola parola “condromalacia” o il grado riportato nell'imaging non permettono di stabilire automaticamente la necessità di un intervento. Decisioni di questo tipo richiedono il quadro clinico completo.**",
+                "Età, tipo ed estensione della lesione, sintomi, trauma, instabilità della rotula, limitazioni funzionali, risposta a un percorso conservativo e obiettivi della persona possono modificare radicalmente il ragionamento.",
+                "L'approccio attivo non deve diventare un'ideologia.",
+                "Quando l'esercizio e la gestione del carico sono indicati, hanno un ruolo centrale.",
+                "Quando il quadro richiede un approfondimento medico o ortopedico, va fatto."
+              ]
+            },
+            {
+              "heading": "Quando è meglio farsi valutare",
+              "paragraphs": [
+                "Un dolore anteriore al ginocchio che compare gradualmente durante scale, squat o corsa non rappresenta automaticamente un'urgenza.",
+                "È invece opportuno richiedere una valutazione sanitaria, soprattutto in presenza di:",
+                "- trauma importante;\n- impossibilità a caricare il peso sull'arto dopo un trauma;\n- deformità evidente;\n- gonfiore importante e rapido;\n- ginocchio caldo, rosso e gonfio associato a febbre o malessere;\n- blocco articolare importante;\n- instabilità significativa dopo trauma;\n- sintomi persistenti o progressivamente peggiori nonostante una gestione adeguata.",
+                "Segni come incapacità di carico dopo trauma o sospetta infezione articolare richiedono particolare attenzione.",
+                "Un articolo può aiutarti a comprendere il problema.",
+                "Non può diagnosticare il tuo ginocchio."
+              ]
+            },
+            {
+              "heading": "Il vero obiettivo non è proteggere per sempre la rotula",
+              "paragraphs": [
+                "Proteggersi temporaneamente può avere senso.",
+                "Costruire progressivamente tutta la propria vita intorno all'evitamento è un'altra cosa.",
+                "Se oggi una scala supera le tue capacità, possiamo ridurre temporaneamente la richiesta.",
+                "Poi però dobbiamo chiederci:",
+                "**che cosa serve per rendere nuovamente quella scala gestibile?**",
+                "Forza?",
+                "Più tolleranza alla flessione?",
+                "Più volume?",
+                "Più recupero?",
+                "Una progressione meno aggressiva?",
+                "Una diversa distribuzione dei carichi settimanali?",
+                "E se l'obiettivo non è una scala ma tornare a correre, giocare a padel o fare trekking, la capacità necessaria sarà ancora maggiore.",
+                "Questo è il passaggio centrale del Metodo Corpo Capace:",
+                "**COMPRENDERE → VALUTARE → DOSARE → ESPORRE → ADATTARE → PROGREDIRE → TORNARE CAPACE.**",
+                "Il professionista non dovrebbe limitarsi a dirti cosa evitare.",
+                "Dovrebbe aiutarti a capire:",
+                "**cosa puoi fare oggi,**\n**quanto puoi farne,**\n**come reagisci,**\n**cosa deve essere sviluppato**\n**e quando è il momento di aumentare la richiesta.**",
+                "L'obiettivo finale è che queste decisioni diventino progressivamente anche tue."
+              ]
+            },
+            {
+              "heading": "Se il ginocchio ti sta facendo rinunciare sempre a più cose",
+              "paragraphs": [
+                "Se il problema ti sta facendo progressivamente rinunciare alle scale, alla palestra, alla corsa o al tuo sport, il primo passo non è necessariamente trovare un altro movimento da evitare.",
+                "È capire **quali richieste oggi superano la tua capacità e costruire una progressione coerente con il tuo punto di partenza e con l'obiettivo che vuoi realmente raggiungere.**",
+                "[Scopri per chi è il percorso](/per-chi) e [come funziona l’allenamento personalizzato](/percorsi). Corpo Capace non sostituisce diagnosi e cure sanitarie quando necessarie."
+              ]
+            },
+            {
+              "heading": "La condromalacia rotulea può guarire?",
+              "paragraphs": [
+                "Dipende da cosa si intende per “guarire”. Un reperto cartilagineo e i sintomi non sono la stessa cosa. L'obiettivo clinico non deve essere necessariamente ottenere un'immagine perfetta, ma migliorare dolore, funzione, tolleranza al carico e capacità di svolgere le attività desiderate."
+              ]
+            },
+            {
+              "heading": "Posso andare in palestra con la condromalacia rotulea?",
+              "paragraphs": [
+                "In molti casi sì, ma la programmazione dovrebbe essere compatibile con la capacità attuale del ginocchio. Carico, ROM, volume e frequenza possono essere modificati e poi progressivamente aumentati."
+              ]
+            },
+            {
+              "heading": "Gli squat rovinano la cartilagine della rotula?",
+              "paragraphs": [
+                "Lo squat aumenta il carico femoro-rotuleo soprattutto aumentando la flessione del ginocchio, ma maggiore carico non equivale automaticamente a danno. ROM, resistenza, volume e variante dell'esercizio possono essere graduati in funzione della tolleranza."
+              ]
+            },
+            {
+              "heading": "La condromalacia rotulea peggiora necessariamente con il tempo?",
+              "paragraphs": [
+                "Un referto strutturale non permette da solo di prevedere l'evoluzione dei sintomi o della funzione. Età, attività, salute generale, caratteristiche della lesione, storia clinica e capacità fisica fanno parte del quadro."
+              ]
+            },
+            {
+              "heading": "È meglio rinforzare il quadricipite o il gluteo?",
+              "paragraphs": [
+                "La contrapposizione è poco utile. Le evidenze sul dolore femoro-rotuleo sostengono generalmente programmi che comprendono esercizi rivolti sia al ginocchio sia all'anca, selezionati in base alle necessità individuali."
+              ]
+            },
+            {
+              "heading": "Devo smettere di correre?",
+              "paragraphs": [
+                "Non automaticamente. In alcuni periodi può essere opportuno modificare chilometri, velocità, pendenza, frequenza o alternare corsa e cammino. Il ritorno alla corsa dovrebbe essere una progressione basata sulla risposta individuale, non un semplice sì/no."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Il referto e la tua vita quotidiana",
+              "paragraphs": [
+                "Apri il referto della risonanza e trovi scritto:",
+                "**“condropatia femoro-rotulea”**,\n**“condromalacia rotulea”**,\nmagari accompagnata da un grado.",
+                "Fino al giorno prima avevi un problema concreto: il ginocchio faceva male sulle scale, durante gli squat oppure dopo essere rimasto seduto a lungo.",
+                "Da quel momento rischi di avere un problema in più: l'idea di possedere una cartilagine consumata che devi proteggere.",
+                "Cominci a evitare le scale.",
+                "Riduci gli squat.",
+                "Smetti di correre.",
+                "In palestra cerchi di non piegare troppo il ginocchio.",
+                "Il dolore magari diminuisce perché hai ridotto quasi tutte le attività che lo provocavano.",
+                "Ma c'è una domanda importante:",
+                "**il ginocchio è realmente diventato più capace oppure gli stai semplicemente chiedendo sempre meno?**",
+                "Sono due cose molto diverse.",
+                "La condromalacia può essere una parte del quadro. Non dovrebbe automaticamente diventare la spiegazione di tutto ciò che senti né una condanna sulla quantità di attività che potrai fare.",
+                "Per capire cosa fare serve mettere insieme almeno quattro elementi:",
+                "**struttura → sintomi → funzione → richieste della tua vita.**"
+              ]
+            },
+            {
+              "heading": "Che cos'è la condromalacia rotulea?",
+              "paragraphs": [
+                "**La condromalacia rotulea indica alterazioni della cartilagine articolare della rotula. Non è però corretto utilizzare automaticamente il grado di alterazione della cartilagine come misura diretta del dolore, della funzione o della futura capacità del ginocchio.**",
+                "Qui serve una distinzione importante.",
+                "### Che cosa mostra l'esame?",
+                "Una risonanza magnetica può identificare alterazioni della cartilagine femoro-rotulea e descriverne caratteristiche ed estensione.",
+                "### Che cosa sente la persona?",
+                "Dolore, rigidità, fastidio sulle scale, durante uno squat, correndo o dopo essere rimasta seduta.",
+                "### Che cosa riesce a fare?",
+                "Camminare 10 chilometri? Salire due piani? Fare uno squat? Correre? Allenarsi tre volte alla settimana?",
+                "Queste tre informazioni sono collegate, ma **non sono sinonimi**.",
+                "La letteratura sul ginocchio mostra inoltre che reperti strutturali alla risonanza possono essere presenti anche in persone senza dolore e diventano più frequenti con l'età. Questo non significa che gli esami siano inutili: significa che vanno interpretati all'interno del quadro clinico, anziché trasformati automaticamente in una prognosi funzionale.",
+                "Una risonanza descrive una struttura.",
+                "**Non misura direttamente quanto riesci a salire le scale, quanto puoi allenarti o quanto carico sarai capace di tollerare tra sei mesi.**"
+              ]
+            },
+            {
+              "heading": "Condromalacia e dolore femoro-rotuleo sono la stessa cosa?",
+              "paragraphs": [
+                "**Non esattamente. “Condromalacia” descrive tradizionalmente un'alterazione della cartilagine; “dolore femoro-rotuleo” identifica invece un quadro clinico caratterizzato soprattutto da dolore intorno o dietro la rotula durante attività che caricano il ginocchio in flessione. I due quadri possono sovrapporsi, ma non devono essere confusi automaticamente.**",
+                "Il consenso internazionale sul dolore femoro-rotuleo utilizza come elemento centrale un dolore intorno o dietro la rotula provocato da attività come squat, scale, corsa o salti. La diagnosi è principalmente clinica e non dipende obbligatoriamente dalla presenza di una specifica alterazione alla risonanza.",
+                "Questo spiega una situazione frequente:",
+                "due persone possono avere referti apparentemente simili ma capacità, sintomi e obiettivi completamente diversi.",
+                "Il referto va quindi letto.",
+                "Ma poi bisogna guardare la persona."
+              ]
+            },
+            {
+              "heading": "Perché il ginocchio fa male sulle scale?",
+              "paragraphs": [
+                "**Salire e scendere le scale richiede al ginocchio di gestire forze maggiori rispetto alla normale camminata. Se in quel momento la richiesta supera ciò che il sistema riesce a tollerare, le scale possono diventare sintomatiche senza significare automaticamente che ogni gradino stia danneggiando ulteriormente la cartilagine.**",
+                "Camminare e salire una scala possono sembrare attività simili.",
+                "Biomeccanicamente non lo sono.",
+                "Una revisione sistematica ha stimato, nei soggetti sani, una forza di reazione femoro-rotulea media di circa **0,9 volte il peso corporeo durante il cammino**, rispetto a circa **3,2 volte durante la salita delle scale** e **2,8 volte durante la discesa**. La corsa raggiunge valori medi ancora superiori. Sono stime biomeccaniche e non rappresentano un “misuratore di danno”, ma mostrano bene quanto possa cambiare la richiesta tra attività differenti.",
+                "Ed è qui che cambia la domanda.",
+                "Non soltanto:",
+                "**“Perché ho male?”**",
+                "ma anche:",
+                "**“Che cosa sto chiedendo oggi al mio ginocchio?”**",
+                "[Approfondisci il dolore al ginocchio sulle scale](/blog/dolore-davanti-ginocchio-scale)."
+              ]
+            },
+            {
+              "heading": "Condromalacia rotulea: dolore significa che la cartilagine si sta consumando?",
+              "paragraphs": [
+                "**No. La presenza di dolore durante un'attività non permette, da sola, di concludere che in quel momento la cartilagine si stia deteriorando. Sintomi e struttura devono essere interpretati insieme a carico, storia recente, funzione e risposta individuale.**",
+                "Questo non significa che la struttura non conti.",
+                "Significa evitare l'equazione:",
+                "**dolore = danno che aumenta ad ogni movimento.**",
+                "Anche le caratteristiche rilevate tramite imaging mostrano associazioni variabili con il dolore femoro-rotuleo. Alcuni reperti possono essere clinicamente rilevanti, ma l'immagine da sola non spiega in maniera completa l'esperienza della persona.",
+                "Per questo la soluzione non consiste necessariamente nel cercare di non caricare più la rotula.",
+                "Serve capire **quale carico è attualmente tollerabile e quale capacità deve essere sviluppata per affrontarne progressivamente di più.**"
+              ]
+            },
+            {
+              "heading": "Richiesta e capacità: il ruolo del carico",
+              "paragraphs": [
+                "Immagina di voler salire una rampa di scale: la richiesta del compito può superare la capacità che riesci a esprimere oggi. Nel diagramma usiamo valori inventati — richiesta 100, capacità 60, divario 40 — per rendere visibile questa idea.",
+                "Nella fase irritabile può essere ragionevole ridurre temporaneamente la richiesta: fare meno gradini, rallentare o usare il corrimano. Questo, da solo, non garantisce di recuperare la capacità necessaria.",
+                "Il percorso consiste nel trovare una dose tollerabile, costruire capacità e reintrodurre gradualmente il compito fino all'obiettivo reale.",
+                "Ridurre un carico può calmare una fase sintomatica.",
+                "**Aumentare la capacità è ciò che può permetterti di tornare ad affrontarlo.**",
+                "Questo rapporto è una cornice operativa di Corpo Capace, non una spiegazione universale del dolore né un modello clinico validato. Il dolore risente anche di fattori biologici, psicologici e sociali. [Come funziona il Metodo Corpo Capace](/metodo)."
+              ],
+              "gap": true
+            },
+            {
+              "heading": "Quali capacità servono davvero al ginocchio?",
+              "paragraphs": [
+                "Dipende dall'obiettivo.",
+                "Non esiste un unico livello di forza sufficiente per tutti.",
+                "### Vita quotidiana",
+                "Se vuoi:",
+                "- camminare;\n- salire le scale;\n- lavorare in piedi;\n- alzarti da una sedia;\n- giocare con i figli;",
+                "serve una certa quantità di forza, coordinazione e tolleranza al volume.",
+                "### Allenamento",
+                "Se vuoi:",
+                "- fare squat;\n- allenarti con sovraccarichi;\n- correre;\n- fare circuiti;\n- utilizzare leg press o affondi;",
+                "la richiesta aumenta.",
+                "### Sport",
+                "Padel, tennis, trail, calcio, sci e sport con salti, frenate e cambi di direzione richiedono livelli ancora diversi di:",
+                "- forza;\n- capacità di produrre forza rapidamente;\n- resistenza;\n- controllo;\n- tolleranza ai volumi;\n- recupero tra esposizioni.",
+                "La domanda quindi non dovrebbe essere:",
+                "**“Il mio ginocchio è abbastanza forte?”**",
+                "Ma:",
+                "**“È abbastanza capace per ciò che voglio chiedergli?”**"
+              ]
+            },
+            {
+              "heading": "Devo evitare squat e scale con la condromalacia rotulea?",
+              "paragraphs": [
+                "**Non necessariamente. Squat e scale aumentano la richiesta sul compartimento femoro-rotuleo, ma questo consente anche di modificarli e utilizzarli progressivamente quando appropriato. Eliminare definitivamente il compito non è l'unico modo per ridurre i sintomi.**",
+                "La flessione del ginocchio modifica la richiesta femoro-rotulea.",
+                "Questo può diventare uno strumento.",
+                "Uno squat profondo è troppo irritante?",
+                "Non esistono soltanto due alternative:",
+                "**squat completo**\noppure\n**nessuno squat.**",
+                "Possiamo modificare:",
+                "- profondità;\n- carico;\n- numero di ripetizioni;\n- velocità;\n- frequenza;\n- appoggi;\n- recupero.",
+                "La stessa logica vale per le scale.",
+                "Se un gradino alto è il problema, possiamo cominciare da un rialzo inferiore.",
+                "Se trenta gradini consecutivi provocano una risposta importante, possiamo iniziare da un volume inferiore.",
+                "La ricerca biomeccanica mostra infatti che gli esercizi per gli arti inferiori producono livelli molto differenti di carico femoro-rotuleo. Questo permette di costruire vere progressioni, anziché classificare gli esercizi in modo rigido come “sicuri” o “pericolosi”."
+              ]
+            },
+            {
+              "heading": "Quali esercizi funzionano per la condromalacia rotulea?",
+              "paragraphs": [
+                "**Nel dolore femoro-rotuleo, l'evidenza sostiene soprattutto programmi di esercizio mirati al ginocchio, spesso combinati con esercizi per l'anca e con educazione. Non esiste però un singolo esercizio universalmente migliore: selezione, dose e progressione devono essere adattate alla persona.**",
+                "Le indicazioni sul dolore femoro-rotuleo non si trasferiscono automaticamente a ogni lesione cartilaginea, soprattutto dopo un trauma o un intervento. La valutazione clinica definisce il perimetro del percorso attivo.",
+                "Questo punto è importante.",
+                "Non cerchiamo:",
+                "**“i cinque migliori esercizi per la condromalacia”.**",
+                "Cerchiamo esercizi capaci di sviluppare ciò che manca per raggiungere l'obiettivo.",
+                "Le linee guida cliniche sostengono esercizi rivolti al ginocchio e all'anca. Per il ginocchio possono essere utilizzati sia esercizi in carico, come varianti dello squat, sia esercizi senza carico corporeo come l'estensione di ginocchio contro resistenza, a seconda della fase e della risposta individuale.",
+                "Il Best Practice Guide pubblicato sul British Journal of Sports Medicine nel 2024 conferma **educazione ed esercizio terapeutico come interventi centrali**, con eventuali strategie aggiuntive personalizzate in base alla valutazione.",
+                "Il punto quindi non è trovare l'esercizio magico.",
+                "È trovare:",
+                "**l'esercizio appropriato + la dose appropriata + una progressione appropriata.**"
+              ]
+            },
+            {
+              "heading": "Un esempio concreto di progressione",
+              "paragraphs": [
+                "Immaginiamo una persona che sente dolore quando sale le scale e vuole tornare anche ad allenarsi.",
+                "Una progressione potrebbe ragionare così.",
+                "### Fase 1 — Abbassare temporaneamente la richiesta",
+                "Ridurre il volume delle attività più irritanti.",
+                "Non azzerare necessariamente il movimento.",
+                "Individuare varianti di esercizio ben tollerate.",
+                "### Fase 2 — Costruire una base",
+                "Allenare progressivamente:",
+                "- estensori del ginocchio;\n- muscolatura dell'anca;\n- capacità di caricare l'arto;\n- tolleranza alla flessione;\n- volume complessivo.",
+                "### Fase 3 — Avvicinarsi al compito",
+                "Inserire:",
+                "- squat progressivamente più impegnativi;\n- step-up;\n- step-down;\n- affondi o varianti equivalenti;\n- maggiore ROM quando tollerato.",
+                "### Fase 4 — Superare la richiesta quotidiana",
+                "Se l'obiettivo è sportivo, salire semplicemente le scale senza dolore non basta.",
+                "Potrebbero servire successivamente:",
+                "- più carico;\n- maggiore velocità;\n- lavoro monopodalico;\n- corsa;\n- salti;\n- frenate;\n- cambi di direzione;\n- maggiore volume settimanale.",
+                "Il criterio finale non è eseguire bene un esercizio.",
+                "**È recuperare la capacità necessaria per la propria vita.**"
+              ],
+              "image": {
+                "src": "/images/condromalacia-progressione.webp",
+                "alt": "Quattro scene illustrative: gradino assistito, step-up, squat con sovraccarico e trekking.",
+                "caption": "Possibili attività di una progressione personalizzata, non tappe obbligatorie o una prescrizione da copiare. Immagine generata con IA."
+              }
+            },
+            {
+              "heading": "Quanto dolore è accettabile durante gli esercizi?",
+              "paragraphs": [
+                "**L'obiettivo non è necessariamente pretendere zero sintomi durante ogni singola fase. È più utile valutare intensità, andamento e soprattutto risposta complessiva al carico.**",
+                "Un sintomo lieve e stabile durante un esercizio non significa automaticamente che quell'esercizio sia sbagliato.",
+                "Allo stesso modo, riuscire a completare una sessione non significa automaticamente che la dose fosse adeguata.",
+                "Bisogna osservare:",
+                "- cosa accade durante l'attività;\n- cosa accade nelle ore immediatamente successive;\n- come risponde il ginocchio il giorno dopo;\n- quanto rapidamente recupera;\n- se lo stesso carico può essere ripetuto;\n- se nel tempo la capacità aumenta.",
+                "Come riferimento pratico, la risposta nelle **24–48 ore successive** può aiutare a capire se la dose è stata compatibile con la capacità del momento.",
+                "Non è una formula matematica valida per tutti.",
+                "È un sistema di feedback.",
+                "Avere un sintomo e non tollerare un carico non sono necessariamente la stessa cosa."
+              ]
+            },
+            {
+              "heading": "E se l'esercizio aumenta il dolore?",
+              "paragraphs": [
+                "Prima di dichiarare che l'esercizio è sbagliato, possiamo modificare la dose.",
+                "Per esempio:",
+                "**Volume**\n10 ripetizioni invece di 20.",
+                "**ROM**\nmeno flessione del ginocchio.",
+                "**Carico**\nridurre temporaneamente il peso.",
+                "**Leva**\nutilizzare una variante meccanicamente meno impegnativa.",
+                "**Velocità**\nmodificare il tempo di esecuzione.",
+                "**Frequenza**\nlasciare più recupero tra le sessioni.",
+                "**Compito**\npassare da un gradino alto a uno più basso.",
+                "Poi osserviamo la risposta.",
+                "Questo è molto diverso dal dire:",
+                "> “Hai la condromalacia, quindi questo movimento non devi più farlo.”"
+              ]
+            },
+            {
+              "heading": "Plantari, taping e terapia manuale servono?",
+              "paragraphs": [
+                "**Possono avere un ruolo in alcune persone con dolore femoro-rotuleo, ma non dovrebbero essere automaticamente considerati la soluzione principale né essere prescritti a tutti nello stesso modo.**",
+                "Il Best Practice Guide del 2024 considera possibili interventi complementari:",
+                "- alcuni plantari prefabbricati;\n- taping;\n- terapia manuale;\n- modifiche del movimento;\n- retraining della corsa;",
+                "quando la valutazione individuale suggerisce che possano facilitare il percorso. Il nucleo dell'intervento rimane però costituito da **educazione ed esercizio**.",
+                "Anche il consensus internazionale sostiene l'esercizio, in particolare l'associazione di lavoro su anca e ginocchio, mentre sconsiglia di utilizzare alcune terapie passive come intervento isolato.",
+                "Questo non crea falsi nemici.",
+                "Un taping che permette temporaneamente di fare meglio un esercizio può essere utile.",
+                "Un trattamento manuale che riduce i sintomi può essere utile.",
+                "Un plantare può essere utile in un determinato profilo.",
+                "Ma la domanda rimane:",
+                "**che cosa stiamo facendo per aumentare la capacità della persona?**"
+              ]
+            },
+            {
+              "heading": "Serve una risonanza magnetica?",
+              "paragraphs": [
+                "**Non tutte le persone con dolore anteriore al ginocchio necessitano automaticamente di una risonanza. La necessità di imaging dipende dalla storia clinica, dall'esame, da eventuali traumi, dalla diagnosi differenziale e dall'evoluzione dei sintomi.**",
+                "Il dolore femoro-rotuleo è generalmente una diagnosi clinica basata su sintomi e provocazione del dolore durante attività che caricano il ginocchio in flessione, dopo aver escluso altre cause rilevanti.",
+                "L'imaging può invece diventare importante quando esistono dubbi diagnostici, traumi significativi, sospetto di altre patologie oppure quando l'andamento non è quello atteso.",
+                "Il punto non è essere “contro la risonanza”.",
+                "È farle rispondere a una domanda clinicamente utile."
+              ]
+            },
+            {
+              "heading": "Condromalacia grave significa necessariamente intervento chirurgico?",
+              "paragraphs": [
+                "**No. La sola parola “condromalacia” o il grado riportato nell'imaging non permettono di stabilire automaticamente la necessità di un intervento. Decisioni di questo tipo richiedono il quadro clinico completo.**",
+                "Età, tipo ed estensione della lesione, sintomi, trauma, instabilità della rotula, limitazioni funzionali, risposta a un percorso conservativo e obiettivi della persona possono modificare radicalmente il ragionamento.",
+                "L'approccio attivo non deve diventare un'ideologia.",
+                "Quando l'esercizio e la gestione del carico sono indicati, hanno un ruolo centrale.",
+                "Quando il quadro richiede un approfondimento medico o ortopedico, va fatto."
+              ]
+            },
+            {
+              "heading": "Quando è meglio farsi valutare",
+              "paragraphs": [
+                "Un dolore anteriore al ginocchio che compare gradualmente durante scale, squat o corsa non rappresenta automaticamente un'urgenza.",
+                "È invece opportuno richiedere una valutazione sanitaria, soprattutto in presenza di:",
+                "- trauma importante;\n- impossibilità a caricare il peso sull'arto dopo un trauma;\n- deformità evidente;\n- gonfiore importante e rapido;\n- ginocchio caldo, rosso e gonfio associato a febbre o malessere;\n- blocco articolare importante;\n- instabilità significativa dopo trauma;\n- sintomi persistenti o progressivamente peggiori nonostante una gestione adeguata.",
+                "Segni come incapacità di carico dopo trauma o sospetta infezione articolare richiedono particolare attenzione.",
+                "Un articolo può aiutarti a comprendere il problema.",
+                "Non può diagnosticare il tuo ginocchio."
+              ]
+            },
+            {
+              "heading": "Il vero obiettivo non è proteggere per sempre la rotula",
+              "paragraphs": [
+                "Proteggersi temporaneamente può avere senso.",
+                "Costruire progressivamente tutta la propria vita intorno all'evitamento è un'altra cosa.",
+                "Se oggi una scala supera le tue capacità, possiamo ridurre temporaneamente la richiesta.",
+                "Poi però dobbiamo chiederci:",
+                "**che cosa serve per rendere nuovamente quella scala gestibile?**",
+                "Forza?",
+                "Più tolleranza alla flessione?",
+                "Più volume?",
+                "Più recupero?",
+                "Una progressione meno aggressiva?",
+                "Una diversa distribuzione dei carichi settimanali?",
+                "E se l'obiettivo non è una scala ma tornare a correre, giocare a padel o fare trekking, la capacità necessaria sarà ancora maggiore.",
+                "Questo è il passaggio centrale del Metodo Corpo Capace:",
+                "**COMPRENDERE → VALUTARE → DOSARE → ESPORRE → ADATTARE → PROGREDIRE → TORNARE CAPACE.**",
+                "Il professionista non dovrebbe limitarsi a dirti cosa evitare.",
+                "Dovrebbe aiutarti a capire:",
+                "**cosa puoi fare oggi,**\n**quanto puoi farne,**\n**come reagisci,**\n**cosa deve essere sviluppato**\n**e quando è il momento di aumentare la richiesta.**",
+                "L'obiettivo finale è che queste decisioni diventino progressivamente anche tue."
+              ]
+            },
+            {
+              "heading": "Se il ginocchio ti sta facendo rinunciare sempre a più cose",
+              "paragraphs": [
+                "Se il problema ti sta facendo progressivamente rinunciare alle scale, alla palestra, alla corsa o al tuo sport, il primo passo non è necessariamente trovare un altro movimento da evitare.",
+                "È capire **quali richieste oggi superano la tua capacità e costruire una progressione coerente con il tuo punto di partenza e con l'obiettivo che vuoi realmente raggiungere.**",
+                "[Scopri per chi è il percorso](/per-chi) e [come funziona l’allenamento personalizzato](/percorsi). Corpo Capace non sostituisce diagnosi e cure sanitarie quando necessarie."
+              ]
+            },
+            {
+              "heading": "La condromalacia rotulea può guarire?",
+              "paragraphs": [
+                "Dipende da cosa si intende per “guarire”. Un reperto cartilagineo e i sintomi non sono la stessa cosa. L'obiettivo clinico non deve essere necessariamente ottenere un'immagine perfetta, ma migliorare dolore, funzione, tolleranza al carico e capacità di svolgere le attività desiderate."
+              ]
+            },
+            {
+              "heading": "Posso andare in palestra con la condromalacia rotulea?",
+              "paragraphs": [
+                "In molti casi sì, ma la programmazione dovrebbe essere compatibile con la capacità attuale del ginocchio. Carico, ROM, volume e frequenza possono essere modificati e poi progressivamente aumentati."
+              ]
+            },
+            {
+              "heading": "Gli squat rovinano la cartilagine della rotula?",
+              "paragraphs": [
+                "Lo squat aumenta il carico femoro-rotuleo soprattutto aumentando la flessione del ginocchio, ma maggiore carico non equivale automaticamente a danno. ROM, resistenza, volume e variante dell'esercizio possono essere graduati in funzione della tolleranza."
+              ]
+            },
+            {
+              "heading": "La condromalacia rotulea peggiora necessariamente con il tempo?",
+              "paragraphs": [
+                "Un referto strutturale non permette da solo di prevedere l'evoluzione dei sintomi o della funzione. Età, attività, salute generale, caratteristiche della lesione, storia clinica e capacità fisica fanno parte del quadro."
+              ]
+            },
+            {
+              "heading": "È meglio rinforzare il quadricipite o il gluteo?",
+              "paragraphs": [
+                "La contrapposizione è poco utile. Le evidenze sul dolore femoro-rotuleo sostengono generalmente programmi che comprendono esercizi rivolti sia al ginocchio sia all'anca, selezionati in base alle necessità individuali."
+              ]
+            },
+            {
+              "heading": "Devo smettere di correre?",
+              "paragraphs": [
+                "Non automaticamente. In alcuni periodi può essere opportuno modificare chilometri, velocità, pendenza, frequenza o alternare corsa e cammino. Il ritorno alla corsa dovrebbe essere una progressione basata sulla risposta individuale, non un semplice sì/no."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "Condromalacia rotulea: cosa significa, perché il ginocchio può far male e come gestire carico, esercizio e progressione senza inutili allarmismi.",
+          "after": "Cosa significa condromalacia rotulea e come si distingue dal dolore femoro-rotuleo. Esercizio, gestione del carico e situazioni da valutare con un sanitario."
+        },
+        "seoDescription": {
+          "before": "Condromalacia rotulea: cosa significa, perché il ginocchio può far male e come gestire carico, esercizio e progressione senza inutili allarmismi.",
+          "after": "Cosa significa condromalacia rotulea e come si distingue dal dolore femoro-rotuleo. Esercizio, gestione del carico e situazioni da valutare con un sanitario."
+        }
+      },
+      "protected": {
+        "slug": "condromalacia-rotulea",
+        "category": "Ginocchio",
+        "date": "8 settembre 2026",
+        "publishedAt": "2026-09-08",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "sources": [
+          {
+            "label": "Neal et al., 2024 · Best practice guide for patellofemoral pain.",
+            "url": "https://doi.org/10.1136/bjsports-2024-108110"
+          },
+          {
+            "label": "Willy et al., 2019 · Patellofemoral Pain: Clinical Practice Guidelines.",
+            "url": "https://doi.org/10.2519/jospt.2019.0302"
+          },
+          {
+            "label": "Collins et al., 2018 · Consensus statement on exercise therapy and physical interventions.",
+            "url": "https://doi.org/10.1136/bjsports-2018-099397"
+          },
+          {
+            "label": "Crossley et al., 2016 · Patellofemoral pain: terminology, definitions and clinical examination.",
+            "url": "https://doi.org/10.1136/bjsports-2016-096384"
+          },
+          {
+            "label": "Hart et al., 2022 · Patellofemoral joint reaction forces: systematic review and meta-analysis.",
+            "url": "https://doi.org/10.1136/bjsports-2021-104686"
+          },
+          {
+            "label": "Song et al., 2023 · Patellofemoral Joint Loading Progression Across 35 Exercises.",
+            "url": "https://doi.org/10.1177/03635465231175160"
+          },
+          {
+            "label": "Culvenor et al., 2019 · MRI features in asymptomatic uninjured adults.",
+            "url": "https://doi.org/10.1136/bjsports-2018-099257"
+          }
+        ],
+        "sourceDate": "8 settembre 2026",
+        "image": "/images/condromalacia-scale.webp",
+        "imageAlt": "Adulto che sale una scala, ripreso lateralmente durante il carico sulla gamba anteriore.",
+        "imageCaption": "Un compito reale · Immagine illustrativa generata con IA",
+        "featuredImage": "/images/condromalacia-scale.webp",
+        "canonical": "/blog/condromalacia-rotulea",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "dolore-davanti-ginocchio-scale"
+        ],
+        "takeaways": [
+          "Condromalacia e dolore femoro-rotuleo possono sovrapporsi, ma non sono sinonimi.",
+          "Il referto va interpretato insieme a sintomi, storia e funzione.",
+          "Esercizio, dose e progressione si adattano al quadro clinico.",
+          "Il modello di capacità è educativo: non misura il danno e non sostituisce una diagnosi."
+        ]
+      }
+    },
+    {
+      "slug": "dolore-al-piede",
+      "changes": {
+        "title": {
+          "before": "Dolore al piede: cosa significa e come capire cosa fare",
+          "after": "Dolore al piede: cause, sintomi e quando farsi valutare"
+        },
+        "seoTitle": {
+          "before": "Dolore al piede: cause, segnali e cosa fare davvero",
+          "after": "Dolore al piede: cause e quando farsi valutare | Dr. Botta"
+        },
+        "kicker": {
+          "before": "La sede orienta. Diagnosi, funzione e risposta al carico guidano il percorso.",
+          "after": "Tallone, pianta o avampiede: la sede orienta, ma non basta per una diagnosi."
+        },
+        "excerpt": {
+          "before": "Dolore al piede, tallone o pianta? Scopri cosa può significare, quando serve una valutazione e come ricostruire gradualmente capacità e tolleranza.",
+          "after": "Dolore al tallone, alla pianta o all’avampiede: possibili cause, segnali da valutare e ruolo di esercizio, scarpe e plantari nel ritorno alle attività."
+        },
+        "description": {
+          "before": "Dolore al piede, tallone o pianta? Scopri cosa può significare, quando serve una valutazione e come ricostruire gradualmente capacità e tolleranza.",
+          "after": "Dolore al tallone, alla pianta o all’avampiede: possibili cause, segnali da valutare e ruolo di esercizio, scarpe e plantari nel ritorno alle attività."
+        },
+        "seoDescription": {
+          "before": "Dolore al piede, tallone o pianta? Scopri cosa può significare, quando serve una valutazione e come ricostruire gradualmente capacità e tolleranza.",
+          "after": "Dolore al tallone, alla pianta o all’avampiede: possibili cause, segnali da valutare e ruolo di esercizio, scarpe e plantari nel ritorno alle attività."
+        }
+      },
+      "protected": {
+        "slug": "dolore-al-piede",
+        "category": "Piede",
+        "date": "8 settembre 2026",
+        "publishedAt": "2026-09-08",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "sources": [
+          {
+            "label": "Koc e colleghi · Heel Pain – Plantar Fasciitis: Revision 2023",
+            "url": "https://doi.org/10.2519/jospt.2023.0303"
+          },
+          {
+            "label": "Chimenti e colleghi · Midportion Achilles Tendinopathy, 2024",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39611662/"
+          },
+          {
+            "label": "Cooper · Common Painful Foot and Ankle Conditions, JAMA 2023",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38112812/"
+          },
+          {
+            "label": "Rathleff e colleghi · Rinforzo progressivo nella fascite plantare, 2015",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25145882/"
+          },
+          {
+            "label": "ACR · Chronic Foot Pain",
+            "url": "https://acsearch.acr.org/docs/69424/Narrative"
+          },
+          {
+            "label": "Hurn e colleghi · Interventi non chirurgici per alluce valgo",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33768721/"
+          },
+          {
+            "label": "IWGDF · Linee guida piede diabetico, 2023",
+            "url": "https://iwgdfguidelines.org/wp-content/uploads/2023/07/IWGDF-Guidelines-2023.pdf"
+          },
+          {
+            "label": "Sperone calcaneare, dolore e risultati del trattamento",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36945957/"
+          },
+          {
+            "label": "Prognosi della fascite plantare: follow-up a 5–15 anni",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29536022/"
+          },
+          {
+            "label": "ACR · Acute Trauma to the Foot",
+            "url": "https://acsearch.acr.org/docs/70546/Narrative/"
+          }
+        ],
+        "sourceDate": "8 settembre 2026",
+        "image": "/images/dolore-piede-progressione.webp",
+        "imageAlt": "Progressione di attività dal cammino al trekking, secondo gli obiettivi individuali.",
+        "imageCaption": "Dalla protezione all’autonomia · Immagine illustrativa generata con IA",
+        "featuredImage": "/images/dolore-piede-progressione.webp",
+        "canonical": "/blog/dolore-al-piede",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "piedi-caviglie-gonfie",
+          "quando-non-e-da-operare-alluce-valgo",
+          "fascite-plantare-sintomi-cure-ritorno-movimento"
+        ],
+        "takeaways": [
+          "Sintomo, diagnosi, reperto e funzione sono informazioni collegate ma diverse.",
+          "La dose dipende dalla condizione e dalla risposta: non ogni dolore va allenato.",
+          "Il rapporto richiesta–capacità è una cornice educativa, non una diagnosi.",
+          "La progressione deve avvicinarsi alle attività che vuoi recuperare."
+        ]
+      }
+    },
+    {
+      "slug": "dolore-anca-ritorno-corsa",
+      "changes": {
+        "title": {
+          "before": "Dolore all'anca e ritorno alla corsa: dal gesto al carico",
+          "after": "Tornare a correre dopo un dolore all’anca"
+        },
+        "kicker": {
+          "before": "Correre una volta e tornare a correre con continuità non sono lo stesso risultato",
+          "after": "Dagli esercizi ai chilometri: preparare ritmo, distanza e recupero."
+        },
+        "excerpt": {
+          "before": "Il ritorno alla corsa richiede forza, controllo, tolleranza e una progressione che arrivi davvero a ritmo, distanza e frequenza desiderati.",
+          "after": "Riprendere la corsa dopo un dolore all’anca: come collegare esercizi, distanza, ritmo e frequenza, osservando la risposta al carico e il recupero."
+        },
+        "readingTime": {
+          "before": "7 min",
+          "after": "2 min"
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "Partire da ciò che vuoi davvero recuperare",
+              "paragraphs": [
+                "Cinque chilometri facili, una mezza maratona e una partita con cambi di direzione appartengono a richieste diverse. L'obiettivo deve includere distanza, ritmo, frequenza, terreno e recupero atteso.",
+                "Solo così possiamo confrontare la capacità affidabile attuale con la domanda reale e definire il Gap di Capacità."
+              ]
+            },
+            {
+              "heading": "L'esercizio prepara, la progressione trasferisce",
+              "paragraphs": [
+                "Forza, mobilità utile e controllo creano opzioni. Per tornare alla corsa devono poi essere integrate con appoggi, elasticità, ripetizione, velocità e fatica progressivamente più specifiche.",
+                "Saltare questo passaggio può lasciare una persona forte negli esercizi ma ancora fragile quando aumenta i minuti o corre più giorni nella stessa settimana."
+              ]
+            },
+            {
+              "heading": "La risposta decide il passo successivo",
+              "paragraphs": [
+                "Durante il ritorno alla corsa si osservano sintomi, sforzo, qualità percepita, funzione e recupero. Se la dose è assimilata, si aumenta una variabile; se la risposta è gestibile ma non stabile, si consolida.",
+                "La progressione non promette una linea perfettamente retta. Oscillazioni e modifiche temporanee possono far parte del processo senza cancellare le capacità già costruite."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Definire distanza, ritmo e frequenza della corsa",
+              "paragraphs": [
+                "Cinque chilometri facili, una mezza maratona e una partita con cambi di direzione appartengono a richieste diverse. L'obiettivo deve includere distanza, ritmo, frequenza, terreno e recupero atteso.",
+                "Solo così possiamo confrontare la capacità affidabile attuale con la domanda reale e definire il [Gap di Capacità](/blog/gap-di-capacita)."
+              ]
+            },
+            {
+              "heading": "Dagli esercizi per l’anca alla corsa",
+              "paragraphs": [
+                "Forza, mobilità utile e controllo creano opzioni. Per tornare alla corsa devono poi essere integrate con appoggi, elasticità, ripetizione, velocità e fatica progressivamente più specifiche.",
+                "Saltare questo passaggio può lasciare una persona forte negli esercizi ma ancora fragile quando aumenta i minuti o corre più giorni nella stessa settimana."
+              ]
+            },
+            {
+              "heading": "Adattare la corsa alla risposta e al recupero",
+              "paragraphs": [
+                "Durante il ritorno alla corsa si osservano sintomi, sforzo, qualità percepita, funzione e recupero. Se la dose è assimilata, si aumenta una variabile; se la risposta è gestibile ma non stabile, si consolida.",
+                "La progressione non promette una linea perfettamente retta. Oscillazioni e modifiche temporanee possono far parte del processo senza cancellare le capacità già costruite."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "Il ritorno alla corsa richiede forza, controllo, tolleranza e una progressione che arrivi davvero a ritmo, distanza e frequenza desiderati.",
+          "after": "Riprendere la corsa dopo un dolore all’anca: come collegare esercizi, distanza, ritmo e frequenza, osservando la risposta al carico e il recupero."
+        },
+        "seoDescription": {
+          "before": "Il ritorno alla corsa richiede forza, controllo, tolleranza e una progressione che arrivi davvero a ritmo, distanza e frequenza desiderati.",
+          "after": "Riprendere la corsa dopo un dolore all’anca: come collegare esercizi, distanza, ritmo e frequenza, osservando la risposta al carico e il recupero."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Dolore all’anca e ritorno alla corsa | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "dolore-anca-ritorno-corsa",
+        "category": "Anca",
+        "date": "24 luglio 2026",
+        "publishedAt": "2026-07-24",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "image": "/images/brand-db261c509ec7.webp",
+        "imageAlt": "Atleta in corsa su una pista; scritta «Programmi allenanti PERFORMANCE».",
+        "featuredImage": "/images/brand-db261c509ec7.webp",
+        "canonical": "/blog/dolore-anca-ritorno-corsa",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "dolore-laterale-anca-notte-carico-esercizio"
+        ],
+        "takeaways": [
+          "Definisci la corsa target, non una generica assenza di dolore.",
+          "Gli esercizi di base devono trasferirsi a richieste specifiche.",
+          "Aumenta distanza, ritmo o frequenza in modo leggibile.",
+          "Una ricaduta non equivale automaticamente a essere tornati al punto di partenza."
+        ]
+      }
+    },
+    {
+      "slug": "dolore-davanti-ginocchio-scale",
+      "changes": {
+        "title": {
+          "before": "Dolore al ginocchio sulle scale: costruire capacità, passo dopo passo",
+          "after": "Dolore al ginocchio sulle scale: cosa valutare"
+        },
+        "kicker": {
+          "before": "Salita, discesa e carico: come orientare un percorso attivo personalizzato.",
+          "after": "Salita e discesa richiedono capacità diverse: da qui parte la valutazione."
+        },
+        "excerpt": {
+          "before": "Perché le scale possono provocare dolore al ginocchio e come affrontarle con esercizio, gestione del carico e matrice educativa Corpo Capace.",
+          "after": "Il ginocchio fa male salendo o scendendo le scale? Possibili cause, adattamenti nella giornata, ruolo dell’esercizio e segnali che richiedono assistenza."
+        },
+        "readingTime": {
+          "before": "6 min",
+          "after": "5 min"
+        },
+        "description": {
+          "before": "Perché le scale possono provocare dolore al ginocchio e come affrontarle con esercizio, gestione del carico e matrice educativa Corpo Capace.",
+          "after": "Il ginocchio fa male salendo o scendendo le scale? Possibili cause, adattamenti nella giornata, ruolo dell’esercizio e segnali che richiedono assistenza."
+        },
+        "seoDescription": {
+          "before": "Perché le scale possono provocare dolore al ginocchio e come affrontarle con esercizio, gestione del carico e matrice educativa Corpo Capace.",
+          "after": "Il ginocchio fa male salendo o scendendo le scale? Possibili cause, adattamenti nella giornata, ruolo dell’esercizio e segnali che richiedono assistenza."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Dolore al ginocchio sulle scale: cosa valutare | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "dolore-davanti-ginocchio-scale",
+        "category": "Ginocchio",
+        "date": "8 settembre 2026",
+        "publishedAt": "2026-09-08",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "sources": [
+          {
+            "label": "[1] Cambridgeshire Community Services NHS Trust · Patellofemoral knee pain: esercizio e monitoraggio dei sintomi.",
+            "url": "https://umb-uat.dynamichealth.nhs.uk/help-and-advice/knee-pain/patellofemoral-knee-pain/"
+          },
+          {
+            "label": "[2] NHS · Knee pain: possibili cause e quando chiedere assistenza.",
+            "url": "https://www.nhs.uk/symptoms/knee-pain/"
+          }
+        ],
+        "sourceDate": "8 settembre 2026",
+        "image": "/images/ginocchio-scale.webp",
+        "imageAlt": "Uomo sulle scale con una mano sul corrimano e l’altra sul ginocchio.",
+        "imageCaption": "Scale e vita quotidiana · Immagine illustrativa generata con IA",
+        "featuredImage": "/images/ginocchio-scale.webp",
+        "canonical": "/blog/dolore-davanti-ginocchio-scale",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "condromalacia-rotulea"
+        ],
+        "takeaways": [
+          "Salita e discesa sono richieste diverse e vanno considerate separatamente.",
+          "Il dolore sulle scale non identifica da solo una lesione.",
+          "La progressione si adatta al gesto, alla dose e al recupero.",
+          "La matrice orienta l’allenamento: non fa diagnosi."
+        ]
+      }
+    },
+    {
+      "slug": "dolore-laterale-anca-notte-carico-esercizio",
+      "changes": {
+        "title": {
+          "before": "Dolore laterale all’anca di notte: capire il carico, ritrovare il movimento",
+          "after": "Dolore laterale all’anca di notte: cosa fare"
+        },
+        "kicker": {
+          "before": "Perché dormire sul fianco può fare male e come costruire un percorso attivo.",
+          "after": "Riposo sul fianco, attività della giornata e valutazione dei sintomi."
+        },
+        "excerpt": {
+          "before": "Compressione sul fianco, tendini glutei e gestione del carico: strategie per il sonno, esercizio personalizzato e matrice educativa Corpo Capace.",
+          "after": "Dolore all’esterno dell’anca quando dormi sul fianco: possibili cause, posizioni da adattare, gestione dell’attività e quando chiedere una valutazione."
+        },
+        "readingTime": {
+          "before": "6 min",
+          "after": "4 min"
+        },
+        "description": {
+          "before": "Compressione sul fianco, tendini glutei e gestione del carico: strategie per il sonno, esercizio personalizzato e matrice educativa Corpo Capace.",
+          "after": "Dolore all’esterno dell’anca quando dormi sul fianco: possibili cause, posizioni da adattare, gestione dell’attività e quando chiedere una valutazione."
+        },
+        "seoDescription": {
+          "before": "Compressione sul fianco, tendini glutei e gestione del carico: strategie per il sonno, esercizio personalizzato e matrice educativa Corpo Capace.",
+          "after": "Dolore all’esterno dell’anca quando dormi sul fianco: possibili cause, posizioni da adattare, gestione dell’attività e quando chiedere una valutazione."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Dolore laterale all’anca di notte: cosa fare | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "dolore-laterale-anca-notte-carico-esercizio",
+        "category": "Anca",
+        "date": "8 settembre 2026",
+        "publishedAt": "2026-09-08",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "sources": [
+          {
+            "label": "[1] East Sussex MSK · Patient Information: Gluteal Tendinopathy, giugno 2026.",
+            "url": "https://eastsussexmsk.nhs.uk/wp-content/uploads/2026/06/Patient-Information-Gluteal-Tendinopathy.pdf"
+          },
+          {
+            "label": "[2] Royal National Orthopaedic Hospital · A Patient’s Guide to Gluteal Tendinopathy.",
+            "url": "https://eastsussexmsk.nhs.uk/wp-content/uploads/2025/09/GTPS-RNOH.pdf"
+          },
+          {
+            "label": "[3] NHS · Hip pain in adults.",
+            "url": "https://www.nhs.uk/symptoms/hip-pain/"
+          }
+        ],
+        "sourceDate": "8 settembre 2026",
+        "image": "/images/anca-notte.webp",
+        "imageAlt": "Donna sul fianco a letto con una mano sulla parte laterale dell’anca.",
+        "imageCaption": "Dolore laterale e riposo · Immagine illustrativa generata con IA",
+        "featuredImage": "/images/anca-notte.webp",
+        "canonical": "/blog/dolore-laterale-anca-notte-carico-esercizio",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "dolore-anca-ritorno-corsa"
+        ],
+        "takeaways": [
+          "Dormire sul fianco può comprimere tessuti sensibili anche senza movimento.",
+          "L’esercizio va dosato insieme alle richieste della giornata.",
+          "La matrice descrive capacità e tolleranza rispetto a un’attività: non fa diagnosi.",
+          "Il dolore che disturba il sonno merita attenzione e un inquadramento."
+        ]
+      }
+    },
+    {
+      "slug": "dolore-piede-sintomo-funzione",
+      "changes": {
+        "title": {
+          "before": "Dolore al piede: spegnere il sintomo non ricostruisce la funzione",
+          "after": "Dopo il dolore al piede: recuperare cammino e sport"
+        },
+        "kicker": {
+          "before": "Dal sollievo al ritorno a camminare, correre e stare in piedi",
+          "after": "Il sollievo è un passaggio; il traguardo è sostenere di nuovo le tue attività."
+        },
+        "excerpt": {
+          "before": "Terapie e scarico possono aiutare il sintomo. Ma per tornare alle attività serve recuperare ciò che il piede e l'intero arto devono sostenere.",
+          "after": "Il dolore al piede è diminuito, ma cammino o sport restano difficili? Come collegare sollievo, capacità fisiche e ritorno graduale alle attività."
+        },
+        "readingTime": {
+          "before": "7 min",
+          "after": "2 min"
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "Il sollievo ha un ruolo, ma non conclude il percorso",
+              "paragraphs": [
+                "Farmaci, plantari, terapie manuali o fisiche possono essere appropriati in specifici casi e aiutare a controllare i sintomi. Ridurre il dolore, però, non restituisce automaticamente forza, resistenza, controllo o tolleranza alle ore in piedi.",
+                "La domanda utile diventa quindi: dopo che il sintomo è migliorato, che cosa manca ancora per sostenere una giornata di lavoro, una camminata lunga, il trekking o la corsa che vuoi recuperare?"
+              ]
+            },
+            {
+              "heading": "Le cinque capacità da mettere in relazione con il compito",
+              "paragraphs": [
+                "Corpo Capace organizza il lavoro intorno a mobilità utile, controllo, forza, tolleranza o resistenza e capacità specifica. Non sono caselle isolate: cooperano e vanno selezionate in base all'attività-obiettivo.",
+                "Non serve inseguire un piede perfetto o una simmetria ideale. Serve capire quali qualità limitano realmente il compito e quali possono essere allenate, misurate e trasferite alla vita reale."
+              ]
+            },
+            {
+              "heading": "Dal test al terreno reale",
+              "paragraphs": [
+                "Un esercizio per il piede può essere utile, ma il passaggio decisivo è la progressione verso il compito: più minuti di cammino, più ore in piedi, più velocità, dislivello, cambi di direzione o appoggi ripetuti.",
+                "Il percorso funziona quando l'attività torna disponibile alla dose necessaria e non quando la persona diventa dipendente da un esercizio, da una seduta o dal controllo continuo del professionista."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Cosa può mancare dopo il sollievo dal dolore",
+              "paragraphs": [
+                "Farmaci, plantari, terapie manuali o fisiche possono essere appropriati in specifici casi e aiutare a controllare i sintomi. Ridurre il dolore, però, non restituisce automaticamente forza, resistenza, controllo o tolleranza alle ore in piedi.",
+                "La domanda utile diventa quindi: dopo che il sintomo è migliorato, che cosa manca ancora per sostenere una giornata di lavoro, una camminata lunga, il trekking o la corsa che vuoi recuperare?"
+              ]
+            },
+            {
+              "heading": "Le cinque capacità da mettere in relazione con il compito",
+              "paragraphs": [
+                "Corpo Capace organizza il lavoro intorno a mobilità utile, controllo, forza, tolleranza o resistenza e capacità specifica. Non sono caselle isolate: cooperano e vanno selezionate in base all'attività-obiettivo.",
+                "Non serve inseguire un piede perfetto o una simmetria ideale. Serve capire quali qualità limitano realmente il compito e quali possono essere allenate, misurate e trasferite alla vita reale."
+              ]
+            },
+            {
+              "heading": "Dagli esercizi al cammino e allo sport",
+              "paragraphs": [
+                "Un esercizio per il piede può essere utile, ma il passaggio decisivo è la [progressione verso il compito](/blog/il-test-vero-e-la-vita): più minuti di cammino, più ore in piedi, più velocità, dislivello, cambi di direzione o appoggi ripetuti.",
+                "Il percorso funziona quando l'attività torna disponibile alla dose necessaria e non quando la persona diventa dipendente da un esercizio, da una seduta o dal controllo continuo del professionista."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "Terapie e scarico possono aiutare il sintomo. Ma per tornare alle attività serve recuperare ciò che il piede e l'intero arto devono sostenere.",
+          "after": "Il dolore al piede è diminuito, ma cammino o sport restano difficili? Come collegare sollievo, capacità fisiche e ritorno graduale alle attività."
+        },
+        "seoDescription": {
+          "before": "Terapie e scarico possono aiutare il sintomo. Ma per tornare alle attività serve recuperare ciò che il piede e l'intero arto devono sostenere.",
+          "after": "Il dolore al piede è diminuito, ma cammino o sport restano difficili? Come collegare sollievo, capacità fisiche e ritorno graduale alle attività."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Dopo il dolore al piede: recuperare le attività | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "dolore-piede-sintomo-funzione",
+        "category": "Piede",
+        "date": "21 agosto 2026",
+        "publishedAt": "2026-08-21",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "image": "/images/brand-6da500b82980.webp",
+        "imageAlt": "Uomo in mezzo inginocchio che esegue un esercizio con elastico davanti a uno smartphone su treppiede.",
+        "featuredImage": "/images/brand-6da500b82980.webp",
+        "canonical": "/blog/dolore-piede-sintomo-funzione",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "dolore-al-piede",
+          "piedi-caviglie-gonfie",
+          "quando-non-e-da-operare-alluce-valgo"
+        ],
+        "takeaways": [
+          "Controllare il sintomo e recuperare funzione sono obiettivi distinti.",
+          "Allena solo le capacità rilevanti per ciò che vuoi fare.",
+          "Trasferisci gradualmente il lavoro a cammino, corsa o vita reale.",
+          "Se il quadro è acuto, instabile o non chiarito, serve prima un inquadramento sanitario."
+        ]
+      }
+    },
+    {
+      "slug": "fascite-plantare-sintomi-cure-ritorno-movimento",
+      "changes": {
+        "title": {
+          "before": "Fascite plantare: capire il dolore e tornare al movimento",
+          "after": "Fascite plantare: sintomi, cure e ritorno al cammino"
+        },
+        "kicker": {
+          "before": "Dal primo passo del mattino al ritorno alle attività che contano.",
+          "after": "Dal dolore ai primi passi alle scelte per tornare a muoverti."
+        },
+        "excerpt": {
+          "before": "Sintomi, trattamenti e recupero della fascite plantare: cosa indicano le evidenze e come impostare un ritorno graduale all’attività.",
+          "after": "Fascite plantare: sintomi al tallone, diagnosi, esercizi e trattamenti. Cosa aspettarsi dal recupero e come affrontare il ritorno graduale al movimento."
+        },
+        "readingTime": {
+          "before": "5 min",
+          "after": "4 min"
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "Che cos’è e come si riconosce",
+              "paragraphs": [
+                "La fascia plantare è una robusta struttura di tessuto connettivo che collega il calcagno all’avampiede e contribuisce al sostegno dell’arco. Nelle forme persistenti il termine “fasciopatia” descrive meglio un quadro che può comprendere alterazioni degenerative del tessuto, non soltanto infiammazione. [1]",
+                "Il dolore è spesso sotto il tallone, verso il lato interno, soprattutto ai primi passi dopo il riposo. Può attenuarsi muovendosi e ripresentarsi con carichi prolungati. Questi sintomi orientano la valutazione, ma da soli non confermano una diagnosi. [2]"
+              ]
+            },
+            {
+              "heading": "Perché può comparire",
+              "paragraphs": [
+                "Un aumento dell’attività, molte ore in piedi, una ridotta mobilità della caviglia e un peso corporeo elevato possono contribuire al rischio. Di solito non esiste un’unica causa riconoscibile. La forma dell’arco non basta a definire un piede “sbagliato”. [1, 2]",
+                "Lo sperone calcaneare è una sporgenza ossea, non un’infiammazione: può essere presente anche senza dolore. Trovarlo in una radiografia non significa che debba essere rimosso. [2]"
+              ]
+            },
+            {
+              "heading": "Quando serve una valutazione",
+              "paragraphs": [
+                "La diagnosi parte dalla storia dei sintomi e dall’esame clinico. Gli esami per immagini non sono sempre necessari: vengono scelti quando servono a chiarire il quadro o escludere altre cause, come una frattura da stress. [3]",
+                "Se il dolore persiste, peggiora o limita le attività quotidiane, richiedi una valutazione sanitaria. Se dopo un trauma il dolore è forte o non riesci a camminare, richiedi assistenza urgente. Formicolii o perdita di sensibilità richiedono una valutazione; in questi casi non affidarti a esercizi trovati online. [4]"
+              ]
+            },
+            {
+              "heading": "Cosa può aiutare davvero",
+              "paragraphs": [
+                "Le linee guida raccomandano stretching specifico della fascia plantare e del polpaccio, insieme a esercizi di rinforzo per piede e caviglia. Il programma va adattato: esercizio, intensità e progressione dipendono dalla valutazione e dalla risposta individuale. [1]",
+                "Taping e plantari possono essere supporti utili; i plantari non sono raccomandati come unico trattamento per il sollievo a breve termine. Per un dolore costante ai primi passi mattutini, il professionista può proporre un tutore notturno. [1]",
+                "Ridurre temporaneamente le attività che aggravano i sintomi e scegliere alternative tollerate, come bicicletta o nuoto, può aiutare a restare attivi. Scarpe comode e adeguatamente ammortizzate possono rendere più gestibile il carico quotidiano. [2]"
+              ]
+            },
+            {
+              "heading": "Terapie e tempi di recupero",
+              "paragraphs": [
+                "La maggior parte delle persone migliora con trattamenti non chirurgici, spesso nell’arco di mesi. I tempi variano: non esiste una scadenza valida per tutti. Se il percorso non porta miglioramenti, occorre rivalutare diagnosi e trattamento. [3]",
+                "Farmaci e infiltrazioni richiedono una decisione sanitaria. Le infiltrazioni di corticosteroidi possono dare sollievo temporaneo, ma comportano rischi, tra cui indebolimento della fascia e assottigliamento del cuscinetto del tallone. Onde d’urto e, più raramente, chirurgia sono opzioni da discutere nei casi selezionati che non migliorano. [3]"
+              ]
+            },
+            {
+              "heading": "Il ritorno all’attività con Corpo Capace",
+              "paragraphs": [
+                "Nel Metodo Corpo Capace partiamo da una domanda concreta: che cosa vuoi tornare a sostenere? Un turno di lavoro, una passeggiata, una corsa e un trekking richiedono capacità diverse.",
+                "Quando la situazione è compatibile con un percorso di allenamento, definiamo il livello di partenza, lavoriamo sulle capacità rilevanti e adattiamo la progressione osservando la risposta durante l’attività e il recupero successivo. Un diario di durata, frequenza e sintomi può rendere il confronto più concreto.",
+                "Il rapporto tra capacità e richiesta è una cornice operativa del metodo, non una spiegazione universale del dolore né un protocollo clinico validato per curare la fascite. Corpo Capace non sostituisce diagnosi e presa in carico sanitaria quando necessarie. L’obiettivo è accompagnare il ritorno alle attività desiderate con un allenamento personalizzato."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Fascite plantare: che cos’è e quali sintomi provoca",
+              "paragraphs": [
+                "La fascia plantare è una robusta struttura di tessuto connettivo che collega il calcagno all’avampiede e contribuisce al sostegno dell’arco. Nelle forme persistenti il termine “fasciopatia” descrive meglio un quadro che può comprendere alterazioni degenerative del tessuto, non soltanto infiammazione. [1]",
+                "Il dolore è spesso sotto il tallone, verso il lato interno, soprattutto ai primi passi dopo il riposo. Può attenuarsi muovendosi e ripresentarsi con carichi prolungati. Questi sintomi orientano la valutazione, ma da soli non confermano una diagnosi. [2]"
+              ]
+            },
+            {
+              "heading": "Perché può comparire",
+              "paragraphs": [
+                "Un aumento dell’attività, molte ore in piedi, una ridotta mobilità della caviglia e un peso corporeo elevato possono contribuire al rischio. Di solito non esiste un’unica causa riconoscibile. La forma dell’arco non basta a definire un piede “sbagliato”. [1, 2]",
+                "Lo sperone calcaneare è una sporgenza ossea, non un’infiammazione: può essere presente anche senza dolore. Trovarlo in una radiografia non significa che debba essere rimosso. [2]"
+              ]
+            },
+            {
+              "heading": "Quando serve una valutazione",
+              "paragraphs": [
+                "La diagnosi parte dalla storia dei sintomi e dall’esame clinico. Gli esami per immagini non sono sempre necessari: vengono scelti quando servono a chiarire il quadro o escludere altre cause, come una frattura da stress. [3]",
+                "Se il dolore persiste, peggiora o limita le attività quotidiane, richiedi una valutazione sanitaria. Se dopo un trauma il dolore è forte o non riesci a camminare, richiedi assistenza urgente. Formicolii o perdita di sensibilità richiedono una valutazione; in questi casi non affidarti a esercizi trovati online. [4]"
+              ]
+            },
+            {
+              "heading": "Esercizi, supporti e gestione dell’attività",
+              "paragraphs": [
+                "Le linee guida raccomandano stretching specifico della fascia plantare e del polpaccio, insieme a esercizi di rinforzo per piede e caviglia. Il programma va adattato: esercizio, intensità e progressione dipendono dalla valutazione e dalla risposta individuale. [1]",
+                "Taping e plantari possono essere supporti utili; i plantari non sono raccomandati come unico trattamento per il sollievo a breve termine. Per un dolore costante ai primi passi mattutini, il professionista può proporre un tutore notturno. [1]",
+                "Ridurre temporaneamente le attività che aggravano i sintomi e scegliere alternative tollerate, come bicicletta o nuoto, può aiutare a restare attivi. Scarpe comode e adeguatamente ammortizzate possono rendere più gestibile il carico quotidiano. [2]"
+              ]
+            },
+            {
+              "heading": "Terapie e tempi di recupero",
+              "paragraphs": [
+                "La maggior parte delle persone migliora con trattamenti non chirurgici, spesso nell’arco di mesi. I tempi variano: non esiste una scadenza valida per tutti. Se il percorso non porta miglioramenti, occorre rivalutare diagnosi e trattamento. [3]",
+                "Farmaci e infiltrazioni richiedono una decisione sanitaria. Le infiltrazioni di corticosteroidi possono dare sollievo temporaneo, ma comportano rischi, tra cui indebolimento della fascia e assottigliamento del cuscinetto del tallone. Onde d’urto e, più raramente, chirurgia sono opzioni da discutere nei casi selezionati che non migliorano. [3]"
+              ]
+            },
+            {
+              "heading": "Il ritorno all’attività con Corpo Capace",
+              "paragraphs": [
+                "Nel Metodo Corpo Capace partiamo da una domanda concreta: che cosa vuoi tornare a sostenere? Un turno di lavoro, una passeggiata, una corsa e un trekking richiedono capacità diverse.",
+                "Quando la situazione è compatibile con un percorso di allenamento, definiamo il livello di partenza, lavoriamo sulle capacità rilevanti e adattiamo la progressione osservando la risposta durante l’attività e il recupero successivo. Un diario di durata, frequenza e sintomi può rendere il confronto più concreto.",
+                "Il rapporto tra capacità e richiesta è una cornice operativa del metodo, non una spiegazione universale del dolore né un protocollo clinico validato per curare la fascite. Corpo Capace non sostituisce diagnosi e presa in carico sanitaria quando necessarie. L’obiettivo è accompagnare il ritorno alle attività desiderate con un allenamento personalizzato."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "Sintomi, trattamenti e recupero della fascite plantare: cosa indicano le evidenze e come impostare un ritorno graduale all’attività.",
+          "after": "Fascite plantare: sintomi al tallone, diagnosi, esercizi e trattamenti. Cosa aspettarsi dal recupero e come affrontare il ritorno graduale al movimento."
+        },
+        "seoDescription": {
+          "before": "Sintomi, trattamenti e recupero della fascite plantare: cosa indicano le evidenze e come impostare un ritorno graduale all’attività.",
+          "after": "Fascite plantare: sintomi al tallone, diagnosi, esercizi e trattamenti. Cosa aspettarsi dal recupero e come affrontare il ritorno graduale al movimento."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Fascite plantare: sintomi, cure e recupero | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "fascite-plantare-sintomi-cure-ritorno-movimento",
+        "category": "Piede",
+        "date": "7 settembre 2026",
+        "publishedAt": "2026-09-07",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "sources": [
+          {
+            "label": "[1] Koc e colleghi · Heel Pain – Plantar Fasciitis: Revision 2023. JOSPT, 53(12), CPG1–CPG39.",
+            "url": "https://doi.org/10.2519/jospt.2023.0303"
+          },
+          {
+            "label": "[2] AAOS OrthoInfo · Plantar Fasciitis and Bone Spurs.",
+            "url": "https://www.orthoinfo.org/diseases--conditions/plantar-fasciitis-and-bone-spurs/"
+          },
+          {
+            "label": "[3] Mayo Clinic · Plantar fasciitis: diagnosis and treatment.",
+            "url": "https://www.mayoclinic.org/diseases-conditions/plantar-fasciitis/diagnosis-treatment/drc-20354851"
+          },
+          {
+            "label": "[4] NHS · Heel pain: when to seek help.",
+            "url": "https://www.nhs.uk/symptoms/foot-pain/heel-pain/"
+          }
+        ],
+        "sourceDate": "15 settembre 2026",
+        "image": "/images/fascite-plantare-corpo-capace.webp",
+        "imageAlt": "Persona seduta che appoggia una mano sul tallone del piede.",
+        "imageCaption": "Immagine illustrativa generata con IA · Corpo Capace",
+        "featuredImage": "/images/fascite-plantare-corpo-capace.webp",
+        "canonical": "/blog/fascite-plantare-sintomi-cure-ritorno-movimento",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "dolore-al-piede",
+          "piedi-caviglie-gonfie",
+          "quando-non-e-da-operare-alluce-valgo"
+        ],
+        "takeaways": [
+          "Il dolore al tallone merita un inquadramento: non è sempre fascite plantare.",
+          "Esercizio e gestione dell’attività vanno personalizzati.",
+          "Il ritorno al movimento richiede una progressione, senza tempi di guarigione promessi."
+        ]
+      }
+    },
+    {
+      "slug": "gap-di-capacita",
+      "changes": {
+        "title": {
+          "before": "Il Gap di Capacità: cosa separa il tuo oggi dal tuo obiettivo",
+          "after": "Gap di Capacità: dal punto di partenza all’obiettivo"
+        },
+        "kicker": {
+          "before": "Una mappa concreta per smettere di allenarsi alla cieca",
+          "after": "Confrontare ciò che sostieni oggi con ciò che vuoi tornare a fare."
+        },
+        "excerpt": {
+          "before": "Tra ciò che riesci a sostenere oggi e ciò che vuoi tornare a fare esiste una distanza. Misurarla cambia il modo di costruire il percorso.",
+          "after": "Il Gap di Capacità nel Metodo Corpo Capace: definire un obiettivo concreto, osservare movimento e tolleranza e scegliere le priorità dell’allenamento."
+        },
+        "readingTime": {
+          "before": "7 min",
+          "after": "2 min"
+        },
+        "intro": {
+          "before": "«Voglio stare meglio» è comprensibile, ma non basta per programmare. Camminare un'ora, allenarsi tre volte a settimana, correre dieci chilometri o giocare una partita descrivono richieste molto diverse. Il Gap di Capacità rende quella distanza visibile.",
+          "after": "Il Gap di Capacità è la distanza tra ciò che riesci a sostenere oggi e ciò che richiede il tuo obiettivo. Camminare un’ora, allenarsi tre volte a settimana o correre dieci chilometri sono richieste diverse: definirle aiuta a scegliere le priorità. È una cornice operativa del Metodo Corpo Capace, non una diagnosi."
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "Partire da un'attività concreta",
+              "paragraphs": [
+                "Ogni percorso dovrebbe iniziare da ciò che la persona vuole recuperare e dalla dose necessaria. L'obiettivo non è soltanto il gesto: comprende durata, frequenza, intensità, complessità e contesto.",
+                "Una stessa persona può essere pienamente capace nelle attività quotidiane e ancora fragile rispetto alla corsa o incapace rispetto a una prestazione agonistica. Il profilo ha senso solo in relazione a una richiesta precisa."
+              ]
+            },
+            {
+              "heading": "Movimento utile e tolleranza al carico",
+              "paragraphs": [
+                "La Matrice Corpo Capace osserva due dimensioni. La prima è la capacità di movimento: mobilità, controllo, coordinazione, forza e gesto specifico. La seconda è la tolleranza: quanta richiesta puoi sostenere, ripetere e recuperare.",
+                "Da questa combinazione emergono quattro profili operativi: Capace, Limitato, Fragile e Incapace. Non sono diagnosi e non definiscono la persona; descrivono il tipo di distanza presente rispetto a quel compito."
+              ]
+            },
+            {
+              "heading": "Dal profilo alla priorità",
+              "paragraphs": [
+                "Un profilo Limitato richiede soprattutto di ampliare capacità di movimento rilevanti. Un profilo Fragile richiede di aumentare la finestra di carico e il recupero. Un profilo Incapace necessita di ricostruire entrambe le dimensioni.",
+                "La matrice non prescrive esercizi automatici. Serve a trasformare la valutazione in priorità, dose iniziale, criterio di progressione e retest, evitando di intervenire su ogni imperfezione osservata."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Partire da un'attività concreta",
+              "paragraphs": [
+                "Ogni percorso dovrebbe iniziare da ciò che la persona vuole recuperare e dalla dose necessaria. L'obiettivo non è soltanto il gesto: comprende durata, frequenza, intensità, complessità e contesto.",
+                "Una stessa persona può essere pienamente capace nelle attività quotidiane e ancora fragile rispetto alla corsa o incapace rispetto a una prestazione agonistica. Il profilo ha senso solo in relazione a una richiesta precisa."
+              ]
+            },
+            {
+              "heading": "Movimento utile e tolleranza al carico",
+              "paragraphs": [
+                "La Matrice Corpo Capace osserva due dimensioni. La prima è la capacità di movimento: mobilità, controllo, coordinazione, forza e gesto specifico. La seconda è la tolleranza: quanta richiesta puoi sostenere, ripetere e recuperare.",
+                "Da questa combinazione emergono quattro profili operativi: Capace, Limitato, Fragile e Incapace. Non sono diagnosi e non definiscono la persona; descrivono il tipo di distanza presente rispetto a quel compito."
+              ]
+            },
+            {
+              "heading": "Dalla Matrice Corpo Capace alle priorità",
+              "paragraphs": [
+                "Un profilo Limitato richiede soprattutto di ampliare capacità di movimento rilevanti. Un profilo Fragile richiede di aumentare la finestra di carico e il recupero. Un profilo Incapace necessita di ricostruire entrambe le dimensioni.",
+                "La matrice non prescrive esercizi automatici. Serve a trasformare la valutazione in priorità, dose iniziale, [criterio di progressione](/blog/quando-aumentare-il-carico) e retest, evitando di intervenire su ogni imperfezione osservata."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "Tra ciò che riesci a sostenere oggi e ciò che vuoi tornare a fare esiste una distanza. Misurarla cambia il modo di costruire il percorso.",
+          "after": "Il Gap di Capacità nel Metodo Corpo Capace: definire un obiettivo concreto, osservare movimento e tolleranza e scegliere le priorità dell’allenamento."
+        },
+        "seoDescription": {
+          "before": "Tra ciò che riesci a sostenere oggi e ciò che vuoi tornare a fare esiste una distanza. Misurarla cambia il modo di costruire il percorso.",
+          "after": "Il Gap di Capacità nel Metodo Corpo Capace: definire un obiettivo concreto, osservare movimento e tolleranza e scegliere le priorità dell’allenamento."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Gap di Capacità: come definire il tuo obiettivo | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "gap-di-capacita",
+        "category": "Metodo",
+        "date": "10 agosto 2026",
+        "publishedAt": "2026-08-10",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "image": "/images/brand-023f3900e8f5.webp",
+        "imageAlt": "Uomo in mezzo inginocchio con un elastico intorno al ginocchio; scritta «Programmi riabilitativi RE-ACTIVE».",
+        "featuredImage": "/images/brand-023f3900e8f5.webp",
+        "canonical": "/blog/gap-di-capacita",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "perche-camminare-benefici-tutto-il-corpo",
+          "la-paghi-il-giorno-dopo",
+          "asimmetria-non-e-disfunzione"
+        ],
+        "takeaways": [
+          "Trasforma “stare meglio” in un'attività misurabile.",
+          "Il profilo è sempre relativo alla richiesta, mai assoluto.",
+          "Capacità di movimento e tolleranza richiedono strategie diverse.",
+          "La Matrice Corpo Capace è una tassonomia operativa, non una diagnosi clinica validata."
+        ]
+      }
+    },
+    {
+      "slug": "il-test-vero-e-la-vita",
+      "changes": {
+        "title": {
+          "before": "Camminare, palestra, trekking: il test vero è la vita",
+          "after": "Dagli esercizi alla vita quotidiana: verificare i progressi"
+        },
+        "kicker": {
+          "before": "Il trasferimento è la parte che spesso manca",
+          "after": "Cammino, palestra e trekking sono la verifica del lavoro svolto."
+        },
+        "excerpt": {
+          "before": "Migliorare un esercizio non basta se quella capacità non torna disponibile nel compito che conta davvero.",
+          "after": "Come capire se i progressi negli esercizi si trasferiscono a cammino, palestra e trekking: osservare durata, frequenza, recupero e autonomia."
+        },
+        "readingTime": {
+          "before": "6 min",
+          "after": "2 min"
+        },
+        "intro": {
+          "before": "Puoi diventare più forte in un esercizio e restare insicuro sulle scale. Puoi migliorare un test di equilibrio e non riuscire ancora a fare trekking. Il problema non è che il lavoro sia inutile: spesso manca il trasferimento verso la richiesta reale.",
+          "after": "Un progresso negli esercizi diventa utile quando ti aiuta nell’attività che vuoi recuperare. Forza ed equilibrio possono migliorare prima che scale, palestra o trekking tornino gestibili: per verificarlo, il programma deve avvicinarsi gradualmente alla durata, al terreno e ai carichi della vita reale."
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "Dalla capacità generale a quella specifica",
+              "paragraphs": [
+                "Mobilità, controllo e forza costruiscono una base. Ma ogni attività combina quelle qualità in modo diverso: camminare richiede ripetizione, il trekking aggiunge terreno e dislivello, la palestra richiede carichi e gesti specifici, il padel impone accelerazioni e cambi di direzione.",
+                "Per questo il programma deve diventare progressivamente più simile al compito, senza saltare dalla base alla richiesta completa in un solo passaggio."
+              ]
+            },
+            {
+              "heading": "La dose reale è più importante del nome dell'attività",
+              "paragraphs": [
+                "Dire «riesco a camminare» non specifica se parliamo di dieci minuti su terreno piano o di due ore con salite. Dire «sono tornato in palestra» non chiarisce frequenza, esercizi, volume o intensità.",
+                "L'affidabilità compare quando la capacità è disponibile alla dose necessaria, può essere ripetuta e produce un recupero compatibile con la vita della persona."
+              ]
+            },
+            {
+              "heading": "Autonomia, non dipendenza",
+              "paragraphs": [
+                "Il trasferimento include anche imparare a leggere la risposta del proprio corpo. La persona deve riconoscere una dose eccessiva, sapere quale variabile ridurre temporaneamente e interpretare una ricaduta senza pensare di essere tornata al punto di partenza.",
+                "La supervisione è utile finché serve. Il risultato di lungo periodo è un corpo più capace e una persona più autonoma nel gestirlo."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Preparare il gesto che vuoi recuperare",
+              "paragraphs": [
+                "Mobilità, controllo e forza costruiscono una base. Ma ogni attività combina quelle qualità in modo diverso: camminare richiede ripetizione, il trekking aggiunge terreno e dislivello, la palestra richiede carichi e gesti specifici, il padel impone accelerazioni e cambi di direzione.",
+                "Per questo il programma deve diventare progressivamente più simile al compito, senza saltare dalla base alla richiesta completa in un solo passaggio."
+              ]
+            },
+            {
+              "heading": "Durata, frequenza e intensità: definire il risultato",
+              "paragraphs": [
+                "Dire «riesco a camminare» non specifica se parliamo di dieci minuti su terreno piano o di due ore con salite. Dire «sono tornato in palestra» non chiarisce frequenza, esercizi, volume o intensità.",
+                "L'affidabilità compare quando la capacità è disponibile alla dose necessaria, può essere ripetuta e produce un recupero compatibile con la vita della persona."
+              ]
+            },
+            {
+              "heading": "Imparare a gestire il carico in autonomia",
+              "paragraphs": [
+                "Il trasferimento include anche imparare a [leggere la risposta del proprio corpo](/blog/la-paghi-il-giorno-dopo). La persona deve riconoscere una dose eccessiva, sapere quale variabile ridurre temporaneamente e interpretare una ricaduta senza pensare di essere tornata al punto di partenza.",
+                "La supervisione è utile finché serve. Il risultato di lungo periodo è un corpo più capace e una persona più autonoma nel gestirlo."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "Migliorare un esercizio non basta se quella capacità non torna disponibile nel compito che conta davvero.",
+          "after": "Come capire se i progressi negli esercizi si trasferiscono a cammino, palestra e trekking: osservare durata, frequenza, recupero e autonomia."
+        },
+        "seoDescription": {
+          "before": "Migliorare un esercizio non basta se quella capacità non torna disponibile nel compito che conta davvero.",
+          "after": "Come capire se i progressi negli esercizi si trasferiscono a cammino, palestra e trekking: osservare durata, frequenza, recupero e autonomia."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Dagli esercizi alla vita: verificare i progressi | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "il-test-vero-e-la-vita",
+        "category": "Ritorno allo sport",
+        "date": "6 agosto 2026",
+        "publishedAt": "2026-08-06",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "image": "/images/brand-db261c509ec7.webp",
+        "imageAlt": "Atleta in corsa su una pista; scritta «Programmi allenanti PERFORMANCE».",
+        "featuredImage": "/images/brand-db261c509ec7.webp",
+        "canonical": "/blog/il-test-vero-e-la-vita",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "stare-meglio-non-basta-tornare-a-correre"
+        ],
+        "takeaways": [
+          "Ogni capacità deve arrivare al compito che conta.",
+          "Descrivi sempre durata, frequenza, intensità e contesto.",
+          "La specificità aumenta gradualmente, non tutta insieme.",
+          "Il successo include autonomia nella gestione del carico."
+        ]
+      }
+    },
+    {
+      "slug": "la-paghi-il-giorno-dopo",
+      "changes": {
+        "title": {
+          "before": "La paghi il giorno dopo? Il problema può essere la dose",
+          "after": "Dolore dopo l’attività: valutare carico e recupero"
+        },
+        "kicker": {
+          "before": "Quando riesci a fare, ma non a recuperare",
+          "after": "Completare una seduta e recuperare per quella successiva sono due aspetti diversi."
+        },
+        "excerpt": {
+          "before": "Completare l'attività non dimostra che la dose fosse adeguata. La risposta nelle ore successive è parte del test.",
+          "after": "Dolore, rigidità o stanchezza dopo l’attività: quali dati osservare per valutare la dose di lavoro e discutere gli adattamenti con il professionista."
+        },
+        "readingTime": {
+          "before": "5 min",
+          "after": "2 min"
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "Fare un'attività e tollerarla sono cose diverse",
+              "paragraphs": [
+                "La capacità di eseguire un gesto descrive solo una parte del quadro. La tolleranza al carico include durata, volume, intensità, frequenza, recupero e possibilità di ripetere l'esposizione senza conseguenze sproporzionate.",
+                "Chi «riesce a farlo, ma poi la paga» può avere un movimento discreto e persino una buona tecnica. Ciò che manca è una finestra di carico abbastanza ampia da contenere la richiesta reale."
+              ]
+            },
+            {
+              "heading": "Il sintomo è un dato, non un verdetto",
+              "paragraphs": [
+                "Un aumento del sintomo non dimostra automaticamente che sia stato creato un danno. Può indicare che la dose ha superato la tolleranza attuale. Allo stesso tempo, ignorare sistematicamente la risposta non è allenamento intelligente.",
+                "Vanno osservati insieme intensità, durata, funzione, andamento e recupero. La finestra delle 24–48 ore è un riferimento pratico, non una legge universale: cambia con la persona e con il tipo di attività."
+              ]
+            },
+            {
+              "heading": "Modificare il minimo necessario",
+              "paragraphs": [
+                "Prima di eliminare completamente l'attività, si può intervenire su una variabile: carico, volume, frequenza, velocità, range di movimento, variante, recupero o specificità del gesto.",
+                "L'obiettivo è trovare la prima dose che il corpo riesce a sostenere, raccogliere una risposta leggibile e costruire da lì. Una regressione temporanea non cancella il percorso: può renderlo di nuovo allenabile."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Fare un'attività e tollerarla sono cose diverse",
+              "paragraphs": [
+                "La capacità di eseguire un gesto descrive solo una parte del quadro. La tolleranza al carico include durata, volume, intensità, frequenza, recupero e possibilità di ripetere l'esposizione senza conseguenze sproporzionate.",
+                "Chi «riesce a farlo, ma poi la paga» può avere un movimento discreto e persino una buona tecnica. Ciò che manca è una finestra di carico abbastanza ampia da contenere la richiesta reale."
+              ]
+            },
+            {
+              "heading": "Il sintomo è un dato, non un verdetto",
+              "paragraphs": [
+                "Un aumento del sintomo non dimostra automaticamente che sia stato creato un danno. Può indicare che la dose ha superato la tolleranza attuale. Allo stesso tempo, ignorare sistematicamente la risposta non è allenamento intelligente.",
+                "Vanno osservati insieme intensità, durata, funzione, andamento e recupero. La finestra delle 24–48 ore è un riferimento pratico, non una legge universale: cambia con la persona e con il tipo di attività."
+              ]
+            },
+            {
+              "heading": "Quali variabili del carico rivedere",
+              "paragraphs": [
+                "Prima di eliminare completamente l'attività, si può intervenire su una variabile: carico, volume, frequenza, velocità, range di movimento, variante, recupero o specificità del gesto.",
+                "L'obiettivo è trovare la prima dose che il corpo riesce a sostenere, raccogliere una risposta leggibile e costruire da lì. Una regressione temporanea non cancella il percorso: può renderlo di nuovo allenabile."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "Completare l'attività non dimostra che la dose fosse adeguata. La risposta nelle ore successive è parte del test.",
+          "after": "Dolore, rigidità o stanchezza dopo l’attività: quali dati osservare per valutare la dose di lavoro e discutere gli adattamenti con il professionista."
+        },
+        "seoDescription": {
+          "before": "Completare l'attività non dimostra che la dose fosse adeguata. La risposta nelle ore successive è parte del test.",
+          "after": "Dolore, rigidità o stanchezza dopo l’attività: quali dati osservare per valutare la dose di lavoro e discutere gli adattamenti con il professionista."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Dolore dopo l’attività: carico e recupero | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "la-paghi-il-giorno-dopo",
+        "category": "Carico",
+        "date": "25 agosto 2026",
+        "publishedAt": "2026-08-25",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "image": "/images/brand-023f3900e8f5.webp",
+        "imageAlt": "Uomo in mezzo inginocchio con un elastico intorno al ginocchio; scritta «Programmi riabilitativi RE-ACTIVE».",
+        "featuredImage": "/images/brand-023f3900e8f5.webp",
+        "canonical": "/blog/la-paghi-il-giorno-dopo",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "perche-camminare-benefici-tutto-il-corpo",
+          "asimmetria-non-e-disfunzione",
+          "quando-aumentare-il-carico"
+        ],
+        "takeaways": [
+          "Valuta ciò che accade anche dopo l'attività.",
+          "Un flare-up non equivale automaticamente a nuovo danno.",
+          "Prima di fermarti del tutto, prova a cambiare una variabile.",
+          "La dose giusta produce adattamento e dati utili."
+        ]
+      }
+    },
+    {
+      "slug": "perche-camminare-benefici-tutto-il-corpo",
+      "changes": {
+        "title": {
+          "before": "Perché camminare ha benefici su tutto il corpo ed è il primo punto di partenza del movimento",
+          "after": "Benefici del camminare: riprendere con gradualità"
+        },
+        "kicker": {
+          "before": "Il gesto più semplice può diventare una vera progressione di capacità",
+          "after": "Durata, ritmo e terreno rendono la camminata un’attività da dosare."
+        },
+        "excerpt": {
+          "before": "Camminare coinvolge tutto il corpo, permette di regolare con precisione la dose e può diventare il primo ponte tra sedentarietà, recupero e attività più impegnative.",
+          "after": "Camminare coinvolge tutto il corpo. Come adattare durata, velocità e terreno al tuo livello e costruire una progressione verso le attività desiderate."
+        },
+        "readingTime": {
+          "before": "8 min",
+          "after": "4 min"
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "Camminare non riguarda soltanto le gambe",
+              "paragraphs": [
+                "A ogni passo il piede incontra il terreno, caviglia e ginocchio gestiscono il carico, l’anca trasferisce la spinta e il tronco organizza equilibrio e rotazioni. Anche le braccia partecipano al ritmo, mentre respirazione e sistema cardiovascolare sostengono la continuità del gesto.",
+                "Questo non significa che esista un unico modo corretto di camminare. Il corpo usa strategie differenti in base a velocità, terreno, fatica, storia personale e obiettivo. La domanda utile non è se il passo sia perfetto, ma se sia abbastanza efficace e tollerabile per ciò che vuoi fare."
+              ]
+            },
+            {
+              "heading": "Perché è un punto di partenza così utile",
+              "paragraphs": [
+                "La camminata consente di modificare facilmente durata, velocità, frequenza, terreno, pendenza e pause. Possiamo quindi trovare una dose iniziale compatibile con la capacità attuale e produrre uno stimolo senza partire dalla richiesta massima.",
+                "Per chi è stato fermo, ha perso continuità o non si sente ancora pronto per correre, questa possibilità è preziosa. Camminare rende il carico misurabile: non è soltanto «muoversi un po’», ma esporsi a una quantità precisa di lavoro e osservare come il corpo risponde."
+              ]
+            },
+            {
+              "heading": "I benefici dipendono dalla dose che puoi sostenere",
+              "paragraphs": [
+                "Una camminata può contribuire alla capacità aerobica, al dispendio energetico, alla resistenza muscolare e alla tolleranza di piedi, caviglie, ginocchia, anche e colonna. Può inoltre interrompere lunghi periodi sedentari e rendere il movimento più presente nella giornata.",
+                "Ma «camminare fa bene» non è ancora una prescrizione. Dieci minuti e un’ora non sono lo stesso stimolo; una strada piana e un percorso in salita non hanno la stessa richiesta. Il beneficio emerge quando la dose è sufficiente a generare adattamento e compatibile con recupero, sintomi e attività successive."
+              ]
+            },
+            {
+              "heading": "Dal punto di partenza alla progressione",
+              "paragraphs": [
+                "Nel Metodo Corpo Capace partiamo dal tempo o dalla distanza che riesci a sostenere oggi con sufficiente affidabilità. Poi scegliamo una variabile alla volta: qualche minuto in più, un ritmo leggermente diverso, una seconda uscita, un terreno meno regolare o un piccolo dislivello.",
+                "Dopo l’esposizione osserviamo sforzo percepito, andamento dei sintomi, qualità del movimento, recupero e disponibilità per il giorno seguente. Se la risposta è adeguata si progredisce; se serve consolidare si mantiene; se la richiesta era eccessiva si modifica la dose senza interpretare l’episodio come un ritorno al punto di partenza."
+              ]
+            },
+            {
+              "heading": "Quando camminare prepara alla corsa",
+              "paragraphs": [
+                "La corsa aumenta velocità, forze e ripetizione degli appoggi. Per questo riuscire a camminare con continuità può rappresentare una base utile, ma non è da solo la prova che il corpo sia pronto a correre. Il passaggio richiede esposizioni più specifiche.",
+                "Una strategia possibile è alternare tratti di cammino e corsa, regolando durata, ritmo e recupero. La progressione non dipende da una tabella universale: dipende dalla distanza tra la capacità attuale e la corsa che vuoi recuperare, che sia una breve uscita o dieci chilometri."
+              ]
+            },
+            {
+              "heading": "La camminata diventa il test della vita reale",
+              "paragraphs": [
+                "Per molte persone l’obiettivo non è correre. È tornare a lavorare in piedi, visitare una città, fare trekking, accompagnare i figli o affrontare una giornata senza dover calcolare ogni spostamento. In questi casi camminare non è una preparazione: è già l’attività da recuperare.",
+                "Il risultato non è completare una singola uscita stringendo i denti. È rendere quella capacità disponibile alla dose necessaria, recuperare in modo compatibile e poterla ripetere con maggiore fiducia e autonomia."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Camminare non riguarda soltanto le gambe",
+              "paragraphs": [
+                "A ogni passo il piede incontra il terreno, caviglia e ginocchio gestiscono il carico, l’anca trasferisce la spinta e il tronco organizza equilibrio e rotazioni. Anche le braccia partecipano al ritmo, mentre respirazione e sistema cardiovascolare sostengono la continuità del gesto.",
+                "Questo non significa che esista un unico modo corretto di camminare. Il corpo usa strategie differenti in base a velocità, terreno, fatica, storia personale e obiettivo. La domanda utile non è se il passo sia perfetto, ma se sia abbastanza efficace e tollerabile per ciò che vuoi fare."
+              ]
+            },
+            {
+              "heading": "Durata, velocità e terreno: come dosare la camminata",
+              "paragraphs": [
+                "La camminata consente di modificare facilmente durata, velocità, frequenza, terreno, pendenza e pause. Possiamo quindi trovare una dose iniziale compatibile con la capacità attuale e produrre uno stimolo senza partire dalla richiesta massima.",
+                "Per chi è stato fermo, ha perso continuità o non si sente ancora pronto per correre, questa possibilità è preziosa. Camminare rende il carico misurabile: non è soltanto «muoversi un po’», ma esporsi a una quantità precisa di lavoro e osservare come il corpo risponde."
+              ]
+            },
+            {
+              "heading": "I benefici dipendono dalla dose che puoi sostenere",
+              "paragraphs": [
+                "Una camminata può contribuire alla capacità aerobica, al dispendio energetico, alla resistenza muscolare e alla tolleranza di piedi, caviglie, ginocchia, anche e colonna. Può inoltre interrompere lunghi periodi sedentari e rendere il movimento più presente nella giornata.",
+                "Ma «camminare fa bene» non è ancora una prescrizione. Dieci minuti e un’ora non sono lo stesso stimolo; una strada piana e un percorso in salita non hanno la stessa richiesta. Il beneficio emerge quando la dose è sufficiente a generare adattamento e compatibile con recupero, sintomi e attività successive."
+              ]
+            },
+            {
+              "heading": "Come aumentare gradualmente il cammino",
+              "paragraphs": [
+                "Nel Metodo Corpo Capace partiamo dal tempo o dalla distanza che riesci a sostenere oggi con sufficiente affidabilità. Poi scegliamo una variabile alla volta: qualche minuto in più, un ritmo leggermente diverso, una seconda uscita, un terreno meno regolare o un piccolo dislivello.",
+                "Dopo l’esposizione osserviamo sforzo percepito, andamento dei sintomi, qualità del movimento, recupero e disponibilità per il giorno seguente. Se la risposta è adeguata si progredisce; se serve consolidare si mantiene; se la richiesta era eccessiva si modifica la dose senza interpretare l’episodio come un ritorno al punto di partenza."
+              ]
+            },
+            {
+              "heading": "Quando camminare prepara alla corsa",
+              "paragraphs": [
+                "La corsa aumenta velocità, forze e ripetizione degli appoggi. Per questo riuscire a camminare con continuità può rappresentare una base utile, ma non è da solo la prova che il corpo sia pronto a correre. Il passaggio richiede esposizioni più specifiche.",
+                "Una strategia possibile è alternare tratti di cammino e corsa, regolando durata, ritmo e recupero. [La progressione](/blog/stare-meglio-non-basta-tornare-a-correre) non dipende da una tabella universale: dipende dalla distanza tra la capacità attuale e la corsa che vuoi recuperare, che sia una breve uscita o dieci chilometri."
+              ]
+            },
+            {
+              "heading": "La camminata diventa il test della vita reale",
+              "paragraphs": [
+                "Per molte persone l’obiettivo non è correre. È tornare a lavorare in piedi, visitare una città, fare trekking, accompagnare i figli o affrontare una giornata senza dover calcolare ogni spostamento. In questi casi camminare non è una preparazione: è già l’attività da recuperare.",
+                "Il risultato non è completare una singola uscita stringendo i denti. È rendere quella capacità disponibile alla dose necessaria, recuperare in modo compatibile e poterla ripetere con maggiore fiducia e autonomia."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "Camminare coinvolge tutto il corpo, permette di regolare con precisione la dose e può diventare il primo ponte tra sedentarietà, recupero e attività più impegnative.",
+          "after": "Camminare coinvolge tutto il corpo. Come adattare durata, velocità e terreno al tuo livello e costruire una progressione verso le attività desiderate."
+        },
+        "seoDescription": {
+          "before": "Camminare coinvolge tutto il corpo, permette di regolare con precisione la dose e può diventare il primo ponte tra sedentarietà, recupero e attività più impegnative.",
+          "after": "Camminare coinvolge tutto il corpo. Come adattare durata, velocità e terreno al tuo livello e costruire una progressione verso le attività desiderate."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Benefici del camminare e ripresa graduale | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "perche-camminare-benefici-tutto-il-corpo",
+        "category": "Metodo",
+        "date": "6 settembre 2026",
+        "publishedAt": "2026-09-06",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "image": "/images/brand-023f3900e8f5.webp",
+        "imageAlt": "Uomo in mezzo inginocchio con un elastico intorno al ginocchio; scritta «Programmi riabilitativi RE-ACTIVE».",
+        "featuredImage": "/images/brand-023f3900e8f5.webp",
+        "canonical": "/blog/perche-camminare-benefici-tutto-il-corpo",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "la-paghi-il-giorno-dopo",
+          "asimmetria-non-e-disfunzione",
+          "quando-aumentare-il-carico"
+        ],
+        "takeaways": [
+          "Camminare coinvolge l’intero corpo e non è un’attività di serie B.",
+          "Durata, velocità, frequenza, terreno e pendenza determinano la dose reale.",
+          "Si parte da ciò che puoi sostenere oggi e si modifica una variabile alla volta.",
+          "La risposta nelle 24–48 ore aiuta a decidere se progredire, mantenere o adattare.",
+          "Per alcuni la camminata prepara alla corsa; per altri è già il vero obiettivo."
+        ]
+      }
+    },
+    {
+      "slug": "piedi-caviglie-gonfie",
+      "changes": {
+        "title": {
+          "before": "Piedi e caviglie gonfie: perché succede e cosa puoi fare",
+          "after": "Piedi e caviglie gonfie: cause e segnali da non ignorare"
+        },
+        "seoTitle": {
+          "before": "Piedi e caviglie gonfie: cause, segnali e cosa fare",
+          "after": "Piedi e caviglie gonfie: cause e segnali d’allarme | Dr. Botta"
+        },
+        "kicker": {
+          "before": "Prima capire la causa. Poi scegliere il movimento appropriato.",
+          "after": "Prima capire la causa del gonfiore, poi scegliere gli interventi appropriati."
+        },
+        "excerpt": {
+          "before": "Piedi e caviglie gonfie non significano sempre ritenzione idrica: scopri le cause più comuni, cosa puoi fare e quando è meglio farti valutare dal medico.",
+          "after": "Piedi e caviglie gonfie: possibili cause, segnali che richiedono assistenza e ruolo di movimento e compressione. Non ogni edema va gestito con esercizi."
+        },
+        "description": {
+          "before": "Piedi e caviglie gonfie non significano sempre ritenzione idrica: scopri le cause più comuni, cosa puoi fare e quando è meglio farti valutare dal medico.",
+          "after": "Piedi e caviglie gonfie: possibili cause, segnali che richiedono assistenza e ruolo di movimento e compressione. Non ogni edema va gestito con esercizi."
+        },
+        "seoDescription": {
+          "before": "Piedi e caviglie gonfie non significano sempre ritenzione idrica: scopri le cause più comuni, cosa puoi fare e quando è meglio farti valutare dal medico.",
+          "after": "Piedi e caviglie gonfie: possibili cause, segnali che richiedono assistenza e ruolo di movimento e compressione. Non ogni edema va gestito con esercizi."
+        }
+      },
+      "protected": {
+        "slug": "piedi-caviglie-gonfie",
+        "category": "Piede",
+        "date": "8 settembre 2026",
+        "publishedAt": "2026-09-08",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "sources": [
+          {
+            "label": "Patel, Skok, DeMarco · Peripheral Edema: Evaluation and Management in Primary Care (2022)",
+            "url": "https://www.aafp.org/afp/2022/1100/peripheral-edema.pdf"
+          },
+          {
+            "label": "ESVS · Linee guida sulla malattia venosa cronica (2022)",
+            "url": "https://doi.org/10.1016/j.ejvs.2021.12.024"
+          },
+          {
+            "label": "Silva e colleghi · Esercizio e funzione della pompa del polpaccio: revisione sistematica (2021)",
+            "url": "https://doi.org/10.1590/1677-5449.200125"
+          },
+          {
+            "label": "NICE NG158 · Diagnosi e gestione delle malattie tromboemboliche venose",
+            "url": "https://www.nice.org.uk/guidance/ng158"
+          },
+          {
+            "label": "NHS · Gonfiore di caviglie, piedi e gambe",
+            "url": "https://www.nhs.uk/conditions/oedema/"
+          },
+          {
+            "label": "ACOG · Preeclampsia e ipertensione in gravidanza",
+            "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
+          }
+        ],
+        "sourceDate": "8 settembre 2026",
+        "image": "/images/piedi-caviglie-gonfie.webp",
+        "imageAlt": "Persona seduta a fine giornata con piedi e caviglie lievemente gonfi, mentre toglie una scarpa.",
+        "imageCaption": "Piedi e caviglie gonfie · Perché succede davvero? · Immagine illustrativa generata con IA",
+        "featuredImage": "/images/piedi-caviglie-gonfie.webp",
+        "canonical": "/blog/piedi-caviglie-gonfie",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "dolore-al-piede",
+          "quando-non-e-da-operare-alluce-valgo",
+          "fascite-plantare-sintomi-cure-ritorno-movimento"
+        ],
+        "takeaways": [
+          "Prima del rimedio vengono causa, rapidità di comparsa e sintomi associati.",
+          "Il cammino attiva la pompa del polpaccio; la sua utilità dipende dal quadro clinico.",
+          "Richiesta e capacità guidano la progressione, senza sostituire la diagnosi.",
+          "Gonfiore improvviso monolaterale o sintomi respiratori richiedono assistenza tempestiva."
+        ]
+      }
+    },
+    {
+      "slug": "programma-cambia-con-i-dati",
+      "changes": {
+        "title": {
+          "before": "Il programma deve cambiare quando cambiano i dati",
+          "after": "Allenamento personalizzato: quando cambiare programma"
+        },
+        "kicker": {
+          "before": "Perché una scheda personalizzata può smettere di esserlo",
+          "after": "Video, sintomi e recupero aiutano a decidere cosa aggiornare."
+        },
+        "excerpt": {
+          "before": "La vera personalizzazione non è scegliere esercizi strani. È adattare dose, priorità e progressione alla risposta reale.",
+          "after": "Quando cambiare una scheda di allenamento? Come usare esecuzione, sforzo, recupero e attività svolte per adattare un programma personalizzato."
+        },
+        "readingTime": {
+          "before": "6 min",
+          "after": "2 min"
+        },
+        "intro": {
+          "before": "Una scheda può essere costruita su misura il primo giorno e diventare rapidamente generica se resta identica mentre cambiano sintomi, tolleranza, disponibilità e attività. La personalizzazione è un processo, non una consegna.",
+          "after": "Un programma di allenamento va rivalutato quando cambiano capacità, sintomi, recupero o tempo disponibile. Una scheda costruita su misura il primo giorno può smettere di esserlo se questi cambiamenti vengono ignorati. Video e riscontri sull’attività aiutano a decidere cosa mantenere e cosa adattare."
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "Il ciclo di feedback",
+              "paragraphs": [
+                "Nel Metodo Corpo Capace la persona esegue, mostra il gesto, riferisce la risposta e permette al coach di analizzare ciò che è successo. Da lì il programma viene adattato, riprovato e rivalutato.",
+                "Video, feedback tecnico, percezione dello sforzo, sintomi, recupero, check e retest servono a collegare un'esposizione alla decisione successiva. Non sono accessori di assistenza: sono il sistema informativo della progressione."
+              ]
+            },
+            {
+              "heading": "Personalizzare non significa inventare esercizi segreti",
+              "paragraphs": [
+                "Due persone possono usare lo stesso esercizio e avere programmi profondamente diversi. Cambiano priorità, dose, frequenza, range, recupero, ritmo di progressione e relazione con l'attività-obiettivo.",
+                "Il programma migliore non è il più complesso. È quello che può essere eseguito con continuità, espone alla dose adeguata e produce dati leggibili per il passo successivo."
+              ]
+            },
+            {
+              "heading": "Il check deve produrre una decisione",
+              "paragraphs": [
+                "Chiedere genericamente «come va?» non basta. Un check utile confronta la dose prevista con quella realmente eseguita, la risposta, il recupero, l'aderenza, le capacità recuperate e le attività tornate disponibili.",
+                "La decisione può essere progredire, mantenere, modificare, regredire temporaneamente o rivalutare. Stallo, ricaduta e peggioramento non sono sinonimi e non dovrebbero ricevere automaticamente la stessa risposta."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Quali dati usare per aggiornare il programma",
+              "paragraphs": [
+                "Nel Metodo Corpo Capace la persona esegue, mostra il gesto, riferisce la risposta e permette al coach di analizzare ciò che è successo. Da lì il programma viene adattato, riprovato e rivalutato.",
+                "Video dell’esecuzione, sforzo percepito, sintomi e recupero permettono di confrontare il programma previsto con ciò che è accaduto. I controlli periodici e la ripetizione dei test aiutano a decidere il passo successivo."
+              ]
+            },
+            {
+              "heading": "Stessi esercizi, dosi e obiettivi diversi",
+              "paragraphs": [
+                "Due persone possono usare lo stesso esercizio e avere programmi diversi. Cambiano priorità, quantità di lavoro, frequenza, ampiezza del movimento, recupero e ritmo di progressione, in funzione dell’attività da recuperare.",
+                "Il programma migliore non è il più complesso. È quello che può essere eseguito con continuità, espone alla dose adeguata e produce dati leggibili per il passo successivo."
+              ]
+            },
+            {
+              "heading": "Dal controllo periodico alla decisione",
+              "paragraphs": [
+                "Chiedere genericamente «come va?» non basta. Un check utile confronta la dose prevista con quella realmente eseguita, la risposta, il recupero, l'aderenza, le capacità recuperate e le attività tornate disponibili.",
+                "La decisione può essere [progredire, mantenere, modificare](/blog/quando-aumentare-il-carico), regredire temporaneamente o rivalutare. Stallo, ricaduta e peggioramento non sono sinonimi e non dovrebbero ricevere automaticamente la stessa risposta."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "La vera personalizzazione non è scegliere esercizi strani. È adattare dose, priorità e progressione alla risposta reale.",
+          "after": "Quando cambiare una scheda di allenamento? Come usare esecuzione, sforzo, recupero e attività svolte per adattare un programma personalizzato."
+        },
+        "seoDescription": {
+          "before": "La vera personalizzazione non è scegliere esercizi strani. È adattare dose, priorità e progressione alla risposta reale.",
+          "after": "Quando cambiare una scheda di allenamento? Come usare esecuzione, sforzo, recupero e attività svolte per adattare un programma personalizzato."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Allenamento: quando cambiare programma | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "programma-cambia-con-i-dati",
+        "category": "Metodo",
+        "date": "1 agosto 2026",
+        "publishedAt": "2026-08-01",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "image": "/images/brand-6da500b82980.webp",
+        "imageAlt": "Uomo in mezzo inginocchio che esegue un esercizio con elastico davanti a uno smartphone su treppiede.",
+        "featuredImage": "/images/brand-6da500b82980.webp",
+        "canonical": "/blog/programma-cambia-con-i-dati",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "perche-camminare-benefici-tutto-il-corpo",
+          "la-paghi-il-giorno-dopo",
+          "asimmetria-non-e-disfunzione"
+        ],
+        "takeaways": [
+          "Una scheda inizialmente su misura può diventare generica.",
+          "La risposta reale deve modificare il passo successivo.",
+          "Personalizzazione significa soprattutto dose, priorità e progressione.",
+          "Ogni check deve chiudersi con una decisione comprensibile."
+        ]
+      }
+    },
+    {
+      "slug": "quando-aumentare-il-carico",
+      "changes": {
+        "title": {
+          "before": "Come capire se puoi aumentare il carico",
+          "after": "Quando aumentare il carico in allenamento"
+        },
+        "kicker": {
+          "before": "Progredire, mantenere o modificare: una decisione, non un automatismo",
+          "after": "Progredire, mantenere o modificare in base alla risposta del corpo."
+        },
+        "excerpt": {
+          "before": "Non aumentare perché il programma dice “settimana 2”. Aumenta quando funzione, recupero e risposta indicano che la dose è stata assimilata.",
+          "after": "Quando aumentare peso, durata o frequenza dell’allenamento: i dati da osservare e i criteri per progredire, mantenere o modificare la dose di lavoro."
+        },
+        "readingTime": {
+          "before": "5 min",
+          "after": "2 min"
+        },
+        "intro": {
+          "before": "Le progressioni standard hanno un limite: il calendario è uguale per tutti, la risposta al carico no. Due persone che eseguono lo stesso esercizio con lo stesso peso possono recuperare in modo completamente diverso.",
+          "after": "Per decidere se aumentare il carico, osserva quanto lavoro hai svolto, come lo hai tollerato e come hai recuperato. Il calendario, da solo, non basta: due persone che usano lo stesso peso possono rispondere in modo diverso. Da questi dati nasce la scelta di progredire, mantenere o modificare."
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "I dati minimi da guardare",
+              "paragraphs": [
+                "Prima di aumentare osserva la dose realmente eseguita, la percezione dello sforzo, il comportamento dei sintomi, la funzione durante l'attività e il recupero nelle ore successive. Anche l'aderenza conta: non si può progredire sulla base di una dose che esiste solo sulla scheda.",
+                "Il singolo dato non decide da solo. Serve una lettura congiunta e coerente con l'obiettivo: un lieve sintomo stabile può essere compatibile con la progressione, mentre un recupero sempre più lungo può suggerire di consolidare o modificare."
+              ]
+            },
+            {
+              "heading": "Tre possibili decisioni",
+              "paragraphs": [
+                "Si progredisce quando la dose è tollerata, il recupero è adeguato e la funzione resta stabile o migliora. Si mantiene quando la risposta è gestibile ma serve ancora esposizione allo stesso livello per consolidare l'adattamento.",
+                "Si modifica o regredisce temporaneamente quando la risposta supera la tolleranza prevista, la funzione peggiora, il recupero si prolunga o compare un segnale nuovo che richiede rivalutazione."
+              ]
+            },
+            {
+              "heading": "Quale variabile aumentare per prima",
+              "paragraphs": [
+                "Non esiste una risposta universale. Per tornare a una lunga camminata può contare la durata; per la palestra il carico o il volume; per il padel la velocità e i cambi di direzione; per la corsa la combinazione di minuti, ritmo e frequenza.",
+                "Scegliere una variabile alla volta rende più leggibile la risposta. Se tutto cambia insieme, diventa difficile capire che cosa il corpo ha assimilato e che cosa ha superato la finestra attuale."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Cosa osservare prima di aumentare",
+              "paragraphs": [
+                "Prima di aumentare osserva la dose realmente eseguita, la percezione dello sforzo, il comportamento dei sintomi, la funzione durante l'attività e il [recupero nelle ore successive](/blog/la-paghi-il-giorno-dopo). Anche l'aderenza conta: non si può progredire sulla base di una dose che esiste solo sulla scheda.",
+                "Il singolo dato non decide da solo. Serve una lettura congiunta e coerente con l'obiettivo: un lieve sintomo stabile può essere compatibile con la progressione, mentre un recupero sempre più lungo può suggerire di consolidare o modificare."
+              ]
+            },
+            {
+              "heading": "Quando progredire, mantenere o modificare",
+              "paragraphs": [
+                "Si progredisce quando la dose è tollerata, il recupero è adeguato e la funzione resta stabile o migliora. Si mantiene quando la risposta è gestibile ma serve ancora esposizione allo stesso livello per consolidare l'adattamento.",
+                "Si modifica o regredisce temporaneamente quando la risposta supera la tolleranza prevista, la funzione peggiora, il recupero si prolunga o compare un segnale nuovo che richiede rivalutazione."
+              ]
+            },
+            {
+              "heading": "Quale variabile aumentare per prima",
+              "paragraphs": [
+                "Non esiste una risposta universale. Per tornare a una lunga camminata può contare la durata; per la palestra il carico o il volume; per il padel la velocità e i cambi di direzione; per la corsa la combinazione di minuti, ritmo e frequenza.",
+                "Scegliere una variabile alla volta rende più leggibile la risposta. Se tutto cambia insieme, diventa difficile capire che cosa il corpo ha assimilato e che cosa ha superato la finestra attuale."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "Non aumentare perché il programma dice “settimana 2”. Aumenta quando funzione, recupero e risposta indicano che la dose è stata assimilata.",
+          "after": "Quando aumentare peso, durata o frequenza dell’allenamento: i dati da osservare e i criteri per progredire, mantenere o modificare la dose di lavoro."
+        },
+        "seoDescription": {
+          "before": "Non aumentare perché il programma dice “settimana 2”. Aumenta quando funzione, recupero e risposta indicano che la dose è stata assimilata.",
+          "after": "Quando aumentare peso, durata o frequenza dell’allenamento: i dati da osservare e i criteri per progredire, mantenere o modificare la dose di lavoro."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Quando aumentare il carico in allenamento | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "quando-aumentare-il-carico",
+        "category": "Carico",
+        "date": "14 agosto 2026",
+        "publishedAt": "2026-08-14",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "image": "/images/brand-db261c509ec7.webp",
+        "imageAlt": "Atleta in corsa su una pista; scritta «Programmi allenanti PERFORMANCE».",
+        "featuredImage": "/images/brand-db261c509ec7.webp",
+        "canonical": "/blog/quando-aumentare-il-carico",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "perche-camminare-benefici-tutto-il-corpo",
+          "la-paghi-il-giorno-dopo",
+          "asimmetria-non-e-disfunzione"
+        ],
+        "takeaways": [
+          "La settimana del programma non è un criterio biologico.",
+          "Considera insieme dose, sforzo, sintomi, funzione e recupero.",
+          "Mantenere una dose può essere una scelta attiva, non uno stallo.",
+          "Aumenta la variabile più specifica per l'attività-obiettivo."
+        ]
+      }
+    },
+    {
+      "slug": "quando-non-e-da-operare-alluce-valgo",
+      "changes": {
+        "title": {
+          "before": "Quando non è da operare l’alluce valgo",
+          "after": "Alluce valgo: quando non è necessario operare"
+        },
+        "kicker": {
+          "before": "Sintomi, scarpe e movimento: capire quando ha senso un approccio conservativo.",
+          "after": "Scarpe, supporti ed esercizio: possibilità e limiti delle cure conservative."
+        },
+        "excerpt": {
+          "before": "L’alluce valgo non richiede sempre un intervento. Cosa possono fare calzature, supporti ed esercizio, quali sono i limiti e quando serve una valutazione chirurgica.",
+          "after": "L’alluce valgo richiede sempre un intervento? Il ruolo di dolore e funzione, i limiti delle cure conservative e quando valutare la chirurgia."
+        },
+        "readingTime": {
+          "before": "5 min",
+          "after": "4 min"
+        },
+        "description": {
+          "before": "L’alluce valgo non richiede sempre un intervento. Cosa possono fare calzature, supporti ed esercizio, quali sono i limiti e quando serve una valutazione chirurgica.",
+          "after": "L’alluce valgo richiede sempre un intervento? Il ruolo di dolore e funzione, i limiti delle cure conservative e quando valutare la chirurgia."
+        },
+        "seoDescription": {
+          "before": "L’alluce valgo non richiede sempre un intervento. Cosa possono fare calzature, supporti ed esercizio, quali sono i limiti e quando serve una valutazione chirurgica.",
+          "after": "L’alluce valgo richiede sempre un intervento? Il ruolo di dolore e funzione, i limiti delle cure conservative e quando valutare la chirurgia."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Alluce valgo: quando non è necessario operare | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "quando-non-e-da-operare-alluce-valgo",
+        "category": "Piede",
+        "date": "7 settembre 2026",
+        "publishedAt": "2026-09-07",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "sources": [
+          {
+            "label": "[1] AAOS OrthoInfo · Bunion Surgery: indicazioni e decisione chirurgica.",
+            "url": "https://www.orthoinfo.org/treatment/bunion-surgery?patientpage=patient_info2.cfm&webid=2FDEE455"
+          },
+          {
+            "label": "[2] AAOS OrthoInfo · Bunions: trattamento non chirurgico.",
+            "url": "https://www.orthoinfo.org/diseases--conditions/bunions/"
+          },
+          {
+            "label": "[3] NHS · Bunions: gestione dei sintomi e quando chiedere assistenza.",
+            "url": "https://www.nhs.uk/conditions/bunions/"
+          },
+          {
+            "label": "[4] Hurn e colleghi · Effectiveness of Nonsurgical Interventions for Hallux Valgus: A Systematic Review and Meta-Analysis. Arthritis Care & Research, 2022. DOI: 10.1002/acr.24603.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33768721/"
+          }
+        ],
+        "sourceDate": "15 settembre 2026",
+        "image": "/images/alluce-valgo-calzature.webp",
+        "imageAlt": "Persona seduta che indossa una scarpa da cammino con punta arrotondata.",
+        "imageCaption": "Calzature e comfort quotidiano · Immagine illustrativa generata con IA",
+        "featuredImage": "/images/alluce-valgo-calzature.webp",
+        "canonical": "/blog/quando-non-e-da-operare-alluce-valgo",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "dolore-al-piede",
+          "piedi-caviglie-gonfie",
+          "fascite-plantare-sintomi-cure-ritorno-movimento"
+        ],
+        "takeaways": [
+          "Un alluce valgo indolore generalmente non richiede un intervento.",
+          "Calzature e supporti possono migliorare il comfort, senza garantire una correzione della deformità.",
+          "L’allenamento va collegato alle attività desiderate e alla risposta individuale.",
+          "Dolore persistente e limitazioni importanti meritano una valutazione specialistica."
+        ]
+      }
+    },
+    {
+      "slug": "stare-meglio-non-basta-tornare-a-correre",
+      "changes": {
+        "title": {
+          "before": "Stare meglio non basta per tornare a correre",
+          "after": "Riprendere a correre dopo uno stop: gestire il carico"
+        },
+        "kicker": {
+          "before": "Sintomo e capacità non sono la stessa cosa",
+          "after": "Stare meglio a riposo non significa essere pronti per la corsa di prima."
+        },
+        "excerpt": {
+          "before": "Il dolore può diminuire prima che il corpo sia pronto a sostenere di nuovo distanza, ritmo e frequenza. È qui che deve iniziare la progressione.",
+          "after": "Come riprendere a correre dopo uno stop: definire distanza, ritmo e frequenza, scegliere la dose iniziale e adattare la progressione al recupero."
+        },
+        "readingTime": {
+          "before": "6 min",
+          "after": "2 min"
+        },
+        "intro": {
+          "before": "Quando il dolore cala, la tentazione è ripartire esattamente da dove ci si era fermati. Ma sentirsi meglio a riposo e riuscire a sostenere una corsa sono due risultati diversi. Il primo riguarda il sintomo; il secondo richiede capacità, tolleranza e recupero.",
+          "after": "Per riprendere a correre dopo uno stop, serve confrontare ciò che riesci a sostenere oggi con distanza, ritmo e frequenza desiderati. Quando il dolore cala, ripartire subito dal livello precedente può saltare questo passaggio: stare meglio a riposo e tollerare una corsa sono risultati diversi."
+        },
+        "sections": {
+          "before": [
+            {
+              "heading": "Il vero obiettivo non è superare un test",
+              "paragraphs": [
+                "Un test può dirci che oggi riesci a produrre forza, controllare un gesto o muovere un'articolazione in un certo modo. La corsa, però, richiede che quelle qualità restino disponibili per centinaia o migliaia di appoggi, a una velocità e con una frequenza precise.",
+                "Per questo il risultato non si misura soltanto in gradi, centimetri o assenza di dolore. Si misura nella possibilità di tornare a correre alla dose che conta per te, recuperare in modo compatibile e ripeterlo con sufficiente prevedibilità."
+              ]
+            },
+            {
+              "heading": "La distanza tra oggi e il tuo obiettivo",
+              "paragraphs": [
+                "Nel Metodo Corpo Capace questa distanza viene chiamata Gap di Capacità. Da una parte c'è ciò che il tuo corpo sostiene oggi; dall'altra ciò che la tua attività richiede davvero: minuti, chilometri, ritmo, dislivello, frequenza settimanale e terreno.",
+                "Dire semplicemente «torna a correre gradualmente» non basta. Serve definire la dose iniziale tollerabile, scegliere quale variabile aumentare e stabilire quali segnali useremo per decidere il passo successivo."
+              ]
+            },
+            {
+              "heading": "La progressione segue la risposta, non il calendario",
+              "paragraphs": [
+                "Il carico non aumenta perché è iniziata una nuova settimana. Aumenta quando l'esposizione attuale è stata assimilata: la funzione resta stabile o migliora, il recupero è adeguato e la risposta non obbliga a ridimensionare l'attività successiva.",
+                "A volte si progredisce. A volte si mantiene la stessa dose per consolidarla. Altre volte si modifica una sola variabile. Questa non è prudenza generica: è un processo decisionale costruito sui dati reali della persona."
+              ]
+            }
+          ],
+          "after": [
+            {
+              "heading": "Perché superare un test non basta per correre",
+              "paragraphs": [
+                "Un test può dirci che oggi riesci a produrre forza, controllare un gesto o muovere un'articolazione in un certo modo. La corsa, però, richiede che quelle qualità restino disponibili per centinaia o migliaia di appoggi, a una velocità e con una frequenza precise.",
+                "Per questo il risultato non si misura soltanto in gradi, centimetri o assenza di dolore. Si misura nella possibilità di tornare a correre alla dose che conta per te, recuperare in modo compatibile e ripeterlo con sufficiente prevedibilità."
+              ]
+            },
+            {
+              "heading": "Definire la corsa che vuoi recuperare",
+              "paragraphs": [
+                "Nel Metodo Corpo Capace questa distanza viene chiamata [Gap di Capacità](/blog/gap-di-capacita). Da una parte c'è ciò che il tuo corpo sostiene oggi; dall'altra ciò che la tua attività richiede davvero: minuti, chilometri, ritmo, dislivello, frequenza settimanale e terreno.",
+                "Dire semplicemente «torna a correre gradualmente» non basta. Serve definire la dose iniziale tollerabile, scegliere quale variabile aumentare e stabilire quali segnali useremo per decidere il passo successivo."
+              ]
+            },
+            {
+              "heading": "La progressione segue la risposta, non il calendario",
+              "paragraphs": [
+                "Il carico non aumenta perché è iniziata una nuova settimana. Aumenta quando l'esposizione attuale è stata assimilata: la funzione resta stabile o migliora, il recupero è adeguato e la risposta non obbliga a ridimensionare l'attività successiva.",
+                "A volte si progredisce. A volte si mantiene la stessa dose per consolidarla. Altre volte si modifica una sola variabile. Questa non è prudenza generica: è un processo decisionale costruito sui dati reali della persona."
+              ]
+            }
+          ]
+        },
+        "description": {
+          "before": "Il dolore può diminuire prima che il corpo sia pronto a sostenere di nuovo distanza, ritmo e frequenza. È qui che deve iniziare la progressione.",
+          "after": "Come riprendere a correre dopo uno stop: definire distanza, ritmo e frequenza, scegliere la dose iniziale e adattare la progressione al recupero."
+        },
+        "seoDescription": {
+          "before": "Il dolore può diminuire prima che il corpo sia pronto a sostenere di nuovo distanza, ritmo e frequenza. È qui che deve iniziare la progressione.",
+          "after": "Come riprendere a correre dopo uno stop: definire distanza, ritmo e frequenza, scegliere la dose iniziale e adattare la progressione al recupero."
+        },
+        "seoTitle": {
+          "before": null,
+          "after": "Riprendere a correre dopo uno stop | Dr. Botta"
+        }
+      },
+      "protected": {
+        "slug": "stare-meglio-non-basta-tornare-a-correre",
+        "category": "Ritorno allo sport",
+        "date": "28 agosto 2026",
+        "publishedAt": "2026-08-28",
+        "updatedAt": null,
+        "author": "team-corpo-capace",
+        "clinicalReview": {
+          "status": "not-recorded",
+          "reviewer": null,
+          "date": null
+        },
+        "image": "/images/brand-db261c509ec7.webp",
+        "imageAlt": "Atleta in corsa su una pista; scritta «Programmi allenanti PERFORMANCE».",
+        "featuredImage": "/images/brand-db261c509ec7.webp",
+        "canonical": "/blog/stare-meglio-non-basta-tornare-a-correre",
+        "cta": "/percorsi",
+        "relatedPosts": [
+          "il-test-vero-e-la-vita"
+        ],
+        "takeaways": [
+          "Meno dolore non significa automaticamente più capacità.",
+          "Definisci l'obiettivo con dose, frequenza e contesto reali.",
+          "Aumenta una variabile alla volta quando la risposta lo consente.",
+          "Il traguardo è correre in modo ripetibile, non riuscirci una volta sola."
+        ]
+      }
+    }
+  ]
+}

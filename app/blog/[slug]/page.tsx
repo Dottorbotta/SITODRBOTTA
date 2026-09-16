@@ -30,6 +30,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
   if (!article) notFound();
   const topic = topicFor(article.category);
+  const pillar = topic ? getArticle(topic.pillar) : undefined;
 
   const related = (article.relatedPosts ?? []).map(slug=>getArticle(slug)).filter((item): item is NonNullable<typeof item> => Boolean(item)).slice(0,3);
 
@@ -67,10 +68,10 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 {section.gap && <CapacityGap />}
               </section>
             ))}
-            {topic && <nav className="article-topic-link" aria-label="Approfondimenti collegati"><a href={`/blog/argomenti/${topic.slug}`}>Tutti gli articoli: {topic.name} →</a>{topic.pillar !== article.slug && <a href={`/blog/${topic.pillar}`}>Leggi l’approfondimento di riferimento →</a>}<a href="/percorsi">Come funziona il percorso Corpo Capace →</a></nav>}
+            {topic && <nav className="article-topic-link" aria-label="Approfondimenti collegati"><a href={`/blog/argomenti/${topic.slug}`}>Tutti gli articoli: {topic.name} →</a>{pillar && pillar.slug !== article.slug && <a href={`/blog/${pillar.slug}`}>{pillar.title} →</a>}<a href="/percorsi">Come funziona il percorso Corpo Capace →</a></nav>}
             <div className="article-takeaways">
               <p className="section-label section-label--light">In sintesi</p>
-              <h2>Che cosa portarti via</h2>
+              <h2>I punti da ricordare</h2>
               <ul>{article.takeaways.map((item) => <li key={item}>{item}</li>)}</ul>
             </div>
             {article.sources && <section className="article-sources" aria-labelledby="fonti"><h2 id="fonti">Fonti e approfondimenti</h2><p>{article.sourceDate && <>Fonti consultate il {article.sourceDate}. </>}Riferimenti per approfondire i contenuti dell’articolo.</p><ul>{article.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.label} ↗</a></li>)}</ul></section>}
@@ -85,7 +86,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       </section>
 
       <section className="final-cta">
-        <p>Il contenuto può darti una direzione.</p>
+        <p>Vuoi capire se il percorso è adatto a te?</p>
         <h2>Il percorso deve partire<br />da ciò che vuoi tornare a fare.</h2>
         <a className="button button--light" href={CONSULTATION_URL} target="_blank" rel="noreferrer">Parla con il team <span>↗</span></a>
       </section>

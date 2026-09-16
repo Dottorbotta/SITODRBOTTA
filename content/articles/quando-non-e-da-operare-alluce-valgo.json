@@ -1,11 +1,11 @@
 {
   "slug": "quando-non-e-da-operare-alluce-valgo",
-  "title": "Quando non è da operare l’alluce valgo",
-  "kicker": "Sintomi, scarpe e movimento: capire quando ha senso un approccio conservativo.",
+  "title": "Alluce valgo: quando non è necessario operare",
+  "kicker": "Scarpe, supporti ed esercizio: possibilità e limiti delle cure conservative.",
   "category": "Piede",
-  "excerpt": "L’alluce valgo non richiede sempre un intervento. Cosa possono fare calzature, supporti ed esercizio, quali sono i limiti e quando serve una valutazione chirurgica.",
+  "excerpt": "L’alluce valgo richiede sempre un intervento? Il ruolo di dolore e funzione, i limiti delle cure conservative e quando valutare la chirurgia.",
   "date": "7 settembre 2026",
-  "readingTime": "5 min",
+  "readingTime": "4 min",
   "image": "/images/alluce-valgo-calzature.webp",
   "imageAlt": "Persona seduta che indossa una scarpa da cammino con punta arrotondata.",
   "imageCaption": "Calzature e comfort quotidiano · Immagine illustrativa generata con IA",
@@ -87,8 +87,8 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/33768721/"
     }
   ],
-  "description": "L’alluce valgo non richiede sempre un intervento. Cosa possono fare calzature, supporti ed esercizio, quali sono i limiti e quando serve una valutazione chirurgica.",
-  "seoDescription": "L’alluce valgo non richiede sempre un intervento. Cosa possono fare calzature, supporti ed esercizio, quali sono i limiti e quando serve una valutazione chirurgica.",
+  "description": "L’alluce valgo richiede sempre un intervento? Il ruolo di dolore e funzione, i limiti delle cure conservative e quando valutare la chirurgia.",
+  "seoDescription": "L’alluce valgo richiede sempre un intervento? Il ruolo di dolore e funzione, i limiti delle cure conservative e quando valutare la chirurgia.",
   "tags": [
     "Piede",
     "Corpo Capace"
@@ -112,5 +112,6 @@
     "fascite-plantare-sintomi-cure-ritorno-movimento"
   ],
   "cta": "/percorsi",
-  "sourceDate": "15 settembre 2026"
+  "sourceDate": "15 settembre 2026",
+  "seoTitle": "Alluce valgo: quando non è necessario operare | Dr. Botta"
 }

@@ -1,14 +1,14 @@
 {
   "slug": "gap-di-capacita",
-  "title": "Il Gap di Capacità: cosa separa il tuo oggi dal tuo obiettivo",
-  "kicker": "Una mappa concreta per smettere di allenarsi alla cieca",
+  "title": "Gap di Capacità: dal punto di partenza all’obiettivo",
+  "kicker": "Confrontare ciò che sostieni oggi con ciò che vuoi tornare a fare.",
   "category": "Metodo",
-  "excerpt": "Tra ciò che riesci a sostenere oggi e ciò che vuoi tornare a fare esiste una distanza. Misurarla cambia il modo di costruire il percorso.",
+  "excerpt": "Il Gap di Capacità nel Metodo Corpo Capace: definire un obiettivo concreto, osservare movimento e tolleranza e scegliere le priorità dell’allenamento.",
   "date": "10 agosto 2026",
-  "readingTime": "7 min",
+  "readingTime": "2 min",
   "image": "/images/brand-023f3900e8f5.webp",
   "accent": "sage",
-  "intro": "«Voglio stare meglio» è comprensibile, ma non basta per programmare. Camminare un'ora, allenarsi tre volte a settimana, correre dieci chilometri o giocare una partita descrivono richieste molto diverse. Il Gap di Capacità rende quella distanza visibile.",
+  "intro": "Il Gap di Capacità è la distanza tra ciò che riesci a sostenere oggi e ciò che richiede il tuo obiettivo. Camminare un’ora, allenarsi tre volte a settimana o correre dieci chilometri sono richieste diverse: definirle aiuta a scegliere le priorità. È una cornice operativa del Metodo Corpo Capace, non una diagnosi.",
   "sections": [
     {
       "heading": "Partire da un'attività concreta",
@@ -25,10 +25,10 @@
       ]
     },
     {
-      "heading": "Dal profilo alla priorità",
+      "heading": "Dalla Matrice Corpo Capace alle priorità",
       "paragraphs": [
         "Un profilo Limitato richiede soprattutto di ampliare capacità di movimento rilevanti. Un profilo Fragile richiede di aumentare la finestra di carico e il recupero. Un profilo Incapace necessita di ricostruire entrambe le dimensioni.",
-        "La matrice non prescrive esercizi automatici. Serve a trasformare la valutazione in priorità, dose iniziale, criterio di progressione e retest, evitando di intervenire su ogni imperfezione osservata."
+        "La matrice non prescrive esercizi automatici. Serve a trasformare la valutazione in priorità, dose iniziale, [criterio di progressione](/blog/quando-aumentare-il-carico) e retest, evitando di intervenire su ogni imperfezione osservata."
       ]
     }
   ],
@@ -38,8 +38,8 @@
     "Capacità di movimento e tolleranza richiedono strategie diverse.",
     "La Matrice Corpo Capace è una tassonomia operativa, non una diagnosi clinica validata."
   ],
-  "description": "Tra ciò che riesci a sostenere oggi e ciò che vuoi tornare a fare esiste una distanza. Misurarla cambia il modo di costruire il percorso.",
-  "seoDescription": "Tra ciò che riesci a sostenere oggi e ciò che vuoi tornare a fare esiste una distanza. Misurarla cambia il modo di costruire il percorso.",
+  "description": "Il Gap di Capacità nel Metodo Corpo Capace: definire un obiettivo concreto, osservare movimento e tolleranza e scegliere le priorità dell’allenamento.",
+  "seoDescription": "Il Gap di Capacità nel Metodo Corpo Capace: definire un obiettivo concreto, osservare movimento e tolleranza e scegliere le priorità dell’allenamento.",
   "tags": [
     "Metodo",
     "Corpo Capace"
@@ -63,5 +63,6 @@
     "asimmetria-non-e-disfunzione"
   ],
   "cta": "/percorsi",
-  "imageAlt": "Uomo in mezzo inginocchio con un elastico intorno al ginocchio; scritta «Programmi riabilitativi RE-ACTIVE»."
+  "imageAlt": "Uomo in mezzo inginocchio con un elastico intorno al ginocchio; scritta «Programmi riabilitativi RE-ACTIVE».",
+  "seoTitle": "Gap di Capacità: come definire il tuo obiettivo | Dr. Botta"
 }

@@ -1,26 +1,26 @@
 {
   "slug": "stare-meglio-non-basta-tornare-a-correre",
-  "title": "Stare meglio non basta per tornare a correre",
-  "kicker": "Sintomo e capacità non sono la stessa cosa",
+  "title": "Riprendere a correre dopo uno stop: gestire il carico",
+  "kicker": "Stare meglio a riposo non significa essere pronti per la corsa di prima.",
   "category": "Ritorno allo sport",
-  "excerpt": "Il dolore può diminuire prima che il corpo sia pronto a sostenere di nuovo distanza, ritmo e frequenza. È qui che deve iniziare la progressione.",
+  "excerpt": "Come riprendere a correre dopo uno stop: definire distanza, ritmo e frequenza, scegliere la dose iniziale e adattare la progressione al recupero.",
   "date": "28 agosto 2026",
-  "readingTime": "6 min",
+  "readingTime": "2 min",
   "image": "/images/brand-db261c509ec7.webp",
   "accent": "bronze",
-  "intro": "Quando il dolore cala, la tentazione è ripartire esattamente da dove ci si era fermati. Ma sentirsi meglio a riposo e riuscire a sostenere una corsa sono due risultati diversi. Il primo riguarda il sintomo; il secondo richiede capacità, tolleranza e recupero.",
+  "intro": "Per riprendere a correre dopo uno stop, serve confrontare ciò che riesci a sostenere oggi con distanza, ritmo e frequenza desiderati. Quando il dolore cala, ripartire subito dal livello precedente può saltare questo passaggio: stare meglio a riposo e tollerare una corsa sono risultati diversi.",
   "sections": [
     {
-      "heading": "Il vero obiettivo non è superare un test",
+      "heading": "Perché superare un test non basta per correre",
       "paragraphs": [
         "Un test può dirci che oggi riesci a produrre forza, controllare un gesto o muovere un'articolazione in un certo modo. La corsa, però, richiede che quelle qualità restino disponibili per centinaia o migliaia di appoggi, a una velocità e con una frequenza precise.",
         "Per questo il risultato non si misura soltanto in gradi, centimetri o assenza di dolore. Si misura nella possibilità di tornare a correre alla dose che conta per te, recuperare in modo compatibile e ripeterlo con sufficiente prevedibilità."
       ]
     },
     {
-      "heading": "La distanza tra oggi e il tuo obiettivo",
+      "heading": "Definire la corsa che vuoi recuperare",
       "paragraphs": [
-        "Nel Metodo Corpo Capace questa distanza viene chiamata Gap di Capacità. Da una parte c'è ciò che il tuo corpo sostiene oggi; dall'altra ciò che la tua attività richiede davvero: minuti, chilometri, ritmo, dislivello, frequenza settimanale e terreno.",
+        "Nel Metodo Corpo Capace questa distanza viene chiamata [Gap di Capacità](/blog/gap-di-capacita). Da una parte c'è ciò che il tuo corpo sostiene oggi; dall'altra ciò che la tua attività richiede davvero: minuti, chilometri, ritmo, dislivello, frequenza settimanale e terreno.",
         "Dire semplicemente «torna a correre gradualmente» non basta. Serve definire la dose iniziale tollerabile, scegliere quale variabile aumentare e stabilire quali segnali useremo per decidere il passo successivo."
       ]
     },
@@ -38,8 +38,8 @@
     "Aumenta una variabile alla volta quando la risposta lo consente.",
     "Il traguardo è correre in modo ripetibile, non riuscirci una volta sola."
   ],
-  "description": "Il dolore può diminuire prima che il corpo sia pronto a sostenere di nuovo distanza, ritmo e frequenza. È qui che deve iniziare la progressione.",
-  "seoDescription": "Il dolore può diminuire prima che il corpo sia pronto a sostenere di nuovo distanza, ritmo e frequenza. È qui che deve iniziare la progressione.",
+  "description": "Come riprendere a correre dopo uno stop: definire distanza, ritmo e frequenza, scegliere la dose iniziale e adattare la progressione al recupero.",
+  "seoDescription": "Come riprendere a correre dopo uno stop: definire distanza, ritmo e frequenza, scegliere la dose iniziale e adattare la progressione al recupero.",
   "tags": [
     "Ritorno allo sport",
     "Corpo Capace"
@@ -61,5 +61,6 @@
     "il-test-vero-e-la-vita"
   ],
   "cta": "/percorsi",
-  "imageAlt": "Atleta in corsa su una pista; scritta «Programmi allenanti PERFORMANCE»."
+  "imageAlt": "Atleta in corsa su una pista; scritta «Programmi allenanti PERFORMANCE».",
+  "seoTitle": "Riprendere a correre dopo uno stop | Dr. Botta"
 }

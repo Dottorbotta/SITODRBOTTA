@@ -1,11 +1,11 @@
 {
   "slug": "fascite-plantare-sintomi-cure-ritorno-movimento",
-  "title": "Fascite plantare: capire il dolore e tornare al movimento",
-  "kicker": "Dal primo passo del mattino al ritorno alle attività che contano.",
+  "title": "Fascite plantare: sintomi, cure e ritorno al cammino",
+  "kicker": "Dal dolore ai primi passi alle scelte per tornare a muoverti.",
   "category": "Piede",
-  "excerpt": "Sintomi, trattamenti e recupero della fascite plantare: cosa indicano le evidenze e come impostare un ritorno graduale all’attività.",
+  "excerpt": "Fascite plantare: sintomi al tallone, diagnosi, esercizi e trattamenti. Cosa aspettarsi dal recupero e come affrontare il ritorno graduale al movimento.",
   "date": "7 settembre 2026",
-  "readingTime": "5 min",
+  "readingTime": "4 min",
   "image": "/images/fascite-plantare-corpo-capace.webp",
   "imageAlt": "Persona seduta che appoggia una mano sul tallone del piede.",
   "imageCaption": "Immagine illustrativa generata con IA · Corpo Capace",
@@ -13,7 +13,7 @@
   "intro": "Il tallone fa male appena ti alzi, oppure dopo una giornata in piedi? La fascite plantare è una possibile spiegazione. Capire il problema è il primo passo per scegliere le cure e ricostruire le attività che oggi risultano difficili.",
   "sections": [
     {
-      "heading": "Che cos’è e come si riconosce",
+      "heading": "Fascite plantare: che cos’è e quali sintomi provoca",
       "paragraphs": [
         "La fascia plantare è una robusta struttura di tessuto connettivo che collega il calcagno all’avampiede e contribuisce al sostegno dell’arco. Nelle forme persistenti il termine “fasciopatia” descrive meglio un quadro che può comprendere alterazioni degenerative del tessuto, non soltanto infiammazione. [1]",
         "Il dolore è spesso sotto il tallone, verso il lato interno, soprattutto ai primi passi dopo il riposo. Può attenuarsi muovendosi e ripresentarsi con carichi prolungati. Questi sintomi orientano la valutazione, ma da soli non confermano una diagnosi. [2]"
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "heading": "Cosa può aiutare davvero",
+      "heading": "Esercizi, supporti e gestione dell’attività",
       "paragraphs": [
         "Le linee guida raccomandano stretching specifico della fascia plantare e del polpaccio, insieme a esercizi di rinforzo per piede e caviglia. Il programma va adattato: esercizio, intensità e progressione dipendono dalla valutazione e dalla risposta individuale. [1]",
         "Taping e plantari possono essere supporti utili; i plantari non sono raccomandati come unico trattamento per il sollievo a breve termine. Per un dolore costante ai primi passi mattutini, il professionista può proporre un tutore notturno. [1]",
@@ -80,8 +80,8 @@
       "url": "https://www.nhs.uk/symptoms/foot-pain/heel-pain/"
     }
   ],
-  "description": "Sintomi, trattamenti e recupero della fascite plantare: cosa indicano le evidenze e come impostare un ritorno graduale all’attività.",
-  "seoDescription": "Sintomi, trattamenti e recupero della fascite plantare: cosa indicano le evidenze e come impostare un ritorno graduale all’attività.",
+  "description": "Fascite plantare: sintomi al tallone, diagnosi, esercizi e trattamenti. Cosa aspettarsi dal recupero e come affrontare il ritorno graduale al movimento.",
+  "seoDescription": "Fascite plantare: sintomi al tallone, diagnosi, esercizi e trattamenti. Cosa aspettarsi dal recupero e come affrontare il ritorno graduale al movimento.",
   "tags": [
     "Piede",
     "Corpo Capace"
@@ -105,5 +105,6 @@
     "quando-non-e-da-operare-alluce-valgo"
   ],
   "cta": "/percorsi",
-  "sourceDate": "15 settembre 2026"
+  "sourceDate": "15 settembre 2026",
+  "seoTitle": "Fascite plantare: sintomi, cure e recupero | Dr. Botta"
 }

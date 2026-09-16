@@ -1,12 +1,12 @@
 {
   "slug": "dolore-davanti-ginocchio-scale",
-  "title": "Dolore al ginocchio sulle scale: costruire capacità, passo dopo passo",
-  "kicker": "Salita, discesa e carico: come orientare un percorso attivo personalizzato.",
+  "title": "Dolore al ginocchio sulle scale: cosa valutare",
+  "kicker": "Salita e discesa richiedono capacità diverse: da qui parte la valutazione.",
   "category": "Ginocchio",
-  "excerpt": "Perché le scale possono provocare dolore al ginocchio e come affrontarle con esercizio, gestione del carico e matrice educativa Corpo Capace.",
+  "excerpt": "Il ginocchio fa male salendo o scendendo le scale? Possibili cause, adattamenti nella giornata, ruolo dell’esercizio e segnali che richiedono assistenza.",
   "date": "8 settembre 2026",
   "sourceDate": "8 settembre 2026",
-  "readingTime": "6 min",
+  "readingTime": "5 min",
   "image": "/images/ginocchio-scale.webp",
   "imageAlt": "Uomo sulle scale con una mano sul corrimano e l’altra sul ginocchio.",
   "imageCaption": "Scale e vita quotidiana · Immagine illustrativa generata con IA",
@@ -91,8 +91,8 @@
       "url": "https://www.nhs.uk/symptoms/knee-pain/"
     }
   ],
-  "description": "Perché le scale possono provocare dolore al ginocchio e come affrontarle con esercizio, gestione del carico e matrice educativa Corpo Capace.",
-  "seoDescription": "Perché le scale possono provocare dolore al ginocchio e come affrontarle con esercizio, gestione del carico e matrice educativa Corpo Capace.",
+  "description": "Il ginocchio fa male salendo o scendendo le scale? Possibili cause, adattamenti nella giornata, ruolo dell’esercizio e segnali che richiedono assistenza.",
+  "seoDescription": "Il ginocchio fa male salendo o scendendo le scale? Possibili cause, adattamenti nella giornata, ruolo dell’esercizio e segnali che richiedono assistenza.",
   "tags": [
     "Ginocchio",
     "Corpo Capace"
@@ -113,5 +113,6 @@
   "relatedPosts": [
     "condromalacia-rotulea"
   ],
-  "cta": "/percorsi"
+  "cta": "/percorsi",
+  "seoTitle": "Dolore al ginocchio sulle scale: cosa valutare | Dr. Botta"
 }

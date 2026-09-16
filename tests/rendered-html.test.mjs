@@ -26,7 +26,28 @@ test('responsive images are discoverable in HTML, preserve alternatives and ship
     }
   }
 });
-test('existing editorial copy survives migration and links resolve to known records',async()=>{const before=JSON.parse(await readFile('docs/content-before.json','utf8'));assert.equal(records.length,before.length);for(const a of records){const b=before.find(x=>x.slug===a.slug);assert.equal(a.title,b.title);assert.deepEqual(a.sections.map(s=>[s.heading,s.paragraphs]),b.sections.map(s=>[s.heading,s.paragraphs]));for(const slug of a.relatedPosts)assert.ok(records.some(x=>x.slug===slug));if(a.image.startsWith('/'))await access('public'+a.image);}});
+test('copy revision is explicit, preserves clinical records and keeps links valid', async () => {
+  const original = JSON.parse(await readFile('docs/content-before.json', 'utf8'));
+  const revision = JSON.parse(await readFile('docs/copy-edits-2026-09-16.json', 'utf8'));
+  assert.equal(records.length, original.length);
+  assert.equal(new Set(revision.articles.map(a => a.slug)).size, records.length);
+  for (const article of records) {
+    const baseline = original.find(a => a.slug === article.slug);
+    const edit = revision.articles.find(a => a.slug === article.slug);
+    assert.ok(baseline && edit, article.slug);
+    // Keep the migration baseline. Every intentional copy edit has a before/after record.
+    for (const field of ['title', 'sections']) {
+      const change = edit.changes[field];
+      const comparable = value => field === 'sections' ? value.map(s => [s.heading, s.paragraphs]) : value;
+      if (change) assert.deepEqual(comparable(change.before), comparable(baseline[field]), article.slug + ': old ' + field);
+      assert.deepEqual(comparable(article[field]), comparable(change ? change.after : baseline[field]), article.slug + ': ' + field);
+    }
+    for (const [field, change] of Object.entries(edit.changes)) assert.deepEqual(article[field], change.after, article.slug + ': ' + field);
+    for (const [field, value] of Object.entries(edit.protected)) assert.deepEqual(article[field], value, article.slug + ': protected ' + field);
+    for (const slug of article.relatedPosts) assert.ok(records.some(a => a.slug === slug), slug);
+    if (article.image.startsWith('/')) await access('public' + article.image);
+  }
+});
 test('all articles return HTML with own canonical and structured data',async()=>{for(const a of records){const r=await get('/blog/'+a.slug);assert.equal(r.status,200,a.slug);const html=await r.text();assert.ok(html.includes('rel="canonical"'),a.slug);assert.ok(html.includes('/blog/'+a.slug));assert.ok(html.includes('BlogPosting'));assert.ok(html.includes('BreadcrumbList'));assert.equal((html.match(/<h1\b/g)||[]).length,1);}});
 test('sitemap RSS and robots are available; aliases permanently redirect',async()=>{for(const path of ['/sitemap.xml','/feed.xml','/robots.txt']){const r=await get(path);assert.equal(r.status,200,path);const text=await r.text();assert.ok(text.length>20);}for(const slug of ['dolore-al-piede','piedi-caviglie-gonfie']){const r=await get('/'+slug);assert.equal(r.status,301);assert.equal(new URL(r.headers.get('location')).pathname,'/blog/'+slug);}});
 test('missing article is a real 404',async()=>{const r=await get('/blog/non-esiste-qa');assert.equal(r.status,404);});

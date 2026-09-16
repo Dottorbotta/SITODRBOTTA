@@ -14,7 +14,7 @@ const seoPage = editorialPages.find(p=>p.path=="/")!;
 export const metadata: Metadata = pageMetadata(seoPage.path,seoPage.title,seoPage.description);
 
 const capacities = [
-  ["01", "Mobilità", "Muoversi abbastanza per il compito, senza inseguire range perfetti."],
+  ["01", "Mobilità", "Avere il movimento necessario per l’attività, senza inseguire un’ampiezza ideale."],
   ["02", "Controllo", "Organizzare il gesto, mantenere equilibrio e adattare l'esecuzione."],
   ["03", "Forza", "Produrre, assorbire e sostenere la forza richiesta dall'attività."],
   ["04", "Tolleranza", "Ripetere il compito e recuperare senza doverlo continuamente ridimensionare."],
@@ -22,9 +22,9 @@ const capacities = [
 ];
 
 const process = [
-  ["Valutiamo", "Definiamo attività-obiettivo, capacità attuale e prima dose sostenibile."],
-  ["Esponiamo", "Proponiamo movimento ed esercizio a una dose compatibile con il punto di partenza."],
-  ["Osserviamo", "Leggiamo sintomi, sforzo, funzione e recupero durante e dopo l'esposizione."],
+  ["Valutiamo", "Definiamo l’attività da recuperare, il livello attuale e quanto lavoro puoi sostenere."],
+  ["Alleniamo", "Proponiamo movimento ed esercizio a una dose compatibile con il punto di partenza."],
+  ["Osserviamo", "Osserviamo sintomi, sforzo, movimento e recupero durante e dopo l’attività."],
   ["Adattiamo", "Cambiamo il minimo necessario: carico, volume, frequenza, variante o recupero."],
   ["Trasferiamo", "Avviciniamo progressivamente il lavoro alle richieste dell'attività reale."],
 ];
@@ -39,7 +39,7 @@ export default function Home() {
         <div className="hero-copy-block">
           <p className="hero-kicker">Metodo Corpo Capace · Dr. Botta</p>
           <h1 id="home-hero-title">Torna a muoverti.<br /><em>Ritrova fiducia nel tuo corpo.</em></h1>
-          <p className="hero-lead">Un percorso di allenamento personalizzato per aumentare progressivamente ciò che il tuo corpo riesce a sostenere: nella vita, in palestra e nello sport.</p>
+          <p className="hero-lead">Allenamento personalizzato per riprendere cammino, palestra e sport. Partiamo da ciò che riesci a fare oggi e adattiamo il programma in base alla risposta del tuo corpo.</p>
           <div className="hero-actions">
             <a className="button button--primary" href={CONSULTATION_URL} target="_blank" rel="noreferrer">Parla con il team <span>↗</span></a>
             <Link className="text-link text-link--light" href="/metodo">Scopri il metodo <span>→</span></Link>
@@ -88,7 +88,7 @@ export default function Home() {
           <div className="gap-target"><span>OBIETTIVO</span><strong>Ciò che vuoi<br />tornare a fare</strong></div>
         </div>
         <div className="gap-copy">
-          <p className="section-label section-label--light">Il problema profondo</p>
+          <p className="section-label section-label--light">Il punto di partenza</p>
           <h2>Costruiamo capacità, passo dopo passo.</h2>
           <p>Quando la richiesta supera ciò che il corpo riesce oggi a sostenere con sufficiente affidabilità, possono comparire dolore, rigidità, affaticamento o limitazione. Spegnere il sintomo può aiutare. Ma non sempre colma la distanza dall’attività.</p>
           <Link className="text-link text-link--light" href="/blog/gap-di-capacita">Capisci il Gap di Capacità <span>→</span></Link>
@@ -98,7 +98,7 @@ export default function Home() {
       <section className="method-overview">
         <div className="method-heading">
           <p className="section-label">Il Metodo Corpo Capace</p>
-          <h2>Non alleniamo il dolore.<br /><em>Alleniamo ciò che ti serve.</em></h2>
+          <h2>Mobilità, forza e controllo.<br /><em>Per le attività che contano.</em></h2>
           <p>Un corpo capace non è perfetto: è sufficientemente preparato a sostenere con continuità ciò che vuoi chiedergli.</p>
         </div>
         <div className="capacity-list">
@@ -117,9 +117,9 @@ export default function Home() {
         <div className="routes-heading">
           <div>
             <p className="section-label">Dove vuoi tornare</p>
-            <h2 id="routes-title">Un solo metodo.<br /><em>Tre richieste diverse.</em></h2>
+            <h2 id="routes-title">Vita quotidiana.<br /><em>Allenamento e sport.</em></h2>
           </div>
-          <p>Il percorso non parte dal nome del problema, ma dall’attività che vuoi recuperare e dalla dose reale che dovrai sostenere.</p>
+          <p>Definiamo l’attività che vuoi recuperare: quanto deve durare, con quale frequenza e a quale intensità. Il programma parte da questa richiesta e dalla tua situazione.</p>
         </div>
         <div className="routes-grid">
           <Link className="route-card route-card--daily" href="/percorsi">
@@ -172,9 +172,9 @@ export default function Home() {
 
       <section className="process-section">
         <div className="process-intro">
-          <p className="section-label">Non una scheda lasciata lì</p>
+          <p className="section-label">Il programma si adatta a te</p>
           <h2>Ogni risposta guida il passo successivo.</h2>
-          <p>La Progressione di Capacità è un ciclo adattivo: valutazione, esposizione, monitoraggio, adattamento e ritorno al gesto reale.</p>
+          <p>Valutiamo il punto di partenza, proponiamo esercizi e osserviamo come rispondi. Questi riscontri guidano gli adattamenti e il ritorno all’attività desiderata.</p>
           <Link className="button button--outline" href="/percorsi">Come funziona il percorso <span>↗</span></Link>
         </div>
         <ol className="process-list">

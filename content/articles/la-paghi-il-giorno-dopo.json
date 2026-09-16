@@ -1,11 +1,11 @@
 {
   "slug": "la-paghi-il-giorno-dopo",
-  "title": "La paghi il giorno dopo? Il problema può essere la dose",
-  "kicker": "Quando riesci a fare, ma non a recuperare",
+  "title": "Dolore dopo l’attività: valutare carico e recupero",
+  "kicker": "Completare una seduta e recuperare per quella successiva sono due aspetti diversi.",
   "category": "Carico",
-  "excerpt": "Completare l'attività non dimostra che la dose fosse adeguata. La risposta nelle ore successive è parte del test.",
+  "excerpt": "Dolore, rigidità o stanchezza dopo l’attività: quali dati osservare per valutare la dose di lavoro e discutere gli adattamenti con il professionista.",
   "date": "25 agosto 2026",
-  "readingTime": "5 min",
+  "readingTime": "2 min",
   "image": "/images/brand-023f3900e8f5.webp",
   "accent": "sage",
   "intro": "Molte persone riescono a finire la camminata, la seduta o la partita. Il problema arriva dopo: rigidità, dolore, stanchezza sproporzionata o la necessità di fermarsi per giorni. Non è mancanza di volontà. Spesso è una tolleranza ancora insufficiente rispetto alla dose scelta.",
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "heading": "Modificare il minimo necessario",
+      "heading": "Quali variabili del carico rivedere",
       "paragraphs": [
         "Prima di eliminare completamente l'attività, si può intervenire su una variabile: carico, volume, frequenza, velocità, range di movimento, variante, recupero o specificità del gesto.",
         "L'obiettivo è trovare la prima dose che il corpo riesce a sostenere, raccogliere una risposta leggibile e costruire da lì. Una regressione temporanea non cancella il percorso: può renderlo di nuovo allenabile."
@@ -38,8 +38,8 @@
     "Prima di fermarti del tutto, prova a cambiare una variabile.",
     "La dose giusta produce adattamento e dati utili."
   ],
-  "description": "Completare l'attività non dimostra che la dose fosse adeguata. La risposta nelle ore successive è parte del test.",
-  "seoDescription": "Completare l'attività non dimostra che la dose fosse adeguata. La risposta nelle ore successive è parte del test.",
+  "description": "Dolore, rigidità o stanchezza dopo l’attività: quali dati osservare per valutare la dose di lavoro e discutere gli adattamenti con il professionista.",
+  "seoDescription": "Dolore, rigidità o stanchezza dopo l’attività: quali dati osservare per valutare la dose di lavoro e discutere gli adattamenti con il professionista.",
   "tags": [
     "Carico",
     "Corpo Capace"
@@ -63,5 +63,6 @@
     "quando-aumentare-il-carico"
   ],
   "cta": "/percorsi",
-  "imageAlt": "Uomo in mezzo inginocchio con un elastico intorno al ginocchio; scritta «Programmi riabilitativi RE-ACTIVE»."
+  "imageAlt": "Uomo in mezzo inginocchio con un elastico intorno al ginocchio; scritta «Programmi riabilitativi RE-ACTIVE».",
+  "seoTitle": "Dolore dopo l’attività: carico e recupero | Dr. Botta"
 }

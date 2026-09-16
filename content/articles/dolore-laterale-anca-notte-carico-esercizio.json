@@ -1,12 +1,12 @@
 {
   "slug": "dolore-laterale-anca-notte-carico-esercizio",
-  "title": "Dolore laterale all’anca di notte: capire il carico, ritrovare il movimento",
-  "kicker": "Perché dormire sul fianco può fare male e come costruire un percorso attivo.",
+  "title": "Dolore laterale all’anca di notte: cosa fare",
+  "kicker": "Riposo sul fianco, attività della giornata e valutazione dei sintomi.",
   "category": "Anca",
-  "excerpt": "Compressione sul fianco, tendini glutei e gestione del carico: strategie per il sonno, esercizio personalizzato e matrice educativa Corpo Capace.",
+  "excerpt": "Dolore all’esterno dell’anca quando dormi sul fianco: possibili cause, posizioni da adattare, gestione dell’attività e quando chiedere una valutazione.",
   "date": "8 settembre 2026",
   "sourceDate": "8 settembre 2026",
-  "readingTime": "6 min",
+  "readingTime": "4 min",
   "image": "/images/anca-notte.webp",
   "imageAlt": "Donna sul fianco a letto con una mano sulla parte laterale dell’anca.",
   "imageCaption": "Dolore laterale e riposo · Immagine illustrativa generata con IA",
@@ -90,8 +90,8 @@
       "url": "https://www.nhs.uk/symptoms/hip-pain/"
     }
   ],
-  "description": "Compressione sul fianco, tendini glutei e gestione del carico: strategie per il sonno, esercizio personalizzato e matrice educativa Corpo Capace.",
-  "seoDescription": "Compressione sul fianco, tendini glutei e gestione del carico: strategie per il sonno, esercizio personalizzato e matrice educativa Corpo Capace.",
+  "description": "Dolore all’esterno dell’anca quando dormi sul fianco: possibili cause, posizioni da adattare, gestione dell’attività e quando chiedere una valutazione.",
+  "seoDescription": "Dolore all’esterno dell’anca quando dormi sul fianco: possibili cause, posizioni da adattare, gestione dell’attività e quando chiedere una valutazione.",
   "tags": [
     "Anca",
     "Corpo Capace"
@@ -112,5 +112,6 @@
   "relatedPosts": [
     "dolore-anca-ritorno-corsa"
   ],
-  "cta": "/percorsi"
+  "cta": "/percorsi",
+  "seoTitle": "Dolore laterale all’anca di notte: cosa fare | Dr. Botta"
 }

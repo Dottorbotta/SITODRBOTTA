@@ -10,5 +10,5 @@ export const editorialPages = [
  {path:'/percorsi',title:'Allenamento personalizzato online | Dr. Botta',description:'Come si svolge il percorso Corpo Capace: valutazione, programma a casa o in palestra, video e confronti con il team. Prenota una consulenza.'},
  {path:'/testimonianze',title:'Recensioni Dr. Botta e Corpo Capace | Esperienze',description:'Esperienze personali con il team Dr. Botta: cammino, corsa e allenamento. Leggi le sintesi e consulta le recensioni complete su Trustpilot.'},
  {path:'/blog',title:'Dolore, movimento e allenamento | Blog Dr. Botta',description:'Articoli su dolore al piede, ginocchio e anca, gestione del carico e ritorno allo sport. Cerca per argomento e consulta le fonti degli approfondimenti.'},
- {path:'/chi-sono',title:'Dr. Simone Botta Lamanna | Fondatore di Corpo Capace',description:'Conosci il fondatore di Corpo Capace, il lavoro del team e i criteri editoriali del blog. Profilo professionale e contatti della redazione.'},
+ {path:'/chi-sono',title:'Dr. Simone Botta Lamanna | Fondatore di Corpo Capace',description:'Chi è Simone Botta Lamanna e come lavora il team Corpo Capace: valutazione, allenamento progressivo e monitoraggio per le attività che vuoi recuperare.'},
 ];

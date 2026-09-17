@@ -89,6 +89,26 @@ test('article metadata and FAQ schema describe the actual article and retain noi
 });
 
 // New publications are checked independently; the original 17-article baseline remains intact.
+test('Drive publications 004–010 retain their order, metadata, images and valid related articles', async () => {
+  const batch = JSON.parse(await readFile('docs/blog-publication-004-010.json', 'utf8'));
+  assert.deepEqual(batch.map(a => a.id), [4,5,6,7,8,9,10]);
+  const source = await readFile('app/data/articles.ts', 'utf8');
+  assert.match(source, /\[article20,article21,article22,article23,article24,article25,article26,article17/);
+  for (const item of batch) {
+    const article = records.find(a => a.slug === item.slug);
+    assert.ok(article, item.slug);
+    assert.equal(article.title, item.title);
+    assert.equal(article.clinicalReview.status, 'not-recorded');
+    assert.ok(article.sources.length >= 4);
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'));
+    assert.ok(!JSON.stringify(article).includes('scrivi INFO'));
+    await access('public' + article.image);
+    for (const slug of article.relatedPosts) assert.ok(records.some(a => a.slug === slug), slug);
+    const html = await (await get('/blog/' + item.slug)).text();
+    assert.ok(html.includes('FAQPage'));
+    assert.ok(html.includes('type="image/avif"'));
+  }
+});
 test('Drive publications 001–003 have complete editorial records and live cross-links', async () => {
   const slugs = ['tecnica-di-corsa', 'dolore-anca-dopo-corsa', 'infortuni-corsa-fattori-rischio'];
   for (const slug of slugs) {

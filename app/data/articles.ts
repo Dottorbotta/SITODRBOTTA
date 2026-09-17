@@ -1,3 +1,10 @@
+import article20 from "../../content/articles/tecnica-corsa-postura-ritmo-appoggio-controllo.json";
+import article21 from "../../content/articles/metodo-corsa-tecnica-condizionamento.json";
+import article22 from "../../content/articles/analisi-corsa-errori-biomeccanici-correggere.json";
+import article23 from "../../content/articles/correre-gesto-tecnico-elementi-allenabili.json";
+import article24 from "../../content/articles/correre-fa-male-articolazioni-carico-adattamento.json";
+import article25 from "../../content/articles/correre-meglio-piu-forte-capacita-fisiche.json";
+import article26 from "../../content/articles/corpo-pronto-correre-forza-mobilita-tolleranza.json";
 import article17 from "../../content/articles/tecnica-di-corsa.json";
 import article18 from "../../content/articles/dolore-anca-dopo-corsa.json";
 import article19 from "../../content/articles/infortuni-corsa-fattori-rischio.json";
@@ -61,7 +68,7 @@ export type Article = {
 };
 
 
-export const articles: Article[] = [article17,article18,article19,article0,article1,article2,article3,article4,article5,article6,article7,article8,article9,article10,article11,article12,article13,article14,article15,article16 ] as Article[];
+export const articles: Article[] = [article20,article21,article22,article23,article24,article25,article26,article17,article18,article19,article0,article1,article2,article3,article4,article5,article6,article7,article8,article9,article10,article11,article12,article13,article14,article15,article16 ] as Article[];
 export const articleCategories = ['Tutti','Metodo','Piede','Ginocchio','Anca','Carico','Ritorno allo sport'] as const;
 export function getArticle(slug: string){return articles.find(a=>a.slug===slug);}
 export type ArticleSummary = Pick<Article,'slug'|'title'|'kicker'|'category'|'excerpt'|'image'|'accent'|'readingTime'|'publishedAt'|'tags'>;

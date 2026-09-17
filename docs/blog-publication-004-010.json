@@ -1,0 +1,44 @@
+[
+  {
+    "id": 4,
+    "slug": "tecnica-corsa-postura-ritmo-appoggio-controllo",
+    "title": "Tecnica di corsa: postura, ritmo, appoggio e controllo spiegati in modo biomeccanico",
+    "intent": "Le componenti del gesto, una per una."
+  },
+  {
+    "id": 5,
+    "slug": "metodo-corsa-tecnica-condizionamento",
+    "title": "Metodo di corsa: perché tecnica e condizionamento devono crescere insieme",
+    "intent": "Come collegare tecnica, forza e allenamento."
+  },
+  {
+    "id": 6,
+    "slug": "analisi-corsa-errori-biomeccanici-correggere",
+    "title": "Analisi della corsa: quali errori biomeccanici vale davvero la pena correggere",
+    "intent": "Dal video a una decisione motivata."
+  },
+  {
+    "id": 7,
+    "slug": "correre-gesto-tecnico-elementi-allenabili",
+    "title": "Correre è un gesto tecnico: quali elementi si possono realmente allenare",
+    "intent": "Imparare, provare, verificare il trasferimento."
+  },
+  {
+    "id": 8,
+    "slug": "correre-fa-male-articolazioni-carico-adattamento",
+    "title": "Correre fa male alle articolazioni? Cosa sappiamo davvero su carico, adattamento e infortuni",
+    "intent": "Corsa e articolazioni: evidenze e limiti."
+  },
+  {
+    "id": 9,
+    "slug": "correre-meglio-piu-forte-capacita-fisiche",
+    "title": "Correre meglio e più forte: le capacità fisiche che contano davvero",
+    "intent": "Le qualità che sostengono la prestazione."
+  },
+  {
+    "id": 10,
+    "slug": "corpo-pronto-correre-forza-mobilita-tolleranza",
+    "title": "Hai un corpo pronto per correre? Forza, mobilità e tolleranza prima dei chilometri",
+    "intent": "Il punto di partenza conta più del corpo ideale."
+  }
+]

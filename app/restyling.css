@@ -133,3 +133,7 @@ main .hero-media img { object-position: center 35%; }
 .legal-page h2 { margin-top: 2.5rem; font-size: 1.7rem; }
 .legal-page h3 { margin-top: 1.8rem; font-size: 1.25rem; }
 .legal-page p { line-height: 1.75; overflow-wrap: anywhere; }
+
+.legal-page ul, .legal-page ol { padding-left: 1.5rem; margin-block: 1rem; }
+.legal-page li { line-height: 1.75; margin-block: .5rem; overflow-wrap: anywhere; }
+.legal-page .legal-effective-date { margin-bottom: 2.5rem; color: var(--muted); }

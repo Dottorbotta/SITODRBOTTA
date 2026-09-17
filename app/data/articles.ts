@@ -1,3 +1,6 @@
+import article17 from "../../content/articles/tecnica-di-corsa.json";
+import article18 from "../../content/articles/dolore-anca-dopo-corsa.json";
+import article19 from "../../content/articles/infortuni-corsa-fattori-rischio.json";
 import article0 from "../../content/articles/dolore-al-piede.json";
 import article1 from "../../content/articles/piedi-caviglie-gonfie.json";
 import article2 from "../../content/articles/condromalacia-rotulea.json";
@@ -58,7 +61,7 @@ export type Article = {
 };
 
 
-export const articles: Article[] = [article0,article1,article2,article3,article4,article5,article6,article7,article8,article9,article10,article11,article12,article13,article14,article15,article16 ] as Article[];
+export const articles: Article[] = [article17,article18,article19,article0,article1,article2,article3,article4,article5,article6,article7,article8,article9,article10,article11,article12,article13,article14,article15,article16 ] as Article[];
 export const articleCategories = ['Tutti','Metodo','Piede','Ginocchio','Anca','Carico','Ritorno allo sport'] as const;
 export function getArticle(slug: string){return articles.find(a=>a.slug===slug);}
 export type ArticleSummary = Pick<Article,'slug'|'title'|'kicker'|'category'|'excerpt'|'image'|'accent'|'readingTime'|'publishedAt'|'tags'>;

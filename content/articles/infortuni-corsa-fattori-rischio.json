@@ -1,0 +1,193 @@
+{
+  "slug": "infortuni-corsa-fattori-rischio",
+  "title": "Infortuni nella corsa: perché il problema raramente dipende da un solo fattore",
+  "seoTitle": "Infortuni nella corsa: perché il problema raramente dipende da un solo fattore",
+  "kicker": "Allenamento, storia clinica e recupero: guardare l’insieme.",
+  "category": "Carico",
+  "excerpt": "Gli infortuni nella corsa non dipendono da una sola causa. Scopri come interagiscono carico, storia clinica, capacità fisiche e biomeccanica.",
+  "description": "Gli infortuni nella corsa non dipendono da una sola causa. Scopri come interagiscono carico, storia clinica, capacità fisiche e biomeccanica.",
+  "seoDescription": "Gli infortuni nella corsa non dipendono da una sola causa. Scopri come interagiscono carico, storia clinica, capacità fisiche e biomeccanica.",
+  "date": "17 settembre 2026",
+  "publishedAt": "2026-09-17",
+  "updatedAt": null,
+  "sourceDate": "17 settembre 2026",
+  "author": "team-corpo-capace",
+  "image": "/images/infortuni-corsa-fattori-rischio.webp",
+  "featuredImage": "/images/infortuni-corsa-fattori-rischio.webp",
+  "imageAlt": "Quaderno, orologio e bicchiere d’acqua su un tavolo; scarpe da corsa sullo sfondo.",
+  "imageCaption": "Immagine illustrativa generata con IA; non raffigura un paziente o un risultato clinico.",
+  "accent": "sand",
+  "intro": "Gli infortuni nella corsa hanno un’origine multifattoriale: allenamento, precedenti problemi, capacità fisiche e recupero vanno considerati insieme. Un video, una scarpa o un test di forza non permettono da soli di spiegare il dolore o prevedere chi si farà male.",
+  "sections": [
+    {
+      "heading": "Infortunio da corsa non significa necessariamente “tecnica sbagliata”",
+      "paragraphs": [
+        "È intuitivo pensare che un gesto visibilmente imperfetto produca automaticamente un infortunio. Le evidenze prospettiche, però, sono molto meno nette.",
+        "La [revisione di Peterson e colleghi](https://pubmed.ncbi.nlm.nih.gov/35254562/) ha valutato numerose misure biomeccaniche e muscoloscheletriche in studi prospettici. Le associazioni isolate sono spesso assenti o piccole: un singolo test non offre una previsione affidabile per il singolo runner.",
+        "Questo non significa che la biomeccanica sia irrilevante. Significa che non dovrebbe essere trasformata in una diagnosi preventiva isolata. Un ginocchio che entra maggiormente in adduzione, un piede pronato o un appoggio di tallone non rappresentano automaticamente una futura lesione."
+      ]
+    },
+    {
+      "heading": "Il modello più utile: richiesta contro capacità",
+      "paragraphs": [
+        "Ogni seduta di corsa espone il sistema muscoloscheletrico a una determinata richiesta. Quella richiesta dipende da:",
+        "- volume;\n- intensità;\n- frequenza;\n- dislivello;\n- superficie;\n- velocità;\n- recupero tra le sedute.",
+        "La capacità dipende invece da fattori come:",
+        "- storia di allenamento;\n- forza;\n- tolleranza dei tessuti;\n- sonno e recupero;\n- stato di salute;\n- precedenti infortuni;\n- adattamento progressivo ai carichi.",
+        "Il rapporto tra richiesta e capacità è una cornice utile per organizzare l’allenamento, non una formula diagnostica o una soglia misurabile che separi corsa sicura e pericolosa."
+      ]
+    },
+    {
+      "heading": "1. Il carico di allenamento conta, ma non basta guardare i chilometri",
+      "paragraphs": [
+        "Dire che una persona si è infortunata perché ha corso troppo è spesso una semplificazione. Due runner possono percorrere lo stesso numero di chilometri e ricevere uno stimolo completamente diverso.",
+        "Dieci chilometri facili su terreno piano non equivalgono a dieci chilometri con ripetute, salite o discese. Anche la stessa seduta può essere tollerata diversamente a seconda di ciò che è stato fatto nelle settimane precedenti.",
+        "Per questo il carico va interpretato nel tempo. Aumenti improvvisi, cambiamenti di intensità, inserimento di lavori nuovi o ritorno troppo rapido dopo una pausa possono modificare la domanda sui tessuti.",
+        "Non esiste però una singola soglia universale che separi “carico sicuro” e “carico pericoloso”."
+      ]
+    },
+    {
+      "heading": "2. La storia di infortuni modifica il rischio",
+      "paragraphs": [
+        "Questo dato non significa che il corpo rimanga fragile e non spiega da solo un nuovo problema. Aiuta a ricostruire il percorso precedente e a verificare se la ripresa è adeguata alla richiesta attuale.",
+        "Se dopo una tendinopatia achillea il runner torna a correre senza aver recuperato forza del polpaccio, elasticità e tolleranza ai carichi rapidi, il problema non è soltanto “il tendine”.",
+        "È il rapporto tra ciò che quel sistema sa fare e ciò che gli stiamo nuovamente chiedendo."
+      ]
+    },
+    {
+      "heading": "3. La forza è importante, ma non predice da sola gli infortuni",
+      "paragraphs": [
+        "La forza rappresenta una capacità fondamentale perché permette di produrre, assorbire e trasferire forza. Ma anche qui bisogna evitare conclusioni lineari.",
+        "La letteratura prospettica non supporta l’idea che una singola misura di forza possa prevedere in modo affidabile chi si farà male. Questo significa che i test di forza devono essere utilizzati per descrivere capacità e deficit individuali, non come oracoli.",
+        "Il loro valore aumenta quando vengono collegati al compito. Un deficit del polpaccio è molto più rilevante se stiamo programmando un ritorno alla corsa veloce rispetto a una persona che non deve ancora sostenere carichi elastici elevati."
+      ]
+    },
+    {
+      "heading": "4. Biomeccanica: da fattore di rischio a strumento di gestione",
+      "paragraphs": [
+        "La biomeccanica diventa molto utile quando smettiamo di usarla per etichettare il runner e iniziamo a usarla per prendere decisioni. Una modifica della cadenza, della lunghezza del passo o del tronco può redistribuire il carico tra articolazioni e tessuti.",
+        "La [revisione di Doyle e colleghi](https://pubmed.ncbi.nlm.nih.gov/35128941/) documenta modifiche di alcune variabili del gesto, ma dispone di dati clinici limitati. Il cambiamento del movimento va quindi verificato rispetto all’obiettivo, senza presumere che prevenga una lesione.",
+        "Quindi la tecnica non va “corretta” perché appare diversa da uno standard. Va modificata quando esiste un obiettivo specifico e verificabile."
+      ]
+    },
+    {
+      "heading": "5. Recupero, sonno e salute generale fanno parte del problema",
+      "paragraphs": [
+        "La [umbrella review del 2024](https://pubmed.ncbi.nlm.nih.gov/38697289/) descrive associazioni con fattori di allenamento, salute, stile di vita e biomeccanica. Le revisioni incluse erano di qualità bassa o criticamente bassa: i risultati vanno interpretati con cautela e non dimostrano una causa individuale.",
+        "Questo è importante perché un runner può tollerare bene un determinato carico in una fase e molto meno in un’altra. Periodo di forte stress, sonno insufficiente, malattia recente, riduzione dell’apporto energetico o recupero incompleto possono ridurre il margine disponibile.",
+        "Non significa che ognuno di questi elementi “causi” direttamente l’infortunio. Significa che fanno parte del sistema che determina la capacità di adattamento."
+      ]
+    },
+    {
+      "heading": "6. Scarpe e superficie: strumenti, non spiegazioni universali",
+      "paragraphs": [
+        "Cambiare scarpa può modificare sensazioni, comfort e distribuzione delle richieste meccaniche. Ma non esiste una scarpa in grado di prevenire in modo certo gli infortuni per tutti.",
+        "Lo stesso vale per la superficie. Asfalto, pista, sterrato e tapis roulant cambiano alcune caratteristiche del compito, ma il loro effetto deve essere interpretato dentro l’intero programma.",
+        "Il punto non è trovare l’attrezzatura “giusta” in assoluto. È capire se un cambiamento improvviso di scarpa, drop, rigidità, volume o superficie abbia introdotto una richiesta alla quale il runner non era ancora adattato."
+      ]
+    },
+    {
+      "heading": "Perché cercare una singola causa può peggiorare la gestione",
+      "paragraphs": [
+        "Quando si identifica troppo rapidamente un unico colpevole, si tende anche a costruire una soluzione unica. Se la causa viene attribuita al piede, si lavora solo sul piede.",
+        "Se viene attribuita al gluteo, si fanno soltanto esercizi per il gluteo. Se viene attribuita alle scarpe, si cambiano scarpe. Il rischio è perdere il quadro complessivo.",
+        "Una gestione più solida valuta almeno:",
+        "- comportamento del sintomo;\n- carico recente;\n- capacità fisiche;\n- storia di infortuni;\n- eventuali cambiamenti tecnici utili;\n- fattori di recupero;\n- progressione necessaria per tornare al compito."
+      ]
+    },
+    {
+      "heading": "Come ridurre il rischio in modo realistico",
+      "paragraphs": [
+        "Non possiamo azzerare il rischio di infortunio. Possiamo però migliorare la gestione del processo.",
+        "### Progressione del carico",
+        "Aumentare gradualmente la richiesta e introdurre un cambiamento importante alla volta rende più semplice capire come il corpo risponde.",
+        "### Forza",
+        "Allenare la forza può sostenere capacità e prestazione. La [meta-analisi di Llanos-Lagos e colleghi](https://pubmed.ncbi.nlm.nih.gov/38165636/) riporta possibili miglioramenti dell’economia di corsa con alcuni programmi. Migliorare l’economia, però, non dimostra di ridurre gli infortuni.",
+        "### Recupero",
+        "Sonno, alimentazione e gestione delle sedute dure influenzano la capacità di adattamento.",
+        "### Monitoraggio dei sintomi",
+        "Un sintomo che aumenta progressivamente durante la settimana o rimane significativamente peggiore il giorno successivo fornisce informazioni utili sulla dose.",
+        "### Tecnica quando serve",
+        "La tecnica va modificata quando può redistribuire un carico problematico o migliorare una funzione specifica, non per inseguire un modello estetico di corsa."
+      ]
+    },
+    {
+      "heading": "Prevenzione significa aumentare il margine",
+      "paragraphs": [
+        "La gestione del rischio richiede più elementi: allenamento, recupero, valutazione dei sintomi e progressione individuale. Nessuna correzione rende il corpo perfetto o elimina la possibilità di infortunio.",
+        "Questo è molto più realistico che promettere una corsa senza infortuni attraverso una singola correzione biomeccanica."
+      ]
+    },
+    {
+      "heading": "La regola da portarti via",
+      "paragraphs": [
+        "Gli infortuni nella corsa sono multifattoriali. La biomeccanica può contribuire. Il carico può contribuire. La storia clinica può contribuire. La capacità fisica e il recupero possono contribuire.",
+        "Il lavoro utile consiste nel capire quali fattori sono realmente modificabili nel singolo runner e in quale ordine affrontarli.",
+        "Leggi anche [cosa osservare nella tecnica di corsa](/blog/tecnica-di-corsa), [come gestire un dolore all’anca dopo la corsa](/blog/dolore-anca-dopo-corsa) e [quando aumentare il carico](/blog/quando-aumentare-il-carico)."
+      ]
+    },
+    {
+      "heading": "Domande frequenti",
+      "paragraphs": [
+        "### Esiste una tecnica che evita tutti gli infortuni?",
+        "No. Modificare il gesto può cambiare le richieste meccaniche, ma non elimina tutti i fattori di rischio.",
+        "### Basta correre meno per risolvere un infortunio?",
+        "La quantità di corsa è soltanto una parte della valutazione. Servono anche storia del problema, risposta ai carichi e inquadramento sanitario quando indicato.",
+        "### Un test di forza può dirmi se mi farò male?",
+        "Un singolo test descrive una capacità nelle condizioni in cui viene eseguito. Non predice con certezza un futuro infortunio."
+      ]
+    },
+    {
+      "heading": "Il prossimo passo",
+      "paragraphs": [
+        "Se vuoi capire come si svolge un programma di esercizio personalizzato, [scopri il percorso Corpo Capace](/percorsi). La consulenza serve a valutarne l’appropriatezza; non sostituisce una diagnosi o le cure necessarie."
+      ]
+    }
+  ],
+  "takeaways": [
+    "Gli infortuni da corsa sono multifattoriali.",
+    "Associazione statistica non significa causa del singolo problema.",
+    "Progressione e monitoraggio non garantiscono l’assenza di infortuni."
+  ],
+  "tags": [
+    "Corsa",
+    "Carico"
+  ],
+  "canonical": "/blog/infortuni-corsa-fattori-rischio",
+  "primaryKeyword": "infortuni nella corsa",
+  "secondaryKeywords": [
+    "fattori di rischio corsa",
+    "gestione carico corsa"
+  ],
+  "problemArea": "metodo",
+  "clinicalReview": {
+    "status": "not-recorded",
+    "reviewer": null,
+    "date": null
+  },
+  "relatedPosts": [
+    "tecnica-di-corsa",
+    "dolore-anca-dopo-corsa",
+    "quando-aumentare-il-carico"
+  ],
+  "cta": "/percorsi",
+  "sources": [
+    {
+      "label": "Correia et al. — Risk factors for running-related injuries: an umbrella systematic review (2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38697289/"
+    },
+    {
+      "label": "Peterson et al. — Biomechanical and musculoskeletal measurements as risk factors in non-elite runners (2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35254562/"
+    },
+    {
+      "label": "Doyle et al. — Effectiveness of gait retraining: systematic review with meta-analysis (2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35128941/"
+    },
+    {
+      "label": "Llanos-Lagos et al. — Strength training and running economy (2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38165636/"
+    }
+  ],
+  "readingTime": "7 min"
+}

@@ -30,10 +30,11 @@ test('copy revision is explicit, preserves clinical records and keeps links vali
   const original = JSON.parse(await readFile('docs/content-before.json', 'utf8'));
   const revision = JSON.parse(await readFile('docs/copy-edits-2026-09-16.json', 'utf8'));
   const round2 = JSON.parse(await readFile('docs/article-edits-round2-2026-09-16.json', 'utf8'));
-  assert.equal(new Set(round2.articles.map(a => a.slug)).size, records.length);
-  assert.equal(records.length, original.length);
-  assert.equal(new Set(revision.articles.map(a => a.slug)).size, records.length);
-  for (const current of records) {
+  assert.equal(new Set(round2.articles.map(a => a.slug)).size, original.length);
+  assert.equal(new Set(revision.articles.map(a => a.slug)).size, original.length);
+  const baselineRecords = records.filter(a => original.some(b => b.slug === a.slug));
+  assert.equal(baselineRecords.length, original.length);
+  for (const current of baselineRecords) {
     const latest = round2.articles.find(a => a.slug === current.slug);
     assert.ok(latest, current.slug);
     const article = structuredClone(current);
@@ -84,5 +85,22 @@ test('article metadata and FAQ schema describe the actual article and retain noi
     if (faq) assert.deepEqual(structured.mainEntity.map(q => q.name), faq.paragraphs.filter(p => p.startsWith('### ')).map(p => p.slice(4)));
     else assert.equal(structured, undefined);
     assert.ok(html.includes(encodeURIComponent('https://drbotta-pathodynamics.dr-botta-4589.chatgpt.site/blog/' + article.slug)));
+  }
+});
+
+// New publications are checked independently; the original 17-article baseline remains intact.
+test('Drive publications 001–003 have complete editorial records and live cross-links', async () => {
+  const slugs = ['tecnica-di-corsa', 'dolore-anca-dopo-corsa', 'infortuni-corsa-fattori-rischio'];
+  for (const slug of slugs) {
+    const a = records.find(a => a.slug === slug);
+    assert.ok(a, slug);
+    assert.ok(a.sources.length >= 4, slug);
+    assert.equal(a.clinicalReview.status, 'not-recorded');
+    assert.ok(a.imageAlt && a.imageCaption.includes('IA'));
+    assert.ok(!JSON.stringify(a).includes('scrivi INFO'));
+    for (const related of a.relatedPosts) assert.ok(records.some(r => r.slug === related));
+    const html = await (await get('/blog/' + slug)).text();
+    assert.ok(html.includes('FAQPage'));
+    assert.ok(html.includes('type="image/avif"'));
   }
 });

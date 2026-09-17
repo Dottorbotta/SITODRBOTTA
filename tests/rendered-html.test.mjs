@@ -29,9 +29,19 @@ test('responsive images are discoverable in HTML, preserve alternatives and ship
 test('copy revision is explicit, preserves clinical records and keeps links valid', async () => {
   const original = JSON.parse(await readFile('docs/content-before.json', 'utf8'));
   const revision = JSON.parse(await readFile('docs/copy-edits-2026-09-16.json', 'utf8'));
+  const round2 = JSON.parse(await readFile('docs/article-edits-round2-2026-09-16.json', 'utf8'));
+  assert.equal(new Set(round2.articles.map(a => a.slug)).size, records.length);
   assert.equal(records.length, original.length);
   assert.equal(new Set(revision.articles.map(a => a.slug)).size, records.length);
-  for (const article of records) {
+  for (const current of records) {
+    const latest = round2.articles.find(a => a.slug === current.slug);
+    assert.ok(latest, current.slug);
+    const article = structuredClone(current);
+    for (const [field, change] of Object.entries(latest.changes)) {
+      assert.deepEqual(current[field], change.after, current.slug + ': latest ' + field);
+      article[field] = change.before;
+    }
+    for (const [field, value] of Object.entries(latest.protected)) assert.deepEqual(current[field], value, current.slug + ': preserved ' + field);
     const baseline = original.find(a => a.slug === article.slug);
     const edit = revision.articles.find(a => a.slug === article.slug);
     assert.ok(baseline && edit, article.slug);
@@ -53,3 +63,26 @@ test('sitemap RSS and robots are available; aliases permanently redirect',async(
 test('missing article is a real 404',async()=>{const r=await get('/blog/non-esiste-qa');assert.equal(r.status,404);});
 test('main pages and real topic clusters render with metadata',async()=>{for(const path of ['/','/metodo','/per-chi','/percorsi','/testimonianze','/blog','/chi-sono','/blog/argomenti/piede','/blog/argomenti/ginocchio','/blog/argomenti/anca','/blog/argomenti/metodo','/blog/argomenti/ritorno-allo-sport']){const r=await get(path);assert.equal(r.status,200,path);const html=await r.text();assert.ok(html.includes('rel="canonical"'),path);assert.equal((html.match(/<h1\b/g)||[]).length,1,path);}});
 test('source consultation dates are shown only when documented',async()=>{for(const a of records.filter(a=>a.sources?.length)){const html=await (await get('/blog/'+a.slug)).text();const sources=html.match(/<section class="article-sources"[\s\S]*?<\/section>/)?.[0];assert.ok(sources,a.slug);assert.equal(sources.includes('Fonti consultate il'),Boolean(a.sourceDate),a.slug);}});
+test('article metadata and FAQ schema describe the actual article and retain noindex', async () => {
+  const titles = new Set();
+  const descriptions = new Set();
+  for (const article of records) {
+    assert.ok(!titles.has(article.seoTitle), article.slug + ': duplicate SEO title');
+    assert.ok(!descriptions.has(article.seoDescription), article.slug + ': duplicate description');
+    titles.add(article.seoTitle); descriptions.add(article.seoDescription);
+    const html = await (await get('/blog/' + article.slug)).text();
+    assert.match(html, /property="og:type" content="article"/);
+    assert.match(html, /name="robots" content="[^"]*noindex/);
+    const schemas = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
+    const posting = schemas.find(s => s['@type'] === 'BlogPosting');
+    assert.equal(posting.description, article.seoDescription);
+    assert.equal(posting.datePublished, article.publishedAt);
+    assert.equal(posting.dateModified, article.updatedAt || undefined);
+    assert.deepEqual((posting.citation || []).map(c => c.url), (article.sources || []).map(s => s.url));
+    const faq = article.sections.find(s => s.heading === 'Domande frequenti');
+    const structured = schemas.find(s => s['@type'] === 'FAQPage');
+    if (faq) assert.deepEqual(structured.mainEntity.map(q => q.name), faq.paragraphs.filter(p => p.startsWith('### ')).map(p => p.slice(4)));
+    else assert.equal(structured, undefined);
+    assert.ok(html.includes(encodeURIComponent('https://drbotta-pathodynamics.dr-botta-4589.chatgpt.site/blog/' + article.slug)));
+  }
+});

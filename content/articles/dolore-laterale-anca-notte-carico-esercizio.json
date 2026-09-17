@@ -3,7 +3,7 @@
   "title": "Dolore laterale all’anca di notte: cosa fare",
   "kicker": "Riposo sul fianco, attività della giornata e valutazione dei sintomi.",
   "category": "Anca",
-  "excerpt": "Dolore all’esterno dell’anca quando dormi sul fianco: possibili cause, posizioni da adattare, gestione dell’attività e quando chiedere una valutazione.",
+  "excerpt": "Dolore laterale all’anca di notte: perché il fianco può dare fastidio, posizioni da adattare, ruolo dell’esercizio e quando richiedere una valutazione.",
   "date": "8 settembre 2026",
   "sourceDate": "8 settembre 2026",
   "readingTime": "4 min",
@@ -11,7 +11,7 @@
   "imageAlt": "Donna sul fianco a letto con una mano sulla parte laterale dell’anca.",
   "imageCaption": "Dolore laterale e riposo · Immagine illustrativa generata con IA",
   "accent": "clay",
-  "intro": "Ti giri sul fianco e il lato dell’anca comincia a fare male. Il sonno si interrompe e il giorno dopo ti chiedi se muoverti peggiorerà tutto. Nella tendinopatia glutea, gestire la pressione e dosare l’attività sono parti dello stesso percorso. Prima, però, occorre capire da dove arriva il dolore.",
+  "intro": "Il dolore sul lato dell’anca può rendere difficile dormire sul fianco. La posizione e la pressione sulla zona sono informazioni utili, ma non bastano a stabilirne la causa. Dopo la valutazione, rendere il riposo più confortevole e adattare l’attività possono far parte dello stesso percorso.",
   "sections": [
     {
       "heading": "Dolore laterale non significa sempre borsite",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "heading": "Perché fa male anche quando sei fermo",
+      "heading": "Perché la posizione sul fianco può aumentare il dolore",
       "paragraphs": [
         "A riposo i muscoli lavorano meno, ma i tessuti possono comunque ricevere pressione. Sul fianco dolente il peso comprime la zona laterale; sul lato opposto, lasciare cadere la gamba superiore verso il materasso può aumentare la compressione sui tendini. [1, 2]",
         "Il carico comprende anche camminate, scale, allenamento e posizioni mantenute durante il giorno. Una variazione delle richieste può superare ciò che è attualmente tollerato. Questo modello aiuta a scegliere cosa modificare: non dimostra che ogni episodio doloroso corrisponda a una nuova lesione. Il dolore e il recupero risentono anche di fattori come sonno, stress e salute generale. [1]"
@@ -56,9 +56,9 @@
     {
       "heading": "Come usare la matrice nella vita reale",
       "paragraphs": [
-        "Scegli un obiettivo concreto: camminare per fare la spesa, salire le scale di casa o tornare al trekking. Una persona può essere già capace nelle attività quotidiane e avere ancora poca tolleranza per un allenamento.",
-        "Con il team, annota attività svolta, risposta durante il compito, sonno e recupero successivo. Se il gesto riesce ma è difficile ripeterlo con continuità, la priorità può essere la dose. Se è limitato il movimento utile, il lavoro può concentrarsi su forza, controllo e mobilità pertinenti. Spesso le esigenze si sovrappongono.",
-        "La decisione nasce dall’andamento complessivo: una notte peggiore non permette da sola di assegnare un profilo o concludere che il tendine si sia danneggiato. Evita aumenti automatici e confronta con il professionista i peggioramenti che persistono."
+        "Scegli un’attività da recuperare: andare a fare la spesa, usare le scale di casa o tornare al trekking. La richiesta cambia e una persona può tollerare bene un compito quotidiano, ma avere ancora difficoltà con quello sportivo.",
+        "Annota attività svolta, risposta durante il movimento, sonno e recupero. Questi elementi aiutano il confronto con il professionista sulle priorità: quantità di lavoro, forza, controllo o mobilità utili al compito.",
+        "Una notte peggiore, da sola, non assegna un profilo e non dimostra una nuova lesione. Confronta i peggioramenti persistenti con il professionista; per la ripresa sportiva trovi un approfondimento sul [ritorno alla corsa dopo dolore all’anca](/blog/dolore-anca-ritorno-corsa)."
       ]
     },
     {
@@ -90,8 +90,8 @@
       "url": "https://www.nhs.uk/symptoms/hip-pain/"
     }
   ],
-  "description": "Dolore all’esterno dell’anca quando dormi sul fianco: possibili cause, posizioni da adattare, gestione dell’attività e quando chiedere una valutazione.",
-  "seoDescription": "Dolore all’esterno dell’anca quando dormi sul fianco: possibili cause, posizioni da adattare, gestione dell’attività e quando chiedere una valutazione.",
+  "description": "Dolore laterale all’anca di notte: perché il fianco può dare fastidio, posizioni da adattare, ruolo dell’esercizio e quando richiedere una valutazione.",
+  "seoDescription": "Dolore laterale all’anca di notte: perché il fianco può dare fastidio, posizioni da adattare, ruolo dell’esercizio e quando richiedere una valutazione.",
   "tags": [
     "Anca",
     "Corpo Capace"
@@ -101,8 +101,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/anca-notte.webp",
   "canonical": "/blog/dolore-laterale-anca-notte-carico-esercizio",
-  "primaryKeyword": "Dolore laterale all’anca di notte: capire il carico, ritrovare il movimento",
-  "secondaryKeywords": [],
+  "primaryKeyword": "dolore laterale anca di notte",
+  "secondaryKeywords": [
+    "dolore anca sul fianco",
+    "tendinopatia glutea"
+  ],
   "problemArea": "anca",
   "clinicalReview": {
     "status": "not-recorded",

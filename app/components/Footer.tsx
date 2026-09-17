@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CONSULTATION_URL } from '../lib/site';
 
 export function Footer() {
   return (
@@ -27,7 +28,7 @@ export function Footer() {
         </div>
         <div className="footer-column">
           <h2>Contatti</h2>
-          <a href="mailto:drbottalamanna@gmail.com">drbottalamanna@gmail.com</a>
+          <a href={CONSULTATION_URL} target="_blank" rel="noreferrer">Parla con il team ↗</a>
           <a href="https://it.trustpilot.com/review/drbotta.com" target="_blank" rel="noreferrer">Recensioni Trustpilot ↗</a>
         </div>
       </div>
@@ -35,6 +36,7 @@ export function Footer() {
         <span>© 2026 BOTTA PATHODYNAMICS LLP</span>
         <span>I contenuti hanno finalità informative e non sostituiscono una valutazione sanitaria.</span>
         <a href="https://www.iubenda.com/privacy-policy/48665326" target="_blank" rel="noreferrer">Privacy Policy</a>
+        <Link href="/termini-e-condizioni">Termini e condizioni</Link>
       </div>
     </footer>
   );

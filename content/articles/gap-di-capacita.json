@@ -3,18 +3,18 @@
   "title": "Gap di Capacità: dal punto di partenza all’obiettivo",
   "kicker": "Confrontare ciò che sostieni oggi con ciò che vuoi tornare a fare.",
   "category": "Metodo",
-  "excerpt": "Il Gap di Capacità nel Metodo Corpo Capace: definire un obiettivo concreto, osservare movimento e tolleranza e scegliere le priorità dell’allenamento.",
+  "excerpt": "Cos’è il Gap di Capacità nel Metodo Corpo Capace: confrontare capacità attuali e attività desiderata per scegliere obiettivi e priorità dell’allenamento.",
   "date": "10 agosto 2026",
   "readingTime": "2 min",
   "image": "/images/brand-023f3900e8f5.webp",
   "accent": "sage",
-  "intro": "Il Gap di Capacità è la distanza tra ciò che riesci a sostenere oggi e ciò che richiede il tuo obiettivo. Camminare un’ora, allenarsi tre volte a settimana o correre dieci chilometri sono richieste diverse: definirle aiuta a scegliere le priorità. È una cornice operativa del Metodo Corpo Capace, non una diagnosi.",
+  "intro": "Il Gap di Capacità è la distanza tra ciò che riesci a sostenere e recuperare oggi e ciò che richiede il tuo obiettivo. Nel Metodo Corpo Capace serve a scegliere le priorità dell’allenamento. È una cornice operativa: non è una diagnosi o un punteggio clinico validato.",
   "sections": [
     {
-      "heading": "Partire da un'attività concreta",
+      "heading": "Definire l’obiettivo: attività, durata e frequenza",
       "paragraphs": [
-        "Ogni percorso dovrebbe iniziare da ciò che la persona vuole recuperare e dalla dose necessaria. L'obiettivo non è soltanto il gesto: comprende durata, frequenza, intensità, complessità e contesto.",
-        "Una stessa persona può essere pienamente capace nelle attività quotidiane e ancora fragile rispetto alla corsa o incapace rispetto a una prestazione agonistica. Il profilo ha senso solo in relazione a una richiesta precisa."
+        "Parti da un’attività riconoscibile: camminare un’ora, allenarti tre volte alla settimana o correre dieci chilometri. Aggiungi durata, frequenza, intensità e contesto. Questi dettagli rendono l’obiettivo abbastanza preciso da poterlo confrontare con il punto di partenza.",
+        "La stessa persona può sostenere bene le attività quotidiane e avere ancora difficoltà nella corsa. Il profilo cambia con la richiesta: descrive il rapporto con un compito, non il valore o le possibilità assolute della persona."
       ]
     },
     {
@@ -38,8 +38,8 @@
     "Capacità di movimento e tolleranza richiedono strategie diverse.",
     "La Matrice Corpo Capace è una tassonomia operativa, non una diagnosi clinica validata."
   ],
-  "description": "Il Gap di Capacità nel Metodo Corpo Capace: definire un obiettivo concreto, osservare movimento e tolleranza e scegliere le priorità dell’allenamento.",
-  "seoDescription": "Il Gap di Capacità nel Metodo Corpo Capace: definire un obiettivo concreto, osservare movimento e tolleranza e scegliere le priorità dell’allenamento.",
+  "description": "Cos’è il Gap di Capacità nel Metodo Corpo Capace: confrontare capacità attuali e attività desiderata per scegliere obiettivi e priorità dell’allenamento.",
+  "seoDescription": "Cos’è il Gap di Capacità nel Metodo Corpo Capace: confrontare capacità attuali e attività desiderata per scegliere obiettivi e priorità dell’allenamento.",
   "tags": [
     "Metodo",
     "Corpo Capace"
@@ -49,8 +49,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/brand-023f3900e8f5.webp",
   "canonical": "/blog/gap-di-capacita",
-  "primaryKeyword": "Il Gap di Capacità: cosa separa il tuo oggi dal tuo obiettivo",
-  "secondaryKeywords": [],
+  "primaryKeyword": "gap di capacità",
+  "secondaryKeywords": [
+    "metodo Corpo Capace",
+    "obiettivo di allenamento"
+  ],
   "problemArea": "metodo",
   "clinicalReview": {
     "status": "not-recorded",

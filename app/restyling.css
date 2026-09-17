@@ -126,3 +126,10 @@ main .pain-spectrum-scale span,
 main .pain-spectrum-scale p,
 main .journey-gap-copy p:not(.section-label) { color:var(--paper); }
 #contenuto:focus-visible { outline:3px solid var(--bronze); outline-offset:-3px; }
+
+/* Homepage: ritratto naturale e informazioni legali leggibili. */
+main .hero-media img { object-position: center 35%; }
+.legal-page { max-width: 960px; margin-inline: auto; }
+.legal-page h2 { margin-top: 2.5rem; font-size: 1.7rem; }
+.legal-page h3 { margin-top: 1.8rem; font-size: 1.25rem; }
+.legal-page p { line-height: 1.75; overflow-wrap: anywhere; }

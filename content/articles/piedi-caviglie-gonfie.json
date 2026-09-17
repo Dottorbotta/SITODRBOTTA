@@ -4,23 +4,22 @@
   "seoTitle": "Piedi e caviglie gonfie: cause e segnali d’allarme | Dr. Botta",
   "kicker": "Prima capire la causa del gonfiore, poi scegliere gli interventi appropriati.",
   "category": "Piede",
-  "excerpt": "Piedi e caviglie gonfie: possibili cause, segnali che richiedono assistenza e ruolo di movimento e compressione. Non ogni edema va gestito con esercizi.",
+  "excerpt": "Piedi e caviglie gonfie: cause possibili, differenza tra gonfiore su uno o due lati, segnali urgenti e ruolo del movimento dopo la valutazione della causa.",
   "date": "8 settembre 2026",
   "sourceDate": "8 settembre 2026",
-  "readingTime": "11 min",
+  "readingTime": "10 min",
   "image": "/images/piedi-caviglie-gonfie.webp",
   "imageAlt": "Persona seduta a fine giornata con piedi e caviglie lievemente gonfi, mentre toglie una scarpa.",
   "imageCaption": "Piedi e caviglie gonfie · Perché succede davvero? · Immagine illustrativa generata con IA",
   "accent": "bronze",
-  "intro": "Piedi e caviglie gonfie non sono una diagnosi. Il movimento può aiutare quando è appropriato per la causa, ma non ogni edema è un problema da allenare.",
+  "intro": "Piedi e caviglie gonfie indicano un accumulo di liquido nei tessuti, non una causa unica. Prima di cercare un rimedio conta capire se il gonfiore è improvviso, riguarda uno o entrambi i lati e si accompagna ad altri sintomi. Il movimento è utile solo quando appropriato per il quadro.",
   "sections": [
     {
-      "heading": "Le scarpe più strette la sera",
+      "heading": "Gonfiore: cosa osservare prima di cercare un rimedio",
       "paragraphs": [
-        "La mattina infili le scarpe senza pensarci. La sera sembrano più strette. La caviglia è meno definita, il calzino ha lasciato un segno sulla pelle e senti i piedi più pesanti.",
-        "Se lavori molte ore seduto, stai a lungo in piedi o passi giornate particolarmente calde, probabilmente ti sarà già successo. La spiegazione più immediata è spesso: **“Ho ritenzione idrica.”**",
-        "Ma “piedi gonfi” descrive quello che stai vedendo. Non spiega necessariamente **perché** sta succedendo. L'edema, cioè l'accumulo di liquido nei tessuti, può avere cause venose, linfatiche, farmacologiche o sistemiche, oltre a essere favorito da una lunga permanenza in posizione statica.",
-        "La prima domanda utile non è soltanto “come faccio a sgonfiare i piedi?”, ma **“perché si stanno gonfiando?”** Contano soprattutto rapidità di comparsa, presenza su uno o entrambi i lati e sintomi associati."
+        "Scarpe più strette la sera, segni del calzino e pesantezza possono far pensare alla «ritenzione idrica». Questa espressione, però, non identifica il motivo del gonfiore.",
+        "L’edema è un accumulo di liquido nei tessuti. Può avere cause venose, linfatiche, farmacologiche o sistemiche; una lunga permanenza in posizione statica può favorirlo. Per orientare la valutazione osserva rapidità di comparsa, lato coinvolto e sintomi associati.",
+        "Prima del consiglio su esercizi o supporti viene quindi l’inquadramento della causa. I segnali che richiedono assistenza immediata sono riportati nella sezione seguente."
       ]
     },
     {
@@ -198,8 +197,8 @@
       "url": "https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
     }
   ],
-  "description": "Piedi e caviglie gonfie: possibili cause, segnali che richiedono assistenza e ruolo di movimento e compressione. Non ogni edema va gestito con esercizi.",
-  "seoDescription": "Piedi e caviglie gonfie: possibili cause, segnali che richiedono assistenza e ruolo di movimento e compressione. Non ogni edema va gestito con esercizi.",
+  "description": "Piedi e caviglie gonfie: cause possibili, differenza tra gonfiore su uno o due lati, segnali urgenti e ruolo del movimento dopo la valutazione della causa.",
+  "seoDescription": "Piedi e caviglie gonfie: cause possibili, differenza tra gonfiore su uno o due lati, segnali urgenti e ruolo del movimento dopo la valutazione della causa.",
   "tags": [
     "Piede",
     "Corpo Capace"
@@ -209,8 +208,12 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/piedi-caviglie-gonfie.webp",
   "canonical": "/blog/piedi-caviglie-gonfie",
-  "primaryKeyword": "Piedi e caviglie gonfie",
-  "secondaryKeywords": [],
+  "primaryKeyword": "piedi e caviglie gonfie",
+  "secondaryKeywords": [
+    "piedi gonfi la sera",
+    "gonfiore una caviglia",
+    "edema arti inferiori"
+  ],
   "problemArea": "piede",
   "clinicalReview": {
     "status": "not-recorded",

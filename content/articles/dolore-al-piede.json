@@ -4,23 +4,22 @@
   "seoTitle": "Dolore al piede: cause e quando farsi valutare | Dr. Botta",
   "kicker": "Tallone, pianta o avampiede: la sede orienta, ma non basta per una diagnosi.",
   "category": "Piede",
-  "excerpt": "Dolore al tallone, alla pianta o all’avampiede: possibili cause, segnali da valutare e ruolo di esercizio, scarpe e plantari nel ritorno alle attività.",
+  "excerpt": "Dolore al piede: possibili cause per zona, sintomi da osservare, segnali che richiedono assistenza e ruolo di esami, supporti ed esercizio quando indicati.",
   "date": "8 settembre 2026",
   "sourceDate": "8 settembre 2026",
-  "readingTime": "12 min",
+  "readingTime": "11 min",
   "image": "/images/dolore-piede-progressione.webp",
   "imageAlt": "Progressione di attività dal cammino al trekking, secondo gli obiettivi individuali.",
   "imageCaption": "Dalla protezione all’autonomia · Immagine illustrativa generata con IA",
   "accent": "bronze",
-  "intro": "La sede del dolore è un indizio. Per decidere cosa fare servono diagnosi, funzione e richieste della tua vita: quando indicato, il carico si adatta e la capacità si ricostruisce.",
+  "intro": "Il dolore al piede può interessare tallone, pianta, avampiede o dorso. La sede orienta la valutazione, ma non basta a identificare la causa. Contano anche quando compare, eventuali traumi, sintomi associati e attività limitate: da questo quadro dipende cosa fare e se modificare il carico.",
   "sections": [
     {
-      "heading": "Quando il dolore cambia le tue giornate",
+      "heading": "Le informazioni utili per inquadrare il dolore",
       "paragraphs": [
-        "All'inizio è solo un fastidio. Lo senti sotto il piede dopo una camminata lunga oppure al tallone appena ti alzi dal letto. Riduci qualche uscita, cambi scarpe, aspetti. Ma il **dolore al piede** continua.",
-        "Inizi a controllarlo a ogni passo. Eviti una passeggiata, rimandi la corsa, cerchi di stare meno in piedi. Magari una radiografia riporta “sperone”, “artrosi” o “alluce valgo” e pensi: **“C'è qualcosa di rovinato, quindi devo usarlo meno.”**",
-        "Ridurre temporaneamente il carico può essere appropriato. Ma non è sufficiente per tutti i problemi e non risponde alla domanda: **che cosa deve essere nuovamente capace di fare quel piede?** Camminare venti minuti, lavorare in piedi, correre, fare trekking o giocare a padel sono obiettivi diversi.",
-        "La diagnosi conta. Poi serve capire quale richiesta oggi non tolleri e come recuperarla, quando una progressione del carico è indicata."
+        "Un fastidio ai primi passi del mattino, un dolore dopo una lunga camminata e un sintomo comparso dopo un trauma richiedono ragionamenti diversi. Descrivi dove fa male, da quando e quali attività lo modificano.",
+        "Anche le rinunce contano: quante ore riesci a stare in piedi, quanto cammini, se hai interrotto corsa o sport. Una radiografia può aggiungere informazioni sulle strutture; va interpretata insieme alla storia e all’esame clinico.",
+        "Quando una progressione del carico è appropriata, il programma collega il problema alle attività da recuperare. La guida su [come recuperare cammino e sport dopo il dolore al piede](/blog/dolore-piede-sintomo-funzione) approfondisce questo passaggio."
       ]
     },
     {
@@ -228,8 +227,8 @@
       "url": "https://acsearch.acr.org/docs/70546/Narrative/"
     }
   ],
-  "description": "Dolore al tallone, alla pianta o all’avampiede: possibili cause, segnali da valutare e ruolo di esercizio, scarpe e plantari nel ritorno alle attività.",
-  "seoDescription": "Dolore al tallone, alla pianta o all’avampiede: possibili cause, segnali da valutare e ruolo di esercizio, scarpe e plantari nel ritorno alle attività.",
+  "description": "Dolore al piede: possibili cause per zona, sintomi da osservare, segnali che richiedono assistenza e ruolo di esami, supporti ed esercizio quando indicati.",
+  "seoDescription": "Dolore al piede: possibili cause per zona, sintomi da osservare, segnali che richiedono assistenza e ruolo di esami, supporti ed esercizio quando indicati.",
   "tags": [
     "Piede",
     "Corpo Capace"
@@ -239,8 +238,12 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/dolore-piede-progressione.webp",
   "canonical": "/blog/dolore-al-piede",
-  "primaryKeyword": "Dolore al piede",
-  "secondaryKeywords": [],
+  "primaryKeyword": "dolore al piede",
+  "secondaryKeywords": [
+    "dolore sotto il piede",
+    "dolore al tallone",
+    "cause dolore piede"
+  ],
   "problemArea": "piede",
   "clinicalReview": {
     "status": "not-recorded",

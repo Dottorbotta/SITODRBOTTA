@@ -3,15 +3,15 @@
   "title": "Asimmetrie del corpo: quando contano nel movimento",
   "kicker": "Differenze tra destra e sinistra: cosa osservare prima di correggerle.",
   "category": "Metodo",
-  "excerpt": "Un’asimmetria non è una diagnosi. Scopri come leggere le differenze di movimento in relazione all’attività, ai sintomi e alle capacità da allenare.",
+  "excerpt": "Asimmetrie del corpo: quando una differenza tra destra e sinistra conta davvero, come valutarla nel movimento e quali capacità allenare rispetto al tuo obiettivo.",
   "date": "18 agosto 2026",
   "readingTime": "2 min",
   "image": "/images/brand-6da500b82980.webp",
   "accent": "sand",
-  "intro": "Una differenza tra destra e sinistra non indica automaticamente un problema da correggere. Per capire se conta, va messa in relazione con l’attività che risulta difficile, la risposta al carico e le capacità disponibili. Foto e test offrono indizi: da soli non spiegano la causa di una limitazione.",
+  "intro": "Un appoggio diverso o una rotazione meno ampia da un lato non indicano, da soli, una disfunzione. La domanda è se quella differenza limita un’attività concreta. Per capirlo occorre osservare quando compare, come cambia con il carico e quali capacità sono disponibili.",
   "sections": [
     {
-      "heading": "Cosa dicono i test sulle asimmetrie",
+      "heading": "Asimmetria e disfunzione: perché non sono sinonimi",
       "paragraphs": [
         "Una rotazione diversa, un appoggio non identico o una strategia di movimento particolare non rappresentano automaticamente una disfunzione. Il corpo umano è variabile e utilizza soluzioni differenti per raggiungere lo stesso risultato.",
         "L'osservazione deve essere messa in relazione con la storia, l'attività limitante, la fatica, il carico e le capacità misurabili. Senza questa relazione rischia di diventare soltanto un'etichetta."
@@ -27,8 +27,8 @@
     {
       "heading": "Scegliere le capacità utili per il tuo obiettivo",
       "paragraphs": [
-        "Il principio di priorità protegge il percorso da una lista infinita di correzioni. Si interviene sulle variabili con il rapporto più utile con l'obiettivo, la limitazione reale e la possibilità di essere rivalutate.",
-        "Il risultato non è assomigliare a un modello ideale. È disporre di abbastanza opzioni di movimento e tolleranza per sostenere ciò che vuoi fare con continuità e affidabilità."
+        "La valutazione può mostrare molte differenze, ma il programma deve scegliere le priorità. Si lavora sulle capacità che hanno un rapporto concreto con l’attività limitata e che possono essere rivalutate nel tempo.",
+        "Per esempio, una differenza osservata in un test è più utile al percorso se aiuta a capire una difficoltà sulle scale o nella corsa. Il riferimento resta [ciò che vuoi tornare a fare](/blog/il-test-vero-e-la-vita), senza inseguire una simmetria ideale in ogni gesto."
       ]
     }
   ],
@@ -38,8 +38,8 @@
     "Dai priorità a ciò che cambia la funzione e può essere rivalutato.",
     "Il bersaglio è la capacità, non la perfezione estetica del movimento."
   ],
-  "description": "Un’asimmetria non è una diagnosi. Scopri come leggere le differenze di movimento in relazione all’attività, ai sintomi e alle capacità da allenare.",
-  "seoDescription": "Un’asimmetria non è una diagnosi. Scopri come leggere le differenze di movimento in relazione all’attività, ai sintomi e alle capacità da allenare.",
+  "description": "Asimmetrie del corpo: quando una differenza tra destra e sinistra conta davvero, come valutarla nel movimento e quali capacità allenare rispetto al tuo obiettivo.",
+  "seoDescription": "Asimmetrie del corpo: quando una differenza tra destra e sinistra conta davvero, come valutarla nel movimento e quali capacità allenare rispetto al tuo obiettivo.",
   "tags": [
     "Metodo",
     "Corpo Capace"
@@ -49,8 +49,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/brand-6da500b82980.webp",
   "canonical": "/blog/asimmetria-non-e-disfunzione",
-  "primaryKeyword": "Un corpo simmetrico non è per forza un corpo più capace",
-  "secondaryKeywords": [],
+  "primaryKeyword": "asimmetrie del corpo",
+  "secondaryKeywords": [
+    "asimmetria e movimento",
+    "differenze tra destra e sinistra"
+  ],
   "problemArea": "metodo",
   "clinicalReview": {
     "status": "not-recorded",

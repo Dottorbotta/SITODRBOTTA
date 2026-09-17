@@ -3,12 +3,12 @@
   "title": "Tornare a correre dopo un dolore all’anca",
   "kicker": "Dagli esercizi ai chilometri: preparare ritmo, distanza e recupero.",
   "category": "Anca",
-  "excerpt": "Riprendere la corsa dopo un dolore all’anca: come collegare esercizi, distanza, ritmo e frequenza, osservando la risposta al carico e il recupero.",
+  "excerpt": "Tornare a correre dopo un dolore all’anca: il passaggio dagli esercizi agli appoggi ripetuti, con distanza, ritmo e recupero adattati alla risposta individuale.",
   "date": "24 luglio 2026",
   "readingTime": "2 min",
   "image": "/images/brand-db261c509ec7.webp",
   "accent": "sage",
-  "intro": "Dopo un periodo di dolore all'anca, molte persone riescono a fare esercizi senza sintomi ma restano bloccate quando provano a correre. Non è necessariamente una contraddizione: la corsa richiede una dose e una specificità che gli esercizi di base non replicano ancora.",
+  "intro": "Dopo un periodo di dolore all’anca, riuscire a fare gli esercizi senza sintomi è un progresso. La corsa aggiunge però appoggi ripetuti, velocità e fatica. Quando la ripresa è appropriata, il programma deve preparare anche queste richieste, partendo dalla distanza e dal ritmo che vuoi recuperare.",
   "sections": [
     {
       "heading": "Definire distanza, ritmo e frequenza della corsa",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "heading": "Dagli esercizi per l’anca alla corsa",
+      "heading": "Perché gli esercizi per l’anca non bastano da soli",
       "paragraphs": [
         "Forza, mobilità utile e controllo creano opzioni. Per tornare alla corsa devono poi essere integrate con appoggi, elasticità, ripetizione, velocità e fatica progressivamente più specifiche.",
         "Saltare questo passaggio può lasciare una persona forte negli esercizi ma ancora fragile quando aumenta i minuti o corre più giorni nella stessa settimana."
@@ -27,8 +27,8 @@
     {
       "heading": "Adattare la corsa alla risposta e al recupero",
       "paragraphs": [
-        "Durante il ritorno alla corsa si osservano sintomi, sforzo, qualità percepita, funzione e recupero. Se la dose è assimilata, si aumenta una variabile; se la risposta è gestibile ma non stabile, si consolida.",
-        "La progressione non promette una linea perfettamente retta. Oscillazioni e modifiche temporanee possono far parte del processo senza cancellare le capacità già costruite."
+        "Per valutare una corsa osserva quanto hai corso, lo sforzo, il comportamento dei sintomi e il recupero. Conta anche la possibilità di ripetere l’attività, non soltanto di concludere una singola uscita.",
+        "Se la risposta è stabile e la dose viene tollerata, si può valutare un aumento. Se serve consolidare, si mantiene il livello o si modifica una variabile. [I criteri per aumentare il carico](/blog/quando-aumentare-il-carico) aiutano a rendere comprensibile questa scelta: il calendario, da solo, non decide la progressione."
       ]
     }
   ],
@@ -38,8 +38,8 @@
     "Aumenta distanza, ritmo o frequenza in modo leggibile.",
     "Una ricaduta non equivale automaticamente a essere tornati al punto di partenza."
   ],
-  "description": "Riprendere la corsa dopo un dolore all’anca: come collegare esercizi, distanza, ritmo e frequenza, osservando la risposta al carico e il recupero.",
-  "seoDescription": "Riprendere la corsa dopo un dolore all’anca: come collegare esercizi, distanza, ritmo e frequenza, osservando la risposta al carico e il recupero.",
+  "description": "Tornare a correre dopo un dolore all’anca: il passaggio dagli esercizi agli appoggi ripetuti, con distanza, ritmo e recupero adattati alla risposta individuale.",
+  "seoDescription": "Tornare a correre dopo un dolore all’anca: il passaggio dagli esercizi agli appoggi ripetuti, con distanza, ritmo e recupero adattati alla risposta individuale.",
   "tags": [
     "Anca",
     "Corpo Capace"
@@ -49,8 +49,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/brand-db261c509ec7.webp",
   "canonical": "/blog/dolore-anca-ritorno-corsa",
-  "primaryKeyword": "Dolore all'anca e ritorno alla corsa: dal gesto al carico",
-  "secondaryKeywords": [],
+  "primaryKeyword": "tornare a correre dopo dolore anca",
+  "secondaryKeywords": [
+    "ritorno alla corsa",
+    "carico e recupero anca"
+  ],
   "problemArea": "anca",
   "clinicalReview": {
     "status": "not-recorded",
@@ -62,5 +65,5 @@
   ],
   "cta": "/percorsi",
   "imageAlt": "Atleta in corsa su una pista; scritta «Programmi allenanti PERFORMANCE».",
-  "seoTitle": "Dolore all’anca e ritorno alla corsa | Dr. Botta"
+  "seoTitle": "Dolore all’anca: il ritorno alla corsa | Dr. Botta"
 }

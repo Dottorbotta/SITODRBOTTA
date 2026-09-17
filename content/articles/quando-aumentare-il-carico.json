@@ -3,12 +3,12 @@
   "title": "Quando aumentare il carico in allenamento",
   "kicker": "Progredire, mantenere o modificare in base alla risposta del corpo.",
   "category": "Carico",
-  "excerpt": "Quando aumentare peso, durata o frequenza dell’allenamento: i dati da osservare e i criteri per progredire, mantenere o modificare la dose di lavoro.",
+  "excerpt": "Quando aumentare il carico in allenamento: osservare dose, sforzo e recupero, decidere se progredire o mantenere e scegliere quale variabile modificare.",
   "date": "14 agosto 2026",
   "readingTime": "2 min",
   "image": "/images/brand-db261c509ec7.webp",
   "accent": "bronze",
-  "intro": "Per decidere se aumentare il carico, osserva quanto lavoro hai svolto, come lo hai tollerato e come hai recuperato. Il calendario, da solo, non basta: due persone che usano lo stesso peso possono rispondere in modo diverso. Da questi dati nasce la scelta di progredire, mantenere o modificare.",
+  "intro": "Prima di aumentare peso, durata o frequenza, verifica come hai tollerato il lavoro già svolto. Dose eseguita, sforzo, sintomi, funzione e recupero vanno letti insieme. La scelta può essere aumentare, mantenere o modificare: non deve seguire automaticamente la settimana del programma.",
   "sections": [
     {
       "heading": "Cosa osservare prima di aumentare",
@@ -18,10 +18,11 @@
       ]
     },
     {
-      "heading": "Quando progredire, mantenere o modificare",
+      "heading": "Tre decisioni possibili: aumentare, mantenere, modificare",
       "paragraphs": [
-        "Si progredisce quando la dose è tollerata, il recupero è adeguato e la funzione resta stabile o migliora. Si mantiene quando la risposta è gestibile ma serve ancora esposizione allo stesso livello per consolidare l'adattamento.",
-        "Si modifica o regredisce temporaneamente quando la risposta supera la tolleranza prevista, la funzione peggiora, il recupero si prolunga o compare un segnale nuovo che richiede rivalutazione."
+        "**Aumentare:** la dose attuale è tollerata, il recupero è adeguato e la funzione resta stabile o migliora. Il passo successivo va scelto rispetto all’attività che vuoi recuperare.",
+        "**Mantenere:** la risposta è gestibile, ma può essere utile ripetere lo stesso livello prima di aggiungere lavoro. Consolidare è una decisione del programma.",
+        "**Modificare:** la risposta supera la tolleranza prevista, la funzione peggiora o il recupero si prolunga. Può servire ridurre temporaneamente la richiesta; un segnale nuovo può richiedere una rivalutazione."
       ]
     },
     {
@@ -38,8 +39,8 @@
     "Mantenere una dose può essere una scelta attiva, non uno stallo.",
     "Aumenta la variabile più specifica per l'attività-obiettivo."
   ],
-  "description": "Quando aumentare peso, durata o frequenza dell’allenamento: i dati da osservare e i criteri per progredire, mantenere o modificare la dose di lavoro.",
-  "seoDescription": "Quando aumentare peso, durata o frequenza dell’allenamento: i dati da osservare e i criteri per progredire, mantenere o modificare la dose di lavoro.",
+  "description": "Quando aumentare il carico in allenamento: osservare dose, sforzo e recupero, decidere se progredire o mantenere e scegliere quale variabile modificare.",
+  "seoDescription": "Quando aumentare il carico in allenamento: osservare dose, sforzo e recupero, decidere se progredire o mantenere e scegliere quale variabile modificare.",
   "tags": [
     "Carico",
     "Corpo Capace"
@@ -49,8 +50,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/brand-db261c509ec7.webp",
   "canonical": "/blog/quando-aumentare-il-carico",
-  "primaryKeyword": "Come capire se puoi aumentare il carico",
-  "secondaryKeywords": [],
+  "primaryKeyword": "quando aumentare il carico",
+  "secondaryKeywords": [
+    "progressione allenamento",
+    "aumentare peso durata frequenza"
+  ],
   "problemArea": "metodo",
   "clinicalReview": {
     "status": "not-recorded",

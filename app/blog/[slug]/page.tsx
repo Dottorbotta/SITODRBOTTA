@@ -2,7 +2,7 @@ import { ResponsiveImage } from "../../components/ResponsiveImage";
 import { notFound } from "next/navigation";
 import { topicFor } from "../../data/topics";
 import { ArticleSchema, ArticleFaqSchema, Breadcrumbs, pageMetadata } from "../../lib/seo";
-import { CONSULTATION_URL } from "../../lib/site";
+import { CONSULTATION_URL, absolute } from "../../lib/site";
 import { ArticleBlock, CapacityGap } from "../../components/ArticleBlock";
 import { CapacityMatrix } from "../../components/CapacityMatrix";
 import type { Metadata } from "next";
@@ -21,7 +21,19 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
   const { slug } = await params;
   const article = getArticle(slug);
   if (!article) return { title: "Articolo non trovato | Corpo Capace" };
-  return pageMetadata(`/blog/${article.slug}`, article.seoTitle ?? `${article.title} | Corpo Capace`, article.seoDescription ?? article.description ?? article.excerpt, article.image);
+  const metadata = pageMetadata(`/blog/${article.slug}`, article.seoTitle ?? `${article.title} | Corpo Capace`, article.seoDescription ?? article.description ?? article.excerpt, article.image);
+  return {
+    ...metadata,
+    openGraph: {
+      ...metadata.openGraph,
+      type: 'article',
+      publishedTime: article.publishedAt,
+      ...(article.updatedAt ? { modifiedTime: article.updatedAt } : {}),
+      authors: [absolute('/chi-sono')],
+      section: article.category,
+      tags: article.tags,
+    },
+  };
 }
 
 export default async function ArticlePage({ params }: ArticlePageProps) {
@@ -54,7 +66,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           <aside className="article-aside"><details open><summary>Indice dell’articolo</summary>
 
             {article.sections.map((section, index) => <a href={`#sezione-${index + 1}`} key={section.heading}>{String(index + 1).padStart(2, "0")} · {section.heading}</a>)}
-            <a className="article-share" href="mailto:?subject=Un%20articolo%20di%20Corpo%20Capace">Condividi via email ↗</a>
+            <a className="article-share" href={`mailto:?subject=${encodeURIComponent(article.title)}&body=${encodeURIComponent(absolute(`/blog/${article.slug}`))}`}>Condividi via email ↗</a>
           </details></aside>
           <div className="article-body">
             <p className="article-intro">{article.intro}</p>

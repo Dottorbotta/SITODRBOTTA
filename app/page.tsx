@@ -18,7 +18,7 @@ const capacities = [
   ["02", "Controllo", "Organizzare il gesto, mantenere equilibrio e adattare l'esecuzione."],
   ["03", "Forza", "Produrre, assorbire e sostenere la forza richiesta dall'attività."],
   ["04", "Tolleranza", "Ripetere il compito e recuperare senza doverlo continuamente ridimensionare."],
-  ["05", "Capacità specifica", "Trasferire ciò che hai costruito a cammino, palestra, corsa o sport."],
+  ["05", "Capacità specifica", "Usare ciò che hai costruito per camminare, fare le scale e riprendere le tue attività."],
 ];
 
 const process = [
@@ -38,8 +38,8 @@ export default function Home() {
       <section className="home-hero" aria-labelledby="home-hero-title">
         <div className="hero-copy-block">
           <p className="hero-kicker">Metodo Corpo Capace · Dr. Botta</p>
-          <h1 id="home-hero-title">Torna a muoverti.<br /><em>Ritrova fiducia nel tuo corpo.</em></h1>
-          <p className="hero-lead">Allenamento personalizzato per riprendere cammino, palestra e sport. Partiamo da ciò che riesci a fare oggi e adattiamo il programma in base alla risposta del tuo corpo.</p>
+          <h1 id="home-hero-title">Torna alle cose<br /><em>che ti fanno stare bene.</em></h1>
+          <p className="hero-lead">Una passeggiata, le scale di casa, una giornata fuori. Se dolore e difficoltà di movimento ti portano a rinunciare, partiamo da ciò che riesci a fare oggi: esercizi personalizzati e confronti con il team per lavorare sulle attività che vuoi recuperare.</p>
           <div className="hero-actions">
             <a className="button button--primary" href={CONSULTATION_URL} target="_blank" rel="noreferrer">Parla con il team <span>↗</span></a>
             <Link className="text-link text-link--light" href="/metodo">Scopri il metodo <span>→</span></Link>
@@ -51,14 +51,9 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="hero-media" aria-label="Allenamento e valutazione secondo il Metodo Corpo Capace">
-          <ResponsiveImage sizes="(max-width: 800px) 88vw, 43vw" loading="eager" fetchPriority="high" width="1000" height="750" src="/images/brand-db261c509ec7.webp" alt="Persona atletica durante un allenamento funzionale" />
+        <div className="hero-media" aria-label="Dr. Simone Botta Lamanna, fondatore di Corpo Capace">
+          <ResponsiveImage sizes="(max-width: 800px) 88vw, 43vw" loading="eager" fetchPriority="high" width="1122" height="1402" src="/images/dr-botta-camice-home.webp" alt="Dr. Simone Botta Lamanna in camice bianco e camicia azzurra" />
           <div className="hero-media-wash" />
-          <div className="capacity-gauge">
-            <span>CAPACITÀ ATTUALE</span>
-            <div><i /><i /><i /><i /><i /></div>
-            <strong>PROGRESSIONE</strong>
-          </div>
           <div className="hero-stamp"><span>METODO</span><strong>CORPO<br />CAPACE</strong></div>
         </div>
 
@@ -68,14 +63,14 @@ export default function Home() {
       <section className="recognition" id="per-chi">
         <div className="recognition-title">
           <p className="section-label">Ti riconosci?</p>
-          <h2>Riesci ancora a fare.<br /><em>Ma non quanto vorresti.</em></h2>
+          <h2>Quando anche le cose semplici<br /><em>diventano una rinuncia.</em></h2>
         </div>
         <div className="recognition-copy">
-          <p>Cammini, ma non abbastanza a lungo. Ti alleni, ma se aumenti la frequenza il problema torna. Completi l’attività, ma la paghi il giorno dopo. Oppure eviti alcune richieste perché non sai quanto puoi fidarti del tuo corpo.</p>
+          <p>Magari accorci una passeggiata, fai le scale con cautela o rinunci a un’uscita. Hai già provato altre strade e cerchi un percorso che tenga conto delle tue difficoltà, dei tuoi tempi e di come stai, anche quando la risposta cambia.</p>
           <div className="market-voices">
-            <span>“Non so quanto posso fare”</span>
-            <span>“Non mi fido del mio corpo”</span>
-            <span>“Vorrei fare le cose senza pensarci”</span>
+            <span>Riprendere le attività quotidiane</span>
+            <span>Sentirsi seguiti durante il percorso</span>
+            <span>Un programma compatibile con i propri tempi</span>
           </div>
           <Link className="text-link recognition-link" href="/per-chi">Capisci se è il percorso giusto <span>→</span></Link>
         </div>
@@ -90,7 +85,7 @@ export default function Home() {
         <div className="gap-copy">
           <p className="section-label section-label--light">Il punto di partenza</p>
           <h2>Costruiamo capacità, passo dopo passo.</h2>
-          <p>Quando la richiesta supera ciò che il corpo riesce oggi a sostenere con sufficiente affidabilità, possono comparire dolore, rigidità, affaticamento o limitazione. Spegnere il sintomo può aiutare. Ma non sempre colma la distanza dall’attività.</p>
+          <p>Quanto riesci a camminare oggi? Quale attività vorresti riprendere? Chiamiamo Gap di Capacità la distanza tra il punto di partenza e la richiesta del tuo obiettivo. Ci serve per scegliere gli esercizi e dosare il lavoro; non è una diagnosi delle cause del dolore.</p>
           <Link className="text-link text-link--light" href="/blog/gap-di-capacita">Capisci il Gap di Capacità <span>→</span></Link>
         </div>
       </section>
@@ -114,59 +109,25 @@ export default function Home() {
       </section>
 
       <section className="routes-section" aria-labelledby="routes-title">
-        <div className="routes-heading">
-          <div>
-            <p className="section-label">Dove vuoi tornare</p>
-            <h2 id="routes-title">Vita quotidiana.<br /><em>Allenamento e sport.</em></h2>
-          </div>
-          <p>Definiamo l’attività che vuoi recuperare: quanto deve durare, con quale frequenza e a quale intensità. Il programma parte da questa richiesta e dalla tua situazione.</p>
-        </div>
+        <div className="routes-heading"><div><p className="section-label">Le tue priorità</p><h2 id="routes-title">Il traguardo è<br /><em>nella tua giornata.</em></h2></div><p>Non serve avere un obiettivo sportivo. Scegliamo insieme un’attività concreta e costruiamo il lavoro attorno alle tue possibilità.</p></div>
         <div className="routes-grid">
-          <Link className="route-card route-card--daily" href="/percorsi">
-            <ResponsiveImage sizes="(max-width: 900px) 92vw, 30vw" loading="lazy" width="1000" height="750" src="/images/brand-6da500b82980.webp" alt="Valutazione personalizzata con il team Dr. Botta" />
-            <span className="route-card-number">01</span>
-            <div><span>Vita quotidiana</span><h3>Riprendi le tue attività.</h3><p>Camminare, lavorare, viaggiare, salire le scale e vivere le tue giornate con più affidabilità.</p><strong>Scopri il percorso →</strong></div>
-          </Link>
-          <Link className="route-card route-card--fitness" href="/percorsi">
-            <ResponsiveImage sizes="(max-width: 900px) 92vw, 30vw" loading="lazy" width="1000" height="750" src="/images/brand-023f3900e8f5.webp" alt="Allenamento progressivo del Metodo Corpo Capace" />
-            <span className="route-card-number">02</span>
-            <div><span>Allenamento</span><h3>Torna ad allenarti con continuità.</h3><p>Ricostruisci forza, controllo e tolleranza per non dover ripartire ogni volta da zero.</p><strong>Scopri il percorso →</strong></div>
-          </Link>
-          <Link className="route-card route-card--sport" href="/percorsi">
-            <ResponsiveImage sizes="(max-width: 900px) 92vw, 30vw" loading="lazy" width="1000" height="750" src="/images/brand-db261c509ec7.webp" alt="Ritorno allo sport con il Metodo Corpo Capace" />
-            <span className="route-card-number">03</span>
-            <div><span>Sport</span><h3>Torna al tuo sport.</h3><p>Corsa, palestra, padel o sport di campo: dal gesto controllato alla richiesta reale.</p><strong>Scopri il percorso →</strong></div>
-          </Link>
+          {[
+            ['Camminare', 'Una passeggiata senza dover decidere prima dove fermarti.', 'Partiamo dal tempo e dalla distanza che riesci a sostenere, osservando anche come recuperi.'],
+            ['Muoversi ogni giorno', 'Scale, commissioni, impegni: ritrovare spazio per le tue attività.', 'Gli esercizi preparano alle richieste della tua giornata, con difficoltà e quantità di lavoro da adattare.'],
+            ['Tornare a ciò che piace', 'Un viaggio, un’uscita, un’attività lasciata da parte.', 'Il tuo obiettivo guida il percorso. Può essere anche tornare ad allenarti, se è ciò che desideri.'],
+          ].map(([label, title, copy]) => <Link className="route-card" href="/percorsi" key={label}><div><span>{label}</span><h3>{title}</h3><p>{copy}</p><strong>Come lavoriamo insieme →</strong></div></Link>)}
         </div>
       </section>
 
       <section className="matrix-section">
-        <div className="matrix-copy">
-          <p className="section-label section-label--light">Matrice Corpo Capace</p>
-          <h2>Capace rispetto a cosa?</h2>
-          <p>La stessa persona può essere capace nella vita quotidiana e fragile rispetto alla corsa. Per questo partiamo dalla richiesta concreta, non da un’etichetta assoluta.</p>
-          <div className="matrix-legend">
-            <span><i className="dot dot--capable" /> Capace</span>
-            <span><i className="dot dot--limited" /> Limitato</span>
-            <span><i className="dot dot--fragile" /> Fragile</span>
-            <span><i className="dot dot--unable" /> Incapace</span>
-          </div>
-        </div>
-        <div className="matrix-grid" aria-label="Categorie di richiesta della Matrice Corpo Capace">
+        <div className="matrix-copy"><p className="section-label section-label--light">Anche a distanza</p><h2>Un programma da seguire.<br />Un team con cui confrontarti.</h2><p>Video, indicazioni e confronti aiutano a capire cosa fare e a segnalare ciò che non funziona. Gli aggiornamenti tengono conto delle tue difficoltà e del tempo disponibile.</p></div>
+        <div className="matrix-grid">
           {[
-            ["Salute", "Autonomia quotidiana", "camminare · lavorare · scale"],
-            ["Wellness", "Vita attiva", "trekking · bici · attività outdoor"],
-            ["Fitness", "Allenamento strutturato", "palestra · corsa · sport amatoriale"],
-            ["Performance", "Prestazione specifica", "agonismo · forza · velocità · volume"],
-          ].map(([title, subtitle, examples], index) => (
-            <article key={title}>
-              <span>0{index + 1}</span>
-              <h3>{title}</h3>
-              <strong>{subtitle}</strong>
-              <p>{examples}</p>
-              <div aria-hidden="true"><i /><i /><i /><i /></div>
-            </article>
-          ))}
+            ['Da dove si parte?', 'Dalla tua situazione', 'Raccogliamo obiettivi e difficoltà e valutiamo se il percorso è adatto.'],
+            ['E se ho poco tempo?', 'Un impegno da concordare', 'Il programma tiene conto del tempo che puoi dedicargli.'],
+            ['Come vengo seguito?', 'Con riscontri e adattamenti', 'Call, video e supporto dipendono dal percorso concordato.'],
+            ['È una terapia?', 'È coaching motorio', 'Non sostituisce diagnosi o cure. Quando serve, la valutazione sanitaria viene prima.'],
+          ].map(([title, subtitle, copy]) => <article key={title}><h3>{title}</h3><strong>{subtitle}</strong><p>{copy}</p></article>)}
         </div>
       </section>
 
@@ -193,12 +154,12 @@ export default function Home() {
 
       <section className="founder-section">
         <div className="founder-photo">
-          <ResponsiveImage sizes="(max-width: 900px) 92vw, 43vw" loading="lazy" width="1000" height="750" src="/images/brand-6da500b82980.webp" alt="Dr. Simone Botta Lamanna durante una valutazione" />
+          <ResponsiveImage sizes="(max-width: 900px) 92vw, 43vw" loading="lazy" width="1125" height="1687" src="/images/dr-botta-giacca-blu.webp" alt="Ritratto di Dr. Simone Botta Lamanna, fondatore di Corpo Capace" />
         </div>
         <div className="founder-copy">
-          <p className="section-label">Fondatore e garante del metodo</p>
+          <p className="section-label">Il fondatore di Corpo Capace</p>
           <h2>Dr. Simone<br />Botta Lamanna</h2>
-          <p>Podologo, osteopata ed esperto in patomeccanica del movimento. Ha costruito Corpo Capace per trasformare valutazione, esercizio e monitoraggio in un sistema applicabile dal team con criteri condivisi e misurabili.</p>
+          <p>Simone Botta Lamanna ha costruito Corpo Capace attorno a un obiettivo: collegare le capacità di oggi alle attività che una persona desidera tornare a sostenere. Il team lavora con valutazione funzionale, esercizio progressivo e monitoraggio.</p>
           <p className="founder-quote">“Non ti serve un corpo perfetto. Ti serve un corpo sufficientemente capace per ciò che vuoi fare.”</p>
           <Link className="text-link" href="/chi-sono">Conosci Dr. Botta <span>→</span></Link>
         </div>

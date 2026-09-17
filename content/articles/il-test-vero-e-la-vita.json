@@ -3,12 +3,12 @@
   "title": "Dagli esercizi alla vita quotidiana: verificare i progressi",
   "kicker": "Cammino, palestra e trekking sono la verifica del lavoro svolto.",
   "category": "Ritorno allo sport",
-  "excerpt": "Come capire se i progressi negli esercizi si trasferiscono a cammino, palestra e trekking: osservare durata, frequenza, recupero e autonomia.",
+  "excerpt": "Come verificare i progressi dell’allenamento: collegare forza ed esercizi a scale, cammino e sport, osservando durata, frequenza e recupero nella vita reale.",
   "date": "6 agosto 2026",
   "readingTime": "2 min",
   "image": "/images/brand-db261c509ec7.webp",
   "accent": "clay",
-  "intro": "Un progresso negli esercizi diventa utile quando ti aiuta nell’attività che vuoi recuperare. Forza ed equilibrio possono migliorare prima che scale, palestra o trekking tornino gestibili: per verificarlo, il programma deve avvicinarsi gradualmente alla durata, al terreno e ai carichi della vita reale.",
+  "intro": "Gli esercizi stanno migliorando, ma le scale o il trekking sono ancora difficili? Per verificare i progressi serve osservare anche l’attività che vuoi recuperare. Durata, terreno, carico e recupero mostrano se le capacità allenate sono disponibili nella vita quotidiana.",
   "sections": [
     {
       "heading": "Preparare il gesto che vuoi recuperare",
@@ -18,10 +18,10 @@
       ]
     },
     {
-      "heading": "Durata, frequenza e intensità: definire il risultato",
+      "heading": "Misurare un progresso nella vita quotidiana",
       "paragraphs": [
-        "Dire «riesco a camminare» non specifica se parliamo di dieci minuti su terreno piano o di due ore con salite. Dire «sono tornato in palestra» non chiarisce frequenza, esercizi, volume o intensità.",
-        "L'affidabilità compare quando la capacità è disponibile alla dose necessaria, può essere ripetuta e produce un recupero compatibile con la vita della persona."
+        "Dire «riesco a camminare» lascia aperte molte domande. Per quanto tempo? Su quale terreno? Con quante pause? Dieci minuti in piano e due ore in salita sono risultati diversi.",
+        "Scegli gli stessi riferimenti quando confronti il prima e il dopo. Osserva se l’attività è disponibile alla dose necessaria, se riesci a ripeterla e come recuperi. Sono questi elementi a rendere il progresso utile per il tuo obiettivo."
       ]
     },
     {
@@ -38,8 +38,8 @@
     "La specificità aumenta gradualmente, non tutta insieme.",
     "Il successo include autonomia nella gestione del carico."
   ],
-  "description": "Come capire se i progressi negli esercizi si trasferiscono a cammino, palestra e trekking: osservare durata, frequenza, recupero e autonomia.",
-  "seoDescription": "Come capire se i progressi negli esercizi si trasferiscono a cammino, palestra e trekking: osservare durata, frequenza, recupero e autonomia.",
+  "description": "Come verificare i progressi dell’allenamento: collegare forza ed esercizi a scale, cammino e sport, osservando durata, frequenza e recupero nella vita reale.",
+  "seoDescription": "Come verificare i progressi dell’allenamento: collegare forza ed esercizi a scale, cammino e sport, osservando durata, frequenza e recupero nella vita reale.",
   "tags": [
     "Ritorno allo sport",
     "Corpo Capace"
@@ -49,8 +49,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/brand-db261c509ec7.webp",
   "canonical": "/blog/il-test-vero-e-la-vita",
-  "primaryKeyword": "Camminare, palestra, trekking: il test vero è la vita",
-  "secondaryKeywords": [],
+  "primaryKeyword": "verificare progressi allenamento",
+  "secondaryKeywords": [
+    "ritorno alle attività quotidiane",
+    "esercizi e funzione"
+  ],
   "problemArea": "ritorno-allo-sport",
   "clinicalReview": {
     "status": "not-recorded",
@@ -62,5 +65,5 @@
   ],
   "cta": "/percorsi",
   "imageAlt": "Atleta in corsa su una pista; scritta «Programmi allenanti PERFORMANCE».",
-  "seoTitle": "Dagli esercizi alla vita: verificare i progressi | Dr. Botta"
+  "seoTitle": "Progressi in allenamento: come verificarli | Dr. Botta"
 }

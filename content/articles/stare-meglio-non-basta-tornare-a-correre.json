@@ -3,12 +3,12 @@
   "title": "Riprendere a correre dopo uno stop: gestire il carico",
   "kicker": "Stare meglio a riposo non significa essere pronti per la corsa di prima.",
   "category": "Ritorno allo sport",
-  "excerpt": "Come riprendere a correre dopo uno stop: definire distanza, ritmo e frequenza, scegliere la dose iniziale e adattare la progressione al recupero.",
+  "excerpt": "Riprendere a correre dopo uno stop: definire minuti, ritmo e frequenza, scegliere un punto di partenza sostenibile e adattare la progressione al recupero.",
   "date": "28 agosto 2026",
   "readingTime": "2 min",
   "image": "/images/brand-db261c509ec7.webp",
   "accent": "bronze",
-  "intro": "Per riprendere a correre dopo uno stop, serve confrontare ciò che riesci a sostenere oggi con distanza, ritmo e frequenza desiderati. Quando il dolore cala, ripartire subito dal livello precedente può saltare questo passaggio: stare meglio a riposo e tollerare una corsa sono risultati diversi.",
+  "intro": "Riprendere a correre dopo uno stop richiede una dose compatibile con il livello attuale. Il ritmo di prima può essere un obiettivo, ma non è automaticamente il punto da cui ripartire. Minuti, distanza, terreno e frequenza aiutano a costruire una progressione da adattare alla risposta.",
   "sections": [
     {
       "heading": "Perché superare un test non basta per correre",
@@ -20,8 +20,8 @@
     {
       "heading": "Definire la corsa che vuoi recuperare",
       "paragraphs": [
-        "Nel Metodo Corpo Capace questa distanza viene chiamata [Gap di Capacità](/blog/gap-di-capacita). Da una parte c'è ciò che il tuo corpo sostiene oggi; dall'altra ciò che la tua attività richiede davvero: minuti, chilometri, ritmo, dislivello, frequenza settimanale e terreno.",
-        "Dire semplicemente «torna a correre gradualmente» non basta. Serve definire la dose iniziale tollerabile, scegliere quale variabile aumentare e stabilire quali segnali useremo per decidere il passo successivo."
+        "Descrivi la tua corsa: quanti minuti o chilometri, a quale ritmo, su quale terreno e quante volte alla settimana. Una breve uscita in piano e una corsa con dislivello non chiedono le stesse capacità.",
+        "Confronta questa richiesta con ciò che sostieni oggi. Nel Metodo Corpo Capace chiamiamo questa distanza [Gap di Capacità](/blog/gap-di-capacita). Da qui si scelgono la dose iniziale, la variabile da aumentare e i segnali con cui valutare la risposta."
       ]
     },
     {
@@ -38,8 +38,8 @@
     "Aumenta una variabile alla volta quando la risposta lo consente.",
     "Il traguardo è correre in modo ripetibile, non riuscirci una volta sola."
   ],
-  "description": "Come riprendere a correre dopo uno stop: definire distanza, ritmo e frequenza, scegliere la dose iniziale e adattare la progressione al recupero.",
-  "seoDescription": "Come riprendere a correre dopo uno stop: definire distanza, ritmo e frequenza, scegliere la dose iniziale e adattare la progressione al recupero.",
+  "description": "Riprendere a correre dopo uno stop: definire minuti, ritmo e frequenza, scegliere un punto di partenza sostenibile e adattare la progressione al recupero.",
+  "seoDescription": "Riprendere a correre dopo uno stop: definire minuti, ritmo e frequenza, scegliere un punto di partenza sostenibile e adattare la progressione al recupero.",
   "tags": [
     "Ritorno allo sport",
     "Corpo Capace"
@@ -49,8 +49,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/brand-db261c509ec7.webp",
   "canonical": "/blog/stare-meglio-non-basta-tornare-a-correre",
-  "primaryKeyword": "Stare meglio non basta per tornare a correre",
-  "secondaryKeywords": [],
+  "primaryKeyword": "riprendere a correre dopo uno stop",
+  "secondaryKeywords": [
+    "ripresa corsa graduale",
+    "carico corsa e recupero"
+  ],
   "problemArea": "ritorno-allo-sport",
   "clinicalReview": {
     "status": "not-recorded",

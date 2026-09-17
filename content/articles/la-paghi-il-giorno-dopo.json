@@ -3,18 +3,18 @@
   "title": "Dolore dopo l’attività: valutare carico e recupero",
   "kicker": "Completare una seduta e recuperare per quella successiva sono due aspetti diversi.",
   "category": "Carico",
-  "excerpt": "Dolore, rigidità o stanchezza dopo l’attività: quali dati osservare per valutare la dose di lavoro e discutere gli adattamenti con il professionista.",
+  "excerpt": "Dolore e rigidità dopo l’attività: come osservare dose, sintomi e recupero per capire con il professionista se mantenere o modificare il carico di lavoro.",
   "date": "25 agosto 2026",
   "readingTime": "2 min",
   "image": "/images/brand-023f3900e8f5.webp",
   "accent": "sage",
-  "intro": "Molte persone riescono a finire la camminata, la seduta o la partita. Il problema arriva dopo: rigidità, dolore, stanchezza sproporzionata o la necessità di fermarsi per giorni. Non è mancanza di volontà. Spesso è una tolleranza ancora insufficiente rispetto alla dose scelta.",
+  "intro": "Finisci una camminata o un allenamento, ma il giorno dopo dolore e rigidità ti fanno ridurre le attività. La risposta successiva alla seduta aiuta a valutarne la dose. Da sola, però, non identifica la causa del dolore: va letta insieme a intensità, durata, funzione e andamento dei sintomi.",
   "sections": [
     {
-      "heading": "Fare un'attività e tollerarla sono cose diverse",
+      "heading": "Perché finire una seduta non basta a valutarne la dose",
       "paragraphs": [
-        "La capacità di eseguire un gesto descrive solo una parte del quadro. La tolleranza al carico include durata, volume, intensità, frequenza, recupero e possibilità di ripetere l'esposizione senza conseguenze sproporzionate.",
-        "Chi «riesce a farlo, ma poi la paga» può avere un movimento discreto e persino una buona tecnica. Ciò che manca è una finestra di carico abbastanza ampia da contenere la richiesta reale."
+        "Riuscire a eseguire un gesto e riuscire a ripeterlo con un recupero adeguato sono informazioni diverse. Per questo si considerano insieme quantità di lavoro, intensità, frequenza e risposta nelle ore successive.",
+        "Una tecnica ordinata non garantisce che la dose sia adatta a quel momento. Il confronto utile è tra ciò che hai fatto, come hai recuperato e quali attività sono rimaste disponibili il giorno dopo."
       ]
     },
     {
@@ -38,8 +38,8 @@
     "Prima di fermarti del tutto, prova a cambiare una variabile.",
     "La dose giusta produce adattamento e dati utili."
   ],
-  "description": "Dolore, rigidità o stanchezza dopo l’attività: quali dati osservare per valutare la dose di lavoro e discutere gli adattamenti con il professionista.",
-  "seoDescription": "Dolore, rigidità o stanchezza dopo l’attività: quali dati osservare per valutare la dose di lavoro e discutere gli adattamenti con il professionista.",
+  "description": "Dolore e rigidità dopo l’attività: come osservare dose, sintomi e recupero per capire con il professionista se mantenere o modificare il carico di lavoro.",
+  "seoDescription": "Dolore e rigidità dopo l’attività: come osservare dose, sintomi e recupero per capire con il professionista se mantenere o modificare il carico di lavoro.",
   "tags": [
     "Carico",
     "Corpo Capace"
@@ -49,8 +49,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/brand-023f3900e8f5.webp",
   "canonical": "/blog/la-paghi-il-giorno-dopo",
-  "primaryKeyword": "La paghi il giorno dopo? Il problema può essere la dose",
-  "secondaryKeywords": [],
+  "primaryKeyword": "dolore dopo attività fisica",
+  "secondaryKeywords": [
+    "carico e recupero",
+    "dolore il giorno dopo allenamento"
+  ],
   "problemArea": "metodo",
   "clinicalReview": {
     "status": "not-recorded",

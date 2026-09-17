@@ -3,14 +3,14 @@
   "title": "Fascite plantare: sintomi, cure e ritorno al cammino",
   "kicker": "Dal dolore ai primi passi alle scelte per tornare a muoverti.",
   "category": "Piede",
-  "excerpt": "Fascite plantare: sintomi al tallone, diagnosi, esercizi e trattamenti. Cosa aspettarsi dal recupero e come affrontare il ritorno graduale al movimento.",
+  "excerpt": "Fascite plantare: sintomi ai primi passi, valutazione, esercizi e supporti, tempi di recupero e ritorno graduale al cammino secondo la risposta individuale.",
   "date": "7 settembre 2026",
   "readingTime": "4 min",
   "image": "/images/fascite-plantare-corpo-capace.webp",
   "imageAlt": "Persona seduta che appoggia una mano sul tallone del piede.",
   "imageCaption": "Immagine illustrativa generata con IA · Corpo Capace",
   "accent": "bronze",
-  "intro": "Il tallone fa male appena ti alzi, oppure dopo una giornata in piedi? La fascite plantare è una possibile spiegazione. Capire il problema è il primo passo per scegliere le cure e ricostruire le attività che oggi risultano difficili.",
+  "intro": "La fascite plantare è una delle possibili cause di dolore sotto il tallone, spesso evidente ai primi passi dopo il riposo. Per scegliere le cure serve una valutazione: sintomi simili possono avere origini diverse. Il ritorno al cammino dipende dal quadro individuale e dalla risposta al trattamento.",
   "sections": [
     {
       "heading": "Fascite plantare: che cos’è e quali sintomi provoca",
@@ -49,11 +49,11 @@
       ]
     },
     {
-      "heading": "Il ritorno all’attività con Corpo Capace",
+      "heading": "Dal sollievo al ritorno al cammino",
       "paragraphs": [
-        "Nel Metodo Corpo Capace partiamo da una domanda concreta: che cosa vuoi tornare a sostenere? Un turno di lavoro, una passeggiata, una corsa e un trekking richiedono capacità diverse.",
-        "Quando la situazione è compatibile con un percorso di allenamento, definiamo il livello di partenza, lavoriamo sulle capacità rilevanti e adattiamo la progressione osservando la risposta durante l’attività e il recupero successivo. Un diario di durata, frequenza e sintomi può rendere il confronto più concreto.",
-        "Il rapporto tra capacità e richiesta è una cornice operativa del metodo, non una spiegazione universale del dolore né un protocollo clinico validato per curare la fascite. Corpo Capace non sostituisce diagnosi e presa in carico sanitaria quando necessarie. L’obiettivo è accompagnare il ritorno alle attività desiderate con un allenamento personalizzato."
+        "Dopo l’inquadramento sanitario, definisci l’attività che vuoi recuperare: un turno in piedi, una passeggiata, una corsa o un trekking. Durata, frequenza e terreno richiedono capacità diverse.",
+        "Quando l’allenamento è appropriato, Corpo Capace parte dal livello attuale e adatta il lavoro alla risposta durante l’attività e nel recupero. Un diario di durata, frequenza e sintomi rende più concreto il confronto. Approfondisci [come dosare e aumentare il cammino](/blog/perche-camminare-benefici-tutto-il-corpo).",
+        "Il rapporto tra capacità e richiesta è una cornice operativa del metodo, non una spiegazione universale del dolore né un protocollo clinico validato per curare la fascite. Il percorso non sostituisce diagnosi e presa in carico sanitaria."
       ]
     }
   ],
@@ -80,8 +80,8 @@
       "url": "https://www.nhs.uk/symptoms/foot-pain/heel-pain/"
     }
   ],
-  "description": "Fascite plantare: sintomi al tallone, diagnosi, esercizi e trattamenti. Cosa aspettarsi dal recupero e come affrontare il ritorno graduale al movimento.",
-  "seoDescription": "Fascite plantare: sintomi al tallone, diagnosi, esercizi e trattamenti. Cosa aspettarsi dal recupero e come affrontare il ritorno graduale al movimento.",
+  "description": "Fascite plantare: sintomi ai primi passi, valutazione, esercizi e supporti, tempi di recupero e ritorno graduale al cammino secondo la risposta individuale.",
+  "seoDescription": "Fascite plantare: sintomi ai primi passi, valutazione, esercizi e supporti, tempi di recupero e ritorno graduale al cammino secondo la risposta individuale.",
   "tags": [
     "Piede",
     "Corpo Capace"
@@ -91,8 +91,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/fascite-plantare-corpo-capace.webp",
   "canonical": "/blog/fascite-plantare-sintomi-cure-ritorno-movimento",
-  "primaryKeyword": "Fascite plantare: capire il dolore e tornare al movimento",
-  "secondaryKeywords": [],
+  "primaryKeyword": "fascite plantare",
+  "secondaryKeywords": [
+    "dolore tallone primi passi",
+    "fascite plantare esercizi"
+  ],
   "problemArea": "piede",
   "clinicalReview": {
     "status": "not-recorded",

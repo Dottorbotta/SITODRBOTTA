@@ -3,7 +3,7 @@
   "title": "Dolore al ginocchio sulle scale: cosa valutare",
   "kicker": "Salita e discesa richiedono capacità diverse: da qui parte la valutazione.",
   "category": "Ginocchio",
-  "excerpt": "Il ginocchio fa male salendo o scendendo le scale? Possibili cause, adattamenti nella giornata, ruolo dell’esercizio e segnali che richiedono assistenza.",
+  "excerpt": "Dolore al ginocchio sulle scale: differenze tra salita e discesa, possibili cause, gestione del carico e segnali per richiedere una valutazione sanitaria.",
   "date": "8 settembre 2026",
   "sourceDate": "8 settembre 2026",
   "readingTime": "5 min",
@@ -11,24 +11,24 @@
   "imageAlt": "Uomo sulle scale con una mano sul corrimano e l’altra sul ginocchio.",
   "imageCaption": "Scale e vita quotidiana · Immagine illustrativa generata con IA",
   "accent": "bronze",
-  "intro": "In piano cammini bene, ma sulle scale il ginocchio si fa sentire. Oppure sali senza difficoltà e il problema arriva in discesa. Capire quale richiesta provoca il dolore aiuta a costruire un percorso: la scala è un’attività da valutare, non una diagnosi.",
+  "intro": "Il ginocchio può fare male sulle scale anche quando camminare in piano è tollerato. Salita e discesa cambiano la richiesta sui muscoli e sull’articolazione. Capire quando compare il dolore aiuta la valutazione, ma il sintomo sulle scale non identifica da solo una diagnosi.",
   "sections": [
     {
       "heading": "Perché salire e scendere sono richieste diverse",
       "paragraphs": [
-        "In salita sollevi il corpo contro la gravità; in discesa controlli il suo abbassamento. Cambiano il lavoro muscolare e il modo in cui gestisci il peso. Per questo riuscire a camminare in piano non significa essere già pronti a sostenere molte rampe.",
-        "Altezza dei gradini, velocità, borse trasportate, numero di passaggi e fatica modificano la richiesta. Descrivere questi dettagli è più utile di una regola generica come “le scale fanno male”. Il dolore femoro-rotuleo, per esempio, può essere provocato sia dalla salita sia dalla discesa. [1]"
+        "In salita sollevi il corpo; in discesa controlli il suo abbassamento. Cambia il lavoro richiesto al ginocchio. Per questo camminare in piano senza difficoltà non dimostra, da solo, che molte rampe siano già tollerabili.",
+        "Numero e altezza dei gradini, velocità, borse trasportate e fatica aiutano a descrivere il compito. Il dolore femoro-rotuleo può comparire sia in salita sia in discesa: questi dettagli orientano la valutazione, senza sostituirla. [1]"
       ]
     },
     {
       "heading": "Le possibili cause, senza autodiagnosi",
       "paragraphs": [
         "Il dolore attorno o dietro la rotula può rientrare nel dolore femoro-rotuleo. Non basta però indicare il punto dolente per identificarne l’origine. Problemi tendinei, artrosi e lesioni dopo un trauma sono altre possibilità, da distinguere con una valutazione. [1, 2]",
-        "Un sintomo sulle scale non dimostra da solo una cartilagine “consumata” o una postura sbagliata. La condropatia descrive un’alterazione della cartilagine: non è semplicemente sinonimo di infiammazione e non coincide automaticamente con ogni dolore anteriore. Evitiamo di trasformare un’etichetta in una spiegazione completa."
+        "Un sintomo sulle scale non dimostra da solo una cartilagine “consumata” o una postura sbagliata. La condropatia descrive un’alterazione della cartilagine: non è semplicemente sinonimo di infiammazione e non coincide automaticamente con ogni dolore anteriore. Evitiamo di trasformare un’etichetta in una spiegazione completa. Approfondisci la [differenza tra condromalacia e dolore femoro-rotuleo](/blog/condromalacia-rotulea)."
       ]
     },
     {
-      "heading": "Gestire il carico nella giornata",
+      "heading": "Come adattare le scale durante la giornata",
       "paragraphs": [
         "Nel Metodo Corpo Capace osserviamo ciò che il ginocchio deve sostenere davvero: scale di casa, tragitto al lavoro e allenamento fanno parte della stessa giornata. L’obiettivo è trovare una richiesta ripetibile e poi costruire ciò che manca.",
         "Si può valutare un minor numero di passaggi consecutivi, l’uso del corrimano, una pausa o la riduzione dei pesi trasportati. Sono adattamenti temporanei al compito, da scegliere in base alla situazione. Non è necessario imporre a tutti la stessa velocità o una tecnica ideale.",
@@ -91,8 +91,8 @@
       "url": "https://www.nhs.uk/symptoms/knee-pain/"
     }
   ],
-  "description": "Il ginocchio fa male salendo o scendendo le scale? Possibili cause, adattamenti nella giornata, ruolo dell’esercizio e segnali che richiedono assistenza.",
-  "seoDescription": "Il ginocchio fa male salendo o scendendo le scale? Possibili cause, adattamenti nella giornata, ruolo dell’esercizio e segnali che richiedono assistenza.",
+  "description": "Dolore al ginocchio sulle scale: differenze tra salita e discesa, possibili cause, gestione del carico e segnali per richiedere una valutazione sanitaria.",
+  "seoDescription": "Dolore al ginocchio sulle scale: differenze tra salita e discesa, possibili cause, gestione del carico e segnali per richiedere una valutazione sanitaria.",
   "tags": [
     "Ginocchio",
     "Corpo Capace"
@@ -102,8 +102,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/ginocchio-scale.webp",
   "canonical": "/blog/dolore-davanti-ginocchio-scale",
-  "primaryKeyword": "Dolore al ginocchio sulle scale: costruire capacità, passo dopo passo",
-  "secondaryKeywords": [],
+  "primaryKeyword": "dolore ginocchio scale",
+  "secondaryKeywords": [
+    "dolore ginocchio in discesa",
+    "dolore anteriore ginocchio"
+  ],
   "problemArea": "ginocchio",
   "clinicalReview": {
     "status": "not-recorded",

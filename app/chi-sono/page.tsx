@@ -15,7 +15,7 @@ export default function About() {
         <p className="section-label">Il fondatore di Corpo Capace</p>
         <h1>Dr. Simone<br />Botta Lamanna</h1>
         <div className="about-grid">
-          <ResponsiveImage className="about-portrait" sizes="(max-width: 800px) 90vw, (max-width: 1200px) 40vw, 470px" loading="eager" fetchPriority="high" src="/images/dr-botta-ritratto.webp" alt="Dr. Simone Botta Lamanna, fondatore di Corpo Capace, in abito chiaro all’aperto" width="1122" height="1402" />
+          <ResponsiveImage className="about-portrait" sizes="(max-width: 800px) 90vw, (max-width: 1200px) 40vw, 470px" loading="eager" fetchPriority="high" src="/images/dr-botta-giacca-blu.webp" alt="Dr. Simone Botta Lamanna, fondatore di Corpo Capace, in giacca blu e camicia bianca" width="1125" height="1687" />
           <div>
             <p className="section-label">Chi sono</p>
             <h2>Il punto di partenza è ciò che vuoi tornare a fare.</h2>
@@ -50,7 +50,6 @@ export default function About() {
           <p>Nel blog trovi approfondimenti su movimento, gestione del carico e ritorno alle attività. Gli articoli sono pubblicati dalla redazione del team Corpo Capace; le fonti, quando disponibili, sono riportate in fondo al testo.</p>
           <p>I contenuti sono informativi e non sostituiscono diagnosi o trattamento sanitario. Una revisione clinica viene indicata solo quando documentata; la data di pubblicazione non equivale a una revisione. I risultati individuali non sono garantiti.</p>
           <p><a className="text-link" href="/blog">Leggi gli approfondimenti →</a></p>
-          <a href="mailto:drbottalamanna@gmail.com">Contatta la redazione</a>
         </section>
       </section>
       <section className="final-cta final-cta--cream">

@@ -3,18 +3,18 @@
   "title": "Allenamento personalizzato: quando cambiare programma",
   "kicker": "Video, sintomi e recupero aiutano a decidere cosa aggiornare.",
   "category": "Metodo",
-  "excerpt": "Quando cambiare una scheda di allenamento? Come usare esecuzione, sforzo, recupero e attività svolte per adattare un programma personalizzato.",
+  "excerpt": "Quando cambiare il programma di allenamento? I dati da portare al controllo: lavoro svolto, esecuzione, sforzo e recupero, per decidere cosa mantenere o adattare.",
   "date": "1 agosto 2026",
   "readingTime": "2 min",
   "image": "/images/brand-6da500b82980.webp",
   "accent": "sand",
-  "intro": "Un programma di allenamento va rivalutato quando cambiano capacità, sintomi, recupero o tempo disponibile. Una scheda costruita su misura il primo giorno può smettere di esserlo se questi cambiamenti vengono ignorati. Video e riscontri sull’attività aiutano a decidere cosa mantenere e cosa adattare.",
+  "intro": "Un programma va rivalutato quando cambiano le capacità, il recupero, i sintomi o il tempo disponibile. Per decidere cosa modificare servono informazioni concrete: lavoro svolto, esecuzione e risposta successiva. Una scheda personalizzata resta tale se tiene conto di questi cambiamenti.",
   "sections": [
     {
-      "heading": "Quali dati usare per aggiornare il programma",
+      "heading": "Quali informazioni portare al controllo del programma",
       "paragraphs": [
-        "Nel Metodo Corpo Capace la persona esegue, mostra il gesto, riferisce la risposta e permette al coach di analizzare ciò che è successo. Da lì il programma viene adattato, riprovato e rivalutato.",
-        "Video dell’esecuzione, sforzo percepito, sintomi e recupero permettono di confrontare il programma previsto con ciò che è accaduto. I controlli periodici e la ripetizione dei test aiutano a decidere il passo successivo."
+        "Confronta il lavoro previsto con quello realmente svolto: esercizi, quantità e difficoltà incontrate. Aggiungi sforzo percepito, sintomi e recupero. I video aiutano il coach a osservare l’esecuzione e a discuterne insieme.",
+        "Nel Metodo Corpo Capace queste informazioni vengono considerate insieme ai test ripetuti nel tempo e alle attività tornate disponibili. Il controllo si conclude con una decisione sul programma, che viene poi provato e rivalutato."
       ]
     },
     {
@@ -38,8 +38,8 @@
     "Personalizzazione significa soprattutto dose, priorità e progressione.",
     "Ogni check deve chiudersi con una decisione comprensibile."
   ],
-  "description": "Quando cambiare una scheda di allenamento? Come usare esecuzione, sforzo, recupero e attività svolte per adattare un programma personalizzato.",
-  "seoDescription": "Quando cambiare una scheda di allenamento? Come usare esecuzione, sforzo, recupero e attività svolte per adattare un programma personalizzato.",
+  "description": "Quando cambiare il programma di allenamento? I dati da portare al controllo: lavoro svolto, esecuzione, sforzo e recupero, per decidere cosa mantenere o adattare.",
+  "seoDescription": "Quando cambiare il programma di allenamento? I dati da portare al controllo: lavoro svolto, esecuzione, sforzo e recupero, per decidere cosa mantenere o adattare.",
   "tags": [
     "Metodo",
     "Corpo Capace"
@@ -49,8 +49,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/brand-6da500b82980.webp",
   "canonical": "/blog/programma-cambia-con-i-dati",
-  "primaryKeyword": "Il programma deve cambiare quando cambiano i dati",
-  "secondaryKeywords": [],
+  "primaryKeyword": "quando cambiare programma allenamento",
+  "secondaryKeywords": [
+    "allenamento personalizzato",
+    "monitoraggio allenamento"
+  ],
   "problemArea": "metodo",
   "clinicalReview": {
     "status": "not-recorded",

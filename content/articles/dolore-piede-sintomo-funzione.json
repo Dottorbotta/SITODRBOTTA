@@ -3,12 +3,12 @@
   "title": "Dopo il dolore al piede: recuperare cammino e sport",
   "kicker": "Il sollievo è un passaggio; il traguardo è sostenere di nuovo le tue attività.",
   "category": "Piede",
-  "excerpt": "Il dolore al piede è diminuito, ma cammino o sport restano difficili? Come collegare sollievo, capacità fisiche e ritorno graduale alle attività.",
+  "excerpt": "Il dolore al piede è diminuito, ma camminare resta difficile? Scopri quali capacità osservare e come collegare gli esercizi al ritorno al cammino e allo sport.",
   "date": "21 agosto 2026",
   "readingTime": "2 min",
   "image": "/images/brand-6da500b82980.webp",
   "accent": "clay",
-  "intro": "Il dolore al piede porta spesso a ridurre passi, ore in piedi e attività sportive. Questa riduzione può essere utile in alcune fasi, ma se diventa l'unica strategia il corpo non riceve più lo stimolo necessario per ricostruire la capacità perduta.",
+  "intro": "Il dolore al piede è diminuito, ma camminare a lungo o restare in piedi è ancora difficile? Il sollievo e il recupero della funzione possono procedere con tempi diversi. Dopo l’inquadramento del problema, il lavoro riguarda le capacità necessarie a sostenere di nuovo le tue attività.",
   "sections": [
     {
       "heading": "Cosa può mancare dopo il sollievo dal dolore",
@@ -18,10 +18,10 @@
       ]
     },
     {
-      "heading": "Le cinque capacità da mettere in relazione con il compito",
+      "heading": "Quali capacità servono per camminare e fare sport",
       "paragraphs": [
-        "Corpo Capace organizza il lavoro intorno a mobilità utile, controllo, forza, tolleranza o resistenza e capacità specifica. Non sono caselle isolate: cooperano e vanno selezionate in base all'attività-obiettivo.",
-        "Non serve inseguire un piede perfetto o una simmetria ideale. Serve capire quali qualità limitano realmente il compito e quali possono essere allenate, misurate e trasferite alla vita reale."
+        "Nel Metodo Corpo Capace consideriamo mobilità utile, controllo, forza, resistenza e capacità specifiche del gesto. Il peso di ciascuna cambia con l’obiettivo: una giornata in piedi e una corsa richiedono un lavoro diverso.",
+        "Il programma sceglie le qualità che limitano l’attività e verifica se allenarle rende il compito più gestibile. Per orientarti sulle possibili cause del sintomo, leggi invece la [guida al dolore al piede](/blog/dolore-al-piede): il recupero della funzione parte da un problema correttamente inquadrato."
       ]
     },
     {
@@ -38,8 +38,8 @@
     "Trasferisci gradualmente il lavoro a cammino, corsa o vita reale.",
     "Se il quadro è acuto, instabile o non chiarito, serve prima un inquadramento sanitario."
   ],
-  "description": "Il dolore al piede è diminuito, ma cammino o sport restano difficili? Come collegare sollievo, capacità fisiche e ritorno graduale alle attività.",
-  "seoDescription": "Il dolore al piede è diminuito, ma cammino o sport restano difficili? Come collegare sollievo, capacità fisiche e ritorno graduale alle attività.",
+  "description": "Il dolore al piede è diminuito, ma camminare resta difficile? Scopri quali capacità osservare e come collegare gli esercizi al ritorno al cammino e allo sport.",
+  "seoDescription": "Il dolore al piede è diminuito, ma camminare resta difficile? Scopri quali capacità osservare e come collegare gli esercizi al ritorno al cammino e allo sport.",
   "tags": [
     "Piede",
     "Corpo Capace"
@@ -49,8 +49,11 @@
   "author": "team-corpo-capace",
   "featuredImage": "/images/brand-6da500b82980.webp",
   "canonical": "/blog/dolore-piede-sintomo-funzione",
-  "primaryKeyword": "Dolore al piede: spegnere il sintomo non ricostruisce la funzione",
-  "secondaryKeywords": [],
+  "primaryKeyword": "recuperare cammino dopo dolore piede",
+  "secondaryKeywords": [
+    "funzione del piede",
+    "ritorno allo sport dopo dolore al piede"
+  ],
   "problemArea": "piede",
   "clinicalReview": {
     "status": "not-recorded",
@@ -64,5 +67,5 @@
   ],
   "cta": "/percorsi",
   "imageAlt": "Uomo in mezzo inginocchio che esegue un esercizio con elastico davanti a uno smartphone su treppiede.",
-  "seoTitle": "Dopo il dolore al piede: recuperare le attività | Dr. Botta"
+  "seoTitle": "Dopo il dolore al piede: recuperare la funzione | Dr. Botta"
 }

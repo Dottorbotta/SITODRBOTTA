@@ -617,9 +617,9 @@ button, input, select { font: inherit; }
 .wordmark--footer { margin-bottom: 28px; }
 .footer-top > div:first-child > p { max-width: 410px; margin: 0; color: #9e918a; font-size: 1rem; line-height: 1.75; }
 .footer-column { display: flex; flex-direction: column; gap: 12px; }
-.footer-column h2 { margin: 0 0 10px; color: #756961; font-size: .75rem; letter-spacing: 1.4px; text-transform: uppercase; }
+.footer-column h2 { margin: 0 0 10px; color: #d8cec7; font-size: .75rem; letter-spacing: 1.4px; text-transform: uppercase; }
 .footer-column a { font-size: .75rem; line-height: 1.5; text-transform: uppercase; }
-.footer-bottom { margin-top: 65px; padding-top: 24px; border-top: 1px solid #332823; display: flex; gap: 26px; align-items: center; color: #776b64; font-size: .75rem; line-height: 1.5; letter-spacing: .5px; }
+.footer-bottom { margin-top: 65px; padding-top: 24px; border-top: 1px solid #332823; display: flex; gap: 26px; align-items: center; color: #bcaea6; font-size: .75rem; line-height: 1.5; letter-spacing: .5px; }
 .footer-bottom span:nth-child(2) { max-width: 620px; }
 .footer-bottom a { margin-left: auto; }
 

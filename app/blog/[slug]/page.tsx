@@ -42,16 +42,23 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
   if (!article) notFound();
   const topic = topicFor(article.category);
-  const pillar = topic ? getArticle(topic.pillar) : undefined;
+  const pillar = article.hub === "corsa" ? getArticle("programmare-corsa-piano-adattivo-risposta-corpo") : article.hub === "piede-caviglia" ? getArticle("dolore-piede-corsa-fattori-da-valutare") : topic ? getArticle(topic.pillar) : undefined;
 
   const related = (article.relatedPosts ?? []).map(slug=>getArticle(slug)).filter((item): item is NonNullable<typeof item> => Boolean(item)).slice(0,3);
+  const articleBreadcrumbs = [
+    {name:"Home",path:"/"},
+    {name:"Blog",path:"/blog"},
+    ...(article.hubPath ? [{name:article.hub === "piede-caviglia" ? "Piede e caviglia" : article.hub ?? "Approfondimenti",path:article.hubPath}] : article.hub === "corsa" ? [{name:"Corsa",path:"/blog/corsa"}] : topic ? [{name:topic.name,path:`/blog/argomenti/${topic.slug}`}] : []),
+    ...(article.subHub && article.subHubPath ? [{name:article.subHub,path:article.subHubPath}] : []),
+    {name:article.title,path:`/blog/${article.slug}`},
+  ];
 
   return (
     <><Header tone="dark" /><main id="contenuto" tabIndex={-1}>
       <ArticleSchema article={article} /><ArticleFaqSchema article={article} />
       <article className="article-page">
         <header className={`article-header${article.slug === "perche-camminare-benefici-tutto-il-corpo" ? " article-header--long" : ""}`}>
-          <Breadcrumbs items={[{name:"Home",path:"/"},{name:"Blog",path:"/blog"},...(topic?[{name:topic.name,path:`/blog/argomenti/${topic.slug}`}]:[]),{name:article.title,path:`/blog/${article.slug}`}]} />
+          <Breadcrumbs items={articleBreadcrumbs} />
           <div className="article-meta"><span>{article.category}</span><span>{article.date}</span><span>{article.readingTime} di lettura</span></div>
           <h1>{article.title}</h1>
           <p>{article.kicker}</p><div className="article-byline">A cura del <a href="/chi-sono">team Corpo Capace</a>{article.updatedAt && <span> · Aggiornato il {article.updatedAt}</span>}</div>
@@ -80,7 +87,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 {section.gap && <CapacityGap />}
               </section>
             ))}
-            {topic && <nav className="article-topic-link" aria-label="Approfondimenti collegati"><a href={`/blog/argomenti/${topic.slug}`}>Tutti gli articoli: {topic.name} →</a>{pillar && pillar.slug !== article.slug && <a href={`/blog/${pillar.slug}`}>{pillar.title} →</a>}<a href="/percorsi">Come funziona il percorso Corpo Capace →</a></nav>}
+            {topic && <nav className="article-topic-link" aria-label="Approfondimenti collegati"><a href={article.hubPath ?? (article.hub === "corsa" ? "/blog/corsa" : `/blog/argomenti/${topic.slug}`)}>Tutti gli articoli: {article.hub === "corsa" ? "Corsa" : article.hub === "piede-caviglia" ? "Piede e caviglia" : topic.name} →</a>{pillar && pillar.slug !== article.slug && <a href={`/blog/${pillar.slug}`}>{pillar.title} →</a>}<a href="/percorsi">Come funziona il percorso Corpo Capace →</a></nav>}
             <div className="article-takeaways">
               <p className="section-label section-label--light">In sintesi</p>
               <h2>I punti da ricordare</h2>

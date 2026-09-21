@@ -4,6 +4,20 @@ import test from 'node:test';
 const records=await Promise.all((await readdir('content/articles')).filter(f=>f.endsWith('.json')).map(async f=>JSON.parse(await readFile('content/articles/'+f,'utf8'))));
 const {default:worker}=await import('../dist/server/index.js');
 const get=(path)=>worker.fetch(new Request('https://drbotta-pathodynamics.dr-botta-4589.chatgpt.site'+path,{headers:{accept:'text/html'}}),{ASSETS:{fetch:async()=>new Response('Not found',{status:404})}},{waitUntil(){},passThroughOnException(){}});
+test('batch 011–025 includes fifteen complete articles with images and valid related links', async () => {
+  const batch = JSON.parse(await readFile('docs/publication-batch-011-025.json', 'utf8'));
+  assert.equal(batch.articles.length, 15);
+  assert.ok(records.length >= 67);
+  for (const item of batch.articles) {
+    const article = records.find(a => a.slug === item.slug);
+    assert.ok(article, item.slug);
+    assert.ok(article.sections.length >= 10, item.slug);
+    assert.ok(article.readingTime, item.slug);
+    await access('public' + article.image);
+    assert.ok(!JSON.stringify(article).includes('DA LINKARE IN CMS'), item.slug);
+    for (const slug of article.relatedPosts) assert.ok(records.some(a => a.slug === slug), slug);
+  }
+});
 test('responsive images are discoverable in HTML, preserve alternatives and ship every variant', async () => {
   const manifest = JSON.parse(await readFile('app/data/image-manifest.json', 'utf8'));
   for (const [src, entry] of Object.entries(manifest)) {
@@ -62,7 +76,7 @@ test('copy revision is explicit, preserves clinical records and keeps links vali
 test('all articles return HTML with own canonical and structured data',async()=>{for(const a of records){const r=await get('/blog/'+a.slug);assert.equal(r.status,200,a.slug);const html=await r.text();assert.ok(html.includes('rel="canonical"'),a.slug);assert.ok(html.includes('/blog/'+a.slug));assert.ok(html.includes('BlogPosting'));assert.ok(html.includes('BreadcrumbList'));assert.equal((html.match(/<h1\b/g)||[]).length,1);}});
 test('sitemap RSS and robots are available; aliases permanently redirect',async()=>{for(const path of ['/sitemap.xml','/feed.xml','/robots.txt']){const r=await get(path);assert.equal(r.status,200,path);const text=await r.text();assert.ok(text.length>20);}for(const slug of ['dolore-al-piede','piedi-caviglie-gonfie']){const r=await get('/'+slug);assert.equal(r.status,301);assert.equal(new URL(r.headers.get('location')).pathname,'/blog/'+slug);}});
 test('missing article is a real 404',async()=>{const r=await get('/blog/non-esiste-qa');assert.equal(r.status,404);});
-test('main pages and real topic clusters render with metadata',async()=>{for(const path of ['/','/metodo','/per-chi','/percorsi','/testimonianze','/blog','/chi-sono','/blog/argomenti/piede','/blog/argomenti/ginocchio','/blog/argomenti/anca','/blog/argomenti/metodo','/blog/argomenti/ritorno-allo-sport']){const r=await get(path);assert.equal(r.status,200,path);const html=await r.text();assert.ok(html.includes('rel="canonical"'),path);assert.equal((html.match(/<h1\b/g)||[]).length,1,path);}});
+test('main pages and real topic clusters render with metadata',async()=>{for(const path of ['/','/metodo','/per-chi','/percorsi','/testimonianze','/blog','/chi-sono','/blog/piede-caviglia','/blog/piede-caviglia/tallone-fascia-plantare','/blog/argomenti/piede','/blog/argomenti/ginocchio','/blog/argomenti/anca','/blog/argomenti/metodo','/blog/argomenti/ritorno-allo-sport']){const r=await get(path);assert.equal(r.status,200,path);const html=await r.text();assert.ok(html.includes('rel="canonical"'),path);assert.equal((html.match(/<h1\b/g)||[]).length,1,path);}});
 test('source consultation dates are shown only when documented',async()=>{for(const a of records.filter(a=>a.sources?.length)){const html=await (await get('/blog/'+a.slug)).text();const sources=html.match(/<section class="article-sources"[\s\S]*?<\/section>/)?.[0];assert.ok(sources,a.slug);assert.equal(sources.includes('Fonti consultate il'),Boolean(a.sourceDate),a.slug);}});
 test('article metadata and FAQ schema describe the actual article and retain noindex', async () => {
   const titles = new Set();
@@ -93,7 +107,7 @@ test('Drive publications 004–010 retain their order, metadata, images and vali
   const batch = JSON.parse(await readFile('docs/blog-publication-004-010.json', 'utf8'));
   assert.deepEqual(batch.map(a => a.id), [4,5,6,7,8,9,10]);
   const source = await readFile('app/data/articles.ts', 'utf8');
-  assert.match(source, /\[article20,article21,article22,article23,article24,article25,article26,article17/);
+  assert.match(source, /article20,article21,article22,article23,article24,article25,article26,article17/);
   for (const item of batch) {
     const article = records.find(a => a.slug === item.slug);
     assert.ok(article, item.slug);
@@ -122,5 +136,26 @@ test('Drive publications 001–003 have complete editorial records and live cros
     const html = await (await get('/blog/' + slug)).text();
     assert.ok(html.includes('FAQPage'));
     assert.ok(html.includes('type="image/avif"'));
+  }
+});
+
+test('P0 piede publications preserve MASTER routing and omit internal notes', async () => {
+  const expected = new Map([
+    ['067', 'dolore-piede-corsa-fattori-da-valutare'],
+    ['154', 'dolore-tallone-non-sempre-fascite-plantare'],
+    ['164', 'dolore-tallone-da-mesi-terapie-plantari'],
+  ]);
+  for (const [id, slug] of expected) {
+    const article = records.find(item => item.sourceArticleId === id);
+    assert.equal(article?.slug, slug);
+    assert.equal(article.hub, 'piede-caviglia');
+    assert.equal(article.cta, '/coaching-avanzato/');
+    assert.equal(article.clinicalReview.status, 'not-recorded');
+    assert.ok(article.imageAlt);
+    assert.doesNotMatch(JSON.stringify(article), /Scheda editoriale|Note per SEO|Opportunità editoriale|Scrivi INFO|NON PUBBLICARE NEL CORPO/i);
+    for (const related of article.relatedPosts) assert.ok(records.some(item => item.slug === related), related);
+    const html = await (await get('/blog/' + slug)).text();
+    assert.ok(html.includes('FAQPage'));
+    assert.ok(html.includes('/blog/piede-caviglia'));
   }
 });

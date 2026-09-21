@@ -1,0 +1,17 @@
+{
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "path": "training-diary.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: editorial photograph for Italian running education blog. Primary request: recreational adult runner seated at a table reviewing a paper training diary and sports watch, calmly planning training. Natural window light, quiet home environment, ordinary attainable fitness, candid documentary look, real skin and material textures, muted natural colors. Wide landscape 3:2 framing with diary and watch clearly visible, no legible text on diary. No logos, no overlaid text, no watermark, no medical claims."
+    },
+    {
+      "path": "easy-running.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: editorial photograph for Italian running education blog. Primary request: two adults easy jogging conversationally together on a level park path, ordinary attainable fitness, relaxed expressions, both full bodies and feet visible. Natural soft daylight, trees and greenery, candid documentary photography, muted natural colors, authentic non-athlete look. Wide landscape 3:2 framing. No logos, no text, no watermark, no medical claims."
+    },
+    {
+      "path": "winter-warmup.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: editorial photograph for Italian running education blog. Primary request: adult recreational runner doing gentle dynamic warmup outdoors in cool winter weather, long sleeve running clothing, dry safe flat park path, no snow hazard. Natural overcast daylight, subdued winter foliage, candid documentary photography, muted natural colors, ordinary attainable fitness. Full body visible, wide landscape 3:2 framing. No logos, no text, no watermark, no medical claims."
+    }
+  ]
+}

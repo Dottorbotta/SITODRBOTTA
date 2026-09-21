@@ -1,3 +1,46 @@
+import article67 from "../../content/articles/dolore-piede-corsa-fattori-da-valutare.json";
+import article68 from "../../content/articles/dolore-tallone-non-sempre-fascite-plantare.json";
+import article69 from "../../content/articles/dolore-tallone-da-mesi-terapie-plantari.json";
+import article62 from "../../content/articles/correre-al-freddo-carico-temperatura-terreno.json";
+import article63 from "../../content/articles/programma-corsa-variabili-cambiare-nel-tempo.json";
+import article64 from "../../content/articles/corsa-rigenerante-30-giorni-cosa-monitorare.json";
+import article65 from "../../content/articles/overreaching-sovrallenamento-runner-calo-performance.json";
+import article66 from "../../content/articles/riscaldamento-prima-corsa-cosa-preparare.json";
+import article57 from "../../content/articles/sovrallenamento-runner-segnali-recupero.json";
+import article58 from "../../content/articles/personal-best-corsa-performance-non-sale.json";
+import article59 from "../../content/articles/diario-allenamento-corsa-dati-monitorare.json";
+import article60 from "../../content/articles/prima-maratona-preparazione-42-km.json";
+import article61 from "../../content/articles/gara-corsa-valutare-prestazione-oltre-cronometro.json";
+import article42 from "../../content/articles/programmare-corsa-piano-adattivo-risposta-corpo.json";
+import article43 from "../../content/articles/allenamento-aerobico-runner-base-corsa.json";
+import article44 from "../../content/articles/tabelle-corsa-generiche-piano-personalizzato.json";
+import article45 from "../../content/articles/correre-o-camminare-capacita-tolleranza-carico.json";
+import article46 from "../../content/articles/iniziare-correre-zero-primi-30-minuti.json";
+import article47 from "../../content/articles/correre-tutti-giorni-frequenza-carico-recupero.json";
+import article48 from "../../content/articles/aumentare-chilometri-corsa-capacita-carico.json";
+import article49 from "../../content/articles/iniziare-correre-ridurre-rischio-infortunio.json";
+import article50 from "../../content/articles/riprendere-correre-dopo-pausa-ricostruire-carico.json";
+import article51 from "../../content/articles/correre-piu-veloce-piu-lungo-performance-tolleranza.json";
+import article52 from "../../content/articles/frequenza-cardiaca-respiro-rpe-autoregolare-corsa.json";
+import article53 from "../../content/articles/programmazione-allenamento-corsa-carichi-progressivi.json";
+import article54 from "../../content/articles/aumentare-resistenza-corsa-capacita-aerobica.json";
+import article55 from "../../content/articles/riscaldamento-invernale-runner-correre-freddo.json";
+import article56 from "../../content/articles/correre-piu-a-lungo-aumentare-distanza-progressione.json";
+import article27 from "../../content/articles/elasticita-corsa-restituire-forza.json";
+import article28 from "../../content/articles/postura-corsa-cosa-osservare.json";
+import article29 from "../../content/articles/cadenza-corsa-velocita-carico.json";
+import article30 from "../../content/articles/equilibrio-runner-esercizi-transfer-corsa.json";
+import article31 from "../../content/articles/squat-profondo-mobilita-controllo.json";
+import article32 from "../../content/articles/tolleranza-corsa-prima-di-aumentare-chilometri.json";
+import article33 from "../../content/articles/fattore-limitante-corsa-come-individuarlo.json";
+import article34 from "../../content/articles/errori-corsa-carico-tecnica.json";
+import article35 from "../../content/articles/controllo-movimenti-base-corsa.json";
+import article36 from "../../content/articles/segreto-correre-bene-capacita.json";
+import article37 from "../../content/articles/running-economy-tecnica-forza-corsa.json";
+import article38 from "../../content/articles/correre-piu-veloce-movimento-forza.json";
+import article39 from "../../content/articles/forza-controllo-movimento-carico.json";
+import article40 from "../../content/articles/tecnica-corsa-corretta-regole.json";
+import article41 from "../../content/articles/corsa-naturale-tecnica-adattamento-individualita.json";
 import article20 from "../../content/articles/tecnica-corsa-postura-ritmo-appoggio-controllo.json";
 import article21 from "../../content/articles/metodo-corsa-tecnica-condizionamento.json";
 import article22 from "../../content/articles/analisi-corsa-errori-biomeccanici-correggere.json";
@@ -34,6 +77,13 @@ export type ArticleSection = {
 };
 
 export type Article = {
+  hub?: string;
+  editorialCluster?: string;
+  sourceArticleId?: string;
+  sourceDocument?: string;
+  subHub?: string;
+  hubPath?: string;
+  subHubPath?: string | null;
   description?: string;
   seoDescription?: string;
   tags?: string[];
@@ -68,7 +118,7 @@ export type Article = {
 };
 
 
-export const articles: Article[] = [article20,article21,article22,article23,article24,article25,article26,article17,article18,article19,article0,article1,article2,article3,article4,article5,article6,article7,article8,article9,article10,article11,article12,article13,article14,article15,article16 ] as Article[];
+export const articles: Article[] = [article67,article68,article69,article62,article63,article64,article65,article66,article57,article58,article59,article60,article61,article42,article43,article44,article45,article46,article47,article48,article49,article50,article51,article52,article53,article54,article55,article56,article27,article28,article29,article30,article31,article32,article33,article34,article35,article36,article37,article38,article39,article40,article41,article20,article21,article22,article23,article24,article25,article26,article17,article18,article19,article0,article1,article2,article3,article4,article5,article6,article7,article8,article9,article10,article11,article12,article13,article14,article15,article16] as Article[];
 export const articleCategories = ['Tutti','Metodo','Piede','Ginocchio','Anca','Carico','Ritorno allo sport'] as const;
 export function getArticle(slug: string){return articles.find(a=>a.slug===slug);}
 export type ArticleSummary = Pick<Article,'slug'|'title'|'kicker'|'category'|'excerpt'|'image'|'accent'|'readingTime'|'publishedAt'|'tags'>;

@@ -1,0 +1,12 @@
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { Header } from '../../../components/Header';
+import { Footer } from '../../../components/Footer';
+import { Breadcrumbs, JsonLd, pageMetadata } from '../../../lib/seo';
+import { absolute } from '../../../lib/site';
+import { getArticle } from '../../../data/articles';
+import { runningGroups } from '../../../data/running';
+type Props={params:Promise<{group:string}>};
+export function generateStaticParams(){return runningGroups.filter(g=>g.active).map(g=>({group:g.slug}));}
+export async function generateMetadata({params}:Props){const {group}=await params;const g=runningGroups.find(g=>g.slug===group&&g.active);return g?pageMetadata('/blog/corsa/'+g.slug,g.name+' | Dr. Botta',g.description):{};}
+export default async function RunningGroup({params}:Props){const {group}=await params;const g=runningGroups.find(g=>g.slug===group&&g.active);if(!g)notFound();return <><Header tone="dark"/><main id="contenuto" tabIndex={-1} className="running-hub"><Breadcrumbs items={[{name:'Home',path:'/'},{name:'Blog',path:'/blog'},{name:'Corsa',path:'/blog/corsa'},{name:g.name,path:'/blog/corsa/'+g.slug}]}/><header className="running-intro"><p className="section-label">Corsa · Percorso di lettura</p><h1>{g.name}</h1><p>{g.description}</p><p>{g.slug==='programmazione'?'Parti dalla guida al piano adattivo. Poi approfondisci la variabile che vuoi modificare: distribuzione delle uscite, chilometri settimanali o durata della singola seduta. Frequenza cardiaca e RPE aiutano a verificare la risposta.':'La guida ai primi 30 minuti spiega come dosare corsa e cammino. Se riprendi dopo una pausa, leggi anche i criteri per valutare ciò che hai mantenuto e scegliere una dose compatibile con la capacità attuale.'}</p></header><JsonLd data={{'@context':'https://schema.org','@type':'CollectionPage',name:g.name,url:absolute('/blog/corsa/'+g.slug),mainEntity:{'@type':'ItemList',itemListElement:g.articleSlugs.map((s,i)=>({'@type':'ListItem',position:i+1,url:absolute('/blog/'+s),name:getArticle(s)?.title}))}}}/><section className="running-group"><div><h2>Le guide, in ordine di lettura</h2><p>Puoi seguire il percorso o partire dalla domanda che ti riguarda oggi.</p></div><ol>{g.articleSlugs.map(s=>{const a=getArticle(s)!;return <li key={s}><Link href={'/blog/'+s}>{a.title}</Link><p>{a.excerpt}</p></li>})}</ol></section><p className="running-footer"><Link className="text-link" href="/blog/corsa">Tutte le guide sulla corsa →</Link></p></main><Footer/></>;}

@@ -1,0 +1,181 @@
+{
+  "slug": "diario-allenamento-corsa-dati-monitorare",
+  "title": "Diario di allenamento: quali dati registrare per capire se stai davvero migliorando",
+  "seoTitle": "Diario di allenamento: quali dati registrare per capire se stai davvero migliorando",
+  "kicker": "Un diario di allenamento utile non raccoglie tutto: registra i dati che aiutano a capire carico, risposta e recupero. Ecco cosa monitorare nella corsa.",
+  "category": "Ritorno allo sport",
+  "excerpt": "Un diario di allenamento utile non raccoglie tutto: registra i dati che aiutano a capire carico, risposta e recupero. Ecco cosa monitorare nella corsa.",
+  "description": "Un diario di allenamento utile non raccoglie tutto: registra i dati che aiutano a capire carico, risposta e recupero. Ecco cosa monitorare nella corsa.",
+  "seoDescription": "Un diario di allenamento utile non raccoglie tutto: registra i dati che aiutano a capire carico, risposta e recupero. Ecco cosa monitorare nella corsa.",
+  "date": "21 settembre 2026",
+  "readingTime": "4 min",
+  "publishedAt": "2026-09-21",
+  "updatedAt": null,
+  "author": "team-corpo-capace",
+  "image": "/images/corsa-pianificazione.webp",
+  "featuredImage": "/images/corsa-pianificazione.webp",
+  "imageAlt": "Runner che consulta il diario di allenamento e i dati dell’orologio sportivo.",
+  "imageCaption": "Immagine illustrativa generata con IA; non raffigura un paziente o un risultato clinico.",
+  "accent": "bronze",
+  "intro": "Un diario utile collega ciò che fai a come rispondi: durata e distanza, percezione dello sforzo, sintomi e recupero. Pochi dati raccolti con continuità aiutano a decidere se aumentare, mantenere o ridurre il carico.",
+  "sections": [
+    {
+      "heading": "Da dove partire",
+      "paragraphs": [
+        "Il diario di allenamento non serve a collezionare numeri.",
+        "Serve a rispondere a una domanda: come stai reagendo al carico che stai facendo?",
+        "GPS, frequenza cardiaca, ritmo e chilometri descrivono cosa hai fatto. Ma per capire se quell’allenamento sta producendo adattamento devi collegare il carico esterno alla risposta interna."
+      ]
+    },
+    {
+      "heading": "Registra prima di tutto il carico esterno",
+      "paragraphs": [
+        "Le informazioni di base sono:",
+        "- durata;\n- distanza;\n- ritmo medio;\n- tipo di seduta;\n- dislivello;\n- superficie;\n- eventuali intervalli e recuperi.",
+        "Questi dati descrivono il lavoro eseguito.",
+        "Sono utili, ma da soli non spiegano quanto quel lavoro ti sia costato."
+      ]
+    },
+    {
+      "heading": "Aggiungi almeno una misura di carico interno",
+      "paragraphs": [
+        "Una delle più semplici è l’RPE: quanto è stata impegnativa la seduta su una scala definita.",
+        "Il vantaggio è che permette di confrontare sedute simili nel tempo.",
+        "Se corri 10 km allo stesso ritmo ma l’RPE passa da 7/10 a 5/10, è possibile che la stessa richiesta esterna stia diventando più tollerabile.",
+        "Al contrario, se lo stesso allenamento diventa progressivamente più faticoso, il diario può evidenziare un problema prima che il cronometro peggiori."
+      ]
+    },
+    {
+      "heading": "Registra i sintomi, se sono rilevanti",
+      "paragraphs": [
+        "Per un runner con dolore o una storia recente di infortunio, ha senso annotare:",
+        "- dolore durante la corsa;\n- dolore subito dopo;\n- risposta nelle 24 ore successive;\n- rigidità al mattino;\n- eventuali modifiche del gesto;\n- attività che riaccendono i sintomi.",
+        "Il dato non va interpretato come diagnosi.",
+        "Serve a capire la relazione tra dose di carico e risposta."
+      ]
+    },
+    {
+      "heading": "Monitora il recupero con pochi indicatori stabili",
+      "paragraphs": [
+        "Puoi registrare:",
+        "- qualità del sonno;\n- fatica percepita;\n- stress;\n- motivazione;\n- percezione di recupero;\n- eventuale indolenzimento.",
+        "La letteratura sul monitoraggio dell’atleta mostra che le misure soggettive possono essere molto sensibili ai cambiamenti di carico e stato dell’atleta.",
+        "Non significa che sostituiscano i dati oggettivi.",
+        "Significa che hanno valore quando vengono raccolte con continuità e lette nel tempo."
+      ]
+    },
+    {
+      "heading": "Guarda i trend, non il singolo giorno",
+      "paragraphs": [
+        "Un dato isolato spesso è difficile da interpretare.",
+        "Una frequenza cardiaca più alta in una seduta può dipendere da temperatura, sonno, caffeina, stress o intensità reale.",
+        "Un RPE elevato in una singola seduta va interpretato nel contesto.",
+        "Diventa più interessante quando più indicatori si muovono nella stessa direzione per diversi giorni:",
+        "- stesso ritmo, RPE crescente;\n- peggior recupero;\n- maggiore fatica;\n- sedute chiave meno qualitative.",
+        "Il diario deve aiutarti a riconoscere pattern."
+      ]
+    },
+    {
+      "heading": "Registra ciò che cambia le decisioni",
+      "paragraphs": [
+        "Se un dato non modifica mai una scelta, probabilmente non è prioritario.",
+        "Per molti runner bastano:",
+        "- distanza/durata;\n- ritmo o zona;\n- RPE;\n- sintomi;\n- recupero;\n- nota libera sulla seduta.",
+        "Atleti avanzati possono integrare frequenza cardiaca, HRV, potenza, temperatura, qualità del sonno o metriche specifiche.",
+        "Ma più dati non significano automaticamente decisioni migliori."
+      ]
+    },
+    {
+      "heading": "Usa il diario per confrontare sedute equivalenti",
+      "paragraphs": [
+        "Il valore aumenta quando paragoni condizioni simili.",
+        "Per esempio:",
+        "- stesso percorso;\n- stessa durata;\n- stesso tipo di intervallo;\n- stesso ritmo target.",
+        "Puoi osservare se nel tempo:",
+        "- l’RPE scende;\n- la frequenza cardiaca si stabilizza;\n- la tecnica resta più solida;\n- recuperi prima;\n- aumenti il volume senza aumento sproporzionato della fatica.",
+        "Questo rende il miglioramento misurabile anche quando non fai test massimali."
+      ]
+    },
+    {
+      "heading": "Inserisci una revisione settimanale",
+      "paragraphs": [
+        "Il diario diventa utile quando produce una decisione.",
+        "A fine settimana chiediti:",
+        "- quanto carico ho accumulato?\n- quali sedute ho recuperato bene?\n- dove è aumentata la fatica?\n- i sintomi sono stabili?\n- sto migliorando il parametro che mi interessa?\n- devo progredire, mantenere o ridurre?",
+        "Il diario non deve prevedere il futuro. Deve rendere più informata la prossima scelta."
+      ]
+    },
+    {
+      "heading": "Conclusione",
+      "paragraphs": [
+        "Un buon diario di allenamento è semplice abbastanza da essere compilato e preciso abbastanza da orientare il programma.",
+        "Non raccogliere tutto.",
+        "Registra il minimo insieme di dati che ti permette di leggere carico, risposta e recupero nel tempo.",
+        "Per costruire una progressione adatta alla tua situazione, [scopri il percorso Corpo Capace](/percorsi)."
+      ]
+    },
+    {
+      "heading": "Domande frequenti",
+      "paragraphs": [
+        "### Serve un’app specifica?",
+        "No. Può funzionare anche un foglio semplice, se i dati sono raccolti con continuità.",
+        "### Qual è il dato più importante?",
+        "Dipende dall’obiettivo. Per molti runner la combinazione di carico esterno, RPE, recupero e sintomi è già molto informativa.",
+        "### La frequenza cardiaca basta?",
+        "No. È un indicatore utile, ma va interpretato nel contesto insieme a ritmo, RPE, ambiente e stato di recupero."
+      ]
+    },
+    {
+      "heading": "Continua il percorso",
+      "paragraphs": [
+        "Approfondisci [Programmare la corsa: come costruire un piano che si adatti alla risposta del corpo](/blog/programmare-corsa-piano-adattivo-risposta-corpo).",
+        "Approfondisci [Frequenza cardiaca, respiro e RPE: come autoregolare la corsa senza dipendere da un solo dato](/blog/frequenza-cardiaca-respiro-rpe-autoregolare-corsa).",
+        "Approfondisci [Sovrallenamento nel runner: i segnali che il recupero non sta tenendo il passo](/blog/sovrallenamento-runner-segnali-recupero).",
+        "Trovi tutte le guide nella [sezione Corsa](/blog/corsa)."
+      ]
+    }
+  ],
+  "takeaways": [
+    "Un diario utile collega ciò che fai a come rispondi: durata e distanza, percezione dello sforzo, sintomi e recupero. Pochi dati raccolti con continuità aiutano a decidere se aumentare, mantenere o ridurre il carico."
+  ],
+  "sources": [
+    {
+      "label": "Monitoring the athlete training response: subjective self-reported measures trump commonly used objective measures: a systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26423706/"
+    },
+    {
+      "label": "Monitoring Training Effects in Athletes: A Multidimensional Framework for Decision-Making",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41824225/"
+    },
+    {
+      "label": "Internal training load monitoring in professional football: a systematic review of methods using rating of perceived exertion",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31663318/"
+    },
+    {
+      "label": "Recovery and Performance in Sport: Consensus Statement",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29345524/"
+    }
+  ],
+  "canonical": "/blog/diario-allenamento-corsa-dati-monitorare",
+  "primaryKeyword": "Diario di allenamento",
+  "secondaryKeywords": [],
+  "tags": [
+    "Corsa",
+    "Programmazione"
+  ],
+  "problemArea": "Corsa",
+  "clinicalReview": {
+    "status": "not-recorded",
+    "reviewer": null,
+    "date": null
+  },
+  "relatedPosts": [
+    "programmare-corsa-piano-adattivo-risposta-corpo",
+    "frequenza-cardiaca-respiro-rpe-autoregolare-corsa",
+    "sovrallenamento-runner-segnali-recupero"
+  ],
+  "cta": "/percorsi",
+  "sourceArticleId": "043",
+  "hub": "corsa",
+  "editorialCluster": "programmazione"
+}

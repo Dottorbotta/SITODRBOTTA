@@ -85,17 +85,14 @@
         "### Se riesco a correre senza dolore, il piede è recuperato?",
         "Non basta una singola uscita. Conta anche la risposta successiva e la possibilità di ripetere il carico. Per alcune condizioni, soprattutto ossee, servono criteri clinici specifici."
       ]
-    },
-    {
-      "heading": "Fonti scientifiche e istituzionali",
-      "paragraphs": [
-        "- Koc TA Jr et al. (2023). Heel Pain - Plantar Fasciitis: Revision 2023. Fonte originale. Linea guida di pratica clinica. Diagnosi differenziale e interventi multimodali per il dolore plantare al tallone.",
-        "- Chimenti RL et al. (2024). Achilles Pain, Stiffness, and Muscle Power Deficits: Midportion Achilles Tendinopathy Revision - 2024. Fonte originale. Linea guida di pratica clinica. Le raccomandazioni per la porzione media non si trasferiscono automaticamente alla forma inserzionale.",
-        "- George ERM, Sheerin KR, Reid D (2024). Criteria and Guidelines for Returning to Running Following a Tibial Bone Stress Injury: A Scoping Review. Fonte originale. Scoping review. Criteri riferiti alle lesioni da stress tibiali, con evidenza eterogenea; non estendere un protocollo a ogni sede ossea.",
-        "- Correia CK et al. (2024). Risk factors for running-related injuries: An umbrella systematic review. Fonte originale. Umbrella review. Revisioni incluse di qualità bassa o criticamente bassa: associazioni da interpretare con cautela, non algoritmi diagnostici.",
-        "- Buldt AK, Menz HB (2018). Incorrectly fitted footwear, foot pain and foot disorders: a systematic search and narrative review of the literature. Fonte originale. Ricerca sistematica e revisione narrativa. Popolazioni eterogenee; associazione fra calzata inadeguata e problemi del piede, non una misura ideale universale."
-      ]
     }
+  ],
+  "sources": [
+    {"label": "Heel Pain — Plantar Fasciitis: Clinical Practice Guideline (2023)", "url": "https://doi.org/10.2519/jospt.2023.0303"},
+    {"label": "Midportion Achilles Tendinopathy: Clinical Practice Guideline (2024)", "url": "https://doi.org/10.2519/jospt.2024.13079"},
+    {"label": "Returning to Running Following a Tibial Bone Stress Injury: Scoping Review (2024)", "url": "https://link.springer.com/article/10.1007/s40279-024-02051-y"},
+    {"label": "Risk Factors for Running-Related Injuries: Umbrella Review (2024)", "url": "https://doi.org/10.1016/j.jshs.2024.04.011"},
+    {"label": "Incorrectly Fitted Footwear, Foot Pain and Foot Disorders: Review (2018)", "url": "https://doi.org/10.1186/s13047-018-0284-z"}
   ],
   "takeaways": [
     "La sede del dolore orienta, ma non conclude la valutazione.",
@@ -110,7 +107,7 @@
     "Dolore al piede"
   ],
   "publishedAt": "2026-09-21",
-  "updatedAt": null,
+  "updatedAt": "2026-09-24",
   "author": "team-corpo-capace",
   "featuredImage": "/images/dolore-piede-anatomia.webp",
   "canonical": "/blog/dolore-piede-corsa-fattori-da-valutare",

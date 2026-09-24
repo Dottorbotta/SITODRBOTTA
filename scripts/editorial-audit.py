@@ -63,7 +63,10 @@ def audit(pages, records):
             try: date.fromisoformat(review.get('date') or '')
             except (ValueError,TypeError): add('P1',path,file,'clinical-review-date',f'Declared status {status!r} without valid documented ISO date')
             if not (review.get('reviewer') or '').strip(): add('P1',path,file,'clinical-review-author',f'Declared status {status!r} without reviewer')
-        if a.get('sources') and not a.get('sourceDate'): add('P2',path,file,'source-date','Sources present but consultation date not documented; do not infer it from publication date.')
+        if not a.get('sources'):
+            add('P2',path,file,'source-list','No source list recorded. Decide whether clinical or exercise claims need evidence and add verified references where appropriate.')
+        elif not a.get('sourceDate'):
+            add('P2',path,file,'source-date','Sources present but consultation date not documented; do not infer it from publication date.')
     return findings, incoming, sum(1 for p in parsed.values() for i in p.images if i.get('alt')=='')
 
 def main():

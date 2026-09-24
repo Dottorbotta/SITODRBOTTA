@@ -75,6 +75,18 @@ test('copy revision is explicit, preserves clinical records and keeps links vali
 });
 test('all articles return HTML with own canonical and structured data',async()=>{for(const a of records){const r=await get('/blog/'+a.slug);assert.equal(r.status,200,a.slug);const html=await r.text();assert.ok(html.includes('rel="canonical"'),a.slug);assert.ok(html.includes('/blog/'+a.slug));assert.ok(html.includes('BlogPosting'));assert.ok(html.includes('BreadcrumbList'));assert.equal((html.match(/<h1\b/g)||[]).length,1);}});
 test('sitemap RSS and robots are available; aliases permanently redirect',async()=>{for(const path of ['/sitemap.xml','/feed.xml','/robots.txt']){const r=await get(path);assert.equal(r.status,200,path);const text=await r.text();assert.ok(text.length>20);}for(const slug of ['dolore-al-piede','piedi-caviglie-gonfie']){const r=await get('/'+slug);assert.equal(r.status,301);assert.equal(new URL(r.headers.get('location')).pathname,'/blog/'+slug);}});
+test('sitemap includes every article and piede-caviglia sub-hub exactly once', async () => {
+  const xml = await (await get('/sitemap.xml')).text();
+  const paths = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => new URL(match[1]).pathname);
+  const count = path => paths.filter(candidate => candidate === path).length;
+  for (const article of records) assert.equal(count('/blog/' + article.slug), 1, article.slug);
+  for (const slug of [
+    'tallone-fascia-plantare', 'tendine-achille', 'avampiede-metatarsi',
+    'alluce-primo-raggio', 'stress-osseo-piede', 'distorsione-instabilita-caviglia',
+    'biomeccanica-funzione-piede', 'scarpe-ortesi-transizione',
+    'tibiale-posteriore-piede-piatto',
+  ]) assert.equal(count('/blog/piede-caviglia/' + slug), 1, slug);
+});
 test('missing article is a real 404',async()=>{const r=await get('/blog/non-esiste-qa');assert.equal(r.status,404);});
 test('main pages and real topic clusters render with metadata',async()=>{for(const path of ['/','/metodo','/per-chi','/percorsi','/testimonianze','/blog','/chi-sono','/blog/piede-caviglia','/blog/piede-caviglia/tallone-fascia-plantare','/blog/argomenti/piede','/blog/argomenti/ginocchio','/blog/argomenti/anca','/blog/argomenti/metodo','/blog/argomenti/ritorno-allo-sport']){const r=await get(path);assert.equal(r.status,200,path);const html=await r.text();assert.ok(html.includes('rel="canonical"'),path);assert.equal((html.match(/<h1\b/g)||[]).length,1,path);}});
 test('source consultation dates are shown only when documented',async()=>{for(const a of records.filter(a=>a.sources?.length)){const html=await (await get('/blog/'+a.slug)).text();const sources=html.match(/<section class="article-sources"[\s\S]*?<\/section>/)?.[0];assert.ok(sources,a.slug);assert.equal(sources.includes('Fonti consultate il'),Boolean(a.sourceDate),a.slug);}});
@@ -151,11 +163,173 @@ test('P0 piede publications preserve MASTER routing and omit internal notes', as
     assert.equal(article.hub, 'piede-caviglia');
     assert.equal(article.cta, '/coaching-avanzato/');
     assert.equal(article.clinicalReview.status, 'not-recorded');
+    assert.ok(article.sources.length >= 4, id + ': cited sources missing');
+    assert.ok(!article.sections.some(section => /^Fonti scientifiche/i.test(section.heading)), id + ': sources duplicated in body');
     assert.ok(article.imageAlt);
     assert.doesNotMatch(JSON.stringify(article), /Scheda editoriale|Note per SEO|Opportunità editoriale|Scrivi INFO|NON PUBBLICARE NEL CORPO/i);
     for (const related of article.relatedPosts) assert.ok(records.some(item => item.slug === related), related);
     const html = await (await get('/blog/' + slug)).text();
     assert.ok(html.includes('FAQPage'));
     assert.ok(html.includes('/blog/piede-caviglia'));
+  }
+});
+
+test('batch 187–196 preserves source routing, images, FAQ and safe clinical boundaries', async () => {
+  const batch = records.filter(a => Number(a.sourceArticleId) >= 187 && Number(a.sourceArticleId) <= 196);
+  assert.deepEqual(batch.map(a => Number(a.sourceArticleId)).sort((a,b)=>a-b), [187,188,189,190,191,192,193,194,195,196]);
+  for (const article of batch) {
+    const id = Number(article.sourceArticleId);
+    assert.equal(article.hubPath, '/blog/piede-caviglia');
+    assert.equal(article.subHubPath, id <= 190 ? '/blog/piede-caviglia/alluce-primo-raggio' : id <= 194 ? '/blog/piede-caviglia/stress-osseo-piede' : null);
+    assert.equal(article.clinicalReview.status, 'not-recorded');
+    assert.ok(article.sources.length > 0);
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'));
+    await access('public' + article.image);
+    assert.doesNotMatch(JSON.stringify(article), /Scheda editoriale|Note di pubblicazione|Opportunità editoriale|Scrivi INFO|NON PUBBLICARE NEL CORPO/i);
+    for (const slug of article.relatedPosts) assert.ok(records.some(a => a.slug === slug), slug);
+    const response = await get('/blog/' + article.slug);
+    assert.equal(response.status, 200, article.slug);
+    const html = await response.text();
+    assert.ok(html.includes('FAQPage'), article.slug);
+    assert.ok(html.includes('type="image/avif"'), article.slug);
+  }
+  for (const path of ['/blog/piede-caviglia/alluce-primo-raggio','/blog/piede-caviglia/stress-osseo-piede']) {
+    const response = await get(path);
+    assert.equal(response.status, 200, path);
+    assert.ok((await response.text()).includes('BreadcrumbList'), path);
+  }
+});
+
+test('batch 197–211 follows MASTER clusters with distinct images and valid pages', async () => {
+  const batch = records.filter(a => Number(a.sourceArticleId) >= 197 && Number(a.sourceArticleId) <= 211);
+  assert.deepEqual(batch.map(a => Number(a.sourceArticleId)).sort((a,b)=>a-b), Array.from({length:15},(_,i)=>197+i));
+  const routes = new Map([
+    ['/blog/piede-caviglia/distorsione-instabilita-caviglia',[198,199,200,201,202,203]],
+    ['/blog/piede-caviglia/biomeccanica-funzione-piede',[204,205,210,211]],
+    ['/blog/piede-caviglia/tibiale-posteriore-piede-piatto',[206,207,208,209]],
+  ]);
+  const htmlByHub = new Map();
+  for (const path of routes.keys()) {
+    const response = await get(path);
+    assert.equal(response.status,200,path);
+    const html = await response.text();
+    assert.ok(html.includes('BreadcrumbList'),path);
+    htmlByHub.set(path,html);
+  }
+  const images = new Set();
+  for (const article of batch) {
+    const id = Number(article.sourceArticleId);
+    const expected = [...routes.entries()].find(([,ids])=>ids.includes(id))?.[0] ?? null;
+    assert.equal(article.subHubPath,expected,article.slug);
+    assert.equal(article.hubPath,'/blog/piede-caviglia');
+    assert.equal(article.clinicalReview.status,'not-recorded');
+    assert.ok(article.sources.length >= 3,article.slug);
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'));
+    assert.ok(!images.has(article.image),article.slug);
+    images.add(article.image);
+    await access('public'+article.image);
+    if (expected) assert.ok(htmlByHub.get(expected).includes('/blog/'+article.slug),article.slug);
+    for (const slug of article.relatedPosts) assert.ok(records.some(a=>a.slug===slug),slug);
+    assert.doesNotMatch(JSON.stringify(article),/Scheda editoriale|Note di pubblicazione|Opportunità editoriale|Scrivi INFO|NON PUBBLICARE NEL CORPO/i);
+    const response = await get('/blog/'+article.slug);
+    assert.equal(response.status,200,article.slug);
+    const html = await response.text();
+    assert.ok(html.includes('FAQPage'),article.slug);
+    assert.ok(html.includes('type="image/avif"'),article.slug);
+  }
+  const hub = await (await get('/blog/piede-caviglia')).text();
+  assert.ok(hub.includes('/blog/artrosi-mesopiede-scarpe-ortesi-esercizio'));
+  for (const path of routes.keys()) assert.ok(hub.includes(path),path);
+});
+
+test('Achilles batch 167–176 appears in its hub with working article pages and distinct imagery', async () => {
+  const batch = records.filter(a => Number(a.sourceArticleId) >= 167 && Number(a.sourceArticleId) <= 176);
+  assert.deepEqual(batch.map(a => Number(a.sourceArticleId)).sort((a,b) => a-b), [167,168,169,170,171,172,173,174,175,176]);
+  const hub = await get('/blog/piede-caviglia/tendine-achille');
+  assert.equal(hub.status, 200);
+  const hubHtml = await hub.text();
+  const images = new Set();
+  for (const article of batch) {
+    assert.ok(hubHtml.includes('/blog/' + article.slug), article.slug);
+    assert.equal(article.subHubPath, '/blog/piede-caviglia/tendine-achille');
+    assert.equal(article.clinicalReview.status, 'not-recorded');
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'));
+    assert.ok(!images.has(article.image), 'duplicate image: ' + article.image);
+    images.add(article.image);
+    await access('public' + article.image);
+    const page = await get('/blog/' + article.slug);
+    assert.equal(page.status, 200, article.slug);
+    const html = await page.text();
+    assert.ok(html.includes('FAQPage'), article.slug);
+    assert.ok(html.includes('/blog/piede-caviglia/tendine-achille'), article.slug);
+    assert.ok(html.includes('type="image/avif"'), article.slug);
+    for (const related of article.relatedPosts) assert.ok(records.some(r => r.slug === related), related);
+    assert.doesNotMatch(JSON.stringify(article), /Scheda editoriale|Note per SEO|Opportunità editoriale|Scrivi INFO|NON PUBBLICARE NEL CORPO/i);
+  }
+});
+
+test('batch 177–186 extends Achilles and adds the avampiede sub-hub with distinct imagery', async () => {
+  const batch = records.filter(a => Number(a.sourceArticleId) >= 177 && Number(a.sourceArticleId) <= 186);
+  assert.deepEqual(batch.map(a => Number(a.sourceArticleId)).sort((a,b) => a-b), [177,178,179,180,181,182,183,184,185,186]);
+  const achillesHtml = await (await get('/blog/piede-caviglia/tendine-achille')).text();
+  const forefoot = await get('/blog/piede-caviglia/avampiede-metatarsi');
+  assert.equal(forefoot.status, 200);
+  const forefootHtml = await forefoot.text();
+  const images = new Set();
+  for (const article of batch) {
+    const expectedHub = Number(article.sourceArticleId) <= 181 ? '/blog/piede-caviglia/tendine-achille' : '/blog/piede-caviglia/avampiede-metatarsi';
+    const hubHtml = Number(article.sourceArticleId) <= 181 ? achillesHtml : forefootHtml;
+    assert.equal(article.subHubPath, expectedHub);
+    assert.ok(hubHtml.includes('/blog/' + article.slug), article.slug);
+    assert.equal(article.clinicalReview.status, 'not-recorded');
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'));
+    assert.ok(article.sources.length >= 4, article.slug);
+    assert.ok(!images.has(article.image), 'duplicate image: ' + article.image);
+    images.add(article.image);
+    await access('public' + article.image);
+    const page = await get('/blog/' + article.slug);
+    assert.equal(page.status, 200, article.slug);
+    const html = await page.text();
+    assert.ok(html.includes('FAQPage'), article.slug);
+    assert.ok(html.includes(expectedHub), article.slug);
+    assert.ok(html.includes('type="image/avif"'), article.slug);
+    for (const related of article.relatedPosts) assert.ok(records.some(r => r.slug === related), related);
+    assert.doesNotMatch(JSON.stringify(article), /Scheda editoriale|Note per SEO|Opportunità editoriale|Scrivi INFO|NON PUBBLICARE NEL CORPO/i);
+  }
+});
+
+test('batch 212–226 publishes distinct sourced pages through the correct piede sub-hubs', async () => {
+  const batch = records.filter(a => Number(a.sourceArticleId) >= 212 && Number(a.sourceArticleId) <= 226);
+  assert.deepEqual(batch.map(a => Number(a.sourceArticleId)).sort((a,b)=>a-b), Array.from({length:15},(_,i)=>212+i));
+  const biomech = '/blog/piede-caviglia/biomeccanica-funzione-piede';
+  const shoes = '/blog/piede-caviglia/scarpe-ortesi-transizione';
+  const hubHtml = new Map();
+  for (const path of [biomech, shoes]) {
+    const response = await get(path);
+    assert.equal(response.status, 200, path);
+    hubHtml.set(path, await response.text());
+  }
+  const rootHtml = await (await get('/blog/piede-caviglia')).text();
+  assert.ok(rootHtml.includes(shoes));
+  const images = new Set();
+  for (const article of batch) {
+    const id = Number(article.sourceArticleId);
+    const expected = [213,214,220,221,222,223,224,225,226].includes(id) ? shoes : biomech;
+    assert.equal(article.subHubPath, expected, article.slug);
+    assert.ok(hubHtml.get(expected).includes('/blog/'+article.slug), article.slug);
+    assert.equal(article.clinicalReview.status, 'not-recorded');
+    assert.ok(article.sources.length >= 3, article.slug);
+    assert.ok(article.sources.every(source => /^https:\/\//.test(source.url)), article.slug);
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'));
+    assert.ok(!images.has(article.image), article.slug);
+    images.add(article.image);
+    await access('public'+article.image);
+    for (const related of article.relatedPosts) assert.ok(records.some(r => r.slug === related), related);
+    assert.doesNotMatch(JSON.stringify(article), /docs\.google\.com\/document|Scheda editoriale|Note di pubblicazione|Scrivi INFO|NON PUBBLICARE NEL CORPO/i);
+    const response = await get('/blog/'+article.slug);
+    assert.equal(response.status,200,article.slug);
+    const html = await response.text();
+    assert.ok(html.includes('FAQPage') && html.includes('type="image/avif"'), article.slug);
+    assert.ok(html.includes(expected),article.slug);
   }
 });

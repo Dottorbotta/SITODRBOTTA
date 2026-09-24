@@ -105,16 +105,13 @@
         "### Lo sperone calcaneare significa che devo operarmi?",
         "No. La presenza di uno sperone non identifica automaticamente la causa del dolore e non implica da sola indicazione chirurgica."
       ]
-    },
-    {
-      "heading": "Fonti scientifiche e istituzionali",
-      "paragraphs": [
-        "Koc TA Jr, Bise CG, Neville C, Carreira D, Martin RL, McDonough CM. Heel Pain – Plantar Fasciitis: Revision 2023. Journal of Orthopaedic & Sports Physical Therapy. 2023;53(12):CPG1-CPG39. doi:10.2519/jospt.2023.0303.",
-        "Yi TI, Lee GE, Seo IS, Huh WS, Yoon TH, Kim BR. Clinical characteristics of the causes of plantar heel pain. Annals of Rehabilitation Medicine. 2011;35(4):507-513. doi:10.5535/arm.2011.35.4.507.",
-        "Tu P, Bytomski JR. Heel Pain: Diagnosis and Management. American Family Physician. 2018;97(2):86-93.",
-        "Alshami AM, Souvlis T, Coppieters MW. A review of plantar heel pain of neural origin: differential diagnosis and management. Manual Therapy. 2008;13(2):103-111."
-      ]
     }
+  ],
+  "sources": [
+    {"label": "Heel Pain — Plantar Fasciitis: Clinical Practice Guideline (2023)", "url": "https://doi.org/10.2519/jospt.2023.0303"},
+    {"label": "Clinical Characteristics of the Causes of Plantar Heel Pain (2011)", "url": "https://doi.org/10.5535/arm.2011.35.4.507"},
+    {"label": "Heel Pain: Diagnosis and Management (2018)", "url": "https://www.aafp.org/pubs/afp/issues/2018/0115/p86.html"},
+    {"label": "Plantar Heel Pain of Neural Origin: Review (2008)", "url": "https://doi.org/10.1016/j.math.2007.01.014"}
   ],
   "takeaways": [
     "Il dolore al tallone descrive una sede, non una diagnosi.",
@@ -129,7 +126,7 @@
     "Tallone e fascia plantare"
   ],
   "publishedAt": "2026-09-21",
-  "updatedAt": null,
+  "updatedAt": "2026-09-24",
   "author": "team-corpo-capace",
   "featuredImage": "/images/fascite-plantare-corpo-capace.webp",
   "canonical": "/blog/dolore-tallone-non-sempre-fascite-plantare",

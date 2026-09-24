@@ -177,16 +177,13 @@
         "### Se ho già fatto fisioterapia, cosa può mancare?",
         "Dipende da cosa è stato realmente recuperato. Aver completato sedute non significa necessariamente aver raggiunto forza, endurance e tolleranza richieste dalla propria attività."
       ]
-    },
-    {
-      "heading": "Fonti scientifiche e istituzionali",
-      "paragraphs": [
-        "Barnes A, Sullivan J, Pappas E, Adams R, Burns J. Clinical and Functional Characteristics of People With Chronic and Recent-Onset Plantar Heel Pain. PM&R. 2017;9(11):1128-1134. doi:10.1016/j.pmrj.2017.04.009.",
-        "Morrissey D, Cotchett M, Said J’Bari A, Prior T, Griffiths IB, Rathleff MS, Gulle H, Vicenzino B, Barton CJ. Management of plantar heel pain: a best practice guide informed by a systematic review, expert clinical reasoning and patient values. British Journal of Sports Medicine. 2021;55(19):1106-1118.",
-        "Cotchett M, Rathleff MS, Dilnot M, Landorf KB, Morrissey D, Barton C. Lived experience and attitudes of people with plantar heel pain: a qualitative exploration. Journal of Foot and Ankle Research. 2020;13:12.",
-        "Koc TA Jr, Bise CG, Neville C, Carreira D, Martin RL, McDonough CM. Heel Pain – Plantar Fasciitis: Revision 2023. Journal of Orthopaedic & Sports Physical Therapy. 2023;53(12):CPG1-CPG39."
-      ]
     }
+  ],
+  "sources": [
+    {"label": "Clinical and Functional Characteristics of Chronic Plantar Heel Pain (2017)", "url": "https://doi.org/10.1016/j.pmrj.2017.04.009"},
+    {"label": "Management of Plantar Heel Pain: Best Practice Guide (2021)", "url": "https://doi.org/10.1136/bjsports-2019-101970"},
+    {"label": "Lived Experience of People With Plantar Heel Pain (2020)", "url": "https://doi.org/10.1186/s13047-020-0377-3"},
+    {"label": "Heel Pain — Plantar Fasciitis: Clinical Practice Guideline (2023)", "url": "https://doi.org/10.2519/jospt.2023.0303"}
   ],
   "takeaways": [
     "Un dolore persistente richiede di rivalutare diagnosi, carico e capacità.",
@@ -201,7 +198,7 @@
     "Tallone e fascia plantare"
   ],
   "publishedAt": "2026-09-21",
-  "updatedAt": null,
+  "updatedAt": "2026-09-24",
   "author": "team-corpo-capace",
   "featuredImage": "/images/dolore-piede-progressione.webp",
   "canonical": "/blog/dolore-tallone-da-mesi-terapie-plantari",

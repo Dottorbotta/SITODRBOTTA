@@ -7,8 +7,8 @@ import { fileURLToPath } from 'node:url';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const input = path.join(root, 'public/images');
 const output = path.join(input, 'responsive');
-const widths = [320, 480, 640, 800, 1120, 1440];
-const settings = { webp: { quality: 82, effort: 5 }, avif: { quality: 55, effort: 5 } };
+const widths = [320, 640, 960, 1200];
+const settings = { webp: { quality: 72, effort: 4 }, avif: { quality: 42, effort: 2 } };
 // No cropping or enlargement: presentation remains owned by the existing CSS.
 sharp.concurrency(1);
 await mkdir(output, { recursive: true });

@@ -31,7 +31,7 @@ Il progetto usa React, vinext e Vite ed è predisposto per il deployment su Clou
 
 ## Lighthouse CI
 
-Sorgente sincronizzata da Sites `62d96ac3571c799cd9e2f8701add0dd9868f718e`. README GitHub conservato. Per la versione corrente usare `pnpm install --frozen-lockfile` (pnpm 11.19.0), quindi `pnpm test` e `pnpm exec lhci autorun`.
+Sorgente applicativa sincronizzata con Sites v44 (`2d2c63a8c27ce32cbdfdcf7ad6046342f417f09d`). Questo repository conserva in più i workflow GitHub e l’anteprima storica; i report operativi di pubblicazione restano nella sorgente Sites. Per la versione corrente usare `pnpm install --frozen-lockfile` (pnpm 11.19.0), quindi `pnpm test` e `pnpm exec lhci autorun`.
 
 Il workflow Website quality esegue tre misure mobile su home, blog e articolo dolore al piede. I report HTML/JSON restano negli artifact GitHub per 14 giorni; nessun caricamento in storage pubblico Lighthouse. Le soglie sono inizialmente avvisi. Il noindex viene mantenuto e può ridurre il punteggio SEO. Il test usa la build locale nel runner, non modifica né verifica il gateway di accesso Sites.
 

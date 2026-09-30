@@ -1,0 +1,3 @@
+import Link from 'next/link';
+import type {PathwayQuestion} from '../data/pathway-faq';
+export function PathwayFAQ({items,expanded=false}:{items:PathwayQuestion[];expanded?:boolean}){return <div className="cc-faq cc-faq-educational">{items.map(item=><details key={item.id} id={item.id} open={expanded}><summary><span>{item.question}</span><span className="cc-faq-icon" aria-hidden="true">+</span></summary><div className="cc-faq-answer">{item.answer.map((paragraph,index)=><p key={index}>{paragraph}</p>)}<Link href={item.link.href} className="cc-link">{item.link.label} →</Link></div></details>)}</div>}

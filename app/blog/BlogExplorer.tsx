@@ -4,7 +4,8 @@ import { ResponsiveImage } from "../components/ResponsiveImage";
 
 import { useMemo, useState } from "react";
 import type { ArticleSummary } from "../data/articles";
-const articleCategories = ["Tutti","Metodo","Piede","Ginocchio","Anca","Carico","Ritorno allo sport"] as const;
+import { hasAiCover } from "../lib/article-disclosures";
+const articleCategories = ["Tutti","Metodo","Piede","Ginocchio","Anca","Schiena","Carico","Ritorno allo sport"] as const;
 
 export function BlogExplorer({ articles }: { articles: ArticleSummary[] }) {
   const [query, setQuery] = useState("");
@@ -42,6 +43,7 @@ export function BlogExplorer({ articles }: { articles: ArticleSummary[] }) {
             <a className={`blog-cover blog-cover--${article.accent}${article.slug === "perche-camminare-benefici-tutto-il-corpo" ? " blog-cover--long-title" : ""}`} href={`/blog/${article.slug}`} key={article.slug}>
               <ResponsiveImage sizes="(max-width: 600px) calc(100vw - 28px), (max-width: 900px) 92vw, calc(46vw - 8px)" src={article.image} alt="" loading="lazy" width="640" height="420" />
               <div className="blog-cover-filter" />
+              {hasAiCover(article) && <span className="blog-cover-ai-label">Immagine generata con IA</span>}
               <span className="blog-cover-number">{String(index + 1).padStart(2, "0")}</span>
               <div className="blog-cover-copy">
                 <span>{article.category} · {article.readingTime}</span>

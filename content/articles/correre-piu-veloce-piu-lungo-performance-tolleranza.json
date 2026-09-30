@@ -1,16 +1,16 @@
 {
   "slug": "correre-piu-veloce-piu-lungo-performance-tolleranza",
   "title": "Correre più veloce e più a lungo: come aumentare la performance senza perdere tolleranza",
-  "seoTitle": "Correre più veloce e più a lungo: come aumentare la performance senza perdere tolleranza",
+  "seoTitle": "Più veloce e più a lungo: come progredire | Dr. Botta",
   "kicker": "Velocità e distanza aumentano richieste diverse. Scopri come far crescere la performance senza superare la tua capacità di recupero e tolleranza al carico.",
   "category": "Ritorno allo sport",
   "excerpt": "Velocità e distanza aumentano richieste diverse. Scopri come far crescere la performance senza superare la tua capacità di recupero e tolleranza al carico.",
   "description": "Velocità e distanza aumentano richieste diverse. Scopri come far crescere la performance senza superare la tua capacità di recupero e tolleranza al carico.",
   "seoDescription": "Velocità e distanza aumentano richieste diverse. Scopri come far crescere la performance senza superare la tua capacità di recupero e tolleranza al carico.",
   "date": "21 settembre 2026",
-  "readingTime": "8 min",
+  "readingTime": "11 min",
   "publishedAt": "2026-09-21",
-  "updatedAt": null,
+  "updatedAt": "2026-09-28",
   "author": "team-corpo-capace",
   "image": "/images/forza-polpaccio-corsa.webp",
   "featuredImage": "/images/forza-polpaccio-corsa.webp",
@@ -116,10 +116,14 @@
       "heading": "Un modello pratico per aumentare performance senza perdere tolleranza",
       "paragraphs": [
         "Puoi ragionare in quattro fasi.",
-        "### Fase 1 — Stabilità\nMantieni una frequenza sostenibile e crea un volume facile che recuperi bene.",
-        "### Fase 2 — Capacità\nAumenta gradualmente il tempo totale o la distanza senza alzare contemporaneamente tutte le intensità.",
-        "### Fase 3 — Specificità\nInserisci una quota di lavoro più veloce coerente con il tuo obiettivo.",
-        "### Fase 4 — Consolidamento\nMantieni il nuovo livello abbastanza a lungo da verificare che sia realmente sostenibile prima di fare un altro salto.",
+        "### Fase 1 — Stabilità",
+        "Mantieni una frequenza sostenibile e crea un volume facile che recuperi bene.",
+        "### Fase 2 — Capacità",
+        "Aumenta gradualmente il tempo totale o la distanza senza alzare contemporaneamente tutte le intensità.",
+        "### Fase 3 — Specificità",
+        "Inserisci una quota di lavoro più veloce coerente con il tuo obiettivo.",
+        "### Fase 4 — Consolidamento",
+        "Mantieni il nuovo livello abbastanza a lungo da verificare che sia realmente sostenibile prima di fare un altro salto.",
         "In ogni fase osserva tre cose: performance, sintomi e recupero.",
         "Se il cronometro migliora ma recuperi sempre peggio, non stai costruendo un sistema robusto."
       ]
@@ -153,6 +157,48 @@
         "Continua con [Allenamento aerobico per runner: perché la base conta anche se vuoi andare più forte](/blog/allenamento-aerobico-runner-base-corsa)",
         "Continua con [Aumentare la resistenza nella corsa: come costruire capacità aerobica senza correre sempre forte](/blog/aumentare-resistenza-corsa-capacita-aerobica)",
         "Trovi le guide organizzate per obiettivo nella [sezione Corsa](/blog/corsa)."
+      ]
+    },
+    {
+      "heading": "Approfondimento: cosa significa davvero per la decisione individuale",
+      "paragraphs": [
+        "Velocità e durata possono crescere nello stesso ciclo, ma non devono competere ogni giorno. La performance migliora quando stimoli specifici sono inseriti dentro un volume che il runner riesce a recuperare.",
+        "Le review su strength training, HIIT e running economy mostrano benefici possibili su performance e costo energetico, mentre la letteratura sugli infortuni non identifica una formula unica di progressione. La programmazione deve quindi bilanciare stimolo e recuperabilità."
+      ]
+    },
+    {
+      "heading": "Le variabili che cambiano il quadro",
+      "paragraphs": [
+        "Le variabili principali da leggere insieme sono: volume facile, lavoro di soglia/VO2, forza, lungo e sonno e recupero. Nessuna di queste, isolata, spiega automaticamente il risultato. Diventano utili quando mostrano una relazione ripetibile con la prestazione, il sintomo o il recupero."
+      ]
+    },
+    {
+      "heading": "Come costruire una progressione senza usare un calendario rigido",
+      "paragraphs": [
+        "1. Stabilizzare il volume facile.\n2. Aggiungere una sola seduta di qualità.\n3. Costruire il lungo.\n4. Inserire forza senza sovrapporre tutti gli stress.\n5. Scaricare o consolidare quando il recupero peggiora.",
+        "Un runner che aumenta insieme lungo, ripetute e palestra pesante può migliorare per due settimane e poi fermarsi. Una progressione migliore mantiene due variabili stabili mentre ne sviluppa una terza."
+      ]
+    },
+    {
+      "heading": "Cosa monitorare per sapere se il programma sta funzionando",
+      "paragraphs": [
+        "I dati più utili in questo contesto sono ritmo a RPE, tempo a intensità specifica, volume totale, recupero e performance su test ripetibile. Non devono essere tutti misurati ogni giorno: bastano pochi indicatori scelti prima, raccolti nello stesso modo e collegati a decisioni concrete.",
+        "È importante uscire dal solo ragionamento di training quando compaiono fatica persistente, qualità in calo per più settimane, dolore crescente o perdita di appetito/sonno. In questi casi serve inquadramento appropriato invece di continuare a modificare autonomamente la tabella."
+      ]
+    },
+    {
+      "heading": "Il Metodo Corpo Capace applicato a questo problema",
+      "paragraphs": [
+        "Qui il focus è integrare velocità e durata. Gli URL separati approfondiscono invece solo velocità o solo distanza."
+      ]
+    },
+    {
+      "heading": "Domande avanzate che aiutano a evitare decisioni automatiche",
+      "paragraphs": [
+        "### Devo aspettare di non sentire più nulla prima di progredire?",
+        "### Come capisco se sto aumentando troppo?",
+        "### Serve un test perfetto prima di andare avanti?",
+        "### Quanto deve durare una fase?"
       ]
     }
   ],
@@ -207,5 +253,21 @@
   "cta": "/percorsi",
   "sourceArticleId": "035",
   "hub": "corsa",
-  "editorialCluster": "endurance-performance"
+  "editorialCluster": "endurance-performance",
+  "editorialAudit": {
+    "status": "reviewed-2026-09-27",
+    "minimumBodyWords": 2000,
+    "bodyWords": 2292,
+    "checks": [
+      "scientific-evidence",
+      "search-intent",
+      "seo-metadata",
+      "geo-citability",
+      "internal-linking",
+      "anti-cannibalization",
+      "method-integration",
+      "conversion-path",
+      "heading-structure"
+    ]
+  }
 }

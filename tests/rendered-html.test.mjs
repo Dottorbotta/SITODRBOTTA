@@ -33,8 +33,12 @@ test('responsive images are discoverable in HTML, preserve alternatives and ship
     assert.ok(html.includes('type="image/webp"'), path);
     assert.ok(html.includes('srcSet=') || html.includes('srcset='), path);
     assert.ok(html.includes('noindex'), path);
-    if (path !== '/blog') {
-      const firstImage = html.match(/<img\b[^>]*>/)?.[0];
+    if (path === '/') {
+      assert.ok(html.includes('Torna a camminare,'));
+      assert.ok(html.includes('Simone Botta Lamanna'));
+      assert.ok(html.includes('href="/colloquio"'));
+    } else if (path !== '/blog') {
+      const firstImage = html.match(/<img\b[^>]*loading="eager"[^>]*>/)?.[0];
       assert.ok(firstImage?.includes('loading="eager"'), path);
       assert.ok(/fetchPriority="high"|fetchpriority="high"/.test(firstImage), path);
     }
@@ -48,7 +52,18 @@ test('copy revision is explicit, preserves clinical records and keeps links vali
   assert.equal(new Set(revision.articles.map(a => a.slug)).size, original.length);
   const baselineRecords = records.filter(a => original.some(b => b.slug === a.slug));
   assert.equal(baselineRecords.length, original.length);
+  const driveReconciled = new Set([
+    'asimmetria-non-e-disfunzione', 'condromalacia-rotulea', 'dolore-al-piede',
+    'dolore-anca-ritorno-corsa', 'dolore-davanti-ginocchio-scale',
+    'dolore-laterale-anca-notte-carico-esercizio',
+  ]);
   for (const current of baselineRecords) {
+    if (driveReconciled.has(current.slug)) {
+      assert.equal(current.sourceArticleId, undefined, current.slug);
+      assert.ok(current.sections.length >= 8 && current.sources?.length, current.slug);
+      for (const slug of current.relatedPosts) assert.ok(records.some(a => a.slug === slug), slug);
+      continue;
+    }
     const latest = round2.articles.find(a => a.slug === current.slug);
     assert.ok(latest, current.slug);
     const article = structuredClone(current);
@@ -74,7 +89,27 @@ test('copy revision is explicit, preserves clinical records and keeps links vali
   }
 });
 test('all articles return HTML with own canonical and structured data',async()=>{for(const a of records){const r=await get('/blog/'+a.slug);assert.equal(r.status,200,a.slug);const html=await r.text();assert.ok(html.includes('rel="canonical"'),a.slug);assert.ok(html.includes('/blog/'+a.slug));assert.ok(html.includes('BlogPosting'));assert.ok(html.includes('BreadcrumbList'));assert.equal((html.match(/<h1\b/g)||[]).length,1);}});
-test('sitemap RSS and robots are available; aliases permanently redirect',async()=>{for(const path of ['/sitemap.xml','/feed.xml','/robots.txt']){const r=await get(path);assert.equal(r.status,200,path);const text=await r.text();assert.ok(text.length>20);}for(const slug of ['dolore-al-piede','piedi-caviglie-gonfie']){const r=await get('/'+slug);assert.equal(r.status,301);assert.equal(new URL(r.headers.get('location')).pathname,'/blog/'+slug);}});
+test('early blog images use concise AI disclosure and repetitive consultation caveats are gone', async () => {
+  const early = records.filter(article => !article.sourceArticleId || Number(article.sourceArticleId) <= 300);
+  assert.equal(early.length, 316); // 001–300 excludes the absent 227, plus 17 original articles.
+  for (const article of early) {
+    const html = await (await get('/blog/' + article.slug)).text();
+    const cover = html.match(/<figure class="article-cover[^\"]*"[^>]*>[\s\S]*?<figcaption>([^<]*)<\/figcaption>/)?.[1];
+    assert.ok(cover, article.slug);
+    if (/generata con IA/i.test(article.imageCaption ?? '')) {
+      assert.equal(cover, 'Immagine generata con IA.', article.slug);
+    }
+    assert.doesNotMatch(html, /non raffigura un paziente|non raffigura un risultato clinico|La consulenza serve a valutarne l’appropriatezza/i, article.slug);
+    if (article.sections.some(section => /generata con IA/i.test(section.image?.caption ?? ''))) {
+      const inlineCaptions = [...html.matchAll(/<figure class="article-inline-image"[^>]*>[\s\S]*?<figcaption>([^<]*)<\/figcaption>/g)].map(match => match[1]);
+      assert.ok(inlineCaptions.includes('Immagine generata con IA.'), article.slug);
+    }
+  }
+  const index = await (await get('/blog')).text();
+  assert.ok(index.includes('blog-cover-ai-label'));
+  assert.ok(index.includes('Immagine generata con IA'));
+});
+test('sitemap RSS and robots are available; aliases permanently redirect',async()=>{for(const path of ['/sitemap.xml','/feed.xml','/robots.txt']){const r=await get(path);assert.equal(r.status,200,path);const text=await r.text();assert.ok(text.length>20);}for(const slug of ['dolore-al-piede','piedi-caviglie-gonfie']){const r=await get('/'+slug);assert.equal(r.status,301);assert.equal(new URL(r.headers.get('location')).pathname,'/blog/'+slug);}for(const [path,target] of [['/blog/anca-inguine-bacino','/blog/argomenti/anca'],['/coaching-avanzato','/percorsi']]){const r=await get(path);assert.ok([301,308].includes(r.status),path);assert.equal(new URL(r.headers.get('location'),'https://drbotta-pathodynamics.dr-botta-4589.chatgpt.site').pathname,target);}});
 test('sitemap includes every article and piede-caviglia sub-hub exactly once', async () => {
   const xml = await (await get('/sitemap.xml')).text();
   const paths = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => new URL(match[1]).pathname);
@@ -108,7 +143,7 @@ test('article metadata and FAQ schema describe the actual article and retain noi
     assert.deepEqual((posting.citation || []).map(c => c.url), (article.sources || []).map(s => s.url));
     const faq = article.sections.find(s => s.heading === 'Domande frequenti');
     const structured = schemas.find(s => s['@type'] === 'FAQPage');
-    if (faq) assert.deepEqual(structured.mainEntity.map(q => q.name), faq.paragraphs.filter(p => p.startsWith('### ')).map(p => p.slice(4)));
+    if (faq) assert.deepEqual(structured.mainEntity.map(q => q.name), faq.paragraphs.filter(p => p.startsWith('### ')).map(p => p.slice(4).split('\n')[0].trim()));
     else assert.equal(structured, undefined);
     assert.ok(html.includes(encodeURIComponent('https://drbotta-pathodynamics.dr-botta-4589.chatgpt.site/blog/' + article.slug)));
   }
@@ -131,7 +166,8 @@ test('Drive publications 004–010 retain their order, metadata, images and vali
     await access('public' + article.image);
     for (const slug of article.relatedPosts) assert.ok(records.some(a => a.slug === slug), slug);
     const html = await (await get('/blog/' + item.slug)).text();
-    assert.ok(html.includes('FAQPage'));
+    const faq = article.sections.find(s => s.heading === 'Domande frequenti');
+    assert.equal(html.includes('"@type":"FAQPage"'), Boolean(faq?.paragraphs.some(p => p.startsWith('### '))));
     assert.ok(html.includes('type="image/avif"'));
   }
 });
@@ -329,7 +365,156 @@ test('batch 212–226 publishes distinct sourced pages through the correct piede
     const response = await get('/blog/'+article.slug);
     assert.equal(response.status,200,article.slug);
     const html = await response.text();
-    assert.ok(html.includes('FAQPage') && html.includes('type="image/avif"'), article.slug);
+    const faq = article.sections.find(s => s.heading === 'Domande frequenti');
+    assert.equal(html.includes('"@type":"FAQPage"'), Boolean(faq?.paragraphs.some(p => p.startsWith('### '))), article.slug);
+    assert.ok(html.includes('type="image/avif"'), article.slug);
     assert.ok(html.includes(expected),article.slug);
+  }
+});
+
+test('next Drive batch keeps fifteen distinct running articles and images without editorial notes', async () => {
+  const ids=['052','054','058','059','060','056','057','084','085','086','087','088','089','090','091'];
+  const batch=ids.map(id=>records.find(a=>a.sourceArticleId===id));
+  assert.ok(batch.every(Boolean));
+  assert.equal(new Set(batch.map(a=>a.slug)).size,15);
+  assert.equal(new Set(batch.map(a=>a.image)).size,15);
+  const runningHub=await (await get('/blog/corsa')).text();
+  for(const article of batch){
+    assert.equal(article.hub,'corsa');
+    assert.equal(article.clinicalReview.status,'not-recorded');
+    assert.ok(article.sources.length>=2,article.slug);
+    assert.ok(article.sources.every(source=>/^https:\/\//.test(source.url)));
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'));
+    await access('public'+article.image);
+    assert.ok(runningHub.includes('/blog/'+article.slug),article.slug);
+    assert.doesNotMatch(JSON.stringify(article.sections),/APPROFONDIMENTI CORRELATI|DA LINKARE IN CMS|NON PUBBLICARE NEL CORPO|Scrivi INFO|scrivimi INFO/i);
+    for(const related of article.relatedPosts) assert.ok(records.some(r=>r.slug===related),related);
+    const response=await get('/blog/'+article.slug);
+    assert.equal(response.status,200,article.slug);
+    const html=await response.text();
+    assert.ok(html.includes('noindex') && html.includes('FAQPage'),article.slug);
+    assert.ok(html.includes('type="image/avif"'),article.slug);
+  }
+});
+
+test('knee block 232–246 publishes fifteen sourced articles, FAQ and unique covers', async () => {
+  const ids=Array.from({length:15},(_,i)=>String(232+i));
+  const batch=ids.map(id=>records.find(a=>a.sourceArticleId===id));
+  assert.ok(batch.every(Boolean));
+  assert.equal(new Set(batch.map(a=>a.slug)).size,15);
+  assert.equal(new Set(batch.map(a=>a.image)).size,15);
+  const topic=await (await get('/blog/argomenti/ginocchio')).text();
+  for(const article of batch){
+    assert.equal(article.category,'Ginocchio');
+    assert.equal(article.clinicalReview.status,'pending');
+    assert.ok(article.sources.length>=3 && article.sources.every(s=>/^https:\/\//.test(s.url)),article.slug);
+    assert.ok(article.sections.some(s=>s.heading==='Domande frequenti' && s.paragraphs.filter(p=>p.startsWith('### ')).length>=4),article.slug);
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'),article.slug);
+    assert.ok(topic.includes('/blog/'+article.slug),article.slug);
+    await access('public'+article.image);
+    for(const slug of article.relatedPosts) assert.ok(records.some(a=>a.slug===slug),slug);
+    assert.doesNotMatch(JSON.stringify(article.sections),/Scrivi INFO|APPROFONDIMENTI CORRELATI|NOTE EDITORIALI|NON PUBBLICARE NEL CORPO/i);
+    const response=await get('/blog/'+article.slug);
+    assert.equal(response.status,200,article.slug);
+    const html=await response.text();
+    assert.ok(html.includes('noindex') && html.includes('FAQPage') && html.includes('type="image/avif"'),article.slug);
+  }
+});
+
+test('knee block 262–276 publishes fifteen sourced articles with distinct covers and internal routes', async () => {
+  const ids=Array.from({length:15},(_,i)=>String(262+i));
+  const batch=ids.map(id=>records.find(a=>a.sourceArticleId===id));
+  assert.ok(batch.every(Boolean));
+  assert.equal(new Set(batch.map(a=>a.slug)).size,15);
+  assert.equal(new Set(batch.map(a=>a.image)).size,15);
+  const topic=await (await get('/blog/argomenti/ginocchio')).text();
+  for(const article of batch){
+    assert.equal(article.category,'Ginocchio');
+    assert.equal(article.clinicalReview.status,'pending');
+    assert.ok(article.sources.length>=3 && article.sources.every(s=>/^https:\/\//.test(s.url)),article.slug);
+    assert.ok(article.sections.length >= 4 && article.takeaways.length > 0,article.slug);
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'),article.slug);
+    assert.ok(topic.includes('/blog/'+article.slug),article.slug);
+    await access('public'+article.image);
+    for(const slug of article.relatedPosts) assert.ok(records.some(a=>a.slug===slug),slug);
+    assert.doesNotMatch(JSON.stringify(article.sections),/INTERNAL LINKING|NOTE ANTI-CANNIBALIZZAZIONE|SEO\/GEO|STATO COPY/i);
+    const response=await get('/blog/'+article.slug);
+    assert.equal(response.status,200,article.slug);
+    const html=await response.text();
+    const faq=article.sections.find(s=>s.heading==='Domande frequenti');
+    assert.equal(html.includes('"@type":"FAQPage"'),Boolean(faq?.paragraphs.some(p=>p.startsWith('### '))),article.slug);
+    assert.ok(html.includes('noindex') && html.includes('type="image/avif"'),article.slug);
+  }
+});
+
+test('Drive articles 122–136 preserve sources, readable FAQ, distinct covers and internal routes', async () => {
+  const ids=Array.from({length:15},(_,i)=>String(122+i).padStart(3,'0'));
+  const batch=ids.map(id=>records.find(a=>a.sourceArticleId===id));
+  assert.ok(batch.every(Boolean));
+  assert.equal(new Set(batch.map(a=>a.slug)).size,15);
+  assert.equal(new Set(batch.map(a=>a.image)).size,15);
+  for(const article of batch){
+    assert.equal(article.clinicalReview.status,'pending');
+    assert.ok(article.sources.length>=2 && article.sources.every(s=>/^https:\/\//.test(s.url)),article.slug);
+    assert.ok(article.sections.some(s=>s.heading==='Domande frequenti' && s.paragraphs.filter(p=>p.startsWith('### ')).length===3),article.slug);
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'),article.slug);
+    await access('public'+article.image);
+    for(const related of article.relatedPosts) assert.ok(records.some(r=>r.slug===related),related);
+    assert.doesNotMatch(JSON.stringify(article.sections),/APPROFONDIMENTI CORRELATI|DA LINKARE IN CMS|NON PUBBLICARE NEL CORPO|FONTE COMPETITOR/i);
+    const response=await get('/blog/'+article.slug);
+    assert.equal(response.status,200,article.slug);
+    const html=await response.text();
+    assert.ok(html.includes('noindex') && html.includes('FAQPage') && html.includes('type="image/avif"'),article.slug);
+  }
+});
+
+test('Drive articles 137–151 preserve evidence, FAQ, covers and the 137 decision table', async () => {
+  const ids=Array.from({length:15},(_,i)=>String(137+i).padStart(3,'0'));
+  const batch=ids.map(id=>records.find(a=>a.sourceArticleId===id));
+  assert.ok(batch.every(Boolean));
+  assert.equal(new Set(batch.map(a=>a.slug)).size,15);
+  assert.equal(new Set(batch.map(a=>a.image)).size,15);
+  for(const article of batch){
+    assert.ok(article.sources.length>=3 && article.sources.every(s=>/^https:\/\//.test(s.url)),article.slug);
+    assert.ok(article.sections.some(s=>s.heading==='Domande frequenti' && s.paragraphs.filter(p=>p.startsWith('### ')).length===3),article.slug);
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'),article.slug);
+    await access('public'+article.image);
+    for(const related of article.relatedPosts) assert.ok(records.some(r=>r.slug===related),related);
+    assert.doesNotMatch(JSON.stringify(article.sections),/APPROFONDIMENTI CORRELATI|DA LINKARE IN CMS|NON PUBBLICARE NEL CORPO|FONTE COMPETITOR/i);
+    const response=await get('/blog/'+article.slug);
+    assert.equal(response.status,200,article.slug);
+    const html=await response.text();
+    assert.ok(html.includes('noindex') && html.includes('FAQPage') && html.includes('type="image/avif"'),article.slug);
+  }
+  const decision=batch[0].sections.find(s=>s.heading==='Tre obiettivi, tre domande di verifica');
+  assert.ok(decision.paragraphs.some(p=>p.startsWith('Salute —')));
+  assert.ok(decision.paragraphs.some(p=>p.startsWith('Capacità —')));
+  assert.ok(decision.paragraphs.some(p=>p.startsWith('Prestazione —')));
+});
+
+test('ten additional running articles have sourced answers, distinct covers and reachable routes', async () => {
+  const ids=['061','062','063','064','065','066','068','069','152','153'];
+  const batch=ids.map(id=>records.find(a=>a.sourceArticleId===id));
+  assert.ok(batch.every(Boolean));
+  assert.equal(new Set(batch.map(a=>a.slug)).size,10);
+  assert.equal(new Set(batch.map(a=>a.image)).size,10);
+  const runningHub=await (await get('/blog/corsa')).text();
+  for(const article of batch){
+    assert.equal(article.hub,'corsa');
+    assert.equal(article.clinicalReview.status,'pending');
+    assert.ok(article.sources.length>=4 && article.sources.every(s=>/^https:\/\//.test(s.url)),article.slug);
+    const faq=article.sections.find(s=>s.heading==='Domande frequenti');
+    assert.ok(faq && faq.paragraphs.filter(p=>p.startsWith('### ')).length>=3,article.slug);
+    const citations=new Set(article.sections.flatMap(s=>s.paragraphs.flatMap(p=>[...p.matchAll(/\[(\d+)\]/g)].map(m=>Number(m[1])))));
+    assert.ok([...citations].every(n=>n>=1 && n<=article.sources.length),article.slug);
+    assert.ok(article.imageAlt && article.imageCaption.includes('IA'),article.slug);
+    await access('public'+article.image);
+    assert.ok(runningHub.includes('/blog/'+article.slug),article.slug);
+    for(const related of article.relatedPosts) assert.ok(records.some(r=>r.slug===related),related);
+    assert.doesNotMatch(JSON.stringify(article.sections),/APPROFONDIMENTI CORRELATI|DA LINKARE IN CMS|NON PUBBLICARE NEL CORPO|FONTE COMPETITOR|Scheda editoriale/i);
+    const response=await get('/blog/'+article.slug);
+    assert.equal(response.status,200,article.slug);
+    const html=await response.text();
+    assert.ok(html.includes('noindex') && html.includes('FAQPage') && html.includes('type="image/avif"'),article.slug);
   }
 });

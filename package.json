@@ -13,9 +13,13 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
     "images:generate": "node scripts/generate-images.mjs",
-    "prebuild": "node scripts/generate-images.mjs",
-    "predev": "node scripts/generate-images.mjs",
-    "editorial:audit": "node scripts/editorial-audit.mjs"
+    "prebuild": "node scripts/article-quality-gate.mjs && node scripts/generate-images.mjs --if-stale",
+    "predev": "node scripts/generate-images.mjs --if-stale",
+    "editorial:audit": "node scripts/editorial-audit.mjs",
+    "editorial:gate": "node scripts/article-quality-gate.mjs",
+    "editorial:gate:all": "node scripts/article-quality-gate.mjs --all",
+    "editorial:links": "node scripts/check-internal-links.mjs",
+    "editorial:compare": "node scripts/compare-drive-json.mjs"
   },
   "dependencies": {
     "@fontsource/barlow-condensed": "^5.3.0",

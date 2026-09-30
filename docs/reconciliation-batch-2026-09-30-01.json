@@ -1,0 +1,347 @@
+{
+  "date": "2026-09-30",
+  "baselineSitesVersion": 101,
+  "articles": [
+    {
+      "id": "301",
+      "name": "scatto-anca-interno-esterno-intra-articolare.json",
+      "sources": [
+        {
+          "label": "The snapping iliopsoas tendon: new mechanisms using dynamic sonography. AJR, 2008. Studio originale.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18287424/"
+        }
+      ],
+      "previousWords": 1857,
+      "editorialWords": 2244,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/scatto-anca-interno-esterno-intra-articolare.json",
+        "content/articles/scatto-anca-interno-esterno-intra-articolare.json"
+      ]
+    },
+    {
+      "id": "304",
+      "name": "sindrome-piriforme-dolore-radicolare-differenziale.json",
+      "sources": [
+        {
+          "label": "Diagnostic accuracy of clinical tests for sciatic nerve entrapment in the gluteal region. Studio originale, 2014.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24217716/"
+        }
+      ],
+      "previousWords": 1935,
+      "editorialWords": 2340,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/sindrome-piriforme-dolore-radicolare-differenziale.json",
+        "content/articles/sindrome-piriforme-dolore-radicolare-differenziale.json"
+      ]
+    },
+    {
+      "id": "305",
+      "name": "impingement-ischiofemorale-falcata-lunga-dolore-gluteo.json",
+      "sources": [
+        {
+          "label": "Accuracy of 2 Clinical Tests for Ischiofemoral Impingement in Patients With Posterior Hip Pain and Endoscopically Confirmed Diagnosis. Studio originale, 2016.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27020393/"
+        }
+      ],
+      "previousWords": 1862,
+      "editorialWords": 2263,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/impingement-ischiofemorale-falcata-lunga-dolore-gluteo.json",
+        "content/articles/impingement-ischiofemorale-falcata-lunga-dolore-gluteo.json"
+      ]
+    },
+    {
+      "id": "311",
+      "name": "osteite-pubica-pubalgia-differenze-carico.json",
+      "sources": [
+        {
+          "label": "Inter-examiner reliability of the Doha agreement meeting classification system of groin pain in male athletes. Studio originale, 2023.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36259124/"
+        }
+      ],
+      "previousWords": 1938,
+      "editorialWords": 2341,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/osteite-pubica-pubalgia-differenze-carico.json",
+        "content/articles/osteite-pubica-pubalgia-differenze-carico.json"
+      ]
+    },
+    {
+      "id": "313",
+      "name": "copenhagen-adduction-adduttori-prevenzione.json",
+      "sources": [
+        {
+          "label": "Including the Copenhagen Adduction Exercise in the FIFA 11+ Provides Missing Eccentric Hip Adduction Strength Effect in Male Soccer Players: A Randomized Controlled Trial. 2017.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28806100/"
+        }
+      ],
+      "previousWords": 1846,
+      "editorialWords": 2246,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/copenhagen-adduction-adduttori-prevenzione.json",
+        "content/articles/copenhagen-adduction-adduttori-prevenzione.json"
+      ]
+    },
+    {
+      "id": "314",
+      "name": "groin-pain-recidivante-sprint-cambi-direzione.json",
+      "sources": [
+        {
+          "label": "Return to Sport After Criteria-Based Rehabilitation of Acute Adductor Injuries in Male Athletes: A Prospective Cohort Study. 2020.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32064292/"
+        }
+      ],
+      "previousWords": 1891,
+      "editorialWords": 2296,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/groin-pain-recidivante-sprint-cambi-direzione.json",
+        "content/articles/groin-pain-recidivante-sprint-cambi-direzione.json"
+      ]
+    },
+    {
+      "id": "316",
+      "name": "dolore-inguine-runner-cause-carico.json",
+      "sources": [
+        {
+          "label": "International Delphi consensus on bone stress injuries in athletes. British Journal of Sports Medicine, 2025.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39638438/"
+        }
+      ],
+      "previousWords": 1867,
+      "editorialWords": 2284,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/dolore-inguine-runner-cause-carico.json",
+        "content/articles/dolore-inguine-runner-cause-carico.json"
+      ]
+    },
+    {
+      "id": "319",
+      "name": "fadir-faber-positivi-test-anca-diagnosi.json",
+      "sources": [
+        {
+          "label": "The diagnostic accuracy of a clinical examination in determining intra-articular hip pain for potential hip arthroscopy candidates. Studio originale, 2008.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18760208/"
+        }
+      ],
+      "previousWords": 1922,
+      "editorialWords": 2335,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/fadir-faber-positivi-test-anca-diagnosi.json",
+        "content/articles/fadir-faber-positivi-test-anca-diagnosi.json"
+      ]
+    },
+    {
+      "id": "332",
+      "name": "microinstabilita-anca-sintomi-test.json",
+      "sources": [
+        {
+          "label": "Diagnostic Accuracy of 3 Physical Examination Tests in the Assessment of Hip Microinstability. Studio originale, 2017.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29226163/"
+        }
+      ],
+      "previousWords": 1901,
+      "editorialWords": 2307,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/microinstabilita-anca-sintomi-test.json",
+        "content/articles/microinstabilita-anca-sintomi-test.json"
+      ]
+    },
+    {
+      "id": "333",
+      "name": "ipermobilita-anca-danza-ginnastica-capacita.json",
+      "sources": [
+        {
+          "label": "Similar Prevalence of Acetabular Labral Tear in Professional Ballet Dancers and Sporting Participants. Studio originale, 2016.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26513393/"
+        }
+      ],
+      "previousWords": 1881,
+      "editorialWords": 2284,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/ipermobilita-anca-danza-ginnastica-capacita.json",
+        "content/articles/ipermobilita-anca-danza-ginnastica-capacita.json"
+      ]
+    },
+    {
+      "id": "334",
+      "name": "lesione-gluteo-medio-minimo.json",
+      "sources": [
+        {
+          "label": "MRI diagnosis of tears of the hip abductor tendons (gluteus medius and gluteus minimus). Studio originale, 2004.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14684527/"
+        }
+      ],
+      "previousWords": 1892,
+      "editorialWords": 2290,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/lesione-gluteo-medio-minimo.json",
+        "content/articles/lesione-gluteo-medio-minimo.json"
+      ]
+    },
+    {
+      "id": "335",
+      "name": "trendelenburg-cedimento-bacino-abduttori.json",
+      "sources": [
+        {
+          "label": "Determining Trendelenburg test validity and reliability using 3-dimensional motion analysis and muscle dynamometry. Studio originale, 2020.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33076947/"
+        }
+      ],
+      "previousWords": 1857,
+      "editorialWords": 2282,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/trendelenburg-cedimento-bacino-abduttori.json",
+        "content/articles/trendelenburg-cedimento-bacino-abduttori.json"
+      ]
+    },
+    {
+      "id": "337",
+      "name": "dolore-sacroiliaco-o-anca.json",
+      "sources": [
+        {
+          "label": "Diagnosis of sacroiliac joint pain: validity of individual provocation tests and composites of tests. Studio originale, 2005.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16038856/"
+        }
+      ],
+      "previousWords": 1877,
+      "editorialWords": 2278,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/dolore-sacroiliaco-o-anca.json",
+        "content/articles/dolore-sacroiliaco-o-anca.json"
+      ]
+    },
+    {
+      "id": "338",
+      "name": "sacroileite-sovraccarico-meccanico.json",
+      "sources": [
+        {
+          "label": "Magnetic Resonance Imaging of the Sacroiliac Joints Indicating Sacroiliitis According to the ASAS Definition in Healthy Individuals, Runners, and Women With Postpartum Back Pain. Studio originale, 2018.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29513924/"
+        }
+      ],
+      "previousWords": 1931,
+      "editorialWords": 2335,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/sacroileite-sovraccarico-meccanico.json",
+        "content/articles/sacroileite-sovraccarico-meccanico.json"
+      ]
+    },
+    {
+      "id": "341",
+      "name": "stiramento-flessori-anca-ileopsoas-retto-femorale.json",
+      "sources": [
+        {
+          "label": "Nonoperative treatment for proximal avulsion of the rectus femoris in professional American football. Serie di casi, 2009.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19307329/"
+        }
+      ],
+      "previousWords": 1850,
+      "editorialWords": 2262,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/stiramento-flessori-anca-ileopsoas-retto-femorale.json",
+        "content/articles/stiramento-flessori-anca-ileopsoas-retto-femorale.json"
+      ]
+    },
+    {
+      "id": "342",
+      "name": "lesione-prossimale-retto-femorale-ritorno-sport.json",
+      "sources": [
+        {
+          "label": "Nonoperative treatment for proximal avulsion of the rectus femoris in professional American football. Serie di casi, 2009.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19307329/"
+        }
+      ],
+      "previousWords": 1867,
+      "editorialWords": 2292,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/lesione-prossimale-retto-femorale-ritorno-sport.json",
+        "content/articles/lesione-prossimale-retto-femorale-ritorno-sport.json"
+      ]
+    },
+    {
+      "id": "343",
+      "name": "dolore-anca-bici-bike-fit.json",
+      "sources": [
+        {
+          "label": "Effectiveness of a 3D bikefitting method in riding pain, fatigue, and comfort: a randomized controlled clinical trial. Sports Biomechanics, 2025.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36408812/"
+        }
+      ],
+      "previousWords": 1871,
+      "editorialWords": 2302,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/dolore-anca-bici-bike-fit.json",
+        "content/articles/dolore-anca-bici-bike-fit.json"
+      ]
+    },
+    {
+      "id": "344",
+      "name": "dopo-frattura-anca-forza-equilibrio-cammino.json",
+      "sources": [
+        {
+          "label": "Effect of a home-based exercise program on functional recovery following rehabilitation after hip fracture: a randomized clinical trial. JAMA, 2014.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24549550/"
+        }
+      ],
+      "previousWords": 1875,
+      "editorialWords": 2287,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/dopo-frattura-anca-forza-equilibrio-cammino.json",
+        "content/articles/dopo-frattura-anca-forza-equilibrio-cammino.json"
+      ]
+    },
+    {
+      "id": "345",
+      "name": "dolore-ischio-seduto-borsite-hamstring.json",
+      "sources": [
+        {
+          "label": "Non-infectious ischiogluteal bursitis: MRI findings. Studio originale, 2004.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15637479/"
+        }
+      ],
+      "previousWords": 1912,
+      "editorialWords": 2327,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/dolore-ischio-seduto-borsite-hamstring.json",
+        "content/articles/dolore-ischio-seduto-borsite-hamstring.json"
+      ]
+    },
+    {
+      "id": "346",
+      "name": "avulsione-hamstring-prossimale.json",
+      "sources": [
+        {
+          "label": "Operative versus Nonoperative Treatment of Proximal Hamstring Avulsions. NEJM Evidence, 2024. Trial randomizzato.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39023393/"
+        }
+      ],
+      "previousWords": 1835,
+      "editorialWords": 2261,
+      "clinicalSourcesVerified": true,
+      "updatedFiles": [
+        "Drive/avulsione-hamstring-prossimale.json",
+        "content/articles/avulsione-hamstring-prossimale.json"
+      ]
+    }
+  ],
+  "clinicalReview": "not-recorded; no human clinical review asserted"
+}

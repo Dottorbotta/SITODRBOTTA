@@ -1,0 +1,72 @@
+/* Internal pages: photographic openings and editorial layouts, scoped away from home/blog. */
+.cc-inner-site{background:#fff;padding-top:16px}
+.cc-inner-site .site-header{position:absolute;top:30px;left:4%;right:4%;width:92%;min-height:80px;padding:12px 0;background:transparent;border:0;color:#fff;z-index:20;gap:24px}
+.cc-inner-site .site-header .wordmark{min-width:160px;background:#fff;border-radius:10px;padding:10px 12px;box-sizing:content-box}
+.cc-inner-site .site-header .cc-brand-logo{width:160px;filter:none}
+.cc-inner-site .desktop-nav a{color:#fff;font-size:14px;font-weight:500}
+.cc-inner-site .site-header .header-cta{border-radius:100px;background:#b6e5c2;color:#172c3b;padding:14px 20px;min-height:48px}
+.cc-inner-site .mobile-menu summary span{background:white}
+.cc-inner-site .mobile-menu nav{color:#172c3b;background:#eff5f7;border:1px solid #c2d2d8;border-radius:12px}
+.cc-inner-site .mobile-menu nav a{color:#172c3b}
+.cc-inner-page .cc-page-cover{position:relative;isolation:isolate;margin:0 16px;padding:170px 24px 72px;min-height:460px;display:grid;place-items:center;background:#172c3b;color:#fff;overflow:hidden;border-radius:24px}
+.cc-page-cover-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.cc-page-cover-shade{position:absolute;inset:0;background:rgba(13,29,39,.62);z-index:-1}
+.cc-page-cover-copy{width:min(960px,100%);text-align:center}
+main.cc-inner-page section.cc-page-cover h1{color:white;font-size:clamp(38px,5vw,68px);font-weight:700;line-height:1.12;letter-spacing:-.04em;margin:0 auto 24px;max-width:960px;text-wrap:balance}
+.cc-page-cover nav ol{list-style:none;display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin:0;padding:0;font-size:15px;line-height:1.6;color:#fff}
+.cc-page-cover nav li+li:before{content:'›';margin-right:12px;color:#b6e5c2}
+.cc-page-cover nav a{color:#fff;text-decoration:none;padding:8px 0}
+.cc-page-cover nav a:hover{text-decoration:underline}
+.cc-page-cover nav a:focus-visible{outline-color:#b6e5c2}
+.cc-inner-page .cc-page-cover-founder .cc-page-cover-image{width:46%;left:54%;object-fit:contain;object-position:center top!important}
+.cc-page-cover-founder .cc-page-cover-shade{background:linear-gradient(90deg,#172c3b 22%,rgba(23,44,59,.52) 70%,rgba(23,44,59,.1))}
+.cc-page-cover-founder .cc-page-cover-copy{width:min(1184px,100%);text-align:left}
+main.cc-inner-page .cc-page-cover-founder h1{margin-left:0;max-width:55%}
+.cc-page-cover-founder nav ol{justify-content:flex-start}
+.cc-inner-page .cc-page-cover-compact{min-height:350px;padding-bottom:40px}
+.cc-inner-page .cc-wrap{width:min(1160px,calc(100% - 64px))}
+.cc-inner-page .cc-inner-intro{padding:88px 0 80px}
+.cc-intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
+main.cc-inner-page section.cc-inner-intro h2{font-size:clamp(30px,3.3vw,46px)!important;line-height:1.2;font-weight:700;letter-spacing:-.035em;margin-bottom:0;text-wrap:balance}
+.cc-inner-page .cc-label{font-size:14px;letter-spacing:.1em;margin-bottom:20px}
+.cc-inner-intro .cc-lead{padding-top:40px;font-size:19px;line-height:1.8;margin:0}
+.cc-intro-tools{margin-top:32px}
+.cc-inner-page .cc-section{padding:88px 0;border-top:0}
+.cc-inner-page .cc-inner-intro+.cc-section{background:#eff5f7}
+.cc-inner-page .cc-inner-intro+.cc-section .cc-panel{background:white}
+.cc-inner-page .cc-section-heading{max-width:780px;margin-bottom:40px}
+.cc-inner-page .cc-section-heading h2{text-wrap:balance}
+.cc-inner-page .cc-number{font-size:40px;line-height:1;font-weight:500;letter-spacing:-.05em;margin-bottom:24px}
+.cc-inner-page .cc-cards{gap:40px}
+.cc-inner-page .cc-cards article{padding-top:28px}
+.cc-inner-page .cc-cards p{line-height:1.85}
+.cc-inner-page .cc-dark{background:#172c3b;color:white}
+.cc-inner-page .cc-dark .cc-label{color:#b6e5c2}
+.cc-inner-page .cc-button{border-radius:100px;padding:16px 26px;min-height:56px}
+.cc-inner-page .cc-checklist{column-gap:64px}
+.cc-inner-page .cc-checklist li{padding:24px 0}
+.cc-inner-page .cc-cta{margin:16px;border-radius:24px;padding:72px 0}
+.cc-inner-page .cc-stories{gap:0 48px}
+.cc-inner-page .cc-stories article{padding:36px 0;background:transparent;border-top:1px solid #aebfc6}
+.cc-inner-page .cc-stories article:first-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:0 56px;padding:40px 0}
+.cc-inner-page .cc-stories article:first-child h3{font-size:32px;grid-row:span 2}
+.cc-inner-page .cc-stories small{border-top:0;padding-top:8px}
+.cc-inner-page .cc-founder{grid-template-columns:320px 1fr;gap:64px;max-width:none}
+.cc-inner-page .cc-founder img{width:320px;height:400px;border-radius:12px}
+.cc-inner-page .cc-guide-grid>a{background:#fff;border-top:1px solid #aebfc6;padding:32px 0}
+.cc-inner-page .cc-guide-grid>a:hover{background:#eff5f7}
+.cc-inner-page .cc-guide-notice{max-width:none;background:#fff;border-left:3px solid #287044}
+.cc-inner-page .cc-faq-index{max-width:none;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 24px}
+.cc-inner-page .cc-faq-index a{padding:20px 0;background:transparent;border:0;border-bottom:1px solid #c2d2d8}
+.cc-inner-page .cc-faq-index a:hover{color:#287044}
+.cc-inner-page .cc-faq-educational{max-width:none}
+.cc-inner-page .cc-faq-answer{max-width:880px}
+.cc-inner-page .legal-page{padding:64px 24px 80px!important;margin:auto}
+.cc-inner-page .cc-calendar{background:#eff5f7;border:0;padding:20px 28px}
+.cc-inner-page .cc-note{font-size:14px}
+@media(min-width:1100px){.cc-inner-page .cc-section:has(.cc-faq-educational)>.cc-wrap{display:grid;grid-template-columns:340px 1fr;gap:0 72px}.cc-inner-page .cc-section:has(.cc-faq-educational) .cc-section-heading{grid-column:1;grid-row:1/span 5}.cc-inner-page .cc-section:has(.cc-faq-educational) .cc-section-heading h2{font-size:34px!important}.cc-inner-page .cc-section:has(.cc-faq-educational) .cc-wrap>*:not(.cc-section-heading){grid-column:2}}
+@media(max-width:1250px){.cc-inner-site .desktop-nav{display:none!important}.cc-inner-site .mobile-menu{display:block;margin-left:auto}}
+@media(max-width:850px){.cc-intro-grid{grid-template-columns:1fr;gap:24px}.cc-inner-intro .cc-lead{padding-top:0}.cc-inner-page .cc-cards{gap:32px}.cc-inner-page .cc-founder{grid-template-columns:240px 1fr;gap:32px}.cc-inner-page .cc-founder img{width:240px;height:320px}.cc-inner-page .cc-faq-index{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.cc-inner-site{padding-top:8px}.cc-inner-site .site-header{top:20px;left:7%;right:7%;width:86%;min-height:68px}.cc-inner-site .site-header .wordmark{min-width:138px;padding:8px 10px}.cc-inner-site .site-header .cc-brand-logo{width:138px}.cc-inner-page .cc-page-cover{margin:0 8px;border-radius:16px;min-height:380px;padding:136px 24px 56px}.cc-inner-page .cc-wrap{width:calc(100% - 48px)}main.cc-inner-page section.cc-page-cover h1{font-size:40px!important}.cc-page-cover nav ol{font-size:14px}.cc-inner-page .cc-inner-intro,.cc-inner-page .cc-section{padding:56px 0}.cc-inner-intro .cc-lead{font-size:18px}.cc-inner-page .cc-section-heading{margin-bottom:32px}.cc-inner-page .cc-founder{grid-template-columns:1fr;gap:28px}.cc-inner-page .cc-founder img{width:100%;height:380px;object-position:center 20%}.cc-inner-page .cc-stories{grid-template-columns:1fr}.cc-inner-page .cc-stories article:first-child{display:block;padding:32px 0}.cc-inner-page .cc-stories article:first-child h3{font-size:27px}.cc-inner-page .cc-cta{margin:8px;border-radius:16px}.cc-inner-page .cc-faq-index{grid-template-columns:1fr}.cc-inner-page .cc-page-cover-founder .cc-page-cover-image{width:65%;left:35%}.cc-page-cover-founder .cc-page-cover-shade{background:linear-gradient(90deg,#172c3b 0%,rgba(23,44,59,.65) 55%,rgba(23,44,59,.2))}.cc-inner-page .cc-page-cover-compact{min-height:320px;padding-bottom:40px}.cc-inner-page .cc-calendar{padding:16px}.cc-inner-page .cc-number{font-size:32px}}
+
+.cc-inner-page .cc-page-cover .breadcrumbs{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:0;color:white;font-size:15px;line-height:1.6}.cc-inner-page .cc-page-cover .breadcrumbs a{color:white}.cc-inner-page .cc-page-cover-founder .breadcrumbs{justify-content:flex-start}

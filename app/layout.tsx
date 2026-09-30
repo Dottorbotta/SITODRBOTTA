@@ -1,15 +1,13 @@
-import "@fontsource/barlow-condensed/latin-500.css";
-import "@fontsource/barlow-condensed/latin-600.css";
-import "@fontsource/barlow-condensed/latin-700.css";
-import "@fontsource/barlow-condensed/latin-800.css";
 import "@fontsource/manrope/latin-400.css";
 import "@fontsource/manrope/latin-500.css";
 import "@fontsource/manrope/latin-600.css";
 import "@fontsource/manrope/latin-700.css";
-import "@fontsource/barlow-condensed/latin-600-italic.css";
+import "@fontsource/manrope/latin-800.css";
 import type { Metadata } from "next";
 import "./globals.css";
 import "./restyling.css";
+import "./atlante.css";
+import "./corpo-capace.css";
 import { SiteSchema } from "./lib/seo";
 import { SITE_ORIGIN, editorialPages } from "./lib/site";
 

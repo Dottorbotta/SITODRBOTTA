@@ -1,15 +1,15 @@
 {
   "slug": "analisi-corsa-errori-biomeccanici-correggere",
   "title": "Analisi della corsa: quali errori biomeccanici vale davvero la pena correggere",
-  "seoTitle": "Analisi della corsa: quali errori biomeccanici vale davvero la pena correggere",
+  "seoTitle": "Analisi della corsa: cosa osservare e cosa correggere | Dr. Botta",
   "kicker": "Dal video a una decisione motivata.",
   "category": "Ritorno allo sport",
   "excerpt": "Non ogni deviazione nella corsa è un errore. Scopri quali parametri biomeccanici vale la pena modificare in base a sintomi, carico, funzione e obiettivi.",
   "description": "Non ogni deviazione nella corsa è un errore. Scopri quali parametri biomeccanici vale la pena modificare in base a sintomi, carico, funzione e obiettivi.",
-  "seoDescription": "Non ogni deviazione nella corsa è un errore. Scopri quali parametri biomeccanici vale la pena modificare in base a sintomi, carico, funzione e obiettivi.",
+  "seoDescription": "L’analisi biomeccanica descrive il gesto ma non trova automaticamente la causa del dolore. Come decidere cosa vale davvero la pena correggere.",
   "date": "17 settembre 2026",
   "publishedAt": "2026-09-17",
-  "updatedAt": null,
+  "updatedAt": "2026-09-27",
   "sourceDate": "17 settembre 2026",
   "author": "team-corpo-capace",
   "image": "/images/tecnica-di-corsa.webp",
@@ -145,14 +145,57 @@
     {
       "heading": "Il prossimo passo",
       "paragraphs": [
-        "Se vuoi capire come si svolge un programma di esercizio personalizzato, [scopri il percorso Corpo Capace](/percorsi). La consulenza serve a valutarne l’appropriatezza; non sostituisce una diagnosi o le cure necessarie."
+        "Se vuoi capire come si svolge un programma di esercizio personalizzato, [scopri il percorso Corpo Capace](/percorsi)."
+      ]
+    },
+    {
+      "heading": "Dalla descrizione alla decisione clinica",
+      "paragraphs": [
+        "Una buona analisi della corsa non termina con un elenco di angoli. Deve collegare ciò che si osserva a una domanda: il runner ha dolore? vuole aumentare performance? ha difficoltà a tollerare una specifica velocità? Senza questa domanda, la biomeccanica resta descrizione.",
+        "Lo stesso pattern può essere irrilevante in un runner asintomatico e diventare interessante in un altro se una modifica produce un miglioramento ripetibile del sintomo o della prestazione. Il criterio non è somigliare a un modello ideale."
+      ]
+    },
+    {
+      "heading": "Affidabilità: un video singolo può ingannare",
+      "paragraphs": [
+        "La corsa cambia con velocità, fatica, pendenza, scarpa e superficie. Un'analisi registrata a un ritmo diverso da quello che provoca il problema può non rappresentare il gesto rilevante. Anche prospettiva della camera e marker cambiano ciò che sembra accadere.",
+        "Per questo una valutazione utile standardizza quanto possibile velocità, inquadratura e compito e, quando necessario, ripete il test dopo fatica o nelle condizioni che riproducono il sintomo."
+      ]
+    },
+    {
+      "heading": "Correggere una variabile alla volta",
+      "paragraphs": [
+        "Se decidi di testare una modifica, è preferibile cambiare un elemento principale per volta: cadenza, lunghezza del passo, inclinazione del tronco o cue di impatto. Modificare insieme tre aspetti rende impossibile capire quale abbia prodotto l'effetto e aumenta il costo cognitivo.",
+        "Un cue utile deve produrre un risultato verificabile e mantenibile. Se migliora il video ma aumenta fatica o sintomi, non è una correzione riuscita."
+      ]
+    },
+    {
+      "heading": "Come la usiamo nel Metodo Corpo Capace",
+      "paragraphs": [
+        "Nel Metodo Corpo Capace l'analisi video è uno strumento dentro una valutazione più ampia. Storia, carico, forza, mobilità utile, sintomi e obiettivi determinano quali osservazioni meritano attenzione. Non correggiamo una pronazione o un'oscillazione solo perché è visibile.",
+        "La verifica è longitudinale: si misura se il runner tollera più corsa, recupera meglio o migliora il target prestativo. La biomeccanica deve aiutare a prendere decisioni, non produrre un referto elegante."
+      ]
+    },
+    {
+      "heading": "Quando non correggere",
+      "paragraphs": [
+        "Se il runner è asintomatico, performa bene e non mostra una limitazione coerente con l'obiettivo, una caratteristica tecnica insolita può semplicemente essere la sua soluzione. Intervenire senza un problema definito può introdurre fatica, rigidità o nuove richieste senza beneficio dimostrabile."
+      ]
+    },
+    {
+      "heading": "Una buona analisi produce una priorità, non una lista infinita",
+      "paragraphs": [
+        "Un report con quindici 'errori' crea rumore se non distingue ciò che è modificabile, rilevante e coerente con l'obiettivo. La priorità dovrebbe essere una o due ipotesi da testare, con un outcome chiaro. Questo rende l'analisi falsificabile: se la modifica non cambia nulla, l'ipotesi perde peso.",
+        "La qualità di un’analisi si vede quindi da quante decisioni utili produce, non dal numero di angoli misurati. Un dato biomeccanico merita attenzione quando è ripetibile, coerente con il problema e modificabile in modo sensato. Se non cambia sintomo, prestazione, carico o strategia di allenamento, rischia di diventare soltanto una descrizione sofisticata del modo in cui quella persona corre."
       ]
     }
   ],
   "takeaways": [
     "Un’analisi della corsa è utile se aiuta a prendere una decisione: cosa modificare, cosa approfondire e cosa lasciare com’è.",
     "Una modifica va valutata rispetto alla risposta della persona.",
-    "Queste informazioni non sostituiscono una valutazione individuale."
+    "Queste informazioni non sostituiscono una valutazione individuale.",
+    "Il valore clinico dipende dal collegamento tra evidenza, capacità individuale e compito reale.",
+    "Nel Metodo Corpo Capace la progressione viene verificata sulla funzione, non su un singolo test isolato."
   ],
   "tags": [
     "Corsa",
@@ -195,5 +238,5 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/38697289/"
     }
   ],
-  "readingTime": "8 min"
+  "readingTime": "9 min"
 }

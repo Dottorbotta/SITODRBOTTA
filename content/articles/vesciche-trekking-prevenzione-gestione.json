@@ -1,0 +1,102 @@
+{
+  "slug": "vesciche-trekking-prevenzione-gestione",
+  "title": "Vesciche nel trekking",
+  "seoTitle": "Vesciche nel trekking: prevenzione e gestione durante il cammino | Dr. Botta",
+  "kicker": "Le vesciche nel trekking nascono da sollecitazioni ripetute della pelle e del tessuto sottostante.",
+  "category": "Piede",
+  "excerpt": "Vesciche ai piedi nel trekking: attrito, calzata, umidità e carico. Cosa fare ai primi segnali e quando una lesione richiede attenzione sanitaria.",
+  "description": "Vesciche ai piedi nel trekking: attrito, calzata, umidità e carico. Cosa fare ai primi segnali e quando una lesione richiede attenzione sanitaria.",
+  "seoDescription": "Vesciche ai piedi nel trekking: attrito, calzata, umidità e carico. Cosa fare ai primi segnali e quando una lesione richiede attenzione sanitaria.",
+  "date": "26 settembre 2026",
+  "publishedAt": "2026-09-26",
+  "updatedAt": null,
+  "author": "team-corpo-capace",
+  "readingTime": "3 min",
+  "image": "/images/article-376.webp",
+  "featuredImage": "/images/article-376.webp",
+  "imageAlt": "Immagine illustrativa del tema: Vesciche nel trekking.",
+  "imageCaption": "Immagine illustrativa generata con IA; non raffigura un paziente o un risultato clinico.",
+  "accent": "bronze",
+  "intro": "La vescica spesso si annuncia prima di vedersi: un punto caldo al tallone dopo la prima ora, poi una camminata intera a compensare l’appoggio. Fermarsi quando compare il segnale permette di correggere la causa pratica prima che il tessuto sia più irritato.",
+  "sections": [
+    {
+      "heading": "Da dove arriva il problema",
+      "paragraphs": [
+        "Passi ripetuti e forze di taglio tra piede, calza e scarpa deformano la pelle. Una scarpa che fa scivolare il tallone, una punta troppo stretta nelle discese, cuciture, sudore o piedi bagnati possono aumentare il problema. Non basta dire «è colpa dell’attrito»: conta dove avviene il movimento e per quanto tempo il piede vi è esposto.",
+        "In trekking il rischio dipende anche da chilometri, dislivello, zaino e abitudine a quel tipo di percorso. Una calzatura comoda in casa può cambiare comportamento dopo molte ore o quando il piede si gonfia."
+      ]
+    },
+    {
+      "heading": "Preparare calzatura e pelle",
+      "paragraphs": [
+        "Prova scarpe e calze sui percorsi progressivamente più lunghi; controlla che il tallone sia stabile e che le dita abbiano spazio anche in discesa. Allaccia in modo che il piede non scivoli avanti senza comprimere il dorso. Porta calze asciutte di ricambio se il percorso sarà lungo o bagnato. Se sai che un punto è vulnerabile, una barriera protettiva applicata prima può essere sperimentata su escursioni brevi.",
+        "Le ricerche preventive su calze, nastro, creme e altri interventi sono eterogenee e spesso di qualità limitata: nessuna combinazione è una garanzia. L’obiettivo è trovare una soluzione che funzioni sulla tua pelle, con quella scarpa e quella distanza."
+      ]
+    },
+    {
+      "heading": "Il punto caldo durante il percorso",
+      "paragraphs": [
+        "Fermati; togli scarpa e calza; cerca pieghe, sabbia, umidità o sfregamento e correggili. Asciuga con delicatezza, proteggi la zona integra con un materiale adatto che non formi pieghe, poi verifica dopo un breve tratto. Se la scarpa continua a creare lo stesso movimento, la sola medicazione può non bastare: riduci tratto, ritmo o dislivello previsto.",
+        "Se la vescica è già formata, pulisci, proteggi e limita l’ulteriore sfregamento. Una vescica piccola e integra in genere beneficia del mantenimento della cute protettiva; drenaggio e gestione di lesioni molto grandi o dolorose richiedono attenzione all’igiene e, se necessario, un sanitario. Evita di strappare la pelle residua."
+      ]
+    },
+    {
+      "heading": "Quando serve assistenza",
+      "paragraphs": [
+        "Arrossamento che si allarga, calore, pus, febbre, dolore crescente o difficoltà a camminare richiedono valutazione. Con diabete, neuropatia, problemi circolatori o immunosoppressione, non improvvisare la gestione di una ferita al piede: chiedi consiglio sanitario presto."
+      ]
+    },
+    {
+      "heading": "Domande frequenti",
+      "paragraphs": [
+        "### Devo comprare uno scarpone più rigido?",
+        "La rigidità non è una soluzione universale; conta soprattutto come piede, calza e calzatura si comportano insieme durante il cammino.",
+        "### Le vesciche vanno sempre bucate?",
+        "No. Protezione, pulizia e riduzione del movimento sono i primi punti; casi estesi o a rischio vanno valutati.",
+        "### Come capire se le scarpe vanno bene?",
+        "Provale con le calze previste, a fine giornata e su discese progressive; osserva sempre le aree che diventano calde."
+      ]
+    }
+  ],
+  "takeaways": [
+    "Le vesciche nel trekking nascono da sollecitazioni ripetute della pelle e del tessuto sottostante. Individuare presto un punto caldo, correggere calzata e umidità e proteggere la zona aiuta, ma non esiste una prevenzione garantita per tutti."
+  ],
+  "sources": [
+    {
+      "label": "Prevention of friction blisters in outdoor pursuits: systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28602272/"
+    },
+    {
+      "label": "Injuries and illnesses in hiking and trekking: systematic review",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0285614"
+    },
+    {
+      "label": "Hiking footwear and injury outcomes: scoping review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42570247/"
+    }
+  ],
+  "canonical": "/blog/vesciche-trekking-prevenzione-gestione",
+  "primaryKeyword": "Vesciche nel trekking: prevenzione e gestione durante il cammino",
+  "tags": [
+    "Sport-specific — Trekking",
+    "Piede e caviglia"
+  ],
+  "clinicalReview": {
+    "status": "not-recorded",
+    "reviewer": null,
+    "date": null
+  },
+  "relatedPosts": [
+    "scarponi-scarpe-leggere-trekking-scelta",
+    "dolore-piede-trekking-zaino"
+  ],
+  "cta": "/coaching-avanzato/",
+  "sourceArticleId": "376",
+  "sourceDocument": "https://docs.google.com/document/d/1_ZJl2wqfBEmW6CT8o_oAMPsLR0lieAA-gXTJ72urC-Y/edit?usp=drivesdk",
+  "editorialCluster": "Sport-specific — Trekking",
+  "hub": "Piede e caviglia",
+  "hubPath": "/blog/piede-caviglia/",
+  "subHub": "Sport-specific — Trekking",
+  "subHubPath": null,
+  "sourceDate": "25 settembre 2026"
+}

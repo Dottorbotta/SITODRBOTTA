@@ -29,7 +29,7 @@ interface ExecutionContext {
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
-    const aliases: Record<string,string> = {"/dolore-al-piede":"/blog/dolore-al-piede","/piedi-caviglie-gonfie":"/blog/piedi-caviglie-gonfie"};
+    const aliases: Record<string,string> = {"/termini-e-condizioni-di-servizio":"/termini-e-condizioni","/dolore-al-piede":"/blog/dolore-al-piede","/piedi-caviglie-gonfie":"/blog/piedi-caviglie-gonfie","/programmi":"/percorsi"};
     const oldPath=url.pathname.replace(/\/$/, "");
     if(aliases[oldPath]) return Response.redirect(new URL(aliases[oldPath],url).href,301);
     const seo=seoResponse(url.pathname);

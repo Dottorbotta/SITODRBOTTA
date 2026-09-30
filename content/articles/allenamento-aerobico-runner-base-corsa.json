@@ -1,23 +1,23 @@
 {
   "slug": "allenamento-aerobico-runner-base-corsa",
   "title": "Allenamento aerobico per runner: perché la base conta anche se vuoi andare più forte",
-  "seoTitle": "Allenamento aerobico per runner: perché la base conta anche se vuoi andare più forte",
+  "seoTitle": "Allenamento aerobico runner: come costruire la base | Dr. Botta",
   "kicker": "La corsa aerobica non è solo corsa lenta: scopri perché costruire volume a intensità sostenibile migliora la base su cui inserire lavori più veloci.",
   "category": "Ritorno allo sport",
   "excerpt": "La corsa aerobica non è solo corsa lenta: scopri perché costruire volume a intensità sostenibile migliora la base su cui inserire lavori più veloci.",
   "description": "La corsa aerobica non è solo corsa lenta: scopri perché costruire volume a intensità sostenibile migliora la base su cui inserire lavori più veloci.",
-  "seoDescription": "La corsa aerobica non è solo corsa lenta: scopri perché costruire volume a intensità sostenibile migliora la base su cui inserire lavori più veloci.",
+  "seoDescription": "Allenamento aerobico per runner: perché molto volume resta a bassa intensità, come evitare la zona grigia e adattare la base a livello e obiettivi.",
   "date": "21 settembre 2026",
-  "readingTime": "7 min",
+  "readingTime": "9 min",
   "publishedAt": "2026-09-21",
-  "updatedAt": null,
+  "updatedAt": "2026-09-27",
   "author": "team-corpo-capace",
   "image": "/images/corsa-facile-parco.webp",
   "featuredImage": "/images/corsa-facile-parco.webp",
   "imageAlt": "Due adulti corrono a ritmo facile lungo un percorso pianeggiante nel parco.",
   "imageCaption": "Immagine illustrativa generata con IA; non raffigura un paziente o un risultato clinico.",
   "accent": "bronze",
-  "intro": "La base aerobica permette di accumulare molto lavoro con un costo relativamente gestibile e di recuperare meglio tra sedute più intense. Non serve soltanto a correre piano: aumenta la capacità su cui possono essere inseriti soglia, intervalli e ritmi di gara.",
+  "intro": "La base aerobica permette di accumulare molto lavoro a un costo relativamente gestibile e crea spazio per recuperare tra sedute più intense. Non è semplicemente “correre lento”: è una parte della distribuzione dell'allenamento che permette di sostenere volume, migliorare efficienza e arrivare ai lavori di qualità senza trasformare ogni uscita in una gara.\n\nLa letteratura sui runner mostra che i modelli efficaci tendono a concentrare una quota elevata del volume a bassa intensità, ma non esiste una percentuale identica per ogni atleta, distanza o fase della stagione.\"\n",
   "sections": [
     {
       "heading": "Da dove partire",
@@ -42,7 +42,9 @@
       "paragraphs": [
         "Le ricerche sulla distribuzione dell’intensità negli sport di endurance mostrano un elemento ricorrente: atleti di livelli diversi tendono ad accumulare una quota importante del proprio volume a intensità relativamente bassa, riservando una parte minore alle zone moderate e alte.",
         "Una revisione sistematica sui runner di media e lunga distanza ha osservato risultati favorevoli nei programmi con elevato volume a bassa intensità combinato con una quota più piccola di lavoro a intensità maggiore. Studi più recenti sulle distribuzioni di allenamento confermano che non esiste un modello unico vincente per tutti, ma che la predominanza di lavoro facile è una caratteristica comune della preparazione endurance.",
-        "Questo non significa che tutti debbano seguire una formula 80/20 o un modello polarizzato. Significa che se ogni seduta è intensa, diventa difficile creare il volume necessario senza aumentare eccessivamente il costo di recupero."
+        "Questo non significa che tutti debbano seguire una formula 80/20 o un modello polarizzato. Significa che se ogni seduta è intensa, diventa difficile creare il volume necessario senza aumentare eccessivamente il costo di recupero.",
+        "La systematic review sulla distribuzione dell'intensità ha osservato che approcci con molto volume a bassa intensità, tipicamente piramidali o polarizzati, erano associati a buoni miglioramenti prestativi rispetto a strategie più concentrate sulla soglia. Ma i metodi di classificazione delle zone differivano tra gli studi, quindi la famosa regola 80/20 non va interpretata come un numero universale.",
+        "La domanda più utile è se la distribuzione permette di accumulare volume e mantenere qualità nei giorni che devono essere davvero intensi."
       ]
     },
     {
@@ -76,6 +78,13 @@
       ]
     },
     {
+      "heading": "Base aerobica e rischio di trasformare ogni corsa in “medio”",
+      "paragraphs": [
+        "Un errore comune è correre le sedute facili troppo forte perché il ritmo lento sembra poco allenante. Il risultato può essere una zona intermedia che costa abbastanza da peggiorare il recupero ma non produce lo stimolo specifico di un vero lavoro di qualità.",
+        "Usa più segnali: RPE, conversazione, frequenza cardiaca quando affidabile e capacità di recuperare. Il pace è influenzato da caldo, pendenza, sonno e fatica e non può essere l'unico criterio."
+      ]
+    },
+    {
       "heading": "Come capire se stai davvero correndo facile",
       "paragraphs": [
         "Non esiste un unico indicatore perfetto.",
@@ -99,6 +108,13 @@
         "Due runner con la stessa frequenza cardiaca massima teorica possono avere soglie differenti. Due atleti che corrono allo stesso ritmo possono avere costi energetici diversi. Anche lo stesso runner può cambiare risposta in base alla fase di allenamento.",
         "Questo è il motivo per cui le zone calcolate da formule generiche devono essere considerate stime iniziali, non verità individuali.",
         "Se vuoi precisione, test fisiologici e dati longitudinali possono affinare la prescrizione. Per molti runner amatoriali, però, una combinazione coerente di RPE, frequenza cardiaca, ritmo e risposta al recupero è già sufficiente per prendere decisioni migliori."
+      ]
+    },
+    {
+      "heading": "Cosa mostrano i dati reali di oltre 100.000 maratoneti",
+      "paragraphs": [
+        "Uno studio pubblicato nel 2025 ha analizzato 16 settimane di allenamento prima di oltre 150.000 maratone. I runner più veloci accumulavano molto più volume e la distribuzione dell'intensità variava con il livello, confermando che non esiste una singola dose di base aerobica valida per tutti.",
+        "Il dato è osservazionale e non dimostra quale schema causi la prestazione. È però utile perché mostra quanto volume, distribuzione e livello dell'atleta siano inseparabili: copiare i chilometri di un runner più forte senza averne la storia di carico non replica il suo adattamento."
       ]
     },
     {
@@ -133,6 +149,14 @@
       ]
     },
     {
+      "heading": "Come lo colleghiamo al Metodo Corpo Capace",
+      "paragraphs": [
+        "Nel Metodo Corpo Capace il volume aerobico viene adattato alla capacità attuale, soprattutto quando il runner sta tornando da dolore o da un periodo di ridotta attività. L'obiettivo è costruire una dose ripetibile senza trasformare ogni uscita in un test del sintomo.",
+        "La corsa facile viene integrata con forza e, quando serve, con una progressione specifica di velocità, pendenze o superficie. Il carico settimanale viene aumentato quando il runner recupera bene e mantiene la qualità dei lavori chiave.",
+        "La base non è il contrario della performance: è la capacità che permette di allenare la performance con continuità."
+      ]
+    },
+    {
       "heading": "Conclusione",
       "paragraphs": [
         "La base aerobica non è la parte “facile” del programma nel senso di poco importante. È la struttura che consente di sostenere il resto.",
@@ -152,7 +176,9 @@
     }
   ],
   "takeaways": [
-    "La base aerobica permette di accumulare molto lavoro con un costo relativamente gestibile e di recuperare meglio tra sedute più intense. Non serve soltanto a correre piano: aumenta la capacità su cui possono essere inseriti soglia, intervalli e ritmi di gara."
+    "La base aerobica non è semplicemente correre piano: serve ad accumulare volume e recuperare tra sedute di qualità.",
+    "Le revisioni favoriscono una quota elevata di lavoro a bassa intensità, ma 80/20 non è una legge universale.",
+    "Volume e distribuzione devono essere adattati alla storia di carico, al livello e alla distanza dell'atleta."
   ],
   "sources": [
     {
@@ -182,7 +208,12 @@
   ],
   "canonical": "/blog/allenamento-aerobico-runner-base-corsa",
   "primaryKeyword": "allenamento aerobico runner",
-  "secondaryKeywords": [],
+  "secondaryKeywords": [
+    "base aerobica corsa",
+    "corsa facile runner",
+    "distribuzione intensità running",
+    "low intensity running"
+  ],
   "tags": [
     "Corsa",
     "endurance-performance",

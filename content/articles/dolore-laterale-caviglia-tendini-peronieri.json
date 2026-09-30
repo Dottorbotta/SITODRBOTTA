@@ -1,12 +1,12 @@
 {
   "slug": "dolore-laterale-caviglia-tendini-peronieri",
   "title": "Dolore laterale alla caviglia: quando considerare i tendini peronieri",
-  "seoTitle": "Dolore laterale alla caviglia: quando considerare i tendini peronieri | Dr. Botta",
+  "seoTitle": "Dolore laterale caviglia: peronieri o legamenti? | Dr. Botta",
   "kicker": "Il dolore laterale alla caviglia viene spesso attribuito automaticamente ai legamenti.",
   "category": "Piede",
   "excerpt": "Il dolore laterale alla caviglia può coinvolgere tendini peronieri, legamenti, os peroneum o altre strutture. Come distinguere tendinopatia, instabilità e tear.",
   "date": "23 settembre 2026",
-  "readingTime": "7 min",
+  "readingTime": "12 min",
   "image": "/images/article-204.webp",
   "imageAlt": "Valutazione della zona laterale della caviglia e dei tendini peronieri.",
   "imageCaption": "Immagine illustrativa generata con IA; non raffigura un paziente.",
@@ -40,7 +40,9 @@
         "### Instabilità, sublussazione o dislocazione",
         "Il tendine perde la normale stabilità nel solco retromalleolare e può spostarsi in modo anomalo.",
         "Queste condizioni possono coesistere.",
-        "Ma non hanno la stessa gestione."
+        "Ma non hanno la stessa gestione.",
+        "La distinzione tra tendinopatia, tear e instabilità è clinicamente importante perché cambia il carico consentito. Una tendinopatia da sovraccarico può spesso essere gestita con una progressione attiva; una lesione tendinea significativa o una sublussazione con snapping richiedono un percorso diverso e talvolta valutazione chirurgica.",
+        "La storia aiuta: esordio graduale dopo aumento di corsa e terreni irregolari orienta più verso tendinopatia; un trauma acuto con pop, gonfiore e perdita di forza aumenta il sospetto di tear; uno scatto riproducibile dietro il malleolo durante movimenti della caviglia rende più plausibile instabilità dei peronieri."
       ]
     },
     {
@@ -77,7 +79,9 @@
         "- peggioramento nei cambi di direzione;",
         "- storia di distorsioni laterali;",
         "- dolore persistente dopo una distorsione apparentemente guarita.",
-        "Nessuno di questi segni basta da solo."
+        "Nessuno di questi segni basta da solo.",
+        "Il dolore in eversione resistita è utile ma non specifico. È importante palpare il decorso dietro il malleolo e verso quinto metatarso e pianta, osservare se il sintomo compare in appoggio monopodalico, su terreno inclinato o nei cambi di direzione e verificare la storia di distorsioni. Un quadro laterale persistente dopo una “distorsione guarita” merita sempre di essere rivalutato.",
+        "Lo snapping è un dato particolarmente importante perché può indicare sublussazione o dislocazione del tendine. Se il fenomeno è riproducibile e associato a dolore o instabilità, continuare a caricare come una semplice tendinopatia può non essere appropriato."
       ]
     },
     {
@@ -137,16 +141,13 @@
         "- sospetto di tear o lesioni associate.",
         "L’ecografia ha un vantaggio importante: può osservare il tendine durante il movimento.",
         "La MRI offre una valutazione più ampia dei tessuti e delle strutture associate.",
-        "Nessuna immagine va interpretata fuori dal quadro clinico."
-      ]
-    },
-    {
-      "heading": "Imaging negativo non chiude sempre il caso",
-      "paragraphs": [
+        "Nessuna immagine va interpretata fuori dal quadro clinico.",
         "La diagnosi dei disturbi peroneali può essere difficile.",
         "Una systematic review 2025 sulla tendoscopia ha sottolineato che alcune patologie peroneali possono non essere identificate pienamente con il solo esame clinico o imaging standard.",
         "Questo non significa che tutti abbiano bisogno di tendoscopia.",
-        "Significa che, quando sintomi e funzione restano fortemente suggestivi nonostante imaging non conclusivo, il quadro va rivalutato."
+        "Significa che, quando sintomi e funzione restano fortemente suggestivi nonostante imaging non conclusivo, il quadro va rivalutato.",
+        "L'ecografia dinamica ha un vantaggio quando il problema è lo snapping: può osservare il tendine durante il movimento e identificare instabilità che una immagine statica può non mostrare. La risonanza è utile per valutare tendine, tear e strutture associate, ma anche qui reperti e sintomi devono essere correlati.",
+        "Un imaging negativo non chiude automaticamente il caso se storia ed esame restano molto convincenti, soprattutto per fenomeni dinamici. Al contrario, un reperto anatomico non deve diventare diagnosi solo perché è visibile. L'imaging serve quando cambia la decisione, non per sostituire la visita."
       ]
     },
     {
@@ -161,7 +162,9 @@
         "- test dinamici di snapping;",
         "- osservazione della corsa o del cambio di direzione.",
         "I test servono a provocare in modo controllato il comportamento del sistema.",
-        "Non sono “test magici” per una diagnosi certa."
+        "Non sono “test magici” per una diagnosi certa.",
+        "Oltre alla resistenza in eversione, la valutazione può includere plantarflessione del primo raggio, heel raise, equilibrio monopodalico, hop e compiti sport-specifici in base alla fase. Si osservano forza, dolore, controllo e riproduzione del sintomo. Nessun test isolato ha il compito di “confermare” una patologia peroneale.",
+        "Il confronto con il lato opposto è utile, ma la simmetria perfetta non è l'obiettivo. Un atleta può avere differenze fisiologiche e essere pienamente funzionale; ciò che conta è se la capacità del lato sintomatico è sufficiente per le richieste reali."
       ]
     },
     {
@@ -192,12 +195,7 @@
         "- velocità;",
         "- scarpe;",
         "- durata delle sedute.",
-        "Poi ricostruiamo gradualmente la capacità."
-      ]
-    },
-    {
-      "heading": "Immobilizzazione: non automaticamente",
-      "paragraphs": [
+        "Poi ricostruiamo gradualmente la capacità.",
         "Nella semplice tendinopatia cronica non ha senso trasformare ogni caso in una fase lunga di immobilizzazione.",
         "Il consensus ESSKA-AFAS raccomanda di iniziare ROM e tendon-loading quando clinicamente appropriato e, in generale, di evitare immobilizzazione non necessaria.",
         "Questo discorso cambia in presenza di:",
@@ -205,7 +203,19 @@
         "- tear importante;",
         "- trauma acuto;",
         "- altre lesioni associate.",
-        "La diagnosi viene prima del protocollo."
+        "La diagnosi viene prima del protocollo.",
+        "La scarpa può modificare il carico laterale.",
+        "Un supporto può cambiare la distribuzione delle forze.",
+        "Ma non esiste una prescrizione unica per “scaricare i peronieri”.",
+        "Il criterio è testare il compito:",
+        "- cammino;",
+        "- corsa;",
+        "- cambio di direzione.",
+        "Se la modifica migliora chiaramente il sintomo, può essere utile come bridge.",
+        "Non sostituisce il recupero della capacità.",
+        "Nella tendinopatia senza segni di tear importante o instabilità, la gestione può ridurre temporaneamente le esposizioni più irritanti: terreni molto inclinati, curve ripetute, cambi di direzione, salti e volumi elevati. Si mantiene ciò che è tollerato e si costruisce una progressione.",
+        "L'immobilizzazione non è automatica. Può essere indicata in alcuni quadri acuti o lesioni specifiche, ma un tendine da sovraccarico non trae beneficio da settimane di scarico completo senza motivo. La decisione dipende dalla diagnosi e dalla gravità.",
+        "Scarpe, ortesi o supporti possono modificare comfort e distribuzione del carico, soprattutto in presenza di caratteristiche del piede che aumentano la richiesta laterale. Non devono però trasformarsi in una correzione obbligatoria del cavovaro asintomatico. Sono strumenti da testare se migliorano funzione e tolleranza."
       ]
     },
     {
@@ -221,7 +231,9 @@
         "7. hopping;",
         "8. cambi di direzione.",
         "Non esiste una sequenza obbligatoria.",
-        "La logica è passare da forza controllata a produzione di forza più rapida e specifica."
+        "La logica è passare da forza controllata a produzione di forza più rapida e specifica.",
+        "La progressione può iniziare con eversione a bassa leva o isometrici se il quadro è irritabile, quindi aumentare resistenza, escursione e velocità. Successivamente si integrano heel raise, lavoro monopodalico, controllo laterale e gesti di spinta più rapidi.",
+        "Per un runner serve tornare a corsa lineare, poi curve, terreni irregolari e discese se pertinenti. Per court sport e sport di squadra vanno aggiunti shuffle, cambi di direzione e reattività. Il tendine deve essere preparato al compito che in precedenza lo irritava."
       ]
     },
     {
@@ -230,21 +242,9 @@
         "Nelle tendinopatie utilizziamo la risposta ai sintomi per regolare la dose.",
         "Nel metodo Dr. Botta un guardrail operativo può essere dolore ≤3/10 durante il lavoro, purché non ci sia un peggioramento significativo nelle 24 ore successive.",
         "Non è una regola universale.",
-        "E soprattutto non va applicata a un sospetto tear acuto o a una sublussazione."
-      ]
-    },
-    {
-      "heading": "Scarpe e supporti",
-      "paragraphs": [
-        "La scarpa può modificare il carico laterale.",
-        "Un supporto può cambiare la distribuzione delle forze.",
-        "Ma non esiste una prescrizione unica per “scaricare i peronieri”.",
-        "Il criterio è testare il compito:",
-        "- cammino;",
-        "- corsa;",
-        "- cambio di direzione.",
-        "Se la modifica migliora chiaramente il sintomo, può essere utile come bridge.",
-        "Non sostituisce il recupero della capacità."
+        "E soprattutto non va applicata a un sospetto tear acuto o a una sublussazione.",
+        "Un sintomo lieve durante esercizio può essere compatibile con una tendinopatia se non cresce progressivamente e se la risposta successiva è recuperabile. Ma questa regola non si applica a un sospetto tear acuto o a una sublussazione instabile. Prima viene la diagnosi, poi il modello di monitoraggio.",
+        "La finestra delle 24 ore aiuta a capire se volume e intensità sono sostenibili. Se ogni seduta produce aumento di dolore laterale, gonfiore o sensazione di instabilità, la dose o l'ipotesi vanno riviste."
       ]
     },
     {
@@ -259,7 +259,9 @@
         "- sospetto tear;",
         "- dolore crescente nonostante gestione adeguata;",
         "- deformità o instabilità importanti.",
-        "Il dolore laterale cronico non deve essere forzato dentro l’etichetta “tendinite”."
+        "Il dolore laterale cronico non deve essere forzato dentro l’etichetta “tendinite”.",
+        "Trauma acuto con perdita di forza, incapacità a caricare, deformità o sospetto di frattura richiede valutazione tempestiva. Anche snapping doloroso persistente, instabilità significativa, sospetto tear, sintomi che non migliorano dopo un percorso conservativo ben eseguito o dolore atipico meritano approfondimento specialistico.",
+        "La chirurgia non è la destinazione automatica dei problemi peroneali. Serve nei sottogruppi appropriati, mentre molte tendinopatie possono essere gestite conservativamente. L'invio serve a chiarire quando il quadro esce dal perimetro della progressione attiva."
       ]
     },
     {
@@ -274,7 +276,9 @@
         "6. costruire capacità;",
         "7. reintrodurre lavoro laterale;",
         "8. tornare a corsa e sport.",
-        "La progressione dipende da cosa il tendine deve fare davvero."
+        "La progressione dipende da cosa il tendine deve fare davvero.",
+        "Nel Metodo Corpo Capace il problema viene tradotto in richieste: corsa lineare, terreno irregolare, curve, cambi di direzione, salto o semplice cammino. Si misura quale di queste richieste supera la capacità e si costruisce una progressione che la reintroduca.",
+        "Questo evita di fermarsi alla forza in eversione. Un atleta può recuperare il test con elastico e continuare a fallire nei cambi di direzione; il recupero è completo solo quando la capacità torna nel gesto reale."
       ]
     },
     {
@@ -297,7 +301,15 @@
         "### Ecografia o risonanza?",
         "Entrambe possono essere utili. L’ecografia è particolarmente utile per osservare il movimento dinamico; la MRI valuta bene lesioni e strutture associate.",
         "### Devo smettere di correre?",
-        "Dipende da irritabilità e diagnosi. Nella tendinopatia spesso si modifica temporaneamente il carico invece di eliminare ogni attività."
+        "Dipende da irritabilità e diagnosi. Nella tendinopatia spesso si modifica temporaneamente il carico invece di eliminare ogni attività.",
+        "### Il dolore dietro il malleolo è sempre peroneale?",
+        "No. Legamenti, articolazioni, nervo surale e altre strutture possono produrre dolore laterale. La sede orienta ma non chiude il caso.",
+        "### Posso massaggiare il tendine?",
+        "Può modificare temporaneamente il sintomo ma non sostituisce il carico progressivo. Se lo snapping o un tear sono sospetti, evitare manovre aggressive senza valutazione.",
+        "### Il piede cavo va corretto?",
+        "Non automaticamente. Il cavovaro può aumentare la richiesta laterale in alcuni soggetti, ma un piede cavo asintomatico non è una patologia. Supporti e scarpe si testano in base alla funzione.",
+        "### Quando posso tornare ai cambi di direzione?",
+        "Quando forza, controllo e corsa lineare sono stabili e i cambi vengono progressivamente tollerati senza aumento importante dei sintomi o instabilità."
       ]
     }
   ],
@@ -313,7 +325,7 @@
     "Biomeccanica e funzione del piede"
   ],
   "publishedAt": "2026-09-23",
-  "updatedAt": null,
+  "updatedAt": "2026-09-27",
   "author": "team-corpo-capace",
   "featuredImage": "/images/article-204.webp",
   "canonical": "/blog/dolore-laterale-caviglia-tendini-peronieri",

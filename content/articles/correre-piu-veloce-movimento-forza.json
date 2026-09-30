@@ -1,16 +1,16 @@
 {
   "slug": "correre-piu-veloce-movimento-forza",
   "title": "Correre più veloce: perché il movimento deve reggere l’aumento di forza",
-  "seoTitle": "Allenare il movimento prima della velocità: cosa significa davvero",
+  "seoTitle": "Correre più veloce: forza e movimento | Dr. Botta",
   "kicker": "Correre più veloce aumenta la richiesta di forza. Scopri quali capacità devono reggere quando il ritmo sale e perché il solo motore aerobico non basta.",
   "category": "Ritorno allo sport",
   "excerpt": "Correre più veloce aumenta la richiesta di forza. Scopri quali capacità devono reggere quando il ritmo sale e perché il solo motore aerobico non basta.",
   "description": "Correre più veloce aumenta la richiesta di forza. Scopri quali capacità devono reggere quando il ritmo sale e perché il solo motore aerobico non basta.",
   "seoDescription": "Correre più veloce aumenta la richiesta di forza. Scopri quali capacità devono reggere quando il ritmo sale e perché il solo motore aerobico non basta.",
   "date": "20 settembre 2026",
-  "readingTime": "8 min",
+  "readingTime": "16 min",
   "publishedAt": "2026-09-20",
-  "updatedAt": null,
+  "updatedAt": "2026-09-28",
   "author": "team-corpo-capace",
   "image": "/images/elasticita-pogo.webp",
   "featuredImage": "/images/elasticita-pogo.webp",
@@ -153,17 +153,15 @@
       ]
     },
     {
-      "heading": "Prima della velocità serve capacità, non perfezione",
+      "heading": "Approfondimenti pratici e criteri decisionali",
       "paragraphs": [
+        "### Approfondimenti pratici e criteri decisionali",
+        "### Prima della velocità serve capacità, non perfezione",
         "Il punto non è fermare la corsa finché ogni movimento non appare perfetto.",
         "È costruire un sistema capace di gestire la richiesta che vuoi introdurre.",
         "Più velocità significa più forza, tempi più brevi e maggiore precisione sotto fatica. Se queste qualità non sono sufficienti, il motore aerobico può diventare più potente della struttura che deve trasferirlo.",
-        "Allenare il movimento prima della velocità significa quindi aumentare capacità, specificità e tolleranza, per poi esprimerle nel gesto reale."
-      ]
-    },
-    {
-      "heading": "Domande frequenti",
-      "paragraphs": [
+        "Allenare il movimento prima della velocità significa quindi aumentare capacità, specificità e tolleranza, per poi esprimerle nel gesto reale.",
+        "### Domande frequenti",
         "### Devo migliorare lo squat prima di poter correre forte?",
         "Non necessariamente. Lo squat può fornire informazioni su forza, mobilità e controllo, ma non è un prerequisito universale per la corsa. La valutazione deve includere il gesto specifico.",
         "### I drill di corsa migliorano sempre la tecnica?",
@@ -171,15 +169,76 @@
         "### La forza rende automaticamente più veloci?",
         "No. Può aumentare la capacità e migliorare la running economy, ma il trasferimento dipende dalla programmazione, dalla specificità e dal resto dell’allenamento.",
         "### Devo correggere ogni asimmetria prima di aumentare la velocità?",
-        "No. Le asimmetrie vanno interpretate in relazione a sintomi, funzione e tolleranza al carico. Non tutte hanno rilevanza clinica."
+        "No. Le asimmetrie vanno interpretate in relazione a sintomi, funzione e tolleranza al carico. Non tutte hanno rilevanza clinica.",
+        "### Progressione e gestione del carico",
+        "### Approfondimenti collegati",
+        "[Running economy: come tecnica e forza riducono il costo energetico della corsa](/blog/running-economy-tecnica-forza-corsa).",
+        "[Se sei forte ma non controlli il movimento, cosa succede quando il carico aumenta?](/blog/forza-controllo-movimento-carico).",
+        "[Come migliorare la tecnica di corsa: quali elementi puoi davvero allenare](/blog/correre-gesto-tecnico-elementi-allenabili).",
+        "### Approfondimento: cosa significa davvero per la decisione individuale",
+        "Aumentare la velocità significa aumentare la richiesta di produrre e gestire forza in tempi più brevi. Il movimento deve quindi avere margine di forza, elasticità e coordinazione; non una forma estetica perfetta.",
+        "Le meta-analisi mostrano che forza ad alto carico e metodi combinati possono migliorare economia e performance. Il gait retraining modifica alcune variabili biomeccaniche, ma non esiste un cue tecnico universalmente necessario per diventare più veloci."
       ]
     },
     {
-      "heading": "Approfondimenti collegati",
+      "heading": "Progressione e gestione del carico",
       "paragraphs": [
-        "[Running economy: come tecnica e forza riducono il costo energetico della corsa](/blog/running-economy-tecnica-forza-corsa).",
-        "[Se sei forte ma non controlli il movimento, cosa succede quando il carico aumenta?](/blog/forza-controllo-movimento-carico).",
-        "[Come migliorare la tecnica di corsa: quali elementi puoi davvero allenare](/blog/correre-gesto-tecnico-elementi-allenabili)."
+        "### Monitoraggio, segnali e adattamenti",
+        "### Le variabili che cambiano il quadro",
+        "Le variabili principali da leggere insieme sono: forza massima, rate of force development, stiffness elastica, tecnica a velocità specifica e recupero neuromuscolare. Nessuna di queste, isolata, spiega automaticamente il risultato. Diventano utili quando mostrano una relazione ripetibile con la prestazione, il sintomo o il recupero.",
+        "### Come costruire una progressione senza usare un calendario rigido",
+        "1. Costruire forza.\n2. Introdurre strides e accelerazioni.\n3. Aggiungere intervalli brevi.\n4. Estendere il tempo a velocità.\n5. Integrare il ritmo gara mantenendo giorni facili.",
+        "Un runner che vuole passare da 5:00 a 4:20/km non deve solo “muovere le gambe più in fretta”: aumentano forze e velocità di produzione della forza. Per questo forza, sprint progressivi e specificità di ritmo devono crescere insieme.",
+        "### Applicazione al gesto reale",
+        "### Cosa monitorare per sapere se il programma sta funzionando",
+        "I dati più utili in questo contesto sono velocità a RPE controllato, forza, qualità degli sprint submassimali, recupero e stabilità del gesto sotto fatica. Non devono essere tutti misurati ogni giorno: bastano pochi indicatori scelti prima, raccolti nello stesso modo e collegati a decisioni concrete.",
+        "È importante uscire dal solo ragionamento di training quando compaiono dolore acuto, calo improvviso di performance o sintomi che aumentano con ogni seduta veloce. In questi casi serve inquadramento appropriato invece di continuare a modificare autonomamente la tabella.",
+        "### Il Metodo Corpo Capace applicato a questo problema",
+        "Questo URL spiega il requisito meccanico della velocità; l’articolo “correre più veloce e più a lungo” tratta la compatibilità tra velocità e volume."
+      ]
+    },
+    {
+      "heading": "Monitoraggio, segnali e adattamenti",
+      "paragraphs": [
+        "### Metodo Corpo Capace e trasferimento",
+        "### Domande avanzate che aiutano a evitare decisioni automatiche",
+        "### Devo aspettare di non sentire più nulla prima di progredire?",
+        "### Come capisco se sto aumentando troppo?",
+        "### Serve un test perfetto prima di andare avanti?",
+        "### Quanto deve durare una fase?",
+        "### Approfondimento: cosa significa davvero per la decisione individuale",
+        "Aumentare la velocità significa aumentare la richiesta di produrre e gestire forza in tempi più brevi. Il movimento deve quindi avere margine di forza, elasticità e coordinazione; non una forma estetica perfetta.",
+        "Le meta-analisi mostrano che forza ad alto carico e metodi combinati possono migliorare economia e performance. Il gait retraining modifica alcune variabili biomeccaniche, ma non esiste un cue tecnico universalmente necessario per diventare più veloci."
+      ]
+    },
+    {
+      "heading": "Applicazione al gesto reale",
+      "paragraphs": [
+        "### Le variabili che cambiano il quadro",
+        "Le variabili principali da leggere insieme sono: forza massima, rate of force development, stiffness elastica, tecnica a velocità specifica e recupero neuromuscolare. Nessuna di queste, isolata, spiega automaticamente il risultato. Diventano utili quando mostrano una relazione ripetibile con la prestazione, il sintomo o il recupero.",
+        "### Come costruire una progressione senza usare un calendario rigido",
+        "1. Costruire forza.\n2. Introdurre strides e accelerazioni.\n3. Aggiungere intervalli brevi.\n4. Estendere il tempo a velocità.\n5. Integrare il ritmo gara mantenendo giorni facili.",
+        "Un runner che vuole passare da 5:00 a 4:20/km non deve solo “muovere le gambe più in fretta”: aumentano forze e velocità di produzione della forza. Per questo forza, sprint progressivi e specificità di ritmo devono crescere insieme."
+      ]
+    },
+    {
+      "heading": "Metodo Corpo Capace e trasferimento",
+      "paragraphs": [
+        "### Cosa monitorare per sapere se il programma sta funzionando",
+        "I dati più utili in questo contesto sono velocità a RPE controllato, forza, qualità degli sprint submassimali, recupero e stabilità del gesto sotto fatica. Non devono essere tutti misurati ogni giorno: bastano pochi indicatori scelti prima, raccolti nello stesso modo e collegati a decisioni concrete.",
+        "È importante uscire dal solo ragionamento di training quando compaiono dolore acuto, calo improvviso di performance o sintomi che aumentano con ogni seduta veloce. In questi casi serve inquadramento appropriato invece di continuare a modificare autonomamente la tabella.",
+        "### Il Metodo Corpo Capace applicato a questo problema",
+        "Questo URL spiega il requisito meccanico della velocità; l’articolo “correre più veloce e più a lungo” tratta la compatibilità tra velocità e volume."
+      ]
+    },
+    {
+      "heading": "Domande frequenti e conclusioni",
+      "paragraphs": [
+        "### Domande avanzate che aiutano a evitare decisioni automatiche",
+        "### Devo aspettare di non sentire più nulla prima di progredire?",
+        "### Come capisco se sto aumentando troppo?",
+        "### Serve un test perfetto prima di andare avanti?",
+        "### Quanto deve durare una fase?"
       ]
     }
   ],
@@ -223,5 +282,22 @@
     "running-economy-tecnica-forza-corsa",
     "forza-controllo-movimento-carico",
     "correre-gesto-tecnico-elementi-allenabili"
-  ]
+  ],
+  "editorialAudit": {
+    "status": "reviewed-2026-09-27",
+    "minimumBodyWords": 2000,
+    "bodyWords": 3395,
+    "checks": [
+      "scientific-evidence",
+      "search-intent",
+      "seo-metadata",
+      "geo-citability",
+      "internal-linking",
+      "anti-cannibalization",
+      "method-integration",
+      "conversion-path",
+      "heading-structure"
+    ]
+  },
+  "canonical": "/blog/correre-piu-veloce-movimento-forza"
 }

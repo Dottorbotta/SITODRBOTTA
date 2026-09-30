@@ -1,0 +1,276 @@
+{
+  "date": "2026-09-30",
+  "baseline_saved_sites_version": 102,
+  "batch_size": 20,
+  "counting_script": "scripts/article-quality-gate.mjs",
+  "changes": "JSON Drive usato come base; una sezione specifica aggiunta per articolo, caption breve e tempo di lettura aggiornato. ID 367: accento corretto in un titolo esistente. Conclusioni riportate alla fine dove richiesto dal gate.",
+  "preserved": [
+    "slug",
+    "canonical",
+    "images",
+    "imageAlt",
+    "SEO",
+    "FAQ",
+    "previous_sources",
+    "sourceArticleId",
+    "clinicalReview"
+  ],
+  "clinical_review": "No human clinical review claimed or recorded. Historical consultation dates were not invented.",
+  "validation": {
+    "build": "passed",
+    "rendered_tests": "25 passed",
+    "marketing_tests": "7 passed",
+    "quiz_tests": "4 passed",
+    "editorial_audit_tests": "6 passed",
+    "technical_audit_errors": 0,
+    "unconfirmed_editorial_data": 270,
+    "internal_links": 1388,
+    "related_articles": 1591,
+    "unknown_routes": 0,
+    "legacy_redirect_references": 197,
+    "required_articles_above_2200": 164
+  },
+  "articles": [
+    {
+      "id": 347,
+      "file": "content/articles/artroscopia-anca-ritorno-corsa.json",
+      "editorial_words": 2256,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/33163211/",
+        "title": "Pre-operative comparisons for a return to running protocol in recreational athletes following hip arthroscopy.",
+        "publication_year": "2020",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Esito della coorte definito come corsa ricreativa specifica; non equivalente a maratona o garanzia individuale."
+      }
+    },
+    {
+      "id": 348,
+      "file": "content/articles/lesione-acuta-adduttori-ritorno-sport-criteri.json",
+      "editorial_words": 2288,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/32064292/",
+        "title": "Return to Sport After Criteria-Based Rehabilitation of Acute Adductor Injuries in Male Athletes: A Prospective Cohort Study.",
+        "publication_year": "2020",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Coorte di atleti maschi con lesioni acute; criteri e calendario descrivono il gruppo supervisionato."
+      }
+    },
+    {
+      "id": 349,
+      "file": "content/articles/dolore-avampiede-bici-hot-foot.json",
+      "editorial_words": 2326,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/14587994/",
+        "title": "The effects of cycling shoe stiffness on forefoot pressure.",
+        "publication_year": "2003",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Pressione plantare misurata in condizioni controllate; nessuna equivalenza automatica con dolore clinico."
+      }
+    },
+    {
+      "id": 350,
+      "file": "content/articles/piede-addormenta-bici-formicolio.json",
+      "editorial_words": 2290,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/38512304/",
+        "title": "The effect of cleat position on foot pain in cyclists.",
+        "publication_year": "2024",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Casistica senza controllo sul dolore da pedalata; non è un percorso diagnostico per deficit neurologici.",
+        "additional_primary_guideline": "https://www.nice.org.uk/guidance/ng127/chapter/recommendations-for-adults-aged-over-16"
+      }
+    },
+    {
+      "id": 351,
+      "file": "content/articles/tendine-achille-ciclismo-carico-polpaccio.json",
+      "editorial_words": 2302,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/26018970/",
+        "title": "Heavy Slow Resistance Versus Eccentric Training as Treatment for Achilles Tendinopathy: A Randomized Controlled Trial.",
+        "publication_year": "2015",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Trial della porzione media dell’Achille; non estensione automatica a sede inserzionale o ciclismo."
+      }
+    },
+    {
+      "id": 352,
+      "file": "content/articles/tacchette-dolore-piede-bici-posizione-carico.json",
+      "editorial_words": 2279,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/35129429/",
+        "title": "Acute effects of small changes in antero-posterior shoe-cleat position on physiological and biomechanical variables in road cycling.",
+        "publication_year": "2023",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Esperimento acuto piccolo; cambiamento cinematico non dimostra prevenzione o trattamento."
+      }
+    },
+    {
+      "id": 353,
+      "file": "content/articles/dolore-ginocchio-bici.json",
+      "editorial_words": 2293,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/39982032/",
+        "title": "Impact of physiotherapy-led bike fitting on the evolution of knee pain in recreational cyclists: the PBF study.",
+        "publication_year": "2025",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Bike fitting, educazione ed esercizio in un unico gruppo; nessuna attribuzione causale a una componente."
+      }
+    },
+    {
+      "id": 354,
+      "file": "content/articles/dolore-anteriore-ginocchio-bici.json",
+      "editorial_words": 2309,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/25365133/",
+        "title": "Strengthening of the hip and core versus knee muscles for the treatment of patellofemoral pain: a multicenter randomized controlled trial.",
+        "publication_year": "2015",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Trial femoro-rotuleo; benefici dell’esercizio non dimostrano una causa muscolare unica o un effetto specifico sulla bici."
+      }
+    },
+    {
+      "id": 355,
+      "file": "content/articles/dolore-esterno-ginocchio-bici-itb.json",
+      "editorial_words": 2280,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/16533314/",
+        "title": "The functional anatomy of the iliotibial band during flexion and extension of the knee: implications for understanding iliotibial band syndrome.",
+        "publication_year": "2006",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Ricerca anatomica e di imaging; ipotesi di compressione, non trial terapeutico."
+      }
+    },
+    {
+      "id": 356,
+      "file": "content/articles/bike-fit-dolore-ginocchio.json",
+      "editorial_words": 2334,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/39982032/",
+        "title": "Impact of physiotherapy-led bike fitting on the evolution of knee pain in recreational cyclists: the PBF study.",
+        "publication_year": "2025",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Intervento composito osservazionale; non è un test diagnostico né un confronto causale fra settaggi."
+      }
+    },
+    {
+      "id": 357,
+      "file": "content/articles/artrosi-ginocchio-ciclismo-carico-esercizio.json",
+      "editorial_words": 2291,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/10219009/",
+        "title": "The effects of high-intensity and low-intensity cycle ergometry in older adults with knee osteoarthritis.",
+        "publication_year": "1999",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Trial di ciclismo stazionario in adulti anziani con artrosi; risultati non sono una dose universale."
+      }
+    },
+    {
+      "id": 358,
+      "file": "content/articles/fais-ciclismo-flessione-anca-pedivelle.json",
+      "editorial_words": 2298,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/36408812/",
+        "title": "Effectiveness of a 3D bikefitting method in riding pain, fatigue, and comfort: a randomized controlled clinical trial.",
+        "publication_year": "2025",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Trial bike fit in ciclisti amatori; non prova specifica per FAIS o lunghezza ideale della pedivella."
+      }
+    },
+    {
+      "id": 359,
+      "file": "content/articles/dolore-inguine-bici.json",
+      "editorial_words": 2315,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/26031643/",
+        "title": "Doha agreement meeting on terminology and definitions in groin pain in athletes.",
+        "publication_year": "2015",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Consenso di classificazione clinica del dolore inguinale; non trial di bike fit o autodiagnosi."
+      }
+    },
+    {
+      "id": 362,
+      "file": "content/articles/protesi-anca-ritorno-bici-clearance-capacita.json",
+      "editorial_words": 2263,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/38768771/",
+        "title": "Return to Cycling After Total Joint Arthroplasty.",
+        "publication_year": "2024",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Indagine su ritorno alla bici dopo artroplastica; non protocollo individuale di autorizzazione."
+      }
+    },
+    {
+      "id": 364,
+      "file": "content/articles/caviglia-cede-padel-tennis-instabilita.json",
+      "editorial_words": 2351,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/18799992/",
+        "title": "Balance training improves function and postural control in those with chronic ankle instability.",
+        "publication_year": "2008",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Trial di equilibrio nell’instabilità cronica; test migliorati non certificano il rientro nei giochi di racchetta."
+      }
+    },
+    {
+      "id": 365,
+      "file": "content/articles/tendine-achille-tennis-padel-ritorno-campo.json",
+      "editorial_words": 2268,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/40011018/",
+        "title": "Effectiveness of reducing tendon compression in the rehabilitation of insertional Achilles tendinopathy: a randomised clinical trial.",
+        "publication_year": "2025",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Trial inserzionale con programma composito a minore compressione; non effetto isolato del rialzo."
+      }
+    },
+    {
+      "id": 366,
+      "file": "content/articles/dolore-piede-padel-tennis.json",
+      "editorial_words": 2323,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/9114115/",
+        "title": "Morton neuroma and fluid in the intermetatarsal bursae on MR images of 70 asymptomatic volunteers.",
+        "publication_year": "1997",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Reperti di imaging presenti in asintomatici; non equivalenza fra reperto, sintomo e trattamento."
+      }
+    },
+    {
+      "id": 367,
+      "file": "content/articles/dolore-ginocchio-tennis-padel.json",
+      "editorial_words": 2329,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/40519541/",
+        "title": "The Formal EU-US Meniscus Rehabilitation 2024 Consensus: An ESSKA-AOSSM-AASPT Initiative Part II-Prevention, Nonoperative Treatment and Return to Sport.",
+        "publication_year": "2025",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Consenso formale sul menisco con evidenza limitata; restrizioni dipendono dal quadro e dalla procedura."
+      }
+    },
+    {
+      "id": 368,
+      "file": "content/articles/dolore-anteriore-ginocchio-padel-tennis.json",
+      "editorial_words": 2299,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/25365133/",
+        "title": "Strengthening of the hip and core versus knee muscles for the treatment of patellofemoral pain: a multicenter randomized controlled trial.",
+        "publication_year": "2015",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Trial femoro-rotuleo; trasferimento alla frenata e alla settimana sportiva da verificare individualmente."
+      }
+    },
+    {
+      "id": 370,
+      "file": "content/articles/lca-ritorno-tennis-padel-simmetria-capacita.json",
+      "editorial_words": 2261,
+      "clinical_claim_check": {
+        "primary_url": "https://pubmed.ncbi.nlm.nih.gov/28355978/",
+        "title": "Limb Symmetry Indexes Can Overestimate Knee Function After Anterior Cruciate Ligament Injury.",
+        "publication_year": "2017",
+        "record_read_at": "2026-09-30T08:31:26.720508+00:00",
+        "interpretation_limit": "Coorte sul limite del rapporto di simmetria; esempio numerico dichiarato ipotetico, nessuna nuova soglia di clearance."
+      }
+    }
+  ]
+}

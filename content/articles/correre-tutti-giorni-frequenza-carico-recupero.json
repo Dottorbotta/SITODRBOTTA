@@ -1,16 +1,16 @@
 {
   "slug": "correre-tutti-giorni-frequenza-carico-recupero",
   "title": "Correre tutti i giorni: quando la frequenza è sostenibile e quando il carico diventa eccessivo",
-  "seoTitle": "Correre tutti i giorni: quando la frequenza è sostenibile e quando il carico diventa eccessivo",
+  "seoTitle": "Correre tutti i giorni: frequenza e recupero | Dr. Botta",
   "kicker": "Correre ogni giorno non è sempre troppo né sempre utile. Scopri come valutare frequenza, volume, intensità, recupero e risposta individuale al carico.",
   "category": "Ritorno allo sport",
   "excerpt": "Correre ogni giorno non è sempre troppo né sempre utile. Scopri come valutare frequenza, volume, intensità, recupero e risposta individuale al carico.",
   "description": "Correre ogni giorno non è sempre troppo né sempre utile. Scopri come valutare frequenza, volume, intensità, recupero e risposta individuale al carico.",
   "seoDescription": "Correre ogni giorno non è sempre troppo né sempre utile. Scopri come valutare frequenza, volume, intensità, recupero e risposta individuale al carico.",
   "date": "21 settembre 2026",
-  "readingTime": "6 min",
+  "readingTime": "16 min",
   "publishedAt": "2026-09-21",
-  "updatedAt": null,
+  "updatedAt": "2026-09-28",
   "author": "team-corpo-capace",
   "image": "/images/corsa-pianificazione.webp",
   "featuredImage": "/images/corsa-pianificazione.webp",
@@ -129,21 +129,87 @@
       ]
     },
     {
-      "heading": "Conclusione",
+      "heading": "Approfondimenti pratici e criteri decisionali",
       "paragraphs": [
+        "### Approfondimenti pratici e criteri decisionali",
+        "### Conclusione",
         "Correre tutti i giorni non è una virtù e non è una colpa.",
         "La frequenza diventa sostenibile quando è coerente con volume, intensità, recupero e capacità costruita. Diventa problematica quando viene aggiunta senza modificare il resto del carico o quando i segnali di recupero peggiorano.",
         "Il calendario conta meno della dose reale.",
-        "Per capire come costruire un percorso adatto alla tua situazione, [scopri come lavora il team Corpo Capace](/percorsi)."
-      ]
-    },
-    {
-      "heading": "Approfondisci il tuo prossimo passo",
-      "paragraphs": [
+        "Per capire come costruire un percorso adatto alla tua situazione, [scopri come lavora il team Corpo Capace](/percorsi).",
+        "### Approfondisci il tuo prossimo passo",
         "Continua con [Programmare la corsa: come costruire un piano che si adatti alla risposta del corpo](/blog/programmare-corsa-piano-adattivo-risposta-corpo)",
         "Continua con [Aumentare i chilometri di corsa: come farlo senza superare la tua capacità di carico](/blog/aumentare-chilometri-corsa-capacita-carico)",
         "Continua con [Frequenza cardiaca, respiro e RPE: come autoregolare la corsa senza dipendere da un solo dato](/blog/frequenza-cardiaca-respiro-rpe-autoregolare-corsa)",
-        "Trovi le guide organizzate per obiettivo nella [sezione Corsa](/blog/corsa)."
+        "Trovi le guide organizzate per obiettivo nella [sezione Corsa](/blog/corsa).",
+        "### Progressione e gestione del carico",
+        "### Approfondimento: cosa significa davvero per la decisione individuale",
+        "Correre tutti i giorni può essere sostenibile per alcuni runner se ogni seduta ha un costo compatibile con il recupero. La frequenza non è buona o cattiva in sé: distribuisce un volume e interagisce con intensità, durata, storia di carico e capacità.",
+        "Le systematic review sui parametri di training e infortuni trovano associazioni incoerenti per frequenza, distanza e intensità. Non esiste quindi un numero universale di giorni “sicuri”, ma un aumento di esposizione richiede capacità sufficiente.",
+        "### Le variabili che cambiano il quadro",
+        "Le variabili principali da leggere insieme sono: frequenza, volume per seduta, quota intensa, storia di allenamento e recupero e sonno. Nessuna di queste, isolata, spiega automaticamente il risultato. Diventano utili quando mostrano una relazione ripetibile con la prestazione, il sintomo o il recupero."
+      ]
+    },
+    {
+      "heading": "Progressione e gestione del carico",
+      "paragraphs": [
+        "### Monitoraggio, segnali e adattamenti",
+        "### Come costruire una progressione senza usare un calendario rigido",
+        "1. Stabilizzare 3–4 giorni.\n2. Aggiungere un giorno molto facile.\n3. Mantenere il volume totale inizialmente simile.\n4. Aumentare solo dopo aver verificato il recupero.\n5. Preservare almeno alcuni giorni realmente facili.",
+        "Passare da quattro corse da 10 km a sette da circa 6 km mantiene un volume simile ma cambia la frequenza e riduce i giorni senza impatto. Può essere utile per alcuni, inutile o irritante per altri: va testato, non ideologizzato.",
+        "### Cosa monitorare per sapere se il programma sta funzionando",
+        "I dati più utili in questo contesto sono RPE dei lenti, dolore mattutino, qualità del sonno, performance delle sedute chiave e volume totale. Non devono essere tutti misurati ogni giorno: bastano pochi indicatori scelti prima, raccolti nello stesso modo e collegati a decisioni concrete.",
+        "È importante uscire dal solo ragionamento di training quando compaiono peggioramento progressivo dei sintomi, stanchezza persistente, calo prestativo o incapacità di mantenere giorni facili. In questi casi serve inquadramento appropriato invece di continuare a modificare autonomamente la tabella.",
+        "### Applicazione al gesto reale",
+        "### Il Metodo Corpo Capace applicato a questo problema",
+        "L’intento è la frequenza quotidiana. L’articolo sull’aumento dei chilometri tratta invece il volume e la seduta lunga.",
+        "### Domande avanzate che aiutano a evitare decisioni automatiche",
+        "### Devo aspettare di non sentire più nulla prima di progredire?",
+        "### Come capisco se sto aumentando troppo?",
+        "### Serve un test perfetto prima di andare avanti?",
+        "### Quanto deve durare una fase?"
+      ]
+    },
+    {
+      "heading": "Monitoraggio, segnali e adattamenti",
+      "paragraphs": [
+        "### Metodo Corpo Capace e trasferimento",
+        "### Approfondimento operativo: ripetibilità, margine e trasferimento",
+        "### Perché la ripetibilità conta",
+        "Correre tutti i giorni può essere sostenibile per alcuni runner se ogni seduta ha un costo compatibile con il recupero. La frequenza non è buona o cattiva in sé: distribuisce un volume e interagisce con intensità, durata, storia di carico e capacità. Per capire se il cambiamento regge, confronta numero di sedute, durata, intensità, sintomi e disponibilità per la seduta successiva in più sedute, senza usare un singolo allenamento come verdetto.\n\n### Dal dato alla decisione\nLe systematic review sui parametri di training e infortuni trovano associazioni incoerenti per frequenza, distanza e intensità. Non esiste quindi un numero universale di giorni “sicuri”, ma un aumento di esposizione richiede capacità sufficiente. La media degli studi orienta la scelta, ma la dose va verificata nella persona e nel contesto descritti qui.\n\n### Il criterio del margine\nPassare da quattro corse da 10 km a sette da circa 6 km mantiene un volume simile ma cambia la frequenza e riduce i giorni senza impatto. Può essere utile per alcuni, inutile o irritante per altri: va testato, non ideologizzato. Mantieni la modifica soltanto se produce un vantaggio ripetibile nel tempo.",
+        "### Approfondimento: cosa significa davvero per la decisione individuale",
+        "Correre tutti i giorni può essere sostenibile per alcuni runner se ogni seduta ha un costo compatibile con il recupero. La frequenza non è buona o cattiva in sé: distribuisce un volume e interagisce con intensità, durata, storia di carico e capacità.",
+        "Le systematic review sui parametri di training e infortuni trovano associazioni incoerenti per frequenza, distanza e intensità. Non esiste quindi un numero universale di giorni “sicuri”, ma un aumento di esposizione richiede capacità sufficiente."
+      ]
+    },
+    {
+      "heading": "Applicazione al gesto reale",
+      "paragraphs": [
+        "### Le variabili che cambiano il quadro",
+        "Le variabili principali da leggere insieme sono: frequenza, volume per seduta, quota intensa, storia di allenamento e recupero e sonno. Nessuna di queste, isolata, spiega automaticamente il risultato. Diventano utili quando mostrano una relazione ripetibile con la prestazione, il sintomo o il recupero.",
+        "### Come costruire una progressione senza usare un calendario rigido",
+        "1. Stabilizzare 3–4 giorni.\n2. Aggiungere un giorno molto facile.\n3. Mantenere il volume totale inizialmente simile.\n4. Aumentare solo dopo aver verificato il recupero.\n5. Preservare almeno alcuni giorni realmente facili.",
+        "Passare da quattro corse da 10 km a sette da circa 6 km mantiene un volume simile ma cambia la frequenza e riduce i giorni senza impatto. Può essere utile per alcuni, inutile o irritante per altri: va testato, non ideologizzato."
+      ]
+    },
+    {
+      "heading": "Metodo Corpo Capace e trasferimento",
+      "paragraphs": [
+        "### Cosa monitorare per sapere se il programma sta funzionando",
+        "I dati più utili in questo contesto sono RPE dei lenti, dolore mattutino, qualità del sonno, performance delle sedute chiave e volume totale. Non devono essere tutti misurati ogni giorno: bastano pochi indicatori scelti prima, raccolti nello stesso modo e collegati a decisioni concrete.",
+        "È importante uscire dal solo ragionamento di training quando compaiono peggioramento progressivo dei sintomi, stanchezza persistente, calo prestativo o incapacità di mantenere giorni facili. In questi casi serve inquadramento appropriato invece di continuare a modificare autonomamente la tabella.",
+        "### Il Metodo Corpo Capace applicato a questo problema",
+        "L’intento è la frequenza quotidiana. L’articolo sull’aumento dei chilometri tratta invece il volume e la seduta lunga."
+      ]
+    },
+    {
+      "heading": "Domande frequenti e conclusioni",
+      "paragraphs": [
+        "### Domande avanzate che aiutano a evitare decisioni automatiche",
+        "### Devo aspettare di non sentire più nulla prima di progredire?",
+        "### Come capisco se sto aumentando troppo?",
+        "### Serve un test perfetto prima di andare avanti?",
+        "### Quanto deve durare una fase?"
       ]
     }
   ],
@@ -194,5 +260,21 @@
   "cta": "/percorsi",
   "sourceArticleId": "031",
   "hub": "corsa",
-  "editorialCluster": "programmazione"
+  "editorialCluster": "programmazione",
+  "editorialAudit": {
+    "status": "reviewed-2026-09-27",
+    "minimumBodyWords": 2000,
+    "bodyWords": 3393,
+    "checks": [
+      "scientific-evidence",
+      "search-intent",
+      "seo-metadata",
+      "geo-citability",
+      "internal-linking",
+      "anti-cannibalization",
+      "method-integration",
+      "conversion-path",
+      "heading-structure"
+    ]
+  }
 }

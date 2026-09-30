@@ -1,16 +1,16 @@
 {
   "slug": "diario-allenamento-corsa-dati-monitorare",
   "title": "Diario di allenamento: quali dati registrare per capire se stai davvero migliorando",
-  "seoTitle": "Diario di allenamento: quali dati registrare per capire se stai davvero migliorando",
+  "seoTitle": "Diario di allenamento corsa: dati da monitorare | Dr. Botta",
   "kicker": "Un diario di allenamento utile non raccoglie tutto: registra i dati che aiutano a capire carico, risposta e recupero. Ecco cosa monitorare nella corsa.",
   "category": "Ritorno allo sport",
   "excerpt": "Un diario di allenamento utile non raccoglie tutto: registra i dati che aiutano a capire carico, risposta e recupero. Ecco cosa monitorare nella corsa.",
   "description": "Un diario di allenamento utile non raccoglie tutto: registra i dati che aiutano a capire carico, risposta e recupero. Ecco cosa monitorare nella corsa.",
   "seoDescription": "Un diario di allenamento utile non raccoglie tutto: registra i dati che aiutano a capire carico, risposta e recupero. Ecco cosa monitorare nella corsa.",
   "date": "21 settembre 2026",
-  "readingTime": "4 min",
+  "readingTime": "10 min",
   "publishedAt": "2026-09-21",
-  "updatedAt": null,
+  "updatedAt": "2026-09-27",
   "author": "team-corpo-capace",
   "image": "/images/corsa-pianificazione.webp",
   "featuredImage": "/images/corsa-pianificazione.webp",
@@ -33,7 +33,9 @@
         "Le informazioni di base sono:",
         "- durata;\n- distanza;\n- ritmo medio;\n- tipo di seduta;\n- dislivello;\n- superficie;\n- eventuali intervalli e recuperi.",
         "Questi dati descrivono il lavoro eseguito.",
-        "Sono utili, ma da soli non spiegano quanto quel lavoro ti sia costato."
+        "Sono utili, ma da soli non spiegano quanto quel lavoro ti sia costato.",
+        "Per la maggior parte dei runner bastano durata, distanza, dislivello e una descrizione del tipo di seduta. Se fai ripetute, annota struttura e recuperi. Se fai forza, includi gli esercizi principali e il carico rilevante.",
+        "Questi dati permettono di ricostruire ciò che è cambiato. Se aumenta un dolore dopo tre settimane di salite, il diario deve permettere di vedere quell’aumento."
       ]
     },
     {
@@ -42,7 +44,9 @@
         "Una delle più semplici è l’RPE: quanto è stata impegnativa la seduta su una scala definita.",
         "Il vantaggio è che permette di confrontare sedute simili nel tempo.",
         "Se corri 10 km allo stesso ritmo ma l’RPE passa da 7/10 a 5/10, è possibile che la stessa richiesta esterna stia diventando più tollerabile.",
-        "Al contrario, se lo stesso allenamento diventa progressivamente più faticoso, il diario può evidenziare un problema prima che il cronometro peggiori."
+        "Al contrario, se lo stesso allenamento diventa progressivamente più faticoso, il diario può evidenziare un problema prima che il cronometro peggiori.",
+        "Una scala RPE coerente è spesso sufficiente. Puoi usare anche frequenza cardiaca quando è utile, ma non serve moltiplicare metriche che descrivono la stessa cosa. L’obiettivo è capire quanto è costato quel lavoro a quella persona.",
+        "Se una seduta abituale passa da RPE 3 a RPE 6 per più giorni, il dato merita contesto. Non significa automaticamente sovrallenamento, ma giustifica una domanda."
       ]
     },
     {
@@ -61,7 +65,9 @@
         "- qualità del sonno;\n- fatica percepita;\n- stress;\n- motivazione;\n- percezione di recupero;\n- eventuale indolenzimento.",
         "La letteratura sul monitoraggio dell’atleta mostra che le misure soggettive possono essere molto sensibili ai cambiamenti di carico e stato dell’atleta.",
         "Non significa che sostituiscano i dati oggettivi.",
-        "Significa che hanno valore quando vengono raccolte con continuità e lette nel tempo."
+        "Significa che hanno valore quando vengono raccolte con continuità e lette nel tempo.",
+        "Scegli sonno, fatica generale e disponibilità per la seduta successiva, oppure altri indicatori pertinenti. Mantieni la stessa scala abbastanza a lungo da vedere trend.",
+        "Non è necessario che ogni valore sia ‘buono’. Una settimana di carico può aumentare temporaneamente la fatica. Il problema è quando il trend non torna verso il baseline come previsto."
       ]
     },
     {
@@ -72,7 +78,9 @@
         "Un RPE elevato in una singola seduta va interpretato nel contesto.",
         "Diventa più interessante quando più indicatori si muovono nella stessa direzione per diversi giorni:",
         "- stesso ritmo, RPE crescente;\n- peggior recupero;\n- maggiore fatica;\n- sedute chiave meno qualitative.",
-        "Il diario deve aiutarti a riconoscere pattern."
+        "Il diario deve aiutarti a riconoscere pattern.",
+        "Un modo pratico è usare medie o semplici confronti settimanali invece di reagire a ogni oscillazione. Se RPE e fatica sono più alti per un solo giorno dopo una notte difficile, non serve riscrivere il programma. Se lo stesso pattern compare per una settimana e la performance scende, la storia cambia.",
+        "Anche i sintomi vanno letti così. Un episodio isolato che rientra rapidamente pesa meno di una soglia che si abbassa progressivamente a parità di carico."
       ]
     },
     {
@@ -122,16 +130,80 @@
         "### Qual è il dato più importante?",
         "Dipende dall’obiettivo. Per molti runner la combinazione di carico esterno, RPE, recupero e sintomi è già molto informativa.",
         "### La frequenza cardiaca basta?",
-        "No. È un indicatore utile, ma va interpretato nel contesto insieme a ritmo, RPE, ambiente e stato di recupero."
-      ]
-    },
-    {
-      "heading": "Continua il percorso",
-      "paragraphs": [
+        "No. È un indicatore utile, ma va interpretato nel contesto insieme a ritmo, RPE, ambiente e stato di recupero.",
+        "### Continua il percorso",
         "Approfondisci [Programmare la corsa: come costruire un piano che si adatti alla risposta del corpo](/blog/programmare-corsa-piano-adattivo-risposta-corpo).",
         "Approfondisci [Frequenza cardiaca, respiro e RPE: come autoregolare la corsa senza dipendere da un solo dato](/blog/frequenza-cardiaca-respiro-rpe-autoregolare-corsa).",
         "Approfondisci [Sovrallenamento nel runner: i segnali che il recupero non sta tenendo il passo](/blog/sovrallenamento-runner-segnali-recupero).",
         "Trovi tutte le guide nella [sezione Corsa](/blog/corsa)."
+      ]
+    },
+    {
+      "heading": "Il diario deve ridurre l’incertezza, non accumulare numeri",
+      "paragraphs": [
+        "Registrare decine di metriche ha poco valore se nessuna cambia una decisione. Un diario efficace conserva dati abbastanza stabili da permettere confronti: cosa hai fatto, quanto è stato impegnativo, come hai risposto e cosa è successo dopo.",
+        "Se una metrica non viene mai guardata o non sai come interpretarla, può essere eliminata. La semplicità aumenta la probabilità di mantenere il diario per mesi.",
+        "Se registri venti metriche ma nessuna cambia una decisione, il diario sta creando rumore. Parti dalle domande: sto aumentando troppo rapidamente? quale seduta produce il sintomo? quanto recupero tra due lavori intensi? Il dato entra soltanto se aiuta a rispondere.",
+        "Questo rende il diario più sostenibile. Tre informazioni compilate con costanza valgono più di una dashboard completa abbandonata dopo due settimane."
+      ]
+    },
+    {
+      "heading": "Carico esterno e carico interno: perché servono entrambi",
+      "paragraphs": [
+        "Il carico esterno descrive il lavoro: minuti, chilometri, dislivello, velocità, ripetute, peso sollevato. Il carico interno descrive la risposta: RPE, frequenza cardiaca, sintomi, fatica. La stessa seduta esterna può generare risposte diverse in giornate diverse.",
+        "Registrare entrambi aiuta a capire quando un ritmo abituale diventa più costoso o quando una distanza prima difficile diventa gestibile.",
+        "Chilometri, velocità, dislivello e ripetizioni descrivono ciò che hai fatto. RPE, frequenza cardiaca e percezione della fatica descrivono come hai risposto. Se il carico esterno resta uguale e quello interno aumenta per più sedute, c’è qualcosa da interpretare.",
+        "La discrepanza non identifica automaticamente un problema. Caldo, sonno, stress e malattia possono modificarla. Ma è proprio la ripetizione del pattern a renderla informativa."
+      ]
+    },
+    {
+      "heading": "Non confondere precisione del dispositivo con precisione della decisione",
+      "paragraphs": [
+        "Orologi e sensori producono molti valori, ma alcuni sono stime proprietarie e possono cambiare tra dispositivi. Non serve trattare ogni punteggio di recupero o readiness come una diagnosi.",
+        "Puoi usare il dispositivo come fonte di dati, ma la decisione dovrebbe integrare contesto e risposta reale. Se l'orologio dice 'pronto' ma hai febbre, il dato non prevale. Se dice 'scarso recupero' ma ti senti bene, puoi iniziare con una dose controllata e rivalutare.",
+        "Un orologio può mostrare numeri con molte cifre decimali senza che la misura sia altrettanto accurata in ogni condizione. GPS, frequenza cardiaca al polso e stime di recupero hanno margini e algoritmi proprietari.",
+        "Usa quindi il dispositivo per trend coerenti, non per obbedire a ogni variazione di un singolo giorno. Se un dato contraddice nettamente la tua esperienza, verifica il contesto prima di cambiare il programma."
+      ]
+    },
+    {
+      "heading": "Come registrare il dolore senza farlo diventare il centro del diario",
+      "paragraphs": [
+        "Se il dolore è rilevante, annota intensità, momento di comparsa, comportamento con il carico e durata dopo la seduta. Evita di registrare ogni sensazione per tutto il giorno se questo aumenta il focus senza migliorare le decisioni.",
+        "Collega sempre il sintomo alla funzione: quanto hai camminato, corso, salito scale, lavorato. Un numero di dolore isolato dice meno di un trend che mostra più attività con risposta stabile.",
+        "Oltre all’intensità, annota quando compare, quanto dura, se modifica il gesto e come influenza le attività successive. Un 4/10 che dura cinque minuti e non cambia nulla non è la stessa informazione di un 4/10 che riduce il cammino per due giorni.",
+        "Collega sempre il sintomo alla dose che lo precede. In questo modo il diario aiuta a costruire tolleranza invece di trasformarsi in una cronaca del dolore."
+      ]
+    },
+    {
+      "heading": "La revisione settimanale deve terminare con una scelta",
+      "paragraphs": [
+        "Una volta a settimana guarda i dati e scrivi una decisione: aumentare, mantenere, ridurre o modificare. Se non riesci a formulare nessuna scelta, probabilmente stai raccogliendo informazioni poco utili.",
+        "Il diario diventa così parte della programmazione. Non è un archivio del passato, ma uno strumento per decidere il carico futuro.",
+        "Alla fine della settimana scegli una sola azione principale: mantenere, aumentare una variabile, ridurre una variabile oppure approfondire. Se la revisione produce dieci cambiamenti, la settimana successiva sarà più difficile da interpretare.",
+        "Scrivi anche il motivo della scelta. Dopo qualche mese potrai capire quali decisioni hanno prodotto stabilità e quali no.",
+        "Quando i dati sono contraddittori, scegli di mantenere invece di reagire subito. Una settimana in più a dose stabile può chiarire se stai osservando rumore o un trend. L’errore comune è usare il diario per giustificare cambiamenti continui: ogni nuova modifica crea a sua volta un contesto diverso e rende più difficile capire cosa funziona. Il monitoraggio deve aumentare chiarezza, non instabilità."
+      ]
+    },
+    {
+      "heading": "Il Metodo Corpo Capace e il monitoraggio",
+      "paragraphs": [
+        "Nel Metodo Corpo Capace il diario viene usato per confrontare capacità e richiesta. Se la stessa attività diventa più tollerabile, la capacità sta crescendo. Se la richiesta aumenta più rapidamente della risposta, il programma va adattato.",
+        "La persona deve arrivare a usare pochi dati in autonomia. Il monitoraggio è riuscito quando chiarisce, non quando rende dipendenti dal foglio o dall'orologio.",
+        "Nel Metodo Corpo Capace il monitoraggio serve a decidere la progressione. Forza, funzione, sintomi e carico vengono letti insieme per capire se una capacità sta diventando più affidabile.",
+        "Il dato non prende la decisione da solo. Aiuta coach e persona a discuterla su una base più concreta.",
+        "Quando il percorso è online, un diario essenziale aiuta anche la comunicazione tra persona e coach. Un messaggio come ‘30 minuti, RPE 4, dolore 2 che è tornato al baseline entro sera, il giorno dopo scale normali’ è molto più operativo di ‘è andata abbastanza bene’. La qualità del feedback consente di cambiare il programma con maggiore precisione senza chiedere alla persona di produrre report infiniti."
+      ]
+    },
+    {
+      "heading": "Un modello minimo di diario",
+      "paragraphs": [
+        "Per molte persone bastano sei campi: tipo di seduta, durata o volume, intensità/RPE, sintomi rilevanti, qualità del recupero il giorno dopo, nota sul contesto. Per atleti avanzati si possono aggiungere dislivello, ritmo specifico, HR o metriche di forza.",
+        "Il modello deve restare stabile abbastanza a lungo da creare una serie comparabile. Cambiare indicatori ogni settimana impedisce di vedere trend reali.",
+        "Una riga può contenere: data; seduta; durata/distanza; RPE; sintomo principale se presente; nota sul giorno successivo. Una volta a settimana aggiungi una breve sintesi: cosa è migliorato, cosa è peggiorato, quale decisione prendo.",
+        "Questo formato è abbastanza piccolo da essere sostenibile e abbastanza ricco da supportare decisioni. Tutto il resto è opzionale.",
+        "Per rendere il diario ancora più utile, aggiungi una colonna ‘decisione’: nessuna modifica, aumentare, ridurre, approfondire. Questo costringe a collegare il dato a un’azione. Dopo alcune settimane puoi vedere se stai cambiando continuamente programma per fluttuazioni casuali oppure se le modifiche seguono pattern reali.",
+        "Il diario migliore non è quello più completo. È quello che ti permette di ricostruire perché hai preso una decisione e cosa è successo dopo.",
+        "Se vuoi un livello in più senza rendere il diario pesante, aggiungi una nota mensile con tre righe: capacità aumentate, problemi ricorrenti, priorità del blocco successivo. Questa sintesi impedisce di perdere la visione d’insieme tra centinaia di sedute e rende più facile capire se il programma sta realmente cambiando ciò che conta."
       ]
     }
   ],
@@ -154,6 +226,14 @@
     {
       "label": "Recovery and Performance in Sport: Consensus Statement",
       "url": "https://pubmed.ncbi.nlm.nih.gov/29345524/"
+    },
+    {
+      "label": "Torres G et al. Rating of perceived exertion in continuous sports: scoping review and evidence gap map (2025).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40735419/"
+    },
+    {
+      "label": "Foulkes S et al. Exercise training load in endurance athletes and FITT quantification: systematic review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39672298/"
     }
   ],
   "canonical": "/blog/diario-allenamento-corsa-dati-monitorare",
@@ -177,5 +257,13 @@
   "cta": "/percorsi",
   "sourceArticleId": "043",
   "hub": "corsa",
-  "editorialCluster": "programmazione"
+  "editorialCluster": "programmazione",
+  "audit": {
+    "standard": "Dr. Botta SEO/GEO authoritative long-form",
+    "reviewedAt": "2026-09-27",
+    "bodyWordCount": 2211,
+    "minimumTarget": 2200,
+    "methodCorpoCapaceIntegrated": true,
+    "status": "COMPLETO"
+  }
 }

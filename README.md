@@ -1,6 +1,6 @@
 # Dr. Botta — Pathodynamics
 
-Homepage responsive di Dr. Botta, dedicata ai percorsi di coaching avanzato per recuperare abilità, funzione e performance.
+Sito del Metodo Corpo Capace, dedicato ai percorsi online seguiti dal team per tornare a camminare, allenarsi e svolgere le attività quotidiane.
 
 ## Contenuti
 
@@ -31,7 +31,7 @@ Il progetto usa React, vinext e Vite ed è predisposto per il deployment su Clou
 
 ## Lighthouse CI
 
-Sorgente applicativa sincronizzata con Sites v44 (`2d2c63a8c27ce32cbdfdcf7ad6046342f417f09d`). Questo repository conserva in più i workflow GitHub e l’anteprima storica; i report operativi di pubblicazione restano nella sorgente Sites. Per la versione corrente usare `pnpm install --frozen-lockfile` (pnpm 11.19.0), quindi `pnpm test` e `pnpm exec lhci autorun`.
+Sorgente applicativa sincronizzata con Sites v103 (`fbc4555a7c18bf8840b6574a63f391651a060e5f`), pubblicata il 30 settembre 2026. Il corpus contiene 518 articoli. Le 75 differenze residue rispetto a Drive restano aperte: questo mirror non certifica il completamento editoriale integrale. Questo repository conserva in più i workflow GitHub e l’anteprima storica; i report operativi di pubblicazione restano nella sorgente Sites. Per la versione corrente usare `pnpm install --frozen-lockfile` (pnpm 12.6.0), quindi `pnpm test` e `pnpm exec lhci autorun`.
 
 Il workflow Website quality esegue tre misure mobile su home, blog e articolo dolore al piede. I report HTML/JSON restano negli artifact GitHub per 14 giorni; nessun caricamento in storage pubblico Lighthouse. Le soglie sono inizialmente avvisi. Il noindex viene mantenuto e può ridurre il punteggio SEO. Il test usa la build locale nel runner, non modifica né verifica il gateway di accesso Sites.
 

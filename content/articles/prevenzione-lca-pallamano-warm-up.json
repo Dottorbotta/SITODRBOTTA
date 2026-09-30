@@ -1,0 +1,96 @@
+{
+  "slug": "prevenzione-lca-pallamano-warm-up",
+  "title": "Prevenzione LCA nella pallamano: cosa sappiamo su warm-up e allenamento neuromuscolare",
+  "seoTitle": "Prevenzione LCA nella pallamano: cosa sappiamo su warm-up e allenamento neuromuscolare | Dr. Botta",
+  "kicker": "I programmi neuromuscolari nella pallamano possono ridurre il rischio di alcune lesioni del ginocchio e del LCA, soprattutto se…",
+  "category": "Ginocchio",
+  "excerpt": "Prevenzione LCA nella pallamano: come usare warm-up neuromuscolare, forza e feedback sui gesti, e quali risultati aspettarsi.",
+  "description": "Prevenzione LCA nella pallamano: come usare warm-up neuromuscolare, forza e feedback sui gesti, e quali risultati aspettarsi.",
+  "seoDescription": "Prevenzione LCA nella pallamano: come usare warm-up neuromuscolare, forza e feedback sui gesti, e quali risultati aspettarsi.",
+  "date": "27 settembre 2026",
+  "publishedAt": "2026-09-27",
+  "updatedAt": null,
+  "author": "team-corpo-capace",
+  "readingTime": "3 min",
+  "image": "/images/article-452.webp",
+  "featuredImage": "/images/article-452.webp",
+  "imageAlt": "Squadra di pallamano durante il riscaldamento neuromuscolare in palestra.",
+  "imageCaption": "Immagine illustrativa generata con IA; non raffigura un paziente o un risultato clinico.",
+  "accent": "bronze",
+  "intro": "I programmi neuromuscolari nella pallamano possono ridurre il rischio di alcune lesioni del ginocchio e del LCA, soprattutto se applicati con costanza. La loro efficacia riguarda gruppi studiati, non la certezza di proteggere ogni giocatore.",
+  "sections": [
+    {
+      "heading": "Il gesto della pallamano",
+      "paragraphs": [
+        "Accelerazioni, tagli, arresti e atterraggi dopo un tiro si combinano con avversari e contatti. Molte lesioni possono avvenire durante gesti senza contatto diretto, ma il meccanismo cambia tra atleti e situazioni. Non usare un solo video o una misura di valgismo come test capace di predire il futuro di una persona."
+      ]
+    },
+    {
+      "heading": "Cosa mette insieme un buon programma",
+      "paragraphs": [
+        "Un warm-up pratico può unire forza, equilibrio, salti, atterraggi, frenate e cambi di direzione, con feedback chiaro. Progredisci verso velocità e decisioni che assomigliano al gioco. L’allenatore deve poterlo inserire con regolarità nel calendario; un intervento troppo complesso e saltato spesso ha meno possibilità di funzionare."
+      ]
+    },
+    {
+      "heading": "Evidenza e limiti",
+      "paragraphs": [
+        "Trial su squadre giovanili di pallamano hanno studiato riduzioni di lesioni gravi del ginocchio con esercizi neuromuscolari. Meta-analisi su più sport sostengono i programmi di prevenzione del LCA, ma le stime aggregate non dimostrano che ogni componente isolata sia necessaria. Non estrapolare senza cautela da adolescenti a professionisti, da un sesso all’altro o a squadre con aderenza molto diversa."
+      ]
+    },
+    {
+      "heading": "Monitorare senza promettere rischio zero",
+      "paragraphs": [
+        "Registra partecipazione al programma, esposizione agli allenamenti e infortuni, oltre alla capacità di eseguire progressioni con qualità. Carico settimanale, precedenti lesioni e recupero restano parte della gestione. Una persona operata al LCA ha bisogno di riabilitazione e criteri di ritorno individuali; il warm-up di squadra non è la sua clearance."
+      ]
+    },
+    {
+      "heading": "Domande frequenti",
+      "paragraphs": [
+        "### Il warm-up elimina il rischio di lesione LCA?",
+        "No. I programmi studiati possono ridurre il rischio medio nei gruppi, senza prevedere o impedire ogni lesione individuale.",
+        "### Quanto conta la continuità?",
+        "L'aderenza è parte dell'intervento: un programma sostenibile e ripetuto ha più possibilità di essere applicato nella stagione."
+      ]
+    }
+  ],
+  "takeaways": [
+    "I programmi neuromuscolari hanno mostrato una riduzione del rischio medio in gruppi di giovani pallamanisti studiati.",
+    "Forza, equilibrio, salti, atterraggi e cambi di direzione vanno resi praticabili e ripetuti con continuità.",
+    "Nessun warm-up predice o impedisce la lesione del singolo atleta e non sostituisce la riabilitazione dopo LCA."
+  ],
+  "sources": [
+    {
+      "label": "Trial randomizzato sul programma neuromuscolare in giovani pallamanisti",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29058022/"
+    },
+    {
+      "label": "Revisione delle componenti dei programmi neuromuscolari",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27251898/"
+    }
+  ],
+  "canonical": "/blog/prevenzione-lca-pallamano-warm-up",
+  "primaryKeyword": "Prevenzione LCA nella pallamano: cosa sappiamo su warm-up e allenamento neuromuscolare",
+  "tags": [
+    "Pallamano",
+    "Ginocchio"
+  ],
+  "clinicalReview": {
+    "status": "not-recorded",
+    "reviewer": null,
+    "date": null
+  },
+  "relatedPosts": [
+    "lca-ritorno-pallamano-performance",
+    "ritorno-pallamano-ginocchio",
+    "warmup-neuromuscolare-basket-prevenzione"
+  ],
+  "cta": "/coaching-avanzato/",
+  "sourceArticleId": "452",
+  "sourceDocument": "https://docs.google.com/document/d/1zS31UBZzjelVS5quuwycHqSDGDcGXzjTHC3tXNImvis/edit",
+  "editorialCluster": "SPORT-SPECIFIC — PALLAMANO",
+  "hub": "Ginocchio",
+  "hubPath": "/blog/argomenti/ginocchio",
+  "subHub": "Sport-specific — PALLAMANO",
+  "subHubPath": null,
+  "sourceDate": null
+}

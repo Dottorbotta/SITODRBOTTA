@@ -1,16 +1,16 @@
 {
   "slug": "cadenza-corsa-velocita-carico",
   "title": "Cadenza nella corsa: come frequenza del passo e velocità cambiano i carichi",
-  "seoTitle": "Ritmo di corsa: come cadenza e velocità cambiano il carico",
+  "seoTitle": "Cadenza nella corsa: velocità, carico e mito dei 180 | Dr. Botta",
   "kicker": "La cadenza modifica lunghezza del passo e carichi, ma 180 non è un numero magico. Scopri come interpretarla insieme a velocità, sintomi e obiettivo.",
   "category": "Ritorno allo sport",
   "excerpt": "La cadenza modifica lunghezza del passo e carichi, ma 180 non è un numero magico. Scopri come interpretarla insieme a velocità, sintomi e obiettivo.",
   "description": "La cadenza modifica lunghezza del passo e carichi, ma 180 non è un numero magico. Scopri come interpretarla insieme a velocità, sintomi e obiettivo.",
-  "seoDescription": "La cadenza modifica lunghezza del passo e carichi, ma 180 non è un numero magico. Scopri come interpretarla insieme a velocità, sintomi e obiettivo.",
+  "seoDescription": "Cadenza nella corsa: perché 180 passi non è un target universale, cosa cambia con +5–10% e come usare lo step rate per redistribuire il carico.",
   "date": "20 settembre 2026",
-  "readingTime": "7 min",
+  "readingTime": "9 min",
   "publishedAt": "2026-09-20",
-  "updatedAt": null,
+  "updatedAt": "2026-09-27",
   "author": "team-corpo-capace",
   "image": "/images/tecnica-di-corsa.webp",
   "featuredImage": "/images/tecnica-di-corsa.webp",
@@ -153,6 +153,70 @@
       ]
     },
     {
+      "heading": "La cadenza preferita cambia con la velocità",
+      "paragraphs": [
+        "Confrontare la propria cadenza a 5:00/km con quella di un atleta che corre a 3:30/km è poco utile. All’aumentare della velocità cambiano sia frequenza del passo sia lunghezza della falcata, in proporzioni diverse tra individui.",
+        "Per questo un valore come 180 passi al minuto non può essere interpretato senza conoscere velocità, altezza, esperienza e contesto. Alcuni runner efficienti corrono sotto quel numero, altri sopra.",
+        "La cadenza è una misura descrittiva prima di essere una prescrizione."
+      ]
+    },
+    {
+      "heading": "Cosa mostrano le revisioni più recenti",
+      "paragraphs": [
+        "La systematic review con meta-analisi sullo step rate ha mostrato che aumentare la cadenza, mantenendo la velocità, tende a ridurre lunghezza del passo, flessione di ginocchio, momento estensorio e alcune misure di carico. L’effetto è biomeccanico e relativamente coerente per incrementi moderati.",
+        "Una review del 2025 ha confermato che il gait retraining basato sulla cadenza può modificare in modo affidabile lo step rate. Ma l’evidenza sugli infortuni a lungo termine resta molto meno forte della capacità di modificare la biomeccanica.",
+        "Questo distingue due affermazioni: ‘posso cambiare alcuni carichi aumentando la cadenza’ è supportato; ‘una cadenza alta previene gli infortuni’ è molto più difficile da sostenere."
+      ]
+    },
+    {
+      "heading": "Perché +5–10% è diverso da inseguire 180",
+      "paragraphs": [
+        "Molti studi di retraining usano aumenti relativi rispetto alla cadenza spontanea, spesso nell’ordine del 5–10%. Questo permette di modificare il gesto senza chiedere una rivoluzione immediata.",
+        "Un runner che parte da 155 passi/min e prova direttamente 180 aumenta di oltre il 16%. Potrebbe percepire il gesto come artificiale, aumentare il costo energetico o spostare eccessivamente la richiesta su altri tessuti.",
+        "La dose va testata. Se un incremento piccolo riduce il dolore o una variabile di carico senza peggiorare economia e comfort, può avere senso. Non serve raggiungere un numero simbolico."
+      ]
+    },
+    {
+      "heading": "Il costo energetico va considerato",
+      "paragraphs": [
+        "Una modifica tecnica può essere biomeccanicamente elegante e allo stesso tempo costare di più. All’inizio è normale che un pattern nuovo richieda attenzione e sembri meno economico.",
+        "Se il runner sta cercando performance, questa componente conta. Una cadenza che riduce un certo carico ma rende impossibile mantenere il ritmo di gara potrebbe essere utile in riabilitazione temporanea e meno utile come tecnica definitiva.",
+        "Il gait retraining deve quindi bilanciare sintomo, carico, comfort ed economia, non massimizzare una singola metrica."
+      ]
+    },
+    {
+      "heading": "Feedback: imparare e poi togliere il metronomo",
+      "paragraphs": [
+        "Metronomo, musica e feedback visivo possono aiutare a trovare una nuova frequenza del passo. Ma il runner non dovrebbe dipendere per sempre da un cue esterno.",
+        "La letteratura sul retraining usa spesso un progressivo ritiro del feedback. Prima si crea il pattern, poi si verifica se viene mantenuto senza segnali continui.",
+        "Questo passaggio trasforma una correzione artificiale in una strategia realmente disponibile durante una corsa normale."
+      ]
+    },
+    {
+      "heading": "Come lo traduciamo nel Metodo Corpo Capace",
+      "paragraphs": [
+        "Nel Metodo Corpo Capace modifichiamo la cadenza solo quando esiste un motivo: sintomo, distribuzione del carico o obiettivo tecnico specifico. Il valore di partenza viene rispettato e il cambiamento è normalmente piccolo e verificabile.",
+        "Testiamo brevi tratti, confrontiamo dolore e percezione dello sforzo e osserviamo la risposta nelle ore successive. Se il vantaggio esiste, aumentiamo la durata della nuova strategia; se non esiste, non la manteniamo per dogma.",
+        "La cadenza diventa così uno strumento di regolazione del carico, non un voto sulla qualità del runner."
+      ]
+    },
+    {
+      "heading": "Come misurare la cadenza senza farsi ingannare",
+      "paragraphs": [
+        "Orologi e footpod stimano i passi al minuto con buona utilità pratica, ma il valore medio può nascondere variazioni tra riscaldamento, salite e tratti veloci. Per confrontare due sedute, osserva segmenti a velocità simile.",
+        "Contare manualmente i passi per 30 secondi può essere sufficiente per una verifica semplice. L’importante è non confrontare numeri presi in condizioni completamente diverse.",
+        "La cadenza diventa informativa quando è collegata a velocità, dolore e sensazione di corsa."
+      ]
+    },
+    {
+      "heading": "Quando non cambiare la cadenza",
+      "paragraphs": [
+        "Se il runner è asintomatico, corre bene e non esiste un obiettivo tecnico specifico, una cadenza diversa da 180 non richiede correzione. Cambiare un gesto stabile senza un problema da risolvere può introdurre costo e rigidità inutili.",
+        "Anche durante un periodo di carico elevato non è detto che il problema sia la cadenza. Sonno, volume e intensità possono spiegare molto di più.",
+        "Il principio è conservativo nel senso migliore: non intervenire solo perché una metrica appare lontana da un numero famoso."
+      ]
+    },
+    {
       "heading": "Domande frequenti",
       "paragraphs": [
         "### Qual è la cadenza ideale per correre?",
@@ -179,6 +243,14 @@
         "[Biomeccanica della corsa: postura, cadenza, appoggio e controllo](/blog/tecnica-corsa-postura-ritmo-appoggio-controllo).",
         "[Postura nella corsa: cosa osservare senza inseguire una posizione perfetta](/blog/postura-corsa-cosa-osservare)."
       ]
+    },
+    {
+      "heading": "Come misurare la cadenza senza trasformarla in un feticcio",
+      "paragraphs": [
+        "La cadenza può essere letta da orologio, footpod o video. Per confrontare sedute diverse serve però mantenere simili velocità e condizioni, perché la frequenza dei passi cambia spontaneamente quando acceleri.",
+        "Un singolo numero non basta. È più utile osservare il tuo range abituale a diverse velocità e capire se una modifica produce un effetto verificabile su sintomi, percezione e meccanica.",
+        "La precisione dello strumento è meno importante della coerenza con cui lo usi per prendere decisioni."
+      ]
     }
   ],
   "takeaways": [
@@ -202,7 +274,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40964543/"
     }
   ],
-  "primaryKeyword": "cadenza nella corsa e mito dei 180 passi",
+  "primaryKeyword": "cadenza corsa 180 passi velocità carico",
   "tags": [
     "Corsa",
     "Biomeccanica",
@@ -217,5 +289,7 @@
     "tecnica-di-corsa",
     "tecnica-corsa-postura-ritmo-appoggio-controllo",
     "postura-corsa-cosa-osservare"
-  ]
+  ],
+  "canonical": "/blog/cadenza-corsa-velocita-carico",
+  "cta": "/coaching-avanzato/"
 }

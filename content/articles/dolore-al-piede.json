@@ -6,11 +6,10 @@
   "category": "Piede",
   "excerpt": "Dolore al piede: possibili cause per zona, sintomi da osservare, segnali che richiedono assistenza e ruolo di esami, supporti ed esercizio quando indicati.",
   "date": "8 settembre 2026",
-  "sourceDate": "8 settembre 2026",
-  "readingTime": "11 min",
+  "readingTime": "12 min",
   "image": "/images/dolore-piede-progressione.webp",
   "imageAlt": "Progressione di attività dal cammino al trekking, secondo gli obiettivi individuali.",
-  "imageCaption": "Dalla protezione all’autonomia · Immagine illustrativa generata con IA",
+  "imageCaption": "Immagine generata con IA",
   "accent": "bronze",
   "intro": "Il dolore al piede può interessare tallone, pianta, avampiede o dorso. La sede orienta la valutazione, ma non basta a identificare la causa. Contano anche quando compare, eventuali traumi, sintomi associati e attività limitate: da questo quadro dipende cosa fare e se modificare il carico.",
   "sections": [
@@ -33,7 +32,7 @@
       "image": {
         "src": "/images/dolore-piede-anatomia.webp",
         "alt": "Viste plantare e laterale del piede con tallone, arco, avampiede e regione laterale evidenziati.",
-        "caption": "Dove fa male è un indizio, non una diagnosi · Illustrazione generata con IA."
+        "caption": "Immagine generata con IA"
       }
     },
     {
@@ -149,7 +148,7 @@
       "image": {
         "src": "/images/dolore-piede-progressione.webp",
         "alt": "La stessa persona in cinque attività: cammino breve, cammino lungo, salita, corsa e trekking.",
-        "caption": "Ridurre → dosare → adattare → progredire → tornare capace. Le tappe dipendono dall’obiettivo · Immagine illustrativa generata con IA."
+        "caption": "Immagine generata con IA"
       }
     },
     {
@@ -159,6 +158,20 @@
         "- Che cosa non riesco più a fare e quanto tollero oggi?\n- Che cosa è cambiato nelle ultime settimane?\n- Quali capacità servono per il mio obiettivo?\n- Da quale dose posso partire e come reagiscono i sintomi?\n- Quando e come aumentare la richiesta?",
         "Proteggersi per un periodo può essere utile. Il risultato che cerchiamo è recuperare le capacità necessarie per affrontare la propria vita, non inseguire un piede teoricamente perfetto.",
         "**Comprendere → valutare → dosare → esporre → adattare → progredire → tornare capace.** Se il dolore ti fa rinunciare a cammino o sport, parti dall'inquadramento del problema e da una progressione appropriata al tuo caso."
+      ]
+    },
+    {
+      "heading": "Dolore al piede: la stessa sede può avere origini diverse",
+      "paragraphs": [
+        "Il tallone può essere dolente per una fasciopatia plantare, ma anche per fat pad, irritazione nervosa o patologie ossee. L’avampiede può coinvolgere articolazioni metatarso-falangee, plantar plate, neuroma o sovraccarico osseo. Il dorso del piede può essere irritato da scarpe, tendini o lesioni da stress. La mappa anatomica aiuta a orientarsi, ma non sostituisce storia e test.",
+        "Questo è il motivo per cui un consiglio generico come “stretching per il piede” può essere inappropriato. La stessa azione che aiuta un quadro può non avere alcun senso in un altro. Prima si definisce quale struttura o meccanismo è plausibile, poi si decide se caricare, proteggere, modificare scarpa o richiedere imaging."
+      ]
+    },
+    {
+      "heading": "Un dolore che cambia rapidamente merita una nuova ipotesi",
+      "paragraphs": [
+        "Nel percorso di recupero conta il trend. Se un dolore localizzato diventa improvvisamente molto più intenso, compare gonfiore importante, difficoltà marcata a caricare o sintomi neurologici, la strategia non è “fare la regressione dell’esercizio”. La priorità torna a essere l’inquadramento.",
+        "Anche una mancata risposta protratta a un programma ben dosato deve far riesaminare la diagnosi. Un percorso di qualità non difende l’ipotesi iniziale a tutti i costi: la modifica quando i dati della persona non tornano."
       ]
     },
     {
@@ -234,7 +247,7 @@
     "Corpo Capace"
   ],
   "publishedAt": "2026-09-08",
-  "updatedAt": null,
+  "updatedAt": "2026-09-27",
   "author": "team-corpo-capace",
   "featuredImage": "/images/dolore-piede-progressione.webp",
   "canonical": "/blog/dolore-al-piede",

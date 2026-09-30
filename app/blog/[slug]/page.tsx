@@ -10,6 +10,7 @@ import Link from "next/link";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { articles, getArticle } from "../../data/articles";
+import { coverCaption, inlineImageCaption } from "../../lib/article-disclosures";
 
 type ArticlePageProps = { params: Promise<{ slug: string }> };
 
@@ -66,7 +67,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
         <figure className={`article-cover article-cover--${article.accent}`}>
           <ResponsiveImage sizes="(max-width: 1217px) 92vw, 1120px" loading="eager" src={article.image} alt={article.imageAlt ?? ""} width="1200" height="750" fetchPriority="high" />
-          <div /><figcaption>{article.imageCaption ?? "Metodo Corpo Capace · Dr. Botta"}</figcaption>
+          <div /><figcaption>{coverCaption(article)}</figcaption>
         </figure>
 
         <div className="article-layout">
@@ -82,7 +83,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 <span>{String(index + 1).padStart(2, "0")}</span>
                 <h2>{section.heading}</h2>
                 {section.paragraphs.map((paragraph) => <ArticleBlock key={paragraph} text={paragraph} />)}
-                {section.image && <figure className="article-inline-image"><ResponsiveImage sizes="(max-width: 800px) 90vw, (max-width: 1220px) 65vw, 820px" src={section.image.src} alt={section.image.alt} loading="lazy" width="1200" height="900" /><figcaption>{section.image.caption}</figcaption></figure>}
+                {section.image && <figure className="article-inline-image"><ResponsiveImage sizes="(max-width: 800px) 90vw, (max-width: 1220px) 65vw, 820px" src={section.image.src} alt={section.image.alt} loading="lazy" width="1200" height="900" /><figcaption>{inlineImageCaption(article, section.image.caption)}</figcaption></figure>}
                 {section.matrix && <CapacityMatrix />}
                 {section.gap && <CapacityGap />}
               </section>
@@ -94,7 +95,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               <ul>{article.takeaways.map((item) => <li key={item}>{item}</li>)}</ul>
             </div>
             {article.sources && <section className="article-sources" aria-labelledby="fonti"><h2 id="fonti">Fonti e approfondimenti</h2><p>{article.sourceDate && <>Fonti consultate il {article.sourceDate}. </>}Riferimenti per approfondire i contenuti dell’articolo.</p><ul>{article.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.label} ↗</a></li>)}</ul></section>}
-            <p className="article-disclaimer">Questo articolo ha finalità informative e non sostituisce diagnosi, trattamento medico o valutazione sanitaria quando necessari.</p>
+
           </div>
         </div>
       </article>

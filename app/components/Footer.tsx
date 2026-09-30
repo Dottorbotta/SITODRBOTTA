@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CONSULTATION_URL } from '../lib/site';
+
 
 export function Footer() {
   return (
@@ -7,18 +7,17 @@ export function Footer() {
       <div className="footer-top">
         <div>
           <Link className="wordmark wordmark--footer" href="/">
-            <span className="wordmark-main">CORPO CAPACE</span>
-            <span className="wordmark-sub">UN METODO DR. BOTTA</span>
+            <img className="cc-brand-logo" src="/brand/corpo-capace-atlante-horizontal.png" alt="Corpo Capace" width="438" height="136" />
           </Link>
           <p>Allenamento personalizzato per riprendere le tue attività e imparare a gestire esercizi, carico e recupero.</p>
         </div>
         <div className="footer-column">
           <h2>Esplora</h2>
-          <a href="/metodo">Il Metodo</a>
-          <a href="/per-chi">Per chi è</a>
-          <a href="/percorsi">Il percorso</a>
-          <a href="/testimonianze">Testimonianze</a>
-          <a href="/blog">Blog per argomenti</a><a href="/chi-sono">Dr. Botta e redazione</a><a href="/feed.xml">Feed RSS</a>
+          <Link href="/metodo">Il Metodo</Link>
+          <Link href="/per-chi">Per chi è</Link>
+          <Link href="/percorsi">Il percorso</Link><Link href="/domande-frequenti">Domande frequenti</Link>
+          <Link href="/testimonianze">Testimonianze</Link>
+          <Link href="/guide">Guide</Link><Link href="/quiz-corpo-capace">Quiz Corpo Capace</Link><Link href="/blog">Blog per argomenti</Link><Link href="/team">Il team</Link><Link href="/chi-sono">Origine del metodo</Link><Link href="/feed.xml">Feed RSS</Link>
         </div>
         <div className="footer-column">
           <h2>Seguici</h2>
@@ -28,13 +27,14 @@ export function Footer() {
         </div>
         <div className="footer-column">
           <h2>Contatti</h2>
-          <a href={CONSULTATION_URL} target="_blank" rel="noreferrer">Parla con il team ↗</a>
+          <Link href="/contatti">Scrivi al team →</Link>
+          <a href="/colloquio">Il colloquio con il team →</a>
+          <Link href="/team#lavora-con-noi">Lavora con noi</Link>
           <a href="https://it.trustpilot.com/review/drbotta.com" target="_blank" rel="noreferrer">Recensioni Trustpilot ↗</a>
         </div>
       </div>
       <div className="footer-bottom">
         <span>© 2026 BOTTA PATHODYNAMICS LLP</span>
-        <span>I contenuti hanno finalità informative e non sostituiscono una valutazione sanitaria.</span>
         <a href="https://www.iubenda.com/privacy-policy/48665326" target="_blank" rel="noreferrer">Privacy Policy</a>
         <Link href="/termini-e-condizioni">Termini e condizioni</Link>
       </div>

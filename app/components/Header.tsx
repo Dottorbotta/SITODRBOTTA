@@ -9,11 +9,12 @@ const navigation = [
   { label: "Blog", href: "/blog" },
   { label: "Guide", href: "/guide" },
   { label: "Il team", href: "/team" },
+  { label: "Dr. Botta", href: "/chi-sono" },
   { label: "Contatti", href: "/contatti" },
 ];
 
 export function Header({ tone = "light", home = false }: { tone?: "light" | "dark"; home?: boolean }) {
-  const items = home ? [{label:"Il metodo",href:"/metodo"},{label:"Il percorso",href:"/percorsi"},{label:"Il team",href:"/team"},{label:"Testimonianze",href:"/testimonianze"},{label:"Guide",href:"/guide"},{label:"Blog",href:"/blog"},{label:"Contatti",href:"/contatti"}] : navigation;
+  const items = home ? [{label:"Il metodo",href:"/metodo"},{label:"Il percorso",href:"/percorsi"},{label:"Il team",href:"/team"},{label:"Dr. Botta",href:"/chi-sono"},{label:"Testimonianze",href:"/testimonianze"},{label:"Guide",href:"/guide"},{label:"Blog",href:"/blog"},{label:"Contatti",href:"/contatti"}] : navigation;
   return (
     <header className={`site-header site-header--${tone}`}>
       <Link className="wordmark" href="/" aria-label="Corpo Capace, homepage">

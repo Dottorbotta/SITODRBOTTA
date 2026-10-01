@@ -17,7 +17,7 @@ export function Footer() {
           <Link href="/per-chi">Per chi è</Link>
           <Link href="/percorsi">Il percorso</Link><Link href="/domande-frequenti">Domande frequenti</Link>
           <Link href="/testimonianze">Testimonianze</Link>
-          <Link href="/guide">Guide</Link><Link href="/quiz-corpo-capace">Quiz Corpo Capace</Link><Link href="/blog">Blog per argomenti</Link><Link href="/team">Il team</Link><Link href="/chi-sono">Origine del metodo</Link><Link href="/feed.xml">Feed RSS</Link>
+          <Link href="/guide">Guide</Link><Link href="/quiz-corpo-capace">Quiz Corpo Capace</Link><Link href="/blog">Blog per argomenti</Link><Link href="/team">Il team</Link><Link href="/chi-sono">Dr. Botta</Link><Link href="/redazione">Redazione e fonti</Link><Link href="/feed.xml">Feed RSS</Link>
         </div>
         <div className="footer-column">
           <h2>Seguici</h2>

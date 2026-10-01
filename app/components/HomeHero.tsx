@@ -16,11 +16,11 @@ export function HomeHero(){
   </div>
   <div className="cc-cinema-shade"/>
   <div className="cc-cinema-copy">
-   <p className="cc-home-kicker">Corpo Capace · Il movimento torna nella tua vita</p>
-   <h1 id="home-title">Torna a camminare,<br/>allenarti e vivere<br/><em>con più libertà.</em></h1>
-   <p className="cc-cinema-lead">Percorsi online di esercizio personalizzato per chi convive con dolore a schiena, anca, ginocchio o piede. <strong>Il Team Corpo Capace ti segue, passo dopo passo.</strong></p>
-   <Link href="/colloquio" className="cc-home-button">Prenota la tua consulenza <span aria-hidden="true">↗</span></Link>
-   <p className="cc-cinema-reviews"><a href="https://it.trustpilot.com/review/drbotta.com" target="_blank" rel="noopener noreferrer">Leggi le esperienze su Trustpilot <span aria-hidden="true">↗</span></a></p>
+   <p className="cc-home-kicker">Corpo Capace · Percorsi online di esercizio personalizzato</p>
+   <h1 id="home-title">Torna a fare ciò<br/>a cui il dolore<br/><em>ti ha fatto rinunciare.</em></h1>
+   <p className="cc-cinema-lead">Un percorso per recuperare abilità e tolleranza al carico, partendo dalle attività che contano per te. <strong>Chinesiologi o fisioterapisti del team costruiscono il programma e ti seguono negli adattamenti.</strong></p>
+   <Link href="/colloquio" className="cc-home-button">Parla con il team del tuo obiettivo</Link>
+   <p className="cc-cinema-reviews"><a href="https://it.trustpilot.com/review/drbotta.com" target="_blank" rel="noopener noreferrer">Leggi le esperienze su Trustpilot</a></p>
   </div>
   <div className="cc-cinema-bottom"><a href="#chi-siamo">Scopri Corpo Capace <span aria-hidden="true">↓</span></a><button type="button" className="cc-motion-toggle" aria-label={paused?"Riprendi animazione":"Pausa animazione"} aria-pressed={paused} onClick={()=>setPaused(!paused)}>{paused?'Riprendi':'Pausa'} <span aria-hidden="true">{paused?'▷':'Ⅱ'}</span></button></div>
  </section>;

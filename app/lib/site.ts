@@ -19,3 +19,5 @@ export const editorialPages = [
  {path:'/chi-sono',title:'Dr. Simone Botta Lamanna | Fondatore di Corpo Capace',description:'Chi è Simone Botta Lamanna e come lavora il team Corpo Capace: valutazione, allenamento progressivo e monitoraggio per le attività che vuoi recuperare.'},
  {path:'/contatti',title:'Contatti | Corpo Capace · Dr. Botta',description:'Contatta il team per conoscere il percorso o chiarire le tue domande.'},
 ];
+
+export const CONSULTATION_LABEL = 'Prenota la tua consulenza';

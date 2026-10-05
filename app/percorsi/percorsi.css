@@ -1,0 +1,67 @@
+.cc-how-it-works .cc-inner-page .cc-inner-intro{padding:60px 0}
+.cc-how-it-works .cc-intro-grid{grid-template-columns:1.2fr 1fr;gap:48px}
+.cc-how-it-works main.cc-inner-page section.cc-inner-intro h2{font-size:clamp(30px,2.85vw,38px)!important;line-height:1.24;text-wrap:balance}
+.cc-pathway-intro-copy{padding-top:42px;max-width:490px;font-size:18px;line-height:1.75}
+.cc-pathway-intro-copy p:last-child{margin-bottom:0}
+.cc-how-it-works .cc-pathway-navigation{margin-top:32px;padding:20px;gap:20px}
+.cc-how-it-works .cc-route-index{flex:1 1 650px}
+.cc-how-it-works .cc-route-index a{font-size:14px;font-weight:500;padding:11px 12px;text-decoration:none;background:#f8fafb}
+.cc-how-it-works .cc-route-index a:hover{background:#edf5ef;border-color:#80a38d}
+.cc-how-it-works #come-funziona,.cc-how-it-works #chi-ti-segue,.cc-how-it-works #condizioni{padding:64px 0;scroll-margin-top:100px}
+.cc-how-it-works #come-funziona{background:#eff5f7}
+.cc-how-it-works #come-funziona .cc-section-heading h2{max-width:560px}
+.cc-how-it-works #come-funziona .cc-cards{grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+.cc-how-it-works #come-funziona .cc-cards h3,.cc-how-it-works #chi-ti-segue .cc-cards h3{font-size:18px!important;line-height:1.45;letter-spacing:0}
+.cc-how-it-works #come-funziona .cc-cards p,.cc-how-it-works #chi-ti-segue .cc-cards p{font-size:16px;line-height:1.75;color:#526675}
+.cc-how-it-works #chi-ti-segue .cc-section-heading{margin-bottom:24px}
+.cc-assistance-intro{max-width:800px;font-size:18px;line-height:1.75;margin-bottom:28px}
+.cc-assistance-intro p:last-child{margin-bottom:0}
+.cc-how-it-works #chi-ti-segue .cc-cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.cc-how-it-works .cc-team-link{margin-top:24px;font-size:14px}
+.cc-practical-faq{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px}
+.cc-how-it-works #condizioni{background:#f6f9fa}
+.cc-practical-accordion details{border-top:1px solid #c2d2d8;border-bottom:0}
+.cc-practical-accordion details:last-child{border-bottom:1px solid #c2d2d8}
+.cc-practical-accordion summary{display:flex;align-items:baseline;justify-content:space-between;gap:20px;list-style:none;color:#172c3b;font-size:18px;line-height:1.5;padding:22px 0;cursor:pointer}
+.cc-practical-accordion summary::-webkit-details-marker{display:none}
+.cc-practical-accordion summary::after{display:none}
+.cc-practical-icon{color:#287044;font-size:26px;line-height:1;flex-shrink:0}
+.cc-practical-icon::before{content:'+'}
+.cc-practical-accordion details[open] .cc-practical-icon::before{content:'−'}
+.cc-practical-accordion details>p{padding:0 30px 22px 0;margin:0;font-size:17px;line-height:1.75;color:#526675}
+.cc-practical-faq .cc-link{font-size:14px;margin-top:24px}
+.cc-how-it-works .cc-inner-page .cc-pathway-cta{padding:52px 0}
+.cc-pathway-cta-grid{display:grid;grid-template-columns:3fr 2fr;align-items:center;gap:36px}
+.cc-pathway-cta-grid p:not(.cc-label){font-size:17px;line-height:1.75;max-width:650px}
+.cc-pathway-cta-grid p:last-child{margin-bottom:0}
+.cc-pathway-cta-action{display:flex;justify-content:center}
+.cc-how-it-works .cc-footer-actions .cc-footer-booking{min-height:42px;padding:9px 14px;font-size:14px;background:transparent;color:#dce8eb;border:1px solid #61717d}
+.cc-how-it-works .cc-footer-actions .cc-footer-booking:hover{background:#263d4d}
+@media(min-width:851px){.cc-how-it-works #come-funziona .cc-cards h3{min-height:2.9em}.cc-how-it-works #chi-ti-segue .cc-cards h3{min-height:2.9em}}
+@media(max-width:1000px) and (min-width:851px){.cc-how-it-works #come-funziona .cc-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:850px){.cc-how-it-works .cc-intro-grid,.cc-how-it-works #come-funziona .cc-cards,.cc-how-it-works #chi-ti-segue .cc-cards,.cc-practical-faq,.cc-pathway-cta-grid{grid-template-columns:1fr;gap:28px}.cc-pathway-intro-copy{padding-top:0;max-width:620px}.cc-pathway-cta-action{justify-content:flex-start}.cc-pathway-cta-action .cc-button{width:100%}}
+@media(max-width:620px){.cc-how-it-works .cc-inner-page .cc-inner-intro,.cc-how-it-works #come-funziona,.cc-how-it-works #chi-ti-segue,.cc-how-it-works #condizioni{padding:44px 0}.cc-how-it-works .cc-pathway-navigation{padding:16px}.cc-how-it-works .cc-pathway-navigation .cc-route-index{grid-template-columns:1fr;flex-basis:100%}.cc-how-it-works .cc-pathway-navigation>.cc-button{width:100%}.cc-how-it-works .cc-inner-page .cc-pathway-cta{padding:40px 0}.cc-how-it-works .cc-inner-page .cc-page-cover{min-height:280px}.cc-how-it-works .cc-page-cover-image{object-position:80% 50%!important}}
+
+/* Concept diagrams follow the navy/green visual language of the Method page. */
+.cc-how-it-works .pathway-visual-cards{gap:32px}
+.cc-how-it-works .pathway-visual-cards article{position:relative;padding-top:20px;border-top:1px solid #b8cbd1;background:transparent}
+.pathway-diagram{height:150px;display:flex;align-items:center;justify-content:flex-start;margin:0 0 24px}
+.pathway-diagram svg{display:block;width:180px;max-width:100%;height:130px;overflow:visible}
+.diagram-grid{stroke:#c2d2d8;stroke-width:1;stroke-dasharray:2 7}
+.diagram-ink{stroke:#172c3b;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
+.diagram-accent{stroke:#287044;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.diagram-dot{fill:#287044;stroke:#eff5f7;stroke-width:2}
+.diagram-fill{fill:#b6e5c2;stroke:#287044;stroke-width:2}
+.cc-how-it-works .pathway-visual-cards .cc-number{display:block;font-size:24px;letter-spacing:0;margin-bottom:16px;color:#287044}
+.cc-how-it-works #come-funziona .cc-section-heading{margin-bottom:28px}
+.cc-how-it-works #organizzazione{padding:64px 0}
+.cc-how-it-works #organizzazione .cc-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cc-how-it-works #chi-ti-segue{background:#eff5f7}
+.cc-how-it-works #condizioni{background:#fff}
+.cc-how-it-works .pathway-visual-context .pathway-diagram{background:#eff5f7;border-radius:16px;padding-left:20px}
+.cc-how-it-works .pathway-visual-support .pathway-diagram{height:140px}
+@media(max-width:850px){.cc-how-it-works #organizzazione .cc-cards{grid-template-columns:1fr}.cc-how-it-works .pathway-visual-cards article{display:grid;grid-template-columns:130px minmax(0,1fr);column-gap:24px;align-content:start}.pathway-diagram,.cc-how-it-works .pathway-visual-support .pathway-diagram{grid-column:1;grid-row:1 / span 3;height:120px;margin:0}.pathway-diagram svg{width:130px;height:auto}.cc-how-it-works .pathway-visual-cards .cc-number,.cc-how-it-works .pathway-visual-cards h3,.cc-how-it-works .pathway-visual-cards p{grid-column:2}.cc-how-it-works .pathway-visual-context .pathway-diagram{padding-left:0;background:transparent}.cc-how-it-works #organizzazione{padding:44px 0}}
+@media(max-width:420px){.cc-how-it-works .pathway-visual-cards article{grid-template-columns:82px minmax(0,1fr);column-gap:18px}.pathway-diagram svg{width:82px}.pathway-diagram{align-items:flex-start;padding-top:4px}.cc-how-it-works .pathway-visual-cards .cc-number{font-size:20px}}
+
+/* Page-local layout also supports the repository's earlier shared stylesheet. */
+.cc-how-it-works .cc-pathway-navigation{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;border:1px solid #c2d2d8;border-radius:16px;background:#eff5f7}.cc-how-it-works .cc-route-index{display:flex;flex-wrap:wrap;gap:10px;margin:0}.cc-how-it-works .cc-route-index a{border:1px solid #c2d2d8;border-radius:8px;color:#172c3b;line-height:1.4}.cc-how-it-works .cc-pathway-navigation>.cc-button{flex:0 0 auto;margin:0;position:static;max-width:100%;white-space:normal;text-align:center}@media(max-width:620px){.cc-how-it-works .cc-pathway-navigation .cc-route-index{display:grid;grid-template-columns:1fr;width:100%}}
